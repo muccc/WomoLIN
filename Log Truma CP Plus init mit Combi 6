@@ -1,3 +1,6 @@
+Baudrate 9600, All components on TIN 1
+
+
 Time Stamp(sec)   Frame ID          Frame Data        Baud Rate(bits/sec)     Error Condition
 869,724805            3C     7F 06 B2 23 17 46 01 03        9634            
 869,775112            7D     01 06 F2 01 00 00 00 FF        9634            
