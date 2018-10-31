@@ -1,3 +1,5 @@
+Baudrate 9600, all Components on LIN1 parallel
+
 Time Stamp(sec)   Frame ID          Frame Data        Baud Rate(bits/sec)     Error Condition
 810,763633            97     D6 0B 86 0B 71 00 00 00        9634            
 810,814349            3C     7F 06 B2 00 17 46 00 0C        9634            
