@@ -1,0 +1,85 @@
+Time Stamp(sec)   Frame ID          Frame Data        Baud Rate(bits/sec)     Error Condition
+2053,198855            7D            9597            Checksum Error
+2053,249571            03     68 0B FF FF FF FF FF FF        9597            
+2053,299469            C4     AA 0A FF FF FF FF FF FF        9597            
+2053,348958            85     01 FF FF FF FF FF FF FF        9597            
+2053,398447            06     00 00 FF FF FF FF FF FF        9597            
+2053,447936            47     01 00 FF FF FF FF FF FF        9597            
+2053,497425            49     FF FF FF FF FF FF FF FF        9597            
+2053,547323            D6     00 0F 69 0B 86 0C 77 85        9597            
+2053,598039            97            9597            Checksum Error
+2053,647528            D8     FE FF FF FF FF FF FF FF        9597            
+2053,697426            3C     FF FF FF FF FF FF FF FF        9615            
+2053,746915            7D            9597            Checksum Error
+2053,797631            03     68 0B FF FF FF FF FF FF        9615            
+2053,847529            C4     AA 0A FF FF FF FF FF FF        9597            
+2053,897018            85     01 FF FF FF FF FF FF FF        9615            
+2053,946916            06     00 00 FF FF FF FF FF FF        9597            
+2053,996405            47     01 00 FF FF FF FF FF FF        9615            
+2054,045894            49     FF FF FF FF FF FF FF FF        9597            
+2054,095383            D6     00 0F 69 0B 86 0C 77 85        9597            
+2054,146099            97            9597            Checksum Error
+2054,195588            D8     FE FF FF FF FF FF FF FF        9597            
+2054,245486            3C     01 04 B8 10 03 01 FF FF        9615            
+2054,294975            7D     01 03 F8 02 02 FF FF FF        9597            
+2054,345691            03     68 0B FF FF FF FF FF FF        9597            
+2054,395180            C4     AA 0A FF FF FF FF FF FF        9615            
+2054,445078            85     01 FF FF FF FF FF FF FF        9597            
+2054,494567            06     00 00 FF FF FF FF FF FF        9615            
+2054,544465            47     02 00 FF FF FF FF FF FF        9597            
+2054,593954            49     FF FF FF FF FF FF FF FF        9597            
+2054,643443            D6     00 0F 69 0B 87 0C 77 85        9597            
+2054,694568            97            9579            Checksum Error
+2054,744057            D8     FE FF FF FF FF FF FF FF        9597            
+2054,793955            3C     01 06 B2 23 17 46 10 03        9597            
+2054,843444            7D     01 06 F2 01 00 00 00 FF        9597            
+2054,894160            03     68 0B FF FF FF FF FF FF        9597            
+2054,944058            C4     AA 0A FF FF FF FF FF FF        9597            
+2054,993547            85     01 FF FF FF FF FF FF FF        9579            
+2055,043445            06     00 00 FF FF FF FF FF FF        9597            
+2055,092934            47     02 00 FF FF FF FF FF FF        9579            
+2055,142832            49     FF FF FF FF FF FF FF FF        9597            
+2055,192321            D6     00 0F 69 0B 86 0C 77 85        9597            
+2055,243037            97            9597            Checksum Error
+2055,292935            D8     FE FF FF FF FF FF FF FF        9597            
+2055,342424            3C     FF FF FF FF FF FF FF FF        9597            
+2055,392322            7D            9597            Checksum Error
+2055,442629            03     68 0B FF FF FF FF FF FF        9597            
+2055,492118            C4     AA 0A FF FF FF FF FF FF        9597            
+2055,541607            85     01 FF FF FF FF FF FF FF        9597            
+2055,591505            06     00 00 FF FF FF FF FF FF        9615            
+2055,640994            47     02 00 FF FF FF FF FF FF        9597            
+2055,690892            49     FF FF FF FF FF FF FF FF        9597            
+2055,740381            D6     00 0F 69 0B 87 0C 77 85        9597            
+2055,791097            97            9597            Checksum Error
+2055,840995            D8     FE FF FF FF FF FF FF FF        9597            
+2055,890484            3C     03 05 B9 00 1F 00 00 FF        9597            
+2055,940382            7D     03 02 F9 00 FF FF FF FF        9597            
+2055,989871            3C     03 10 29 BB 00 1F 00 1E        9597            
+2056,039769            3C     03 21 00 00 22 FF FF FF        9615            
+2056,089258            3C     03 22 54 01 14 33 00 BD        9597            
+2056,139156            3C     03 23 68 0B 0A 00 00 00        9597            
+2056,188645            3C     03 24 00 00 00 00 01 01        9597            
+2056,238543            3C     03 25 9E 0C 69 0B 07 00        9597            
+2056,288032            3C     03 26 00 00 00 00 00 00        9597            
+2056,337930            7D     03 01 FB FF FF FF FF FF        9597            
+2056,387419            3C     03 05 B9 00 1F 00 01 FF        9597            
+2056,437317            7D     03 02 F9 00 FF FF FF FF        9597            
+2056,488033            03     68 0B FF FF FF FF FF FF        9597            
+2056,537522            C4     AA 0A FF FF FF FF FF FF        9597            
+2056,587420            85     01 FF FF FF FF FF FF FF        9597            
+2056,636909            06     00 00 FF FF FF FF FF FF        9597            
+2056,686807            47     02 00 FF FF FF FF FF FF        9597            
+2056,736296            49     FF FF FF FF FF FF FF FF        9597            
+2056,785785            D6     00 0F 69 0B 87 0C 6D 85        9597            
+2056,836501            97            9597            Checksum Error
+2056,886399            D8     FE FF FF FF FF FF FF FF        9597            
+2056,935888            3C     FF FF FF FF FF FF FF FF        9597            
+2056,985786            7D            9597            Checksum Error
+2057,036093            03     68 0B FF FF FF FF FF FF        9615            
+2057,085582            C4     AA 0A FF FF FF FF FF FF        9597            
+2057,135071            85     01 FF FF FF FF FF FF FF        9597            
+2057,184969            06     00 00 FF FF FF FF FF FF        9597            
+2057,234458            47     02 00 FF FF FF FF FF FF        9597            
+2057,284356            49     FF FF FF FF FF FF FF FF        9597            
+2057,333845            D6     00 0F 69 0B 87 0C 6D 85        9597            
