@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+LIBS:Womo-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2019-03-28_15-45-29:DS2482S-800+ U?
+U 1 1 5C9E4327
+P 2550 2500
+F 0 "U?" H 2550 1413 60  0000 C CNN
+F 1 "DS2482S-800+" H 2550 1519 60  0000 C CNN
+F 2 "21-0041B_16" H 2550 3440 60  0001 C CNN
+F 3 "" H 1750 3200 60  0000 C CNN
+	1    2550 2500
+	-1   0    0    1   
+$EndComp
+Text GLabel 3550 2200 2    50   Input ~ 0
+SDA-1Wire
+Text GLabel 3550 3200 2    50   Input ~ 0
+SCL-1Wire
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5C9E4481
+P 3500 1150
+F 0 "#PWR?" H 3500 1000 50  0001 C CNN
+F 1 "+3.3VA" H 3515 1323 50  0000 C CNN
+F 2 "" H 3500 1150 50  0001 C CNN
+F 3 "" H 3500 1150 50  0001 C CNN
+	1    3500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9E44B1
+P 1500 3400
+F 0 "#PWR?" H 1500 3150 50  0001 C CNN
+F 1 "GND" H 1505 3227 50  0000 C CNN
+F 2 "" H 1500 3400 50  0001 C CNN
+F 3 "" H 1500 3400 50  0001 C CNN
+	1    1500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2500 1500 2500
+Wire Wire Line
+	1500 2500 1500 2800
+Wire Wire Line
+	1750 2800 1500 2800
+Connection ~ 1500 2800
+Wire Wire Line
+	1500 2800 1500 2900
+Wire Wire Line
+	1750 2900 1500 2900
+Connection ~ 1500 2900
+Wire Wire Line
+	1500 2900 1500 3000
+Wire Wire Line
+	1750 3000 1500 3000
+Connection ~ 1500 3000
+Wire Wire Line
+	1500 3000 1500 3400
+Wire Wire Line
+	3550 2200 3350 2200
+Wire Wire Line
+	3550 3200 3350 3200
+NoConn ~ 3350 2000
+Wire Wire Line
+	3350 1800 3500 1800
+Wire Wire Line
+	3500 1800 3500 1150
+$EndSCHEMATC
