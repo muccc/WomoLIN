@@ -79,4 +79,120 @@ Wire Wire Line
 	3350 1800 3500 1800
 Wire Wire Line
 	3500 1800 3500 1150
+$Comp
+L Power_Protection:SP0504BAJT D?
+U 1 1 5CA2F7A2
+P 4350 3350
+F 0 "D?" H 4250 2850 50  0000 L CNN
+F 1 "SP0504BAJT" H 4200 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4650 3300 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 4475 3475 50  0001 C CNN
+	1    4350 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SP0504BAJT D?
+U 1 1 5CA2F87E
+P 4950 3350
+F 0 "D?" H 4800 2850 50  0000 L CNN
+F 1 "SP0504BAJT" H 4750 2750 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 5250 3300 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 5075 3475 50  0001 C CNN
+	1    4950 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA2FABA
+P 4350 3550
+F 0 "#PWR?" H 4350 3300 50  0001 C CNN
+F 1 "GND" H 4355 3377 50  0000 C CNN
+F 2 "" H 4350 3550 50  0001 C CNN
+F 3 "" H 4350 3550 50  0001 C CNN
+	1    4350 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA2FB1D
+P 4950 3550
+F 0 "#PWR?" H 4950 3300 50  0001 C CNN
+F 1 "GND" H 4955 3377 50  0000 C CNN
+F 2 "" H 4950 3550 50  0001 C CNN
+F 3 "" H 4950 3550 50  0001 C CNN
+	1    4950 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 2900 2    50   Input ~ 0
+1Wire_P1
+Text GLabel 5400 3000 2    50   Input ~ 0
+1Wire_P0
+Text GLabel 5400 2800 2    50   Input ~ 0
+1Wire_P2
+Text GLabel 5400 2700 2    50   Input ~ 0
+1Wire_P3
+Text GLabel 5400 2600 2    50   Input ~ 0
+1Wire_P4
+Text GLabel 5400 2500 2    50   Input ~ 0
+1Wire_P5
+Text GLabel 5400 2400 2    50   Input ~ 0
+1Wire_P6
+Text GLabel 5400 2300 2    50   Input ~ 0
+1Wire_P7
+Wire Wire Line
+	3350 2300 4850 2300
+Wire Wire Line
+	5150 3150 5150 2600
+Wire Wire Line
+	5150 2600 5400 2600
+Wire Wire Line
+	3350 2600 5150 2600
+Connection ~ 5150 2600
+Wire Wire Line
+	3350 2500 5050 2500
+Wire Wire Line
+	3350 2400 4950 2400
+Wire Wire Line
+	4850 3150 4850 2300
+Connection ~ 4850 2300
+Wire Wire Line
+	4850 2300 5400 2300
+Wire Wire Line
+	4950 3150 4950 2400
+Connection ~ 4950 2400
+Wire Wire Line
+	4950 2400 5400 2400
+Wire Wire Line
+	5050 3150 5050 2500
+Connection ~ 5050 2500
+Wire Wire Line
+	5050 2500 5400 2500
+Wire Wire Line
+	3350 2700 4250 2700
+Wire Wire Line
+	3350 2800 4350 2800
+Wire Wire Line
+	3350 2900 4450 2900
+Wire Wire Line
+	3350 3000 4550 3000
+Wire Wire Line
+	4250 3150 4250 2700
+Connection ~ 4250 2700
+Wire Wire Line
+	4250 2700 5400 2700
+Wire Wire Line
+	4350 3150 4350 2800
+Connection ~ 4350 2800
+Wire Wire Line
+	4350 2800 5400 2800
+Wire Wire Line
+	4450 3150 4450 2900
+Connection ~ 4450 2900
+Wire Wire Line
+	4450 2900 5400 2900
+Wire Wire Line
+	4550 3150 4550 3000
+Connection ~ 4550 3000
+Wire Wire Line
+	4550 3000 5400 3000
 $EndSCHEMATC

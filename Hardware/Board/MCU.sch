@@ -106,12 +106,12 @@ Connection ~ 3350 850
 $Comp
 L Memory_Flash:AT25SF081-XMHD-X U?
 U 1 1 5C9E12E3
-P 7600 2350
-F 0 "U?" H 8241 2396 50  0000 L CNN
-F 1 "AT25SF081-XMHD-X" H 8241 2305 50  0000 L CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 7600 1750 50  0001 C CNN
-F 3 "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf" H 7600 2350 50  0001 C CNN
-	1    7600 2350
+P 6800 1250
+F 0 "U?" H 7441 1296 50  0000 L CNN
+F 1 "AT25SF081-XMHD-X" H 7441 1205 50  0000 L CNN
+F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 6800 650 50  0001 C CNN
+F 3 "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf" H 6800 1250 50  0001 C CNN
+	1    6800 1250
 	1    0    0    -1  
 $EndComp
 Text GLabel 2400 6200 0    50   Input ~ 0
@@ -146,27 +146,27 @@ Text GLabel 2400 5200 0    50   Input ~ 0
 QuadSPI_IO1
 Text GLabel 2400 5100 0    50   Input ~ 0
 QuadSPI_IO0
-Text GLabel 6900 2550 0    50   Input ~ 0
+Text GLabel 6100 1450 0    50   Input ~ 0
 QuadSPI_IO3
-Text GLabel 6900 2450 0    50   Input ~ 0
+Text GLabel 6100 1350 0    50   Input ~ 0
 QuadSPI_IO2
-Text GLabel 6900 2250 0    50   Input ~ 0
+Text GLabel 6100 1150 0    50   Input ~ 0
 QuadSPI_CLK
-Text GLabel 6900 2350 0    50   Input ~ 0
+Text GLabel 6100 1250 0    50   Input ~ 0
 QuadSPI_NCS
-Text GLabel 8350 2150 2    50   Input ~ 0
+Text GLabel 7550 1050 2    50   Input ~ 0
 QuadSPI_IO1
-Text GLabel 6900 2150 0    50   Input ~ 0
+Text GLabel 6100 1050 0    50   Input ~ 0
 QuadSPI_IO0
 $Comp
 L power:GND #PWR?
 U 1 1 5C9ECC3B
-P 7600 2950
-F 0 "#PWR?" H 7600 2700 50  0001 C CNN
-F 1 "GND" H 7605 2777 50  0000 C CNN
-F 2 "" H 7600 2950 50  0001 C CNN
-F 3 "" H 7600 2950 50  0001 C CNN
-	1    7600 2950
+P 6800 1850
+F 0 "#PWR?" H 6800 1600 50  0001 C CNN
+F 1 "GND" H 6805 1677 50  0000 C CNN
+F 2 "" H 6800 1850 50  0001 C CNN
+F 3 "" H 6800 1850 50  0001 C CNN
+	1    6800 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -313,12 +313,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5CA05987
-P 1650 1500
-F 0 "#PWR?" H 1650 1350 50  0001 C CNN
-F 1 "+3.3V" H 1665 1673 50  0000 C CNN
-F 2 "" H 1650 1500 50  0001 C CNN
-F 3 "" H 1650 1500 50  0001 C CNN
-	1    1650 1500
+P 9850 400
+F 0 "#PWR?" H 9850 250 50  0001 C CNN
+F 1 "+3.3V" H 9865 573 50  0000 C CNN
+F 2 "" H 9850 400 50  0001 C CNN
+F 3 "" H 9850 400 50  0001 C CNN
+	1    9850 400 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -604,4 +604,145 @@ $EndComp
 Connection ~ 5800 7300
 Wire Wire Line
 	5800 7300 5800 7450
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5CA22A0B
+P 9500 3250
+F 0 "J?" H 9555 3717 50  0000 C CNN
+F 1 "USB_B_Micro" H 9555 3626 50  0000 C CNN
+F 2 "" H 9650 3200 50  0001 C CNN
+F 3 "~" H 9650 3200 50  0001 C CNN
+	1    9500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_20 J?
+U 1 1 5CA25131
+P 9850 1600
+F 0 "J?" H 9320 1554 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_20" H 9320 1645 50  0000 R CNN
+F 2 "" H 10300 550 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 9500 350 50  0001 C CNN
+	1    9850 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SP0504BAJT D?
+U 1 1 5CA2F4B9
+P 10150 3800
+F 0 "D?" H 10455 3846 50  0000 L CNN
+F 1 "SP0504BAJT" H 10455 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 10450 3750 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10275 3925 50  0001 C CNN
+	1    10150 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 3350 2    50   Input ~ 0
+USB_D-
+Text GLabel 10450 3250 2    50   Input ~ 0
+USB_D+
+Text GLabel 10450 3450 2    50   Input ~ 0
+USB_ID
+$Comp
+L power:GND #PWR?
+U 1 1 5CA3E241
+P 10150 4000
+F 0 "#PWR?" H 10150 3750 50  0001 C CNN
+F 1 "GND" H 10155 3827 50  0000 C CNN
+F 2 "" H 10150 4000 50  0001 C CNN
+F 3 "" H 10150 4000 50  0001 C CNN
+	1    10150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA40A3E
+P 9500 4000
+F 0 "#PWR?" H 9500 3750 50  0001 C CNN
+F 1 "GND" H 9505 3827 50  0000 C CNN
+F 2 "" H 9500 4000 50  0001 C CNN
+F 3 "" H 9500 4000 50  0001 C CNN
+	1    9500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA431EB
+P 9400 4000
+F 0 "#PWR?" H 9400 3750 50  0001 C CNN
+F 1 "GND" H 9405 3827 50  0000 C CNN
+F 2 "" H 9400 4000 50  0001 C CNN
+F 3 "" H 9400 4000 50  0001 C CNN
+	1    9400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3650 9500 4000
+Wire Wire Line
+	9400 3650 9400 4000
+Wire Wire Line
+	9800 3250 10150 3250
+Wire Wire Line
+	9800 3350 10250 3350
+Wire Wire Line
+	9800 3450 10350 3450
+Wire Wire Line
+	10050 3600 10050 3050
+Wire Wire Line
+	10050 3050 9800 3050
+Wire Wire Line
+	10150 3600 10150 3250
+Connection ~ 10150 3250
+Wire Wire Line
+	10150 3250 10450 3250
+Wire Wire Line
+	10250 3600 10250 3350
+Connection ~ 10250 3350
+Wire Wire Line
+	10250 3350 10450 3350
+Wire Wire Line
+	10350 3600 10350 3450
+Connection ~ 10350 3450
+Wire Wire Line
+	10350 3450 10450 3450
+Text GLabel 10600 1500 2    50   Input ~ 0
+JTAG_TCK
+Text GLabel 10600 1800 2    50   Input ~ 0
+JTAG_TDI
+Text GLabel 10600 1700 2    50   Input ~ 0
+JTAG_TDO
+Text GLabel 10600 1100 2    50   Input ~ 0
+JTAG_RES
+Text GLabel 10600 1600 2    50   Input ~ 0
+JTAG_TMS
+Wire Wire Line
+	10450 1500 10600 1500
+Wire Wire Line
+	10450 1600 10600 1600
+Wire Wire Line
+	10450 1700 10600 1700
+Wire Wire Line
+	10450 1800 10600 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5CA7FBF5
+P 9750 2400
+F 0 "#PWR?" H 9750 2150 50  0001 C CNN
+F 1 "GND" H 9755 2227 50  0000 C CNN
+F 2 "" H 9750 2400 50  0001 C CNN
+F 3 "" H 9750 2400 50  0001 C CNN
+	1    9750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA82F31
+P 10150 500
+F 0 "#PWR?" H 10150 250 50  0001 C CNN
+F 1 "GND" H 10155 327 50  0000 C CNN
+F 2 "" H 10150 500 50  0001 C CNN
+F 3 "" H 10150 500 50  0001 C CNN
+	1    10150 500 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
