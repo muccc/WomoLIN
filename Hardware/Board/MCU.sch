@@ -745,4 +745,15 @@ F 3 "" H 10150 500 50  0001 C CNN
 	1    10150 500 
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5CA4B2AF
+P 1150 1350
+F 0 "SW?" H 1150 1635 50  0000 C CNN
+F 1 "SW_Push" H 1150 1544 50  0000 C CNN
+F 2 "" H 1150 1550 50  0001 C CNN
+F 3 "" H 1150 1550 50  0001 C CNN
+	1    1150 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

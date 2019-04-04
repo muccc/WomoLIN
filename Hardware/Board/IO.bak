@@ -584,8 +584,6 @@ Wire Wire Line
 Connection ~ 5700 2150
 Wire Wire Line
 	5700 2700 5700 2750
-Wire Wire Line
-	6350 2450 6350 2500
 Text GLabel 5400 2250 0    50   Input ~ 0
 STB-CAN
 Wire Wire Line
@@ -1039,4 +1037,17 @@ Wire Wire Line
 	3850 2200 4100 2200
 Wire Wire Line
 	3850 2650 3850 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5CBFA14C
+P 6350 2750
+F 0 "#PWR?" H 6350 2500 50  0001 C CNN
+F 1 "GND" H 6355 2577 50  0000 C CNN
+F 2 "" H 6350 2750 50  0001 C CNN
+F 3 "" H 6350 2750 50  0001 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2450 6350 2750
 $EndSCHEMATC
