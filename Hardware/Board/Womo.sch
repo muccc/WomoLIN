@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -43,5 +43,11 @@ S 4150 3450 2000 1350
 U 5C9E4308
 F0 "Sensor Connection" 50
 F1 "Sensor.sch" 50
+$EndSheet
+$Sheet
+S 6850 3450 2000 1350
+U 5CC9A992
+F0 "Connector" 50
+F1 "Connector.sch" 50
 $EndSheet
 $EndSCHEMATC
