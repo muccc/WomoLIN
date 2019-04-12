@@ -156,4 +156,68 @@ Wire Wire Line
 Connection ~ 4200 1450
 Wire Wire Line
 	4200 1450 4200 1300
+$Comp
+L RF_Module:ESP-12F U?
+U 1 1 5CAB8BB3
+P 7950 2750
+F 0 "U?" H 7500 3700 50  0000 C CNN
+F 1 "ESP-12F" H 7600 3600 50  0000 C CNN
+F 2 "RF_Module:ESP-12E" H 7950 2750 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 7600 2850 50  0001 C CNN
+	1    7950 2750
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 2150 2    50   Input ~ 0
+ESP_Boot
+Text GLabel 8900 2250 2    50   Output ~ 0
+ESP_TxD
+Text GLabel 8900 2450 2    50   Input ~ 0
+ESP_RxD
+Text GLabel 7150 2150 0    50   Input ~ 0
+ESP_Reset
+Text GLabel 7150 2350 0    50   Input ~ 0
+ESP_Enable
+$Comp
+L Device:C C?
+U 1 1 5CB2F4A7
+P 8400 1500
+F 0 "C?" H 8515 1546 50  0000 L CNN
+F 1 "10u" H 8515 1455 50  0000 L CNN
+F 2 "" H 8438 1350 50  0001 C CNN
+F 3 "~" H 8400 1500 50  0001 C CNN
+	1    8400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB2F4AE
+P 8400 1650
+F 0 "#PWR?" H 8400 1400 50  0001 C CNN
+F 1 "GND" H 8405 1477 50  0000 C CNN
+F 2 "" H 8400 1650 50  0001 C CNN
+F 3 "" H 8400 1650 50  0001 C CNN
+	1    8400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB2F86B
+P 7950 3450
+F 0 "#PWR?" H 7950 3200 50  0001 C CNN
+F 1 "GND" H 7955 3277 50  0000 C CNN
+F 2 "" H 7950 3450 50  0001 C CNN
+F 3 "" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2150 7350 2150
+Wire Wire Line
+	7150 2350 7350 2350
+Wire Wire Line
+	8550 2150 8900 2150
+Wire Wire Line
+	7950 1950 7950 1350
+Wire Wire Line
+	7950 1350 8400 1350
 $EndSCHEMATC
