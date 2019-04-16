@@ -1,0 +1,178 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1-1734592-0
+#
+DEF 1-1734592-0 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1-1734592-0" 750 200 50 H V L CNN
+F2 "SamacSys_Parts:1-1734592-0" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "10W SMT r/a  bott contact 0.5mm FFC conn" 750 -100 50 H I L CNN "Description"
+F5 "2" 750 -200 50 H I L CNN "Height"
+F6 "571-1-1734592-0" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-1-1734592-0" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1-1734592-0" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+$FPLIST
+ 1-1734592-0
+$ENDFPLIST
+DRAW
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+X 11 11 0 -500 200 R 50 50 0 0 B
+X 12 12 900 -500 200 L 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 1-1734592-2
+#
+DEF 1-1734592-2 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "1-1734592-2" 850 200 50 H V L CNN
+F2 "SamacSys_Parts:1-1734592-2" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "TE Connectivity 0.5mm Pitch 12 Way Right Angle Female FPC Connector Locking Mechanism" 850 -100 50 H I L CNN "Description"
+F5 "2.3" 850 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1-1734592-2" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1-1734592-2" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-1-1734592-2" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "7188602" 850 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7188602" 850 -800 50 H I L CNN "RS Price/Stock"
+$FPLIST
+ 1-1734592-2
+$ENDFPLIST
+DRAW
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 10 10 1000 -400 200 L 50 50 0 0 B
+X 11 11 0 -500 200 R 50 50 0 0 B
+X 12 12 1000 -500 200 L 50 50 0 0 B
+X 2 2 1000 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 1000 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 1000 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 1000 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+X MP1 MP1 0 -600 200 R 50 50 0 0 B
+X MP2 MP2 1000 -600 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 1-1734592-4
+#
+DEF 1-1734592-4 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1-1734592-4" 750 200 50 H V L CNN
+F2 "SamacSys_Parts:1-1734592-4" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "14W SMT r/a  bott contact 0.5mm FFC conn" 750 -100 50 H I L CNN "Description"
+F5 "2.05" 750 -200 50 H I L CNN "Height"
+F6 "571-1-1734592-4" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-1-1734592-4" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1-1734592-4" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+$FPLIST
+ 1-1734592-4
+$ENDFPLIST
+DRAW
+P 5 0 1 6 200 100 700 100 700 -800 200 -800 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+X 11 11 0 -500 200 R 50 50 0 0 B
+X 12 12 900 -500 200 L 50 50 0 0 B
+X 13 13 0 -600 200 R 50 50 0 0 B
+X 14 14 900 -600 200 L 50 50 0 0 B
+X 15 15 0 -700 200 R 50 50 0 0 B
+X 16 16 900 -700 200 L 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# 1734592-8
+#
+DEF 1734592-8 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "1734592-8" 750 200 50 H V L CNN
+F2 "SamacSys_Parts:1734592-8" 750 100 50 H I L CNN
+F3 "" 750 0 50 H I L CNN
+F4 "FPC receptacle, 0.5mm, SMT, R/A, 12P" 750 -100 50 H I L CNN "Description"
+F5 "2" 750 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1734592-8" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1734592-8" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-1734592-8" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1643139" 750 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1643139" 750 -800 50 H I L CNN "RS Price/Stock"
+F12 "70468571" 750 -900 50 H I L CNN "Allied_Number"
+F13 "https://www.alliedelec.com/te-connectivity-1734592-8/70468571/" 750 -1000 50 H I L CNN "Allied Price/Stock"
+$FPLIST
+ 1734592-8
+$ENDFPLIST
+DRAW
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 10 10 900 -400 200 L 50 50 0 0 B
+X 2 2 900 0 200 L 50 50 0 0 B
+X 3 3 0 -100 200 R 50 50 0 0 B
+X 4 4 900 -100 200 L 50 50 0 0 B
+X 5 5 0 -200 200 R 50 50 0 0 B
+X 6 6 900 -200 200 L 50 50 0 0 B
+X 7 7 0 -300 200 R 50 50 0 0 B
+X 8 8 900 -300 200 L 50 50 0 0 B
+X 9 9 0 -400 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# NE555DR
+#
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1000 700 50 H V L CNN
+F1 "NE555DR" 1000 600 50 H V L CNN
+F2 "SamacSys_Parts:NE555DR" 1000 500 50 H I L CNN
+F3 "" 1000 400 50 H I L CNN
+F4 "Single Precision Timer" 1000 300 50 H I L CNN "Description"
+F5 "1.75" 1000 200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1000 100 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1000 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1000 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1000 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1000 -300 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/1218414" 1000 -400 50 H I L CNN "RS Price/Stock"
+$FPLIST
+ NE555DR
+$ENDFPLIST
+DRAW
+T 0 600 -100 50 0 0 1 555 Normal 0 C C
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+X GND 1 600 -800 200 U 50 50 0 0 B
+X TRIG 2 0 0 200 R 50 50 0 0 B
+X OUT 3 0 -200 200 R 50 50 0 0 B
+X ~RESET 4 500 600 200 D 50 50 0 0 B
+X CONT 5 1200 -300 200 L 50 50 0 0 B
+X THRES 6 1200 -200 200 L 50 50 0 0 B
+X DISCH 7 1200 0 200 L 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

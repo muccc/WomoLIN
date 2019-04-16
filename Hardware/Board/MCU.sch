@@ -1102,4 +1102,23 @@ Wire Wire Line
 	9600 4850 9300 4850
 Wire Wire Line
 	9300 4850 9300 4800
+$Comp
+L SamacSys_Parts:1-1734592-2 J?
+U 1 1 5CB67827
+P 7500 3050
+F 0 "J?" H 8000 3315 50  0000 C CNN
+F 1 "1-1734592-2" H 8000 3224 50  0000 C CNN
+F 2 "SamacSys_Parts:1-1734592-2" H 8350 3150 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734592%7FC%7Fpdf%7FEnglish%7FENG_CD_1734592_C_C_1734592.pdf%7F1-1734592-2" H 8350 3050 50  0001 L CNN
+F 4 "TE Connectivity 0.5mm Pitch 12 Way Right Angle Female FPC Connector Locking Mechanism" H 8350 2950 50  0001 L CNN "Description"
+F 5 "2.3" H 8350 2850 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 8350 2750 50  0001 L CNN "Manufacturer_Name"
+F 7 "1-1734592-2" H 8350 2650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "571-1-1734592-2" H 8350 2550 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-1-1734592-2" H 8350 2450 50  0001 L CNN "Mouser Price/Stock"
+F 10 "7188602" H 8350 2350 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/7188602" H 8350 2250 50  0001 L CNN "RS Price/Stock"
+	1    7500 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
