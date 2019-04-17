@@ -1,0 +1,1576 @@
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C52:/5C8BBC9A/5CC0C224:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C62:/5C9E4308/5CA32332:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C61:/5C9E4308/5CA32292:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C60:/5C8BC88B/5CB2F4A7:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C59:/5C8BC88B/5CC019EB:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C58:/5C8BC88B/5CC01965:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C57:/5C8BBC9A/5CA4FC89:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C56:/5C8BBC9A/5CA4FBFF:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C55:/5C8BBC9A/5CC0C17C:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C54:/5C8BBC9A/5CA4FC47:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C53:/5C8BBC9A/5CB6E23E:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D1:/5C8BBC94/5CAADD43:Package_TO_SOT_SMD:SOT-353_SC-70-5“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C51:/5C8BBC9A/5CBBDA5B:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C50:/5C8BBC9A/5CC0C1AB:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C49:/5C8BBC9A/5CB6E102:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C48:/5C8BBC9A/5CA4FE23:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C47:/5C8BBC9A/5CC0C20A:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C46:/5C8BBC9A/5CC0C1A4:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C45:/5C8BBC9A/5CB6E345:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C44:/5C8BBC9A/5CA4FA44:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C43:/5C8BBC9A/5CB6E445:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D11:/5C8BBC97/5CA09B16:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB6:/5C8BBC97/5CBC1E32:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB5:/5C8BBC97/5CBB7155:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB4:/5C8BBC97/5CBB38BB:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB3:/5C8BBC97/5CB9B191:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB2:/5C8BBC97/5CBA2081:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB1:/5C8BBC97/5CB9AFD5:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „F1:/5C8BBC9A/5CB6DEB6:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D13:/5C9E4308/5CA2F87E:Package_TO_SOT_SMD:SOT-353_SC-70-5“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D12:/5C9E4308/5CA2F7A2:Package_TO_SOT_SMD:SOT-353_SC-70-5“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C41:/5C8BBC9A/5CA4FAF6:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D10:/5C8BBC97/5CA046D0:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D9:/5C8BBC97/5CA5CD14:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D8:/5C8BBC97/5CA4F5D6:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D7:/5C8BBC97/5CA5F6FE:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D6:/5C8BBC97/5C9F7A03:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D5:/5C8BBC97/5C9F7854:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D4:/5C8BBC97/5C9F7715:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D3:/5C8BBC94/5CA2F4B9:Package_TO_SOT_SMD:SOT-353_SC-70-5“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „D2:/5C8BBC94/5CAB197E:Package_TO_SOT_SMD:SOT-353_SC-70-5“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C11:/5C8BBC94/5CA058B6:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C20:/5C8BBC97/5C9B9A0F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C19:/5C8BBC97/5C9B9930:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U2:/5C8BBC94/5C9E12E3:Package_SO:TSSOP-8_4.4x3mm_P0.65mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C18:/5C8BBC97/5C9B97EB:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C17:/5C8BBC97/5C9B96D7:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C16:/5C8BBC97/5C9B95B0:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C15:/5C8BBC94/5CA9B7A9:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C14:/5C8BBC94/5CC5CD10:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C13:/5C8BBC94/5CA1D165:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C12:/5C8BBC94/5CA1D026:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C21:/5C8BBC97/5C9B9B27:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C10:/5C8BBC94/5CA05796:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C9:/5C8BBC94/5CA058F8:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U3:/5C8BBC97/5C8BC1B4:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C8:/5C8BBC94/5C9DF521:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C7:/5C8BBC94/5C9DF5C2:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C6:/5C8BBC94/5C9DF60F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C5:/5C8BBC94/5C9DF7EC:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C4:/5C8BBC94/5C9DF857:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C3:/5C8BBC94/5CA2B1BF:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C31:/5C8BBC9A/5CA8404B:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C40:/5C8BBC9A/5CA4FB3E:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C39:/5C8BBC9A/5CA78528:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C38:/5C8BBC9A/5CA5F7DC:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C37:/5C8BBC9A/5CA770C1:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C36:/5C8BBC9A/5CACF0A8:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C35:/5C8BBC9A/5CA78550:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C34:/5C8BBC9A/5CA63ED7:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C33:/5C8BBC9A/5CA770E9:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C32:/5C8BBC9A/5CAB698C:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB7:/5C8BBC97/5CBC582D:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C30:/5C8BBC9A/5CA630A8:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C29:/5C8BBC9A/5CA8259F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C28:/5C8BBC9A/5CA84058:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C27:/5C8BBC9A/5CA67A0B:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C26:/5C8BBC9A/5CA825AC:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C25:/5C8BBC97/5CA2DCD5:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C24:/5C8BBC97/5C9CD5F6:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C23:/5C8BBC97/5C9DF7C6:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C22:/5C8BBC97/5C9CCACE:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R16:/5C8BBC9A/5CB0A520:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R23:/5C8BBC9A/5CA770DC:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R22:/5C8BBC9A/5CA770D5:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R44:/5C9E4308/5CB09421:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R21:/5C8BBC9A/5CAB3DDA:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R20:/5C8BBC9A/5CA8406F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R45:/5C9E4308/5CB0AFCE:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R19:/5C8BBC9A/5CA6F323:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R18:/5C8BBC9A/5CA825C3:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R46:/5C9E4308/5CB09A98:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R17:/5C8BBC9A/5CB07864:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R43:/5C9E4308/5CB0A956:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R47:/5C9E4308/5CB0B63D:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R15:/5C8BBC9A/5CAA3D7C:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R14:/5C8BBC9A/5CAA5DC1:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „SW1:/5C8BBC94/5CA4B2AF:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R13:/5C8BBC9A/5CB04AF0:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R12:/5C8BBC9A/5CAFE75A:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U1:/5C8BBC94/5C9ED2F4:Package_QFP:LQFP-100_14x14mm_P0.5mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R11:/5C8BBC97/5C9D51AA:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R10:/5C8BBC97/5CA09D45:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R30:/5C8BBC9A/5CA5594B:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R36:/5C8BBC9A/5CC0C190:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R37:/5C8BBC9A/5CC0C197:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R35:/5C8BBC9A/5CA5005E:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R34:/5C8BBC9A/5CC0C203:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R38:/5C8BBC9A/5CA4FF24:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R33:/5C8BBC9A/5CC0C1F2:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R32:/5C8BBC9A/5CB4A203:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R39:/5C8BBC9A/5CA4FFFE:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R31:/5C8BBC9A/5CC0C242:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R9:/5C8BBC97/5CA09C3A:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R40:/5C9E4308/5CB0822F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R29:/5C8BBC9A/5CC0C23B:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R28:/5C8BBC9A/5CA54E27:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R41:/5C9E4308/5CB0A108:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R27:/5C8BBC9A/5CA78543:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R26:/5C8BBC9A/5CA7853C:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R42:/5C9E4308/5CB08DA5:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R25:/5C8BBC9A/5CA60ED9:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R24:/5C8BBC9A/5CA60ED2:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J2:/5C8BBC94/5CA7452F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J11:/5CC9A992/5CBD13E9:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J10:/5CC9A992/5CB5FC2E:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J9:/5CC9A992/5CB5FBA8:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J8:/5CC9A992/5CB5F9FC:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J7:/5CC9A992/5CBD1756:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J6:/5C8BC88B/5C8BC8C5:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J5:/5C8BBC94/5CA25131:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J4:/5C8BBC94/5CA74436:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J3:/5C8BBC94/5CA22A0B:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J12:/5CC9A992/5CBD1556:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J1:/5C8BBC94/5CB67827:SamacSys_Parts:1-1734592-2“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB15:/5C9E4308/5CB802AF:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB14:/5C9E4308/5CB7EBBA:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB13:/5C9E4308/5CB802A8:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB12:/5C9E4308/5CB7BD43:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB11:/5C9E4308/5CB802A1:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB10:/5C9E4308/5CB7A78A:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB9:/5C9E4308/5CB8029A:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „FB8:/5C9E4308/5CB78DEE:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „Q3:/5C8BBC9A/5CA54BA8:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R8:/5C8BBC97/5CA11B40:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R7:/5C8BBC97/5CA11A13:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R6:/5C8BBC97/5C9B6CCB:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R5:/5C8BBC97/5C9B6BDC:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R4:/5C8BBC97/5C9B6B4C:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R3:/5C8BBC97/5C9B6F96:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R2:/5C8BBC97/5C9B6ECE:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „R1:/5C8BBC97/5C9B6DD5:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „Q4:/5C8BBC9A/5CC0C22E:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C42:/5C8BBC9A/5CC0C1C2:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „Q2:/5C8BBC9A/5CB04AE3:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „Q1:/5C8BBC9A/5CAED088:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „L6:/5C8BBC9A/5CC0C183:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „L5:/5C8BBC9A/5CA4FCEF:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „L4:/5C8BBC9A/5CB6DCC1:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „L3:/5C8BBC9A/5CA7852F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „L2:/5C8BBC9A/5CA5F7E3:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „L1:/5C8BBC9A/5CA770C8:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „J13:/5CC9A992/5CBE3A31:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C2:/5C8BBC94/5CA2B358:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U10:/5C8BBC9A/5CA4BA4B:Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U9:/5C8BBC9A/5CA4B9FD:Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U11:/5C8BBC9A/5CC0C21D:Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U8:/5C8BBC9A/5CA4B92D:Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U12:/5C8BBC9A/5CA4BB0F:Package_DFN_QFN:QFN-24-1EP_4x5mm_P0.5mm_EP2.65x3.65mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U7:/5C8BBC97/5C8BC743:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U6:/5C8BBC97/5C8BC5DF:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U13:/5C8BC88B/5CAB8BB3:RF_Module:ESP-12E“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U5:/5C8BBC97/5C8BC4A4:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U4:/5C8BBC97/5C8BC3EB:Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „Y2:/5C8BBC94/5CA1CD9F:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „U14:/5C9E4308/5C9E4327:21-0041B_16“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „C1:/5C8BBC94/5CA39760:“.
+
+Hinweis: Überprüfe aus der Netzliste den Symbolfootprint „Y1:/5C8BBC94/5CA1CF07:“.
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „6“ von „“ zu "Net-(R33-Pad1)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „13“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „30“ von „“ zu "Disp_SCK".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „7“ von „“ zu "Net-(R36-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „31“ von „“ zu "Disp_MISO".
+
+Füge neues Bauteil „U11:/5C8BBC9A/5CC0C21D“ mit Footprint „Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“ hinzu.
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „32“ von „“ zu "Disp_MOSI".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „33“ von „“ zu "Net-(U1-Pad33)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „7“ von „“ zu "Net-(R26-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „34“ von „“ zu "Net-(U1-Pad34)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „6“ von „“ zu "Net-(R20-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „35“ von „“ zu "Net-(U1-Pad35)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „13“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „36“ von „“ zu "Net-(U1-Pad36)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „12“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „37“ von „“ zu "Net-(U1-Pad37)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „25“ von „“ zu "Net-(U1-Pad25)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „21“ von „“ zu "Net-(U1-Pad21)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „4“ von „“ zu "Net-(C46-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „22“ von „“ zu "Net-(C10-Pad1)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „5“ von „“ zu "Net-(C52-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „23“ von „“ zu "Net-(U1-Pad23)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „8“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „24“ von „“ zu "Net-(U1-Pad24)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „9“ von „“ zu "Net-(C47-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „29“ von „“ zu "Net-(U1-Pad29)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „10“ von „“ zu "Net-(C50-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „26“ von „“ zu "Net-(U1-Pad26)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „11“ von „“ zu "Net-(C50-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „27“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „12“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „28“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „11“ von „“ zu "Net-(C35-Pad1)".
+
+Füge neues Bauteil „D13:/5C9E4308/5CA2F87E“ mit Footprint „Package_TO_SOT_SMD:SOT-353_SC-70-5“ hinzu.
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „47“ von „“ zu "Net-(U1-Pad47)".
+
+Ändere Netzname von Footprint „D12:/5C9E4308/5CA2F7A2“ Pin „5“ von „“ zu "Net-(D12-Pad5)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „48“ von „“ zu "Net-(U1-Pad48)".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „1“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „D13:/5C9E4308/5CA2F87E“ Pin „5“ von „“ zu "Net-(D13-Pad5)".
+
+Ändere Netzname von Footprint „D13:/5C9E4308/5CA2F87E“ Pin „4“ von „“ zu "Net-(D13-Pad4)".
+
+Ändere Netzname von Footprint „D13:/5C9E4308/5CA2F87E“ Pin „2“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „D13:/5C9E4308/5CA2F87E“ Pin „3“ von „“ zu "Net-(D13-Pad3)".
+
+Ändere Netzname von Footprint „D13:/5C9E4308/5CA2F87E“ Pin „1“ von „“ zu "Net-(D13-Pad1)".
+
+Füge neues Bauteil „U10:/5C8BBC9A/5CA4BA4B“ mit Footprint „Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“ hinzu.
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „2“ von „“ zu "Net-(Q1-Pad1)".
+
+Ändere Netzname von Footprint „D12:/5C9E4308/5CA2F7A2“ Pin „1“ von „“ zu "Net-(D12-Pad1)".
+
+Ändere Netzname von Footprint „D12:/5C9E4308/5CA2F7A2“ Pin „3“ von „“ zu "Net-(D12-Pad3)".
+
+Ändere Netzname von Footprint „D12:/5C9E4308/5CA2F7A2“ Pin „2“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „D12:/5C9E4308/5CA2F7A2“ Pin „4“ von „“ zu "Net-(D12-Pad4)".
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „4“ von „“ zu "RxD-LIN1".
+
+Füge neues Bauteil „D12:/5C9E4308/5CA2F7A2“ mit Footprint „Package_TO_SOT_SMD:SOT-353_SC-70-5“ hinzu.
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „3“ von „“ zu "Net-(U9-Pad3)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „42“ von „“ zu "QuadSPI_NCS".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „38“ von „“ zu "Net-(U1-Pad38)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „10“ von „“ zu "Net-(C35-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „39“ von „“ zu "Net-(U1-Pad39)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „9“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „40“ von „“ zu "Net-(U1-Pad40)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „8“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „41“ von „“ zu "QuadSPI_CLK".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „5“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „3“ von „“ zu "Net-(U11-Pad3)".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „4“ von „“ zu "Net-(C31-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „43“ von „“ zu "QuadSPI_IO0".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „3“ von „“ zu "Net-(U10-Pad3)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „44“ von „“ zu "QuadSPI_IO1".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „2“ von „“ zu "Net-(Q2-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „45“ von „“ zu "QuadSPI_IO2".
+
+Ändere Netzname von Footprint „U10:/5C8BBC9A/5CA4BA4B“ Pin „1“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „46“ von „“ zu "QuadSPI_IO3".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „19“ von „“ zu "Net-(R32-Pad1)".
+
+Füge neues Bauteil „U13:/5C8BC88B/5CAB8BB3“ mit Footprint „RF_Module:ESP-12E“ hinzu.
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „20“ von „“ zu "Net-(U13-Pad20)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „25“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „24“ von „“ zu "Net-(C48-Pad1)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „23“ von „“ zu "Net-(C48-Pad1)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „22“ von „“ zu "Net-(C48-Pad2)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „21“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „20“ von „“ zu "Net-(R35-Pad2)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „19“ von „“ zu "Net-(U13-Pad19)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „18“ von „“ zu "Net-(R38-Pad2)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „17“ von „“ zu "Net-(U12-Pad17)".
+
+Füge neues Bauteil „U1:/5C8BBC94/5C9ED2F4“ mit Footprint „Package_QFP:LQFP-100_14x14mm_P0.5mm“ hinzu.
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „16“ von „“ zu "Net-(C44-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „1“ von „“ zu "Net-(U1-Pad1)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „15“ von „“ zu "Net-(U12-Pad15)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „2“ von „“ zu "Net-(U1-Pad2)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „14“ von „“ zu "Net-(U12-Pad14)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „9“ von „“ zu "Net-(U13-Pad9)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „17“ von „“ zu "Net-(U13-Pad17)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „16“ von „“ zu "Net-(U13-Pad16)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „15“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „14“ von „“ zu "Net-(U13-Pad14)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „13“ von „“ zu "Net-(U13-Pad13)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „12“ von „“ zu "Net-(U13-Pad12)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „11“ von „“ zu "Net-(U13-Pad11)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „10“ von „“ zu "Net-(U13-Pad10)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „21“ von „“ zu "Net-(U13-Pad21)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „8“ von „“ zu "Net-(C60-Pad1)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „7“ von „“ zu "Net-(U13-Pad7)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „6“ von „“ zu "Net-(U13-Pad6)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „5“ von „“ zu "Net-(U13-Pad5)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „4“ von „“ zu "Net-(U13-Pad4)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „3“ von „“ zu "ESP_Enable".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „2“ von „“ zu "Net-(U13-Pad2)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „1“ von „“ zu "ESP_Reset".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „1“ von „“ zu "Net-(C48-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „12“ von „“ zu "Net-(C2-Pad1)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „22“ von „“ zu "Net-(U13-Pad22)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „4“ von „“ zu "Net-(U12-Pad4)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „13“ von „“ zu "Net-(C3-Pad1)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „3“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „14“ von „“ zu "Net-(C1-Pad1)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „2“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „15“ von „“ zu "Net-(U1-Pad15)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „5“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „16“ von „“ zu "Net-(U1-Pad16)".
+
+Füge neues Bauteil „U12:/5C8BBC9A/5CA4BB0F“ mit Footprint „Package_DFN_QFN:QFN-24-1EP_4x5mm_P0.5mm_EP2.65x3.65mm“ hinzu.
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „17“ von „“ zu "Net-(U1-Pad17)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „18“ von „“ zu "Net-(U1-Pad18)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „1“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „19“ von „“ zu "Net-(U1-Pad19)".
+
+Ändere Netzname von Footprint „U11:/5C8BBC9A/5CC0C21D“ Pin „2“ von „“ zu "Net-(Q4-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „20“ von „“ zu "Net-(U1-Pad20)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „7“ von „“ zu "Net-(U1-Pad7)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „3“ von „“ zu "Net-(U1-Pad3)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „13“ von „“ zu "Net-(U12-Pad13)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „4“ von „“ zu "Net-(U1-Pad4)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „12“ von „“ zu "Net-(C51-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „5“ von „“ zu "Net-(U1-Pad5)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „11“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „6“ von „“ zu "Net-(U1-Pad6)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „10“ von „“ zu "Net-(Q3-Pad1)".
+
+Ändere Netzname von Footprint „U13:/5C8BC88B/5CAB8BB3“ Pin „18“ von „“ zu "ESP_Boot".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „9“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „8“ von „“ zu "Net-(C12-Pad2)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „8“ von „“ zu "Net-(U12-Pad8)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „9“ von „“ zu "Net-(C13-Pad2)".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „7“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „10“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U12:/5C8BBC9A/5CA4BB0F“ Pin „6“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „11“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „8“ von „“ zu "STB-CAN".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „87“ von „“ zu "Net-(U1-Pad87)".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „4“ von „“ zu "RxD-CAN".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „88“ von „“ zu "Net-(U1-Pad88)".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „5“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „89“ von „“ zu "JTAG_TDO".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „6“ von „“ zu "Net-(D10-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „90“ von „“ zu "JTAG_RES".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „7“ von „“ zu "Net-(D10-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „91“ von „“ zu "Net-(U1-Pad91)".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „3“ von „“ zu "+5V".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „92“ von „“ zu "Net-(U1-Pad92)".
+
+Füge neues Bauteil „U6:/5C8BBC97/5C8BC5DF“ mit Footprint „Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“ hinzu.
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „93“ von „“ zu "Net-(U1-Pad93)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „94“ von „“ zu "Net-(U1-Pad94)".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „8“ von „“ zu "Net-(U5-Pad8)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „95“ von „“ zu "SCL-1WIRE".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „7“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „96“ von „“ zu "SDA-1WIRE".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „1“ von „“ zu "RxD-RS485".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „77“ von „“ zu "JTAG_TDI".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „78“ von „“ zu "Net-(U1-Pad78)".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „4“ von „“ zu "TxD-RS485".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „79“ von „“ zu "Net-(U1-Pad79)".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „3“ von „“ zu "DE-RS485".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „80“ von „“ zu "Net-(U1-Pad80)".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „2“ von „“ zu "RE-RS485".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „81“ von „“ zu "RxD-CAN".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „6“ von „“ zu "Net-(C21-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „82“ von „“ zu "TxD-CAN".
+
+Füge neues Bauteil „U7:/5C8BBC97/5C8BC743“ mit Footprint „Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“ hinzu.
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „83“ von „“ zu "Net-(U1-Pad83)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „84“ von „“ zu "Net-(U1-Pad84)".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „1“ von „“ zu "TxD-CAN".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „85“ von „“ zu "Net-(U1-Pad85)".
+
+Ändere Netzname von Footprint „U6:/5C8BBC97/5C8BC5DF“ Pin „2“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „86“ von „“ zu "Net-(U1-Pad86)".
+
+Füge neues Bauteil „U4:/5C8BBC97/5C8BC3EB“ mit Footprint „Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“ hinzu.
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „5“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „5“ von „“ zu "QuadSPI_IO0".
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „4“ von „“ zu "RxD-LIN2".
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „6“ von „“ zu "QuadSPI_CLK".
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „3“ von „“ zu "Net-(U4-Pad3)".
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „7“ von „“ zu "QuadSPI_IO3".
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „2“ von „“ zu "SLP-LIN2".
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „8“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „1“ von „“ zu "TxD-LIN2".
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „4“ von „“ zu "GND".
+
+Füge neues Bauteil „U3:/5C8BBC97/5C8BC1B4“ mit Footprint „Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“ hinzu.
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „1“ von „“ zu "TxD-LIN1".
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „8“ von „“ zu "Net-(U3-Pad8)".
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „2“ von „“ zu "SLP-LIN1".
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „7“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „6“ von „“ zu "Net-(C19-Pad1)".
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „3“ von „“ zu "Net-(U3-Pad3)".
+
+Ändere Netzname von Footprint „U3:/5C8BBC97/5C8BC1B4“ Pin „5“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „1“ von „“ zu "TxD-LIN3".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „97“ von „“ zu "Net-(U1-Pad97)".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „5“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „98“ von „“ zu "Net-(U1-Pad98)".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „4“ von „“ zu "RxD-LIN3".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „99“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „3“ von „“ zu "Net-(U5-Pad3)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „100“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U5:/5C8BBC97/5C8BC4A4“ Pin „2“ von „“ zu "SLP-LIN3".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „4“ von „“ zu "Net-(C30-Pad1)".
+
+Füge neues Bauteil „U5:/5C8BBC97/5C8BC4A4“ mit Footprint „Package_SO:SOIC-8_3.9x4.9mm_P1.27mm“ hinzu.
+
+Füge neues Bauteil „U2:/5C8BBC94/5C9E12E3“ mit Footprint „Package_SO:TSSOP-8_4.4x3mm_P0.65mm“ hinzu.
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „1“ von „“ zu "QuadSPI_NCS".
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „8“ von „“ zu "Net-(U4-Pad8)".
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „2“ von „“ zu "QuadSPI_IO1".
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „7“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U2:/5C8BBC94/5C9E12E3“ Pin „3“ von „“ zu "QuadSPI_IO2".
+
+Ändere Netzname von Footprint „U4:/5C8BBC97/5C8BC3EB“ Pin „6“ von „“ zu "Net-(C20-Pad1)".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „7“ von „“ zu "Net-(R24-Pad2)".
+
+Ändere Netzname von Footprint „D3:/5C8BBC94/5CA2F4B9“ Pin „1“ von „“ zu "Net-(D3-Pad1)".
+
+Füge neues Bauteil „D3:/5C8BBC94/5CA2F4B9“ mit Footprint „Package_TO_SOT_SMD:SOT-353_SC-70-5“ hinzu.
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „6“ von „“ zu "Net-(R19-Pad1)".
+
+Ändere Netzname von Footprint „D2:/5C8BBC94/5CAB197E“ Pin „5“ von „“ zu "Disp_Audio_L".
+
+Ändere Netzname von Footprint „D2:/5C8BBC94/5CAB197E“ Pin „4“ von „“ zu "Disp_PD".
+
+Ändere Netzname von Footprint „D2:/5C8BBC94/5CAB197E“ Pin „2“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „D2:/5C8BBC94/5CAB197E“ Pin „3“ von „“ zu "Disp_INT".
+
+Ändere Netzname von Footprint „D2:/5C8BBC94/5CAB197E“ Pin „1“ von „“ zu "Disp_CS".
+
+Füge neues Bauteil „D2:/5C8BBC94/5CAB197E“ mit Footprint „Package_TO_SOT_SMD:SOT-353_SC-70-5“ hinzu.
+
+Ändere Netzname von Footprint „D3:/5C8BBC94/5CA2F4B9“ Pin „3“ von „“ zu "USB_D+".
+
+Ändere Netzname von Footprint „D1:/5C8BBC94/5CAADD43“ Pin „1“ von „“ zu "+5VL".
+
+Ändere Netzname von Footprint „D1:/5C8BBC94/5CAADD43“ Pin „3“ von „“ zu "Disp_SCK".
+
+Ändere Netzname von Footprint „D1:/5C8BBC94/5CAADD43“ Pin „2“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „D1:/5C8BBC94/5CAADD43“ Pin „4“ von „“ zu "Disp_MISO".
+
+Ändere Netzname von Footprint „D1:/5C8BBC94/5CAADD43“ Pin „5“ von „“ zu "Disp_MOSI".
+
+Füge neues Bauteil „D1:/5C8BBC94/5CAADD43“ mit Footprint „Package_TO_SOT_SMD:SOT-353_SC-70-5“ hinzu.
+
+Füge neues Bauteil „U9:/5C8BBC9A/5CA4B9FD“ mit Footprint „Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“ hinzu.
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „57“ von „“ zu "Net-(U1-Pad57)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „54“ von „“ zu "Net-(U1-Pad54)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „49“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „50“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „5“ von „“ zu "Net-(C36-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „51“ von „“ zu "Net-(U1-Pad51)".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „8“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „52“ von „“ zu "Net-(U1-Pad52)".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „9“ von „“ zu "Net-(C32-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „53“ von „“ zu "Net-(U1-Pad53)".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „10“ von „“ zu "Net-(C34-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „76“ von „“ zu "JTAG_TCK".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „11“ von „“ zu "Net-(C34-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „55“ von „“ zu "Net-(U1-Pad55)".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „12“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „56“ von „“ zu "Net-(U1-Pad56)".
+
+Ändere Netzname von Footprint „U9:/5C8BBC9A/5CA4B9FD“ Pin „13“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „D3:/5C8BBC94/5CA2F4B9“ Pin „5“ von „“ zu "USB_ID".
+
+Ändere Netzname von Footprint „D3:/5C8BBC94/5CA2F4B9“ Pin „4“ von „“ zu "USB_D-".
+
+Ändere Netzname von Footprint „D3:/5C8BBC94/5CA2F4B9“ Pin „2“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „71“ von „“ zu "USB_D+".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „66“ von „“ zu "Net-(U1-Pad66)".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „5“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „67“ von „“ zu "USB_SOF".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „4“ von „“ zu "Net-(C29-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „68“ von „“ zu "Net-(U1-Pad68)".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „3“ von „“ zu "PWR_Reset".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „69“ von „“ zu "USB_ID".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „2“ von „“ zu "Net-(R14-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „70“ von „“ zu "USB_D-".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „1“ von „“ zu "+BATT".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „7“ von „“ zu "Net-(R22-Pad2)".
+
+Füge neues Bauteil „U8:/5C8BBC9A/5CA4B92D“ mit Footprint „Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm“ hinzu.
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „72“ von „“ zu "JTAG_TMS".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „73“ von „“ zu "Net-(U1-Pad73)".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „8“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „74“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „7“ von „“ zu "Net-(R8-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „75“ von „“ zu "+3V3".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „6“ von „“ zu "Net-(R7-Pad2)".
+
+Ändere Netzname von Footprint „U7:/5C8BBC97/5C8BC743“ Pin „5“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „8“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „6“ von „“ zu "Net-(R18-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „60“ von „“ zu "Net-(U1-Pad60)".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „13“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „61“ von „“ zu "Net-(U1-Pad61)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „59“ von „“ zu "Net-(U1-Pad59)".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „12“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „62“ von „“ zu "Net-(U1-Pad62)".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „11“ von „“ zu "Net-(C33-Pad1)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „63“ von „“ zu "Net-(U1-Pad63)".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „10“ von „“ zu "Net-(C33-Pad2)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „64“ von „“ zu "Net-(U1-Pad64)".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „58“ von „“ zu "Net-(U1-Pad58)".
+
+Ändere Netzname von Footprint „U8:/5C8BBC9A/5CA4B92D“ Pin „9“ von „“ zu "GND".
+
+Ändere Netzname von Footprint „U1:/5C8BBC94/5C9ED2F4“ Pin „65“ von „“ zu "Net-(U1-Pad65)".
+
+Fehler: Neues Bauteil „R37:/5C8BBC9A/5CC0C197“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „L1:/5C8BBC9A/5CA770C8“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „Y1:/5C8BBC94/5CA1CF07“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „U14:/5C9E4308/5C9E4327“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „21-0041B_16“.
+
+Fehler: Neues Bauteil „R44:/5C9E4308/5CB09421“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R38:/5C8BBC9A/5CA4FF24“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „Y2:/5C8BBC94/5CA1CD9F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „SW1:/5C8BBC94/5CA4B2AF“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R39:/5C8BBC9A/5CA4FFFE“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R47:/5C9E4308/5CB0B63D“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R40:/5C9E4308/5CB0822F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R41:/5C9E4308/5CB0A108“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R46:/5C9E4308/5CB09A98“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R42:/5C9E4308/5CB08DA5“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R45:/5C9E4308/5CB0AFCE“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R43:/5C9E4308/5CB0A956“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C11“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D4“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D5“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D6“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C12“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C7“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C6“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C5“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C4“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C10“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C23“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C9“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „Y2“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „Y1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D10“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C13“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C3“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C2“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C16“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R44“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C19“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C14“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R4“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R5“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R6“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R2“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R3“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J3“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C17“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C18“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C15“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C20“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C21“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C22“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C24“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R11“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R10“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C30“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C34“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C27“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R19“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C37“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „L1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D11“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R9“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C8“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R7“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R8“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C25“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D8“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D9“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „D7“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R22“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB3“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R38“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J5“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „SW1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J4“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J2“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C38“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C54“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C57“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „L5“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C48“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R42“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R39“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R35“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „Q3“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R28“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R30“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C56“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „L2“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R24“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R20“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „L3“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R26“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R27“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C35“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C29“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C26“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R18“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R13“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C28“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C39“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R15“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R14“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R21“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C32“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C36“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „Q1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R12“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „Q2“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C45“ definiert.
+
+Fehler: Bauteil „U14“ mit Footprint „21-0041B_16“ konnte in keiner Bibliothek der Footprintbibliothekstabelle gefunden werden.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R36“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R17“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R16“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R32“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „L4“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „F1“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C49“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C53“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB11“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C43“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C51“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C55“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „L6“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C52“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C31“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R23“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C33“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R29“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R31“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C46“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C50“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C42“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R33“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R34“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C47“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R25“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „Q4“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J13“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R37“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J6“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C58“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C59“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C60“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C61“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C62“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R40“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R46“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R41“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R43“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R45“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „R47“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB8“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB10“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB12“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB14“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB9“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB2“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB13“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB15“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J8“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J9“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J10“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J11“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J12“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „J7“ definiert.
+
+Fehler: Neues Bauteil „J12:/5CC9A992/5CBD1556“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J3:/5C8BBC94/5CA22A0B“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J4:/5C8BBC94/5CA74436“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J5:/5C8BBC94/5CA25131“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J6:/5C8BC88B/5C8BC8C5“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J7:/5CC9A992/5CBD1756“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J8:/5CC9A992/5CB5F9FC“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J9:/5CC9A992/5CB5FBA8“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J10:/5CC9A992/5CB5FC2E“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J11:/5CC9A992/5CBD13E9“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J2:/5C8BBC94/5CA7452F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J13:/5CC9A992/5CBE3A31“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Bauteil „J1“ mit Footprint „1-1734592-2“ konnte in keiner Bibliothek der Footprintbibliothekstabelle gefunden werden.
+
+Fehler: Neues Bauteil „L2:/5C8BBC9A/5CA5F7E3“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „L3:/5C8BBC9A/5CA7852F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „L4:/5C8BBC9A/5CB6DCC1“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „L5:/5C8BBC9A/5CA4FCEF“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „L6:/5C8BBC9A/5CC0C183“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „Q1:/5C8BBC9A/5CAED088“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB8:/5C9E4308/5CB78DEE“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D11:/5C8BBC97/5CA09B16“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „F1:/5C8BBC9A/5CB6DEB6“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB1:/5C8BBC97/5CB9AFD5“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB2:/5C8BBC97/5CBA2081“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB3:/5C8BBC97/5CB9B191“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB4:/5C8BBC97/5CBB38BB“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB5:/5C8BBC97/5CBB7155“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB6:/5C8BBC97/5CBC1E32“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB7:/5C8BBC97/5CBC582D“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „Q2:/5C8BBC9A/5CB04AE3“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB9:/5C9E4308/5CB8029A“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB10:/5C9E4308/5CB7A78A“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB11:/5C9E4308/5CB802A1“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB12:/5C9E4308/5CB7BD43“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB13:/5C9E4308/5CB802A8“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB14:/5C9E4308/5CB7EBBA“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „FB15:/5C9E4308/5CB802AF“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „J1:/5C8BBC94/5CB67827“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „SamacSys_Parts:1-1734592-2“.
+
+Fehler: Neues Bauteil „R27:/5C8BBC9A/5CA78543“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R18:/5C8BBC9A/5CA825C3“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R19:/5C8BBC9A/5CA6F323“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R20:/5C8BBC9A/5CA8406F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R21:/5C8BBC9A/5CAB3DDA“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R22:/5C8BBC9A/5CA770D5“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R23:/5C8BBC9A/5CA770DC“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R24:/5C8BBC9A/5CA60ED2“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R25:/5C8BBC9A/5CA60ED9“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R26:/5C8BBC9A/5CA7853C“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R17:/5C8BBC9A/5CB07864“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R28:/5C8BBC9A/5CA54E27“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R29:/5C8BBC9A/5CC0C23B“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R30:/5C8BBC9A/5CA5594B“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R31:/5C8BBC9A/5CC0C242“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R32:/5C8BBC9A/5CB4A203“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R33:/5C8BBC9A/5CC0C1F2“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R34:/5C8BBC9A/5CC0C203“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R35:/5C8BBC9A/5CA5005E“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R8:/5C8BBC97/5CA11B40“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „Q3:/5C8BBC9A/5CA54BA8“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „Q4:/5C8BBC9A/5CC0C22E“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R1:/5C8BBC97/5C9B6DD5“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R2:/5C8BBC97/5C9B6ECE“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R3:/5C8BBC97/5C9B6F96“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R4:/5C8BBC97/5C9B6B4C“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R5:/5C8BBC97/5C9B6BDC“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R6:/5C8BBC97/5C9B6CCB“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R7:/5C8BBC97/5CA11A13“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D10:/5C8BBC97/5CA046D0“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R9:/5C8BBC97/5CA09C3A“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R10:/5C8BBC97/5CA09D45“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R11:/5C8BBC97/5C9D51AA“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R12:/5C8BBC9A/5CAFE75A“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R13:/5C8BBC9A/5CB04AF0“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R14:/5C8BBC9A/5CAA5DC1“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R15:/5C8BBC9A/5CAA3D7C“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R16:/5C8BBC9A/5CB0A520“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C22:/5C8BBC97/5C9CCACE“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C13:/5C8BBC94/5CA1D165“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C14:/5C8BBC94/5CC5CD10“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C15:/5C8BBC94/5CA9B7A9“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C16:/5C8BBC97/5C9B95B0“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C17:/5C8BBC97/5C9B96D7“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C18:/5C8BBC97/5C9B97EB“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C19:/5C8BBC97/5C9B9930“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C20:/5C8BBC97/5C9B9A0F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C21:/5C8BBC97/5C9B9B27“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C12:/5C8BBC94/5CA1D026“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C23:/5C8BBC97/5C9DF7C6“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C24:/5C8BBC97/5C9CD5F6“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C25:/5C8BBC97/5CA2DCD5“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C26:/5C8BBC9A/5CA825AC“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C27:/5C8BBC9A/5CA67A0B“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C28:/5C8BBC9A/5CA84058“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C29:/5C8BBC9A/5CA8259F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C30:/5C8BBC9A/5CA630A8“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C3:/5C8BBC94/5CA2B1BF“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB4“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB5“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB6“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „FB7“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C44“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C41“ definiert.
+
+Fehler: Es wurde kein Footprint für das Bauteil „C40“ definiert.
+
+Fehler: Neues Bauteil „C1:/5C8BBC94/5CA39760“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C2:/5C8BBC94/5CA2B358“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C31:/5C8BBC9A/5CA8404B“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C4:/5C8BBC94/5C9DF857“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C5:/5C8BBC94/5C9DF7EC“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C6:/5C8BBC94/5C9DF60F“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C7:/5C8BBC94/5C9DF5C2“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C8:/5C8BBC94/5C9DF521“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C9:/5C8BBC94/5CA058F8“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C10:/5C8BBC94/5CA05796“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C11:/5C8BBC94/5CA058B6“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C60:/5C8BC88B/5CB2F4A7“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C51:/5C8BBC9A/5CBBDA5B“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C52:/5C8BBC9A/5CC0C224“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C53:/5C8BBC9A/5CB6E23E“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C54:/5C8BBC9A/5CA4FC47“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C55:/5C8BBC9A/5CC0C17C“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C56:/5C8BBC9A/5CA4FBFF“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C57:/5C8BBC9A/5CA4FC89“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C58:/5C8BC88B/5CC01965“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C59:/5C8BC88B/5CC019EB“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C50:/5C8BBC9A/5CC0C1AB“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C61:/5C9E4308/5CA32292“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C62:/5C9E4308/5CA32332“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D4:/5C8BBC97/5C9F7715“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D5:/5C8BBC97/5C9F7854“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D6:/5C8BBC97/5C9F7A03“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D7:/5C8BBC97/5CA5F6FE“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D8:/5C8BBC97/5CA4F5D6“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „D9:/5C8BBC97/5CA5CD14“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C41:/5C8BBC9A/5CA4FAF6“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C32:/5C8BBC9A/5CAB698C“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C33:/5C8BBC9A/5CA770E9“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C34:/5C8BBC9A/5CA63ED7“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C35:/5C8BBC9A/5CA78550“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C36:/5C8BBC9A/5CACF0A8“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C37:/5C8BBC9A/5CA770C1“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C38:/5C8BBC9A/5CA5F7DC“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C39:/5C8BBC9A/5CA78528“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C40:/5C8BBC9A/5CA4FB3E“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „R36:/5C8BBC9A/5CC0C190“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C42:/5C8BBC9A/5CC0C1C2“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C43:/5C8BBC9A/5CB6E445“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C44:/5C8BBC9A/5CA4FA44“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C45:/5C8BBC9A/5CB6E345“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C46:/5C8BBC9A/5CC0C1A4“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C47:/5C8BBC9A/5CC0C20A“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C48:/5C8BBC9A/5CA4FE23“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
+Fehler: Neues Bauteil „C49:/5C8BBC9A/5CB6E102“ konnte nicht hinzugefügt werden, wegen fehlendem Footprint „“.
+
