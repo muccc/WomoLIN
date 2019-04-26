@@ -15,12 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3650 1150 1500 1350
-U 5C8BBC94
-F0 "Main Controller" 50
-F1 "MCU.sch" 50
-$EndSheet
-$Sheet
 S 5950 1200 1650 1300
 U 5C8BBC97
 F0 "In- Output Section" 50
@@ -82,4 +76,10 @@ Text Notes 6950 3650 0    50   ~ 0
 Board connections
 Text Notes 1950 4050 2    50   ~ 0
 nRF8001 Modul\n
+$Sheet
+S 3650 1150 1500 1350
+U 5C8BBC94
+F0 "Main Controller" 50
+F1 "MCU.sch" 50
+$EndSheet
 $EndSCHEMATC
