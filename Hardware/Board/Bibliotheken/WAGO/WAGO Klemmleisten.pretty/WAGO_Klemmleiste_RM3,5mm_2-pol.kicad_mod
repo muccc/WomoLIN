@@ -1,4 +1,4 @@
-(module WAGO_Klemmleiste_RM3,5mm_2-pol (layer F.Cu) (tedit 5CAC7D77)
+(module WAGO_Klemmleiste_RM3,5mm_2-pol (layer F.Cu) (tedit 5CD1723C)
   (tags WAGO_Klemmleiste_RM3,5mm_2-pol)
   (fp_text reference REF** (at 2.23 10.715) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

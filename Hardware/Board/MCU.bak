@@ -391,16 +391,10 @@ F 3 "~" H 8100 8250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6950 7950 7550 7950
-Wire Wire Line
 	7950 7950 7550 7950
 Connection ~ 7550 7950
 Wire Wire Line
-	6950 8050 7200 8050
-Wire Wire Line
-	7200 8050 7200 8250
-Wire Wire Line
-	7200 8250 7550 8250
+	7350 8050 7350 8250
 Connection ~ 7550 8250
 Wire Wire Line
 	7550 8250 7950 8250
@@ -660,35 +654,10 @@ F 3 "" H 1900 3550 50  0001 C CNN
 	1    1900 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
-U 1 1 5CA74436
-P 14350 5800
-F 0 "J4" H 14400 6217 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 14400 6126 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 14350 5800 50  0001 C CNN
-F 3 "~" H 14350 5800 50  0001 C CNN
-	1    14350 5800
-	1    0    0    -1  
-$EndComp
 Text GLabel 10250 5300 0    50   Input ~ 0
 Disp_SCK
 Text GLabel 10250 5400 0    50   Input ~ 0
 Disp_MOSI
-Text GLabel 14050 5800 0    50   Input ~ 0
-Disp_MOSI
-Text GLabel 14050 5700 0    50   Input ~ 0
-Disp_SCK
-Text GLabel 14750 5800 2    50   Input ~ 0
-Disp_CS
-Text GLabel 14750 5900 2    50   Input ~ 0
-Disp_PD
-Text GLabel 14050 6000 0    50   Input ~ 0
-Disp_Audio_L
-Text GLabel 14750 5700 2    50   Output ~ 0
-Disp_MISO
-Text GLabel 14050 5900 0    50   Output ~ 0
-Disp_INT
 Text GLabel 12800 5300 2    50   Output ~ 0
 Disp_MISO
 Text GLabel 10250 5500 0    50   Output ~ 0
@@ -713,16 +682,14 @@ $EndComp
 $Comp
 L Device:C C15
 U 1 1 5CA9B7A9
-P 10650 4950
-F 0 "C15" H 10765 4996 50  0000 L CNN
-F 1 "1uF" H 10765 4905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10688 4800 50  0001 C CNN
-F 3 "~" H 10650 4950 50  0001 C CNN
-	1    10650 4950
+P 11800 7950
+F 0 "C15" H 11915 7996 50  0000 L CNN
+F 1 "1uF" H 11915 7905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11838 7800 50  0001 C CNN
+F 3 "~" H 11800 7950 50  0001 C CNN
+	1    11800 7950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10650 4600 10650 4800
 $Comp
 L Power_Protection:SP0504BAJT D1
 U 1 1 5CAADD43
@@ -779,44 +746,8 @@ Text GLabel 3700 5550 0    50   Input ~ 0
 Disp_MISO
 Text GLabel 10300 2750 0    50   Output ~ 0
 Disp_INT
-$Comp
-L power:GND #PWR0143
-U 1 1 5CBB979F
-P 15250 6100
-F 0 "#PWR0143" H 15250 5850 50  0001 C CNN
-F 1 "GND" H 15255 5927 50  0000 C CNN
-F 2 "" H 15250 6100 50  0001 C CNN
-F 3 "" H 15250 6100 50  0001 C CNN
-	1    15250 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14650 5600 15250 5600
-Wire Wire Line
-	15250 5600 15250 6000
-Wire Wire Line
-	14650 6000 15250 6000
-Connection ~ 15250 6000
-Wire Wire Line
-	15250 6000 15250 6100
-Wire Wire Line
-	14750 5700 14650 5700
-Wire Wire Line
-	14750 5800 14650 5800
-Wire Wire Line
-	14750 5900 14650 5900
-Wire Wire Line
-	14050 5700 14150 5700
-Wire Wire Line
-	14050 5800 14150 5800
-Wire Wire Line
-	14050 5900 14150 5900
-Wire Wire Line
-	14050 6000 14150 6000
 Text GLabel 2100 3650 0    50   Output ~ 0
 PWR_Reset
-Text Notes 13750 5300 0    50   ~ 0
-Touchdisplay FTDI EVE FT8xx
 Wire Wire Line
 	10550 1500 10650 1500
 Wire Wire Line
@@ -875,160 +806,19 @@ Wire Wire Line
 	10850 1050 10550 1050
 Wire Wire Line
 	10550 1050 10550 1150
-$Comp
-L power:+5VL #PWR0146
-U 1 1 5CC9B4BA
-P 13850 5550
-F 0 "#PWR0146" H 13850 5400 50  0001 C CNN
-F 1 "+5VL" H 13865 5723 50  0000 C CNN
-F 2 "" H 13850 5550 50  0001 C CNN
-F 3 "" H 13850 5550 50  0001 C CNN
-	1    13850 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14150 5600 13850 5600
-Wire Wire Line
-	13850 5600 13850 5550
-$Comp
-L SamacSys_Parts:1-1734592-2 J1
-U 1 1 5CB67827
-P 11100 5100
-F 0 "J1" H 11600 5365 50  0000 C CNN
-F 1 "1-1734592-2" H 11600 5274 50  0000 C CNN
-F 2 "SamacSys_Parts:1-1734592-2" H 11950 5200 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734592%7FC%7Fpdf%7FEnglish%7FENG_CD_1734592_C_C_1734592.pdf%7F1-1734592-2" H 11950 5100 50  0001 L CNN
-F 4 "TE Connectivity 0.5mm Pitch 12 Way Right Angle Female FPC Connector Locking Mechanism" H 11950 5000 50  0001 L CNN "Description"
-F 5 "2.3" H 11950 4900 50  0001 L CNN "Height"
-F 6 "TE Connectivity" H 11950 4800 50  0001 L CNN "Manufacturer_Name"
-F 7 "1-1734592-2" H 11950 4700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "571-1-1734592-2" H 11950 4600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=571-1-1734592-2" H 11950 4500 50  0001 L CNN "Mouser Price/Stock"
-F 10 "7188602" H 11950 4400 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/7188602" H 11950 4300 50  0001 L CNN "RS Price/Stock"
-	1    11100 5100
-	1    0    0    -1  
-$EndComp
-Text Notes 11000 4650 0    50   ~ 0
-Touchdisplay FTDI EVE FT8xx
-Connection ~ 10650 4800
-Wire Wire Line
-	11050 4800 12200 4800
-Wire Wire Line
-	12200 4800 12200 5100
-Wire Wire Line
-	12200 5100 12100 5100
-Wire Wire Line
-	11100 5100 11050 5100
-Wire Wire Line
-	11050 5100 11050 4800
-Wire Wire Line
-	10650 4800 11050 4800
-Connection ~ 11050 4800
+Text Notes 10150 7350 0    50   ~ 0
+Touchdisplay RGB TFT
 $Comp
 L power:GND #PWR0139
 U 1 1 5CC6D2BF
-P 10850 6150
-F 0 "#PWR0139" H 10850 5900 50  0001 C CNN
-F 1 "GND" H 10855 5977 50  0000 C CNN
-F 2 "" H 10850 6150 50  0001 C CNN
-F 3 "" H 10850 6150 50  0001 C CNN
-	1    10850 6150
+P 11800 8100
+F 0 "#PWR0139" H 11800 7850 50  0001 C CNN
+F 1 "GND" H 11805 7927 50  0000 C CNN
+F 2 "" H 11800 8100 50  0001 C CNN
+F 3 "" H 11800 8100 50  0001 C CNN
+	1    11800 8100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10250 5400 10500 5400
-Wire Wire Line
-	10250 5600 10700 5600
-Wire Wire Line
-	10400 5750 10400 5300
-Connection ~ 10400 5300
-Wire Wire Line
-	10400 5300 10250 5300
-Wire Wire Line
-	10500 5750 10500 5400
-Connection ~ 10500 5400
-Wire Wire Line
-	10600 5750 10600 5500
-Connection ~ 10600 5500
-Wire Wire Line
-	10600 5500 10250 5500
-Wire Wire Line
-	10700 5750 10700 5600
-Connection ~ 10700 5600
-Wire Wire Line
-	10700 5600 11100 5600
-Wire Wire Line
-	10600 5500 11100 5500
-Wire Wire Line
-	10500 5400 11100 5400
-Wire Wire Line
-	10400 5300 11100 5300
-Wire Wire Line
-	10650 5100 10650 5200
-Wire Wire Line
-	10650 5200 10850 5200
-Wire Wire Line
-	10850 6150 10850 5700
-Connection ~ 10850 5200
-Wire Wire Line
-	10850 5200 11100 5200
-$Comp
-L power:GND #PWR0248
-U 1 1 5CD48F4E
-P 12250 6150
-F 0 "#PWR0248" H 12250 5900 50  0001 C CNN
-F 1 "GND" H 12255 5977 50  0000 C CNN
-F 2 "" H 12250 6150 50  0001 C CNN
-F 3 "" H 12250 6150 50  0001 C CNN
-	1    12250 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12100 5200 12250 5200
-Wire Wire Line
-	12250 5200 12250 5600
-Wire Wire Line
-	12800 5500 12700 5500
-Wire Wire Line
-	12800 5400 12600 5400
-Wire Wire Line
-	12800 5300 12500 5300
-Wire Wire Line
-	12100 5700 12250 5700
-Connection ~ 12250 5700
-Wire Wire Line
-	12250 5700 12250 6150
-Wire Wire Line
-	11100 5700 10850 5700
-Connection ~ 10850 5700
-Wire Wire Line
-	10850 5700 10850 5200
-Wire Wire Line
-	12100 5600 12250 5600
-Connection ~ 12250 5600
-Wire Wire Line
-	12250 5600 12250 5700
-Wire Wire Line
-	12400 5750 12400 4800
-Wire Wire Line
-	12400 4800 12200 4800
-Connection ~ 12200 4800
-Wire Wire Line
-	12500 5750 12500 5300
-Connection ~ 12500 5300
-Wire Wire Line
-	12500 5300 12100 5300
-Wire Wire Line
-	12600 5750 12600 5400
-Connection ~ 12600 5400
-Wire Wire Line
-	12600 5400 12100 5400
-Wire Wire Line
-	12700 5750 12700 5500
-Connection ~ 12700 5500
-Wire Wire Line
-	12700 5500 12100 5500
 Text GLabel 10700 3350 2    50   Input ~ 0
 BLE_MOSI
 Text GLabel 10700 3550 2    50   Input ~ 0
@@ -1108,8 +898,8 @@ Text GLabel 6800 9750 2    50   Output ~ 0
 LCD_B3
 Text GLabel 3700 7850 0    50   Output ~ 0
 LCD_B1
-Text GLabel 8100 7200 2    50   Input ~ 0
-LCD_INT
+Text GLabel 7450 7000 2    50   Input ~ 0
+TOUCH_INT
 Text GLabel 6800 3750 2    50   Output ~ 0
 LCD_BL_CTR
 Wire Wire Line
@@ -1541,12 +1331,370 @@ Connection ~ 6150 2000
 $Comp
 L Power_Protection:USBLC6-2SC6 U?
 U 1 1 5D018138
-P 11400 8550
-F 0 "U?" H 11400 9228 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 11400 9137 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10650 8950 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 11600 8900 50  0001 C CNN
-	1    11400 8550
+P 14800 7250
+F 0 "U?" H 14800 7928 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 14800 7837 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 14050 7650 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 15000 7600 50  0001 C CNN
+	1    14800 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7350 8250 7550 8250
+$Comp
+L power:+5VL #PWR?
+U 1 1 5CDA48A3
+P 10150 7200
+F 0 "#PWR?" H 10150 7050 50  0001 C CNN
+F 1 "+5VL" H 10165 7373 50  0000 C CNN
+F 2 "" H 10150 7200 50  0001 C CNN
+F 3 "" H 10150 7200 50  0001 C CNN
+	1    10150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:54104-4031 J?
+U 1 1 5CD73C86
+P 10100 7700
+F 0 "J?" H 10550 7965 50  0000 C CNN
+F 1 "54104-4031" H 10550 7874 50  0000 C CNN
+F 2 "54104-4031" H 10850 7800 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/54104-4031.pdf" H 10850 7700 50  0001 L CNN
+F 4 "Connector 0.5mm, FFC/FPC, SMT,r/a,40w,Au Molex FFC/FPC SMT Series 0.5mm Pitch 40 Way Right Angle SMT Female FPC Connector, ZIF Top Contact" H 10850 7600 50  0001 L CNN "Description"
+F 5 "" H 10850 7500 50  0001 L CNN "Height"
+F 6 "538-54104-4031" H 10850 7400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-54104-4031" H 10850 7300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 10850 7200 50  0001 L CNN "Manufacturer_Name"
+F 9 "54104-4031" H 10850 7100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10100 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:52271-0679 J?
+U 1 1 5CDBE570
+P 13500 8500
+F 0 "J?" H 13900 8765 50  0000 C CNN
+F 1 "52271-0679" H 13900 8674 50  0000 C CNN
+F 2 "52271-0679" H 14150 8600 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/52271-0679.pdf" H 14150 8500 50  0001 L CNN
+F 4 "6 way r/a bottom FFC ZIF connector,1mm Molex FFC/FPC SMT Series 1mm Pitch 6 Way 1 Row Right Angle SMT Female FPC Connector, Tin Bismuth Alloy Plated Contacts" H 14150 8400 50  0001 L CNN "Description"
+F 5 "" H 14150 8300 50  0001 L CNN "Height"
+F 6 "538-52271-0679" H 14150 8200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=538-52271-0679" H 14150 8100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 14150 8000 50  0001 L CNN "Manufacturer_Name"
+F 9 "52271-0679" H 14150 7900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13500 8500
+	1    0    0    -1  
+$EndComp
+Text GLabel 11100 9200 2    50   Input ~ 0
+LCD_HSYNC
+Text GLabel 10000 9300 0    50   Input ~ 0
+LCD_VSYNC
+Text GLabel 10000 7900 0    50   Input ~ 0
+LCD_R0
+Text GLabel 11100 7900 2    50   Input ~ 0
+LCD_R1
+Text GLabel 10000 8700 0    50   Input ~ 0
+LCD_B0
+Text GLabel 10000 8300 0    50   Input ~ 0
+LCD_G0
+Text GLabel 11100 8300 2    50   Input ~ 0
+LCD_G1
+Text GLabel 10000 9000 0    50   Input ~ 0
+LCD_B6
+Text GLabel 11100 9000 2    50   Input ~ 0
+LCD_B7
+Text GLabel 10000 8400 0    50   Input ~ 0
+LCD_G2
+Text GLabel 11100 8400 2    50   Input ~ 0
+LCD_G3
+Text GLabel 10000 8500 0    50   Input ~ 0
+LCD_G4
+Text GLabel 11100 8500 2    50   Input ~ 0
+LCD_G5
+Text GLabel 10000 8600 0    50   Input ~ 0
+LCD_G6
+Text GLabel 11100 8600 2    50   Input ~ 0
+LCD_G7
+Text GLabel 10000 8000 0    50   Input ~ 0
+LCD_R2
+Text GLabel 11100 8700 2    50   Input ~ 0
+LCD_B1
+Text GLabel 11100 9100 2    50   Input ~ 0
+LCD_CLK
+Text GLabel 11100 9300 2    50   Input ~ 0
+LCD_DE
+Text GLabel 11100 8000 2    50   Input ~ 0
+LCD_R3
+Text GLabel 10000 8100 0    50   Input ~ 0
+LCD_R4
+Text GLabel 11100 8100 2    50   Input ~ 0
+LCD_R5
+Text GLabel 10000 8200 0    50   Input ~ 0
+LCD_R6
+Text GLabel 11100 8200 2    50   Input ~ 0
+LCD_R7
+Text GLabel 10000 8800 0    50   Input ~ 0
+LCD_B2
+Text GLabel 11100 8800 2    50   Input ~ 0
+LCD_B3
+Text GLabel 10000 8900 0    50   Input ~ 0
+LCD_B4
+Text GLabel 11100 8900 2    50   Input ~ 0
+LCD_B5
+$Comp
+L power:GND #PWR?
+U 1 1 5CE294FD
+P 10000 7800
+F 0 "#PWR?" H 10000 7550 50  0001 C CNN
+F 1 "GND" V 10005 7627 50  0000 C CNN
+F 2 "" H 10000 7800 50  0001 C CNN
+F 3 "" H 10000 7800 50  0001 C CNN
+	1    10000 7800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CE38273
+P 10000 9100
+F 0 "#PWR?" H 10000 8850 50  0001 C CNN
+F 1 "GND" V 10005 8927 50  0000 C CNN
+F 2 "" H 10000 9100 50  0001 C CNN
+F 3 "" H 10000 9100 50  0001 C CNN
+	1    10000 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CE46FBF
+P 10000 9400
+F 0 "#PWR?" H 10000 9150 50  0001 C CNN
+F 1 "GND" V 10005 9227 50  0000 C CNN
+F 2 "" H 10000 9400 50  0001 C CNN
+F 3 "" H 10000 9400 50  0001 C CNN
+	1    10000 9400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CE55D0B
+P 11100 9400
+F 0 "#PWR?" H 11100 9150 50  0001 C CNN
+F 1 "GND" V 11105 9227 50  0000 C CNN
+F 2 "" H 11100 9400 50  0001 C CNN
+F 3 "" H 11100 9400 50  0001 C CNN
+	1    11100 9400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11000 7900 11100 7900
+Wire Wire Line
+	11000 8000 11100 8000
+Wire Wire Line
+	11000 8100 11100 8100
+Wire Wire Line
+	11000 8200 11100 8200
+Wire Wire Line
+	11000 8300 11100 8300
+Wire Wire Line
+	11000 8400 11100 8400
+Wire Wire Line
+	11000 8500 11100 8500
+Wire Wire Line
+	11000 8600 11100 8600
+Wire Wire Line
+	11000 8700 11100 8700
+Wire Wire Line
+	11000 8800 11100 8800
+Wire Wire Line
+	11000 8900 11100 8900
+Wire Wire Line
+	11000 9000 11100 9000
+Wire Wire Line
+	11000 9200 11100 9200
+Wire Wire Line
+	11000 9400 11100 9400
+Wire Wire Line
+	10000 9400 10100 9400
+Wire Wire Line
+	10000 9300 10100 9300
+Wire Wire Line
+	10000 9100 10100 9100
+Wire Wire Line
+	10000 9000 10100 9000
+Wire Wire Line
+	10000 8900 10100 8900
+Wire Wire Line
+	10000 8800 10100 8800
+Wire Wire Line
+	10000 8700 10100 8700
+Wire Wire Line
+	10000 8600 10100 8600
+Wire Wire Line
+	10000 8500 10100 8500
+Wire Wire Line
+	10000 8400 10100 8400
+Wire Wire Line
+	10000 8300 10100 8300
+Wire Wire Line
+	10000 8200 10100 8200
+Wire Wire Line
+	10000 8100 10100 8100
+Wire Wire Line
+	10000 8000 10100 8000
+Wire Wire Line
+	10000 7900 10100 7900
+Wire Wire Line
+	10000 7800 10100 7800
+Wire Wire Line
+	11100 9100 11000 9100
+Wire Wire Line
+	11100 9300 11000 9300
+Text GLabel 7450 7150 2    50   Output ~ 0
+LCD_EN
+Wire Wire Line
+	10000 9200 10100 9200
+Text GLabel 10000 7700 0    50   Input ~ 0
+LCD_LED-K
+Text GLabel 11100 7700 2    50   Input ~ 0
+LCD_LED-A
+Wire Wire Line
+	11000 7700 11100 7700
+Wire Wire Line
+	10000 7700 10100 7700
+Wire Wire Line
+	6650 8850 6800 8850
+Wire Wire Line
+	6650 9050 6800 9050
+Wire Wire Line
+	6650 9150 6800 9150
+Wire Wire Line
+	6650 9250 6800 9250
+Wire Wire Line
+	6650 9350 6800 9350
+Wire Wire Line
+	6650 9450 6800 9450
+Wire Wire Line
+	6650 9650 6800 9650
+Wire Wire Line
+	6650 9750 6800 9750
+Wire Wire Line
+	3700 7850 3850 7850
+Wire Wire Line
+	3700 7950 3850 7950
+Wire Wire Line
+	3700 8050 3850 8050
+Wire Wire Line
+	3700 8250 3850 8250
+Wire Wire Line
+	3700 8350 3850 8350
+Wire Wire Line
+	3700 8450 3850 8450
+Wire Wire Line
+	3700 8550 3850 8550
+Wire Wire Line
+	3700 8650 3850 8650
+Wire Wire Line
+	3700 8950 3850 8950
+Wire Wire Line
+	3700 9050 3850 9050
+Wire Wire Line
+	3700 9150 3850 9150
+Wire Wire Line
+	3700 9250 3850 9250
+Wire Wire Line
+	3700 9350 3850 9350
+Wire Wire Line
+	3700 9450 3850 9450
+Wire Wire Line
+	3700 9550 3850 9550
+Wire Wire Line
+	3700 9650 3850 9650
+Wire Wire Line
+	3700 9750 3850 9750
+Wire Wire Line
+	3700 6750 3850 6750
+Wire Wire Line
+	3700 6850 3850 6850
+Wire Wire Line
+	3700 6950 3850 6950
+Wire Wire Line
+	3700 7050 3850 7050
+Wire Wire Line
+	3700 7150 3850 7150
+Wire Wire Line
+	3700 7750 3850 7750
+Wire Wire Line
+	3700 6450 3850 6450
+Wire Wire Line
+	3700 6250 3850 6250
+Wire Wire Line
+	3700 6150 3850 6150
+Wire Wire Line
+	11000 7800 11800 7800
+Wire Wire Line
+	6650 8250 6800 8250
+Wire Wire Line
+	6650 8350 6800 8350
+Wire Wire Line
+	6650 8550 6800 8550
+Wire Wire Line
+	6650 7950 7550 7950
+Wire Wire Line
+	6650 8050 7350 8050
+Text GLabel 10000 9200 0    50   Input ~ 0
+LCD_EN
+Text GLabel 13400 8700 0    50   Output ~ 0
+TOUCH_INT
+Text GLabel 14400 8600 2    50   Input ~ 0
+TOUCH_SDA
+Text GLabel 13400 8600 0    50   Input ~ 0
+TOUCH_SCL
+Text GLabel 14400 8700 2    50   Input ~ 0
+TOUCH_RESET
+$Comp
+L power:GND #PWR?
+U 1 1 5D41825F
+P 14400 8500
+F 0 "#PWR?" H 14400 8250 50  0001 C CNN
+F 1 "GND" V 14405 8327 50  0000 C CNN
+F 2 "" H 14400 8500 50  0001 C CNN
+F 3 "" H 14400 8500 50  0001 C CNN
+	1    14400 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D42B03F
+P 12750 8650
+F 0 "C?" H 12500 8700 50  0000 L CNN
+F 1 "1uF" H 12450 8600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12788 8500 50  0001 C CNN
+F 3 "~" H 12750 8650 50  0001 C CNN
+	1    12750 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D42B046
+P 12750 8800
+F 0 "#PWR?" H 12750 8550 50  0001 C CNN
+F 1 "GND" H 12755 8627 50  0000 C CNN
+F 2 "" H 12750 8800 50  0001 C CNN
+F 3 "" H 12750 8800 50  0001 C CNN
+	1    12750 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 8700 13400 8700
+Wire Wire Line
+	13500 8600 13400 8600
+Wire Wire Line
+	14400 8500 14300 8500
+Wire Wire Line
+	14400 8600 14300 8600
+Wire Wire Line
+	14400 8700 14300 8700
+Wire Wire Line
+	13500 8500 12750 8500
 $EndSCHEMATC

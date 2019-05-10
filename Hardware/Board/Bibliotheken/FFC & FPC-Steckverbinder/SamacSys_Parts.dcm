@@ -25,4 +25,16 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP 54104-4031
+D Connector 0.5mm, FFC/FPC, SMT,r/a,40w,Au Molex FFC/FPC SMT Series 0.5mm Pitch 40 Way Right Angle SMT Female FPC Connector, ZIF Top Contact
+K
+F https://componentsearchengine.com/Datasheets/1/54104-4031.pdf
+$ENDCMP
+#
+$CMP 52271-0679
+D 6 way r/a bottom FFC ZIF connector,1mm Molex FFC/FPC SMT Series 1mm Pitch 6 Way 1 Row Right Angle SMT Female FPC Connector, Tin Bismuth Alloy Plated Contacts
+K
+F https://componentsearchengine.com/Datasheets/1/52271-0679.pdf
+$ENDCMP
+#
 #End Doc Library
