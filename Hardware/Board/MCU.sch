@@ -15,9 +15,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 6800 5750 2    50   Input ~ 0
-RxD-CAN
-Text GLabel 6800 5850 2    50   Input ~ 0
-TxD-CAN
+CAN1_RX
+Text GLabel 6800 5850 2    50   Output ~ 0
+CAN1_TX
 $Comp
 L power:GND #PWR0123
 U 1 1 5C9DF3FA
@@ -103,61 +103,38 @@ Connection ~ 4850 950
 Wire Wire Line
 	5050 950  4950 950 
 Connection ~ 4950 950 
-$Comp
-L Memory_Flash:AT25SF081-XMHD-X U2
-U 1 1 5C9E12E3
-P 11250 1700
-F 0 "U2" H 11891 1746 50  0000 L CNN
-F 1 "AT25SF081-XMHD-X" H 11891 1655 50  0000 L CNN
-F 2 "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" H 11250 1100 50  0001 C CNN
-F 3 "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf" H 11250 1700 50  0001 C CNN
-	1    11250 1700
-	1    0    0    -1  
-$EndComp
 Text GLabel 6800 3550 2    50   Input ~ 0
-RxD-LIN1
-Text GLabel 6800 3450 2    50   Input ~ 0
-TxD-LIN1
+USART2_RX_LIN2
+Text GLabel 6800 3450 2    50   Output ~ 0
+USART2_TX_LIN2
 Text GLabel 6800 6050 2    50   Input ~ 0
-RxD-LIN2
-Text GLabel 6800 5950 2    50   Input ~ 0
-TxD-LIN2
+LPUART_RX_RX485
+Text GLabel 6800 5950 2    50   Output ~ 0
+LPUART_TX_RS485
 Text GLabel 6800 7650 2    50   Input ~ 0
-RxD-LIN3
-Text GLabel 6800 7550 2    50   Input ~ 0
-TxD-LIN3
+USART3_RX_LIN3
+Text GLabel 6800 7550 2    50   Output ~ 0
+USART3_TX_LIN3
 Text GLabel 6800 8450 2    50   Input ~ 0
-RxD-RS485
-Text GLabel 6800 7750 2    50   Input ~ 0
-TxD-RS485
-Text GLabel 2700 7200 0    50   Input ~ 0
-QuadSPI_CLK
-Text GLabel 2700 7300 0    50   Input ~ 0
-QuadSPI_NCS
-Text GLabel 6800 5650 2    50   Input ~ 0
-SDA-1WIRE
-Text GLabel 6800 5550 2    50   Input ~ 0
-SCL-1WIRE
-Text GLabel 2700 7700 0    50   Input ~ 0
-QuadSPI_IO3
-Text GLabel 2700 7600 0    50   Input ~ 0
-QuadSPI_IO2
-Text GLabel 2700 7500 0    50   Input ~ 0
-QuadSPI_IO1
-Text GLabel 2700 7400 0    50   Input ~ 0
-QuadSPI_IO0
-Text GLabel 10550 1900 0    50   Input ~ 0
-QuadSPI_IO3
-Text GLabel 10550 1800 0    50   Input ~ 0
-QuadSPI_IO2
-Text GLabel 10550 1600 0    50   Input ~ 0
-QuadSPI_CLK
-Text GLabel 10550 1700 0    50   Input ~ 0
-QuadSPI_NCS
-Text GLabel 12000 1500 2    50   Input ~ 0
-QuadSPI_IO1
-Text GLabel 10550 1500 0    50   Input ~ 0
-QuadSPI_IO0
+UART5_RX
+Text GLabel 6800 7750 2    50   Output ~ 0
+UART5_TX
+Text GLabel 3700 7550 0    50   Output ~ 0
+OctoSPI_P1_CLK
+Text GLabel 6800 3650 2    50   BiDi ~ 0
+OctoSPI_P1_NCS
+Text GLabel 3700 6050 0    50   BiDi ~ 0
+I2C3_SDA
+Text GLabel 3700 5950 0    50   Output ~ 0
+I2C3_SCL
+Text GLabel 6800 3850 2    50   BiDi ~ 0
+OctoSPI_P1_IO3
+Text GLabel 6800 3950 2    50   BiDi ~ 0
+OctoSPI_P1_IO2
+Text GLabel 6800 4950 2    50   BiDi ~ 0
+OctoSPI_P1_IO1
+Text GLabel 6800 5050 2    50   BiDi ~ 0
+OctoSPI_P1_IO0
 $Comp
 L power:GND #PWR0125
 U 1 1 5C9ECC3B
@@ -342,10 +319,6 @@ Text GLabel 6800 5250 2    50   Input ~ 0
 JTAG_TDO
 Text GLabel 6800 5350 2    50   Input ~ 0
 JTAG_RES
-Wire Wire Line
-	7400 4450 7300 4450
-Wire Wire Line
-	7300 4550 7400 4550
 $Comp
 L Device:Crystal Y2
 U 1 1 5CA1CD9F
@@ -505,12 +478,12 @@ Wire Wire Line
 $Comp
 L Connector:USB_B_Micro J3
 U 1 1 5CA22A0B
-P 13950 3300
-F 0 "J3" H 14005 3767 50  0000 C CNN
-F 1 "USB_B_Micro" H 14005 3676 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 14100 3250 50  0001 C CNN
-F 3 "~" H 14100 3250 50  0001 C CNN
-	1    13950 3300
+P 12150 3250
+F 0 "J3" H 12205 3717 50  0000 C CNN
+F 1 "USB_B_Micro" H 12205 3626 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 12300 3200 50  0001 C CNN
+F 3 "~" H 12300 3200 50  0001 C CNN
+	1    12150 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -527,82 +500,53 @@ $EndComp
 $Comp
 L Power_Protection:SP0504BAJT D3
 U 1 1 5CA2F4B9
-P 14600 3850
-F 0 "D3" H 14905 3896 50  0000 L CNN
-F 1 "SP0504BAJT" H 14905 3805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 14900 3800 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 14725 3975 50  0001 C CNN
-	1    14600 3850
+P 14500 5550
+F 0 "D3" H 14805 5596 50  0000 L CNN
+F 1 "SP0504BAJT" H 14805 5505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 14800 5500 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 14625 5675 50  0001 C CNN
+	1    14500 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 14900 3400 2    50   Input ~ 0
+Text GLabel 13100 4000 0    50   Input ~ 0
 USB_D-
-Text GLabel 14900 3300 2    50   Input ~ 0
+Text GLabel 14100 4000 2    50   Input ~ 0
 USB_D+
-Text GLabel 14900 3500 2    50   Input ~ 0
+Text GLabel 12550 3450 2    50   Input ~ 0
 USB_ID
 $Comp
 L power:GND #PWR0134
 U 1 1 5CA3E241
-P 14600 4050
-F 0 "#PWR0134" H 14600 3800 50  0001 C CNN
-F 1 "GND" H 14605 3877 50  0000 C CNN
-F 2 "" H 14600 4050 50  0001 C CNN
-F 3 "" H 14600 4050 50  0001 C CNN
-	1    14600 4050
+P 14500 5750
+F 0 "#PWR0134" H 14500 5500 50  0001 C CNN
+F 1 "GND" H 14505 5577 50  0000 C CNN
+F 2 "" H 14500 5750 50  0001 C CNN
+F 3 "" H 14500 5750 50  0001 C CNN
+	1    14500 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0135
 U 1 1 5CA40A3E
-P 13950 4050
-F 0 "#PWR0135" H 13950 3800 50  0001 C CNN
-F 1 "GND" H 13955 3877 50  0000 C CNN
-F 2 "" H 13950 4050 50  0001 C CNN
-F 3 "" H 13950 4050 50  0001 C CNN
-	1    13950 4050
+P 12150 3650
+F 0 "#PWR0135" H 12150 3400 50  0001 C CNN
+F 1 "GND" H 12155 3477 50  0000 C CNN
+F 2 "" H 12150 3650 50  0001 C CNN
+F 3 "" H 12150 3650 50  0001 C CNN
+	1    12150 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0136
 U 1 1 5CA431EB
-P 13850 4050
-F 0 "#PWR0136" H 13850 3800 50  0001 C CNN
-F 1 "GND" H 13855 3877 50  0000 C CNN
-F 2 "" H 13850 4050 50  0001 C CNN
-F 3 "" H 13850 4050 50  0001 C CNN
-	1    13850 4050
+P 12050 3650
+F 0 "#PWR0136" H 12050 3400 50  0001 C CNN
+F 1 "GND" H 12055 3477 50  0000 C CNN
+F 2 "" H 12050 3650 50  0001 C CNN
+F 3 "" H 12050 3650 50  0001 C CNN
+	1    12050 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13950 3700 13950 4050
-Wire Wire Line
-	13850 3700 13850 4050
-Wire Wire Line
-	14250 3300 14600 3300
-Wire Wire Line
-	14250 3400 14700 3400
-Wire Wire Line
-	14250 3500 14800 3500
-Wire Wire Line
-	14500 3650 14500 3100
-Wire Wire Line
-	14500 3100 14250 3100
-Wire Wire Line
-	14600 3650 14600 3300
-Connection ~ 14600 3300
-Wire Wire Line
-	14600 3300 14900 3300
-Wire Wire Line
-	14700 3650 14700 3400
-Connection ~ 14700 3400
-Wire Wire Line
-	14700 3400 14900 3400
-Wire Wire Line
-	14800 3650 14800 3500
-Connection ~ 14800 3500
-Wire Wire Line
-	14800 3500 14900 3500
 Text GLabel 15050 1550 2    50   Input ~ 0
 JTAG_TCK
 Text GLabel 15050 1850 2    50   Input ~ 0
@@ -624,12 +568,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0137
 U 1 1 5CA7FBF5
-P 14200 2450
-F 0 "#PWR0137" H 14200 2200 50  0001 C CNN
-F 1 "GND" H 14205 2277 50  0000 C CNN
-F 2 "" H 14200 2450 50  0001 C CNN
-F 3 "" H 14200 2450 50  0001 C CNN
-	1    14200 2450
+P 13600 4400
+F 0 "#PWR0137" H 13600 4150 50  0001 C CNN
+F 1 "GND" H 13605 4227 50  0000 C CNN
+F 2 "" H 13600 4400 50  0001 C CNN
+F 3 "" H 13600 4400 50  0001 C CNN
+	1    13600 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -654,20 +598,12 @@ F 3 "" H 1900 3550 50  0001 C CNN
 	1    1900 3350
 	1    0    0    -1  
 $EndComp
-Text GLabel 10250 5300 0    50   Input ~ 0
-Disp_SCK
-Text GLabel 10250 5400 0    50   Input ~ 0
-Disp_MOSI
 Text GLabel 12800 5300 2    50   Output ~ 0
 Disp_MISO
-Text GLabel 10250 5500 0    50   Output ~ 0
-Disp_INT
 Text GLabel 12800 5400 2    50   Input ~ 0
 Disp_CS
 Text GLabel 12800 5500 2    50   Input ~ 0
 Disp_PD
-Text GLabel 10250 5600 0    50   Input ~ 0
-Disp_Audio_L
 $Comp
 L power:+5VL #PWR0140
 U 1 1 5CA9B38B
@@ -735,31 +671,19 @@ F 3 "" H 12500 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3700 5650 0    50   Output ~ 0
-Disp_MOSI
+SPI1_MOSI
 Text GLabel 3700 5450 0    50   Output ~ 0
-Disp_SCK
+SPI1_SCK
 Text GLabel 3700 5750 0    50   Output ~ 0
-Disp_CS
-Text GLabel 9950 2900 2    50   Input ~ 0
+SPI1_NSS
+Text GLabel 8650 5550 2    50   Input ~ 0
 Disp_PD
 Text GLabel 3700 5550 0    50   Input ~ 0
-Disp_MISO
-Text GLabel 10300 2750 0    50   Output ~ 0
+SPI1_MISO
+Text GLabel 9000 5400 0    50   Output ~ 0
 Disp_INT
 Text GLabel 2100 3650 0    50   Output ~ 0
 PWR_Reset
-Wire Wire Line
-	10550 1500 10650 1500
-Wire Wire Line
-	10550 1600 10650 1600
-Wire Wire Line
-	10550 1700 10650 1700
-Wire Wire Line
-	10550 1800 10650 1800
-Wire Wire Line
-	10550 1900 10650 1900
-Wire Wire Line
-	11850 1500 12000 1500
 Wire Wire Line
 	11250 2200 11250 2300
 $Comp
@@ -819,17 +743,17 @@ F 3 "" H 11800 8100 50  0001 C CNN
 	1    11800 8100
 	1    0    0    -1  
 $EndComp
-Text GLabel 10700 3350 2    50   Input ~ 0
+Text GLabel 8650 4850 2    50   Input ~ 0
 BLE_MOSI
-Text GLabel 10700 3550 2    50   Input ~ 0
+Text GLabel 8650 5050 2    50   Input ~ 0
 BLE_SCK
-Text GLabel 10700 3250 2    50   Output ~ 0
+Text GLabel 8650 4750 2    50   Output ~ 0
 BLE_MISO
-Text GLabel 10700 3450 2    50   Input ~ 0
+Text GLabel 8650 4950 2    50   Input ~ 0
 BLE_REQN
-Text GLabel 10700 3050 2    50   Output ~ 0
+Text GLabel 8650 4550 2    50   Output ~ 0
 BLE_RDNY
-Text GLabel 10700 2950 2    50   Output ~ 0
+Text GLabel 8650 4450 2    50   Output ~ 0
 BLE_Active
 $Comp
 L MCU_ST_STM32L4+:STM32L4R9ZITx U?
@@ -852,9 +776,9 @@ Text GLabel 3700 8550 0    50   Output ~ 0
 LCD_R1
 Text GLabel 3700 8650 0    50   Output ~ 0
 LCD_B0
-Text GLabel 3700 7950 0    50   Output ~ 0
+Text GLabel 3700 8750 0    50   Output ~ 0
 LCD_G0
-Text GLabel 3700 8050 0    50   Output ~ 0
+Text GLabel 3700 8850 0    50   Output ~ 0
 LCD_G1
 Text GLabel 3700 8950 0    50   Output ~ 0
 LCD_B6
@@ -898,7 +822,7 @@ Text GLabel 6800 9750 2    50   Output ~ 0
 LCD_B3
 Text GLabel 3700 7850 0    50   Output ~ 0
 LCD_B1
-Text GLabel 7450 7000 2    50   Input ~ 0
+Text GLabel 7500 7300 2    50   Input ~ 0
 TOUCH_INT
 Text GLabel 6800 3750 2    50   Output ~ 0
 LCD_BL_CTR
@@ -928,27 +852,27 @@ Connection ~ 5650 10150
 Wire Wire Line
 	5650 10150 5750 10150
 Text GLabel 3700 6750 0    50   BiDi ~ 0
-OctoSPI_IO0
+OctoSPI_P2_IO0
 Text GLabel 3700 6850 0    50   BiDi ~ 0
-OctoSPI_IO1
+OctoSPI_P2_IO1
 Text GLabel 3700 7050 0    50   BiDi ~ 0
-OctoSPI_IO3
+OctoSPI_P2_IO3
 Text GLabel 3700 7750 0    50   BiDi ~ 0
-OctoSPI_DQS
+OctoSPI_P2_DQS
 Text GLabel 3700 7150 0    50   BiDi ~ 0
-OctoSPI_CLK
+OctoSPI_P2_CLK
 Text GLabel 3700 6450 0    50   BiDi ~ 0
-OctoSPI_NCS
+OctoSPI_P2_NCS
 Text GLabel 3700 6950 0    50   BiDi ~ 0
-OctoSPI_IO2
+OctoSPI_P2_IO2
 Text GLabel 3700 5250 0    50   BiDi ~ 0
-OctoSPI_IO4
+OctoSPI_P2_IO4
 Text GLabel 3700 5350 0    50   BiDi ~ 0
-OctoSPI_IO5
+OctoSPI_P2_IO5
 Text GLabel 3700 6150 0    50   BiDi ~ 0
-OctoSPI_IO6
+OctoSPI_P2_IO6
 Text GLabel 3700 6250 0    50   BiDi ~ 0
-OctoSPI_IO7
+OctoSPI_P2_IO7
 Wire Wire Line
 	5350 2950 5350 1650
 Wire Wire Line
@@ -1331,12 +1255,12 @@ Connection ~ 6150 2000
 $Comp
 L Power_Protection:USBLC6-2SC6 U?
 U 1 1 5D018138
-P 14800 7250
-F 0 "U?" H 14800 7928 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 14800 7837 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 14050 7650 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 15000 7600 50  0001 C CNN
-	1    14800 7250
+P 13600 3900
+F 0 "U?" H 13900 3500 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 14100 3400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12850 4300 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 13800 4250 50  0001 C CNN
+	1    13600 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1344,12 +1268,12 @@ Wire Wire Line
 $Comp
 L power:+5VL #PWR?
 U 1 1 5CDA48A3
-P 10150 7200
-F 0 "#PWR?" H 10150 7050 50  0001 C CNN
-F 1 "+5VL" H 10165 7373 50  0000 C CNN
-F 2 "" H 10150 7200 50  0001 C CNN
-F 3 "" H 10150 7200 50  0001 C CNN
-	1    10150 7200
+P 11800 7550
+F 0 "#PWR?" H 11800 7400 50  0001 C CNN
+F 1 "+5VL" H 11815 7723 50  0000 C CNN
+F 2 "" H 11800 7550 50  0001 C CNN
+F 3 "" H 11800 7550 50  0001 C CNN
+	1    11800 7550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1550,7 +1474,7 @@ Wire Wire Line
 	11100 9100 11000 9100
 Wire Wire Line
 	11100 9300 11000 9300
-Text GLabel 7450 7150 2    50   Output ~ 0
+Text GLabel 7500 7450 2    50   Output ~ 0
 LCD_EN
 Wire Wire Line
 	10000 9200 10100 9200
@@ -1646,10 +1570,10 @@ Text GLabel 10000 9200 0    50   Input ~ 0
 LCD_EN
 Text GLabel 13400 8700 0    50   Output ~ 0
 TOUCH_INT
-Text GLabel 14400 8600 2    50   Input ~ 0
-TOUCH_SDA
+Text GLabel 14400 8600 2    50   BiDi ~ 0
+I2C2_SDA
 Text GLabel 13400 8600 0    50   Input ~ 0
-TOUCH_SCL
+I2C2_SCL
 Text GLabel 14400 8700 2    50   Input ~ 0
 TOUCH_RESET
 $Comp
@@ -1697,6 +1621,171 @@ Wire Wire Line
 	14400 8700 14300 8700
 Wire Wire Line
 	13500 8500 12750 8500
-Text Notes 13500 8150 0    50   ~ 0
+Text Notes 13450 8050 0    50   ~ 0
 Touchdisplay RGB TFT
+Wire Wire Line
+	3700 5050 3850 5050
+Wire Wire Line
+	3700 5250 3850 5250
+Wire Wire Line
+	3700 5350 3850 5350
+Wire Wire Line
+	3700 5450 3850 5450
+Wire Wire Line
+	3700 5550 3850 5550
+Wire Wire Line
+	3700 5650 3850 5650
+Wire Wire Line
+	3700 5750 3850 5750
+Wire Wire Line
+	6800 5250 6650 5250
+Wire Wire Line
+	6800 5350 6650 5350
+Wire Wire Line
+	6800 5550 6650 5550
+Wire Wire Line
+	6800 5650 6650 5650
+Wire Wire Line
+	6800 5750 6650 5750
+Wire Wire Line
+	6800 5850 6650 5850
+Wire Wire Line
+	6800 5950 6650 5950
+Wire Wire Line
+	6800 6050 6650 6050
+Wire Wire Line
+	6800 4750 6650 4750
+Wire Wire Line
+	6800 4650 6650 4650
+Wire Wire Line
+	7250 4450 7250 4550
+Wire Wire Line
+	7250 4550 6650 4550
+Wire Wire Line
+	7250 4450 7400 4450
+Wire Wire Line
+	7250 4550 7400 4550
+Connection ~ 7250 4550
+Wire Wire Line
+	6800 4450 6650 4450
+Wire Wire Line
+	6800 4350 6650 4350
+Wire Wire Line
+	6800 4250 6650 4250
+Wire Wire Line
+	6800 4050 6650 4050
+Wire Wire Line
+	6800 3750 6650 3750
+Wire Wire Line
+	6800 3550 6650 3550
+Wire Wire Line
+	6800 3450 6650 3450
+Text GLabel 6800 7050 2    50   BiDi ~ 0
+OctoSPI_P1_IO7
+Text GLabel 6800 6950 2    50   BiDi ~ 0
+OctoSPI_P1_IO6
+Text GLabel 6800 6850 2    50   BiDi ~ 0
+OctoSPI_P1_IO5
+Text GLabel 6800 6750 2    50   BiDi ~ 0
+OctoSPI_P1_IO4
+Text GLabel 3700 5850 0    50   BiDi ~ 0
+OctoSPI_P1_DQS
+Wire Wire Line
+	3700 5850 3850 5850
+Wire Wire Line
+	3700 7550 3850 7550
+Wire Wire Line
+	6800 6750 6650 6750
+Wire Wire Line
+	6800 6850 6650 6850
+Wire Wire Line
+	6800 6950 6650 6950
+Wire Wire Line
+	6800 7050 6650 7050
+Wire Wire Line
+	6800 7550 6650 7550
+Wire Wire Line
+	6800 7650 6650 7650
+Wire Wire Line
+	6800 7750 6650 7750
+Wire Wire Line
+	6800 8450 6650 8450
+Wire Wire Line
+	2950 2800 2950 2850
+Wire Wire Line
+	6800 4950 6650 4950
+Wire Wire Line
+	6800 5050 6650 5050
+Wire Wire Line
+	6800 3650 6650 3650
+Wire Wire Line
+	6800 3850 6650 3850
+Wire Wire Line
+	6800 3950 6650 3950
+Wire Wire Line
+	13600 3050 13600 3400
+Wire Wire Line
+	13100 3350 13100 3800
+Wire Wire Line
+	12450 3350 13100 3350
+Wire Wire Line
+	12450 3250 14100 3250
+Wire Wire Line
+	14100 3250 14100 3800
+Wire Wire Line
+	12450 3050 13600 3050
+Wire Wire Line
+	12550 3450 12450 3450
+Text GLabel 6800 6150 2    50   Output ~ 0
+LPUART_RTS_DE_RS485
+Text GLabel 9050 3600 0    50   Input ~ 0
+STB-CAN
+Text GLabel 9050 3800 0    50   Input ~ 0
+SLP-LIN1
+Text GLabel 9050 4050 0    50   Input ~ 0
+SLP-LIN2
+Text GLabel 9050 4250 0    50   Input ~ 0
+SLP-LIN3
+Text GLabel 9500 3600 2    50   Input ~ 0
+ESP_Boot
+Text GLabel 9500 3700 2    50   Output ~ 0
+ESP_TxD
+Text GLabel 9500 3900 2    50   Input ~ 0
+ESP_RxD
+Text GLabel 10000 4150 0    50   Input ~ 0
+ESP_Reset
+Text GLabel 10000 4350 0    50   Input ~ 0
+ESP_Enable
+Text GLabel 6800 6350 2    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 6800 6250 2    50   Output ~ 0
+I2C2_SCL
+Wire Wire Line
+	6800 6250 6650 6250
+Wire Wire Line
+	6800 6350 6650 6350
+Text GLabel 6800 5650 2    50   Input ~ 0
+USART1_RX_LIN1
+Text GLabel 6800 5550 2    50   Output ~ 0
+USART1_TX_LIN1
+Wire Wire Line
+	3700 5950 3850 5950
+Wire Wire Line
+	3700 6050 3850 6050
+Text GLabel 6800 3250 2    50   Output ~ 0
+UART4_TX
+Text GLabel 6800 3350 2    50   Input ~ 0
+UART4_RX
+Wire Wire Line
+	6650 3250 6800 3250
+Wire Wire Line
+	6650 3350 6800 3350
+Wire Wire Line
+	3700 8750 3850 8750
+Wire Wire Line
+	3700 8850 3850 8850
+Text GLabel 3700 8050 0    50   BiDi ~ 0
+I2C4_SDA
+Text GLabel 3700 7950 0    50   Output ~ 0
+I2C4_SCL
 $EndSCHEMATC

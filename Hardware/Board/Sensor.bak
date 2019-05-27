@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -25,10 +25,10 @@ F 3 "" H 950 2900 60  0000 C CNN
 	1    1750 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 2750 1900 2    50   Input ~ 0
-SDA-1Wire
+Text GLabel 2750 1900 2    50   BiDi ~ 0
+I2C1_SDA
 Text GLabel 2750 2900 2    50   Input ~ 0
-SCL-1Wire
+I2C1_SCL
 $Comp
 L power:+3.3VA #PWR0235
 U 1 1 5C9E4481
