@@ -52,14 +52,14 @@ Text Notes 1300 1600 0    50   ~ 0
 5V 1A Sensors
 Text Notes 1300 1750 0    50   ~ 0
 5V 3A Raspberry PI3B
-Text Notes 1300 1950 0    50   ~ 0
+Text Notes 1300 1900 0    50   ~ 0
 5V 1A Display
 Text Notes 3800 1350 0    50   ~ 0
-STM32L475 Cortex M4\n
+STM32L4R9 Cortex M4\n
 Text Notes 3800 1500 0    50   ~ 0
-8 Mbyte Quad SPI Flash\n
+Octo SPI Flash + RAM\n
 Text Notes 3800 1650 0    50   ~ 0
-FTDI EVE Display connection\n
+8 Bit TFT RGB Display connection\n
 Text Notes 6100 1350 0    50   ~ 0
 3 x LIN Bus TJA1029\n
 Text Notes 6100 1500 0    50   ~ 0
@@ -82,4 +82,6 @@ U 5C8BBC94
 F0 "Main Controller" 50
 F1 "MCU.sch" 50
 $EndSheet
+Text Notes 1300 2050 0    50   ~ 0
+Backlight LED DC/DC
 $EndSCHEMATC

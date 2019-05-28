@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+#End Doc Library
