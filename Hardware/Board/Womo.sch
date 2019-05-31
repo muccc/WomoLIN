@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -84,4 +84,6 @@ F1 "MCU.sch" 50
 $EndSheet
 Text Notes 1300 2050 0    50   ~ 0
 Backlight LED DC/DC
+Text Notes 6100 1800 0    50   ~ 0
+I2C Power Managment
 $EndSCHEMATC

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -167,12 +167,6 @@ F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manua
 	1    7950 2750
 	1    0    0    -1  
 $EndComp
-Text GLabel 8900 2150 2    50   Input ~ 0
-ESP_Boot
-Text GLabel 8900 2250 2    50   Output ~ 0
-ESP_TxD
-Text GLabel 8900 2450 2    50   Input ~ 0
-ESP_RxD
 Text GLabel 7150 2150 0    50   Input ~ 0
 ESP_Reset
 Text GLabel 7150 2350 0    50   Input ~ 0
@@ -215,8 +209,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 2350 7350 2350
 Wire Wire Line
-	8550 2150 8900 2150
-Wire Wire Line
 	7950 1950 7950 1350
 Wire Wire Line
 	7950 1350 8400 1350
@@ -232,11 +224,11 @@ F 3 "https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/" H 8000 5200 50  00
 	1    0    0    -1  
 $EndComp
 Text GLabel 8650 5300 2    50   Input ~ 0
-BLE_MOSI
+SPI1_MOSI
 Text GLabel 8650 5500 2    50   Input ~ 0
-BLE_SCK
+SPI1_SCK
 Text GLabel 8650 5200 2    50   Output ~ 0
-BLE_MISO
+SPI1_MISO
 $Comp
 L power:GND #PWR0249
 U 1 1 5CDFE14F
@@ -279,9 +271,9 @@ Wire Wire Line
 NoConn ~ 7450 5300
 NoConn ~ 7450 5400
 Text GLabel 8650 5400 2    50   Input ~ 0
-BLE_REQN
+SPI1_NSS
 Text GLabel 8650 5000 2    50   Output ~ 0
-BLE_RDNY
+BLE_INT
 Text GLabel 8650 4900 2    50   Output ~ 0
 BLE_Active
 Text GLabel 7250 5000 0    50   Input ~ 0
@@ -300,4 +292,64 @@ Wire Wire Line
 	8450 5400 8650 5400
 Wire Wire Line
 	8450 5500 8650 5500
+Text GLabel 8700 2450 2    50   Output ~ 0
+UART5_TX
+Text GLabel 3500 2500 0    50   Input ~ 0
+UART4_TX
+Text GLabel 3500 2400 0    50   Output ~ 0
+UART4_RX
+Text GLabel 8700 2250 2    50   Output ~ 0
+UART5_RX
+Text GLabel 8700 2150 2    50   Input ~ 0
+ESP_Boot
+Wire Wire Line
+	8700 2150 8550 2150
+Wire Wire Line
+	8700 2250 8550 2250
+Wire Wire Line
+	8700 2450 8550 2450
+Wire Wire Line
+	3600 2400 3500 2400
+Wire Wire Line
+	3600 2500 3500 2500
+Text GLabel 5300 2400 2    50   Input ~ 0
+Rasp_Shutdown
+Text GLabel 5300 2500 2    50   Output ~ 0
+Rasp_down
+Wire Wire Line
+	5300 2400 5200 2400
+Wire Wire Line
+	5300 2500 5200 2500
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5D4E449C
+P 7950 4100
+AR Path="/5C8BBC9A/5D4E449C" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5D4E449C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7950 3950 50  0001 C CNN
+F 1 "+3.3VA" H 7965 4273 50  0000 C CNN
+F 2 "" H 7950 4100 50  0001 C CNN
+F 3 "" H 7950 4100 50  0001 C CNN
+	1    7950 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4100 7950 4200
+Connection ~ 7950 4200
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5D4E6269
+P 7950 1250
+AR Path="/5C8BBC9A/5D4E6269" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5D4E6269" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7950 1100 50  0001 C CNN
+F 1 "+3.3VA" H 7965 1423 50  0000 C CNN
+F 2 "" H 7950 1250 50  0001 C CNN
+F 3 "" H 7950 1250 50  0001 C CNN
+	1    7950 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1250 7950 1350
+Connection ~ 7950 1350
 $EndSCHEMATC

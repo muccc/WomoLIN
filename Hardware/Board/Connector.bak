@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L WAGO~Klemmleisten:WAGO_Klemmleiste_4-pol J8
+L Womo-rescue:WAGO_Klemmleiste_4-pol-WAGO_Klemmleisten J8
 U 1 1 5CB5F9FC
 P 1900 950
 F 0 "J8" H 1979 942 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "~" H 1900 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WAGO~Klemmleisten:WAGO_Klemmleiste_8-pol J9
+L Womo-rescue:WAGO_Klemmleiste_8-pol-WAGO_Klemmleisten J9
 U 1 1 5CB5FBA8
 P 1900 2050
 F 0 "J9" H 1979 2042 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "~" H 1900 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WAGO~Klemmleisten:WAGO_Klemmleiste_8-pol J10
+L Womo-rescue:WAGO_Klemmleiste_8-pol-WAGO_Klemmleisten J10
 U 1 1 5CB5FC2E
 P 1900 3450
 F 0 "J10" H 1979 3442 50  0000 L CNN
@@ -193,7 +193,7 @@ F 3 "~" V 2050 6925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L WAGO~Klemmleisten:WAGO_Klemmleiste_6-pol J7
+L Womo-rescue:WAGO_Klemmleiste_6-pol-WAGO_Klemmleisten J7
 U 1 1 5CBD1756
 P 1850 5700
 F 0 "J7" H 1929 5692 50  0000 L CNN
@@ -346,7 +346,7 @@ Wire Notes Line
 Wire Notes Line
 	700  600  700  1450
 $Comp
-L WAGO~Klemmleisten:WAGO_Klemmleiste_6-pol J13
+L Womo-rescue:WAGO_Klemmleiste_6-pol-WAGO_Klemmleisten J13
 U 1 1 5CBE3A31
 P 5250 1050
 F 0 "J13" H 5329 1042 50  0000 L CNN

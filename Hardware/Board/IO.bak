@@ -1,8 +1,8 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 2 7
 Title ""
@@ -113,17 +113,17 @@ F 3 "" H 8700 4450 50  0001 C CNN
 	1    8700 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 1900 0    50   Input ~ 0
+Text GLabel 1450 2000 0    50   Input ~ 0
 USART1_TX_LIN1
-Text GLabel 1450 2000 0    50   Output ~ 0
+Text GLabel 1450 1900 0    50   Output ~ 0
 USART1_RX_LIN1
-Text GLabel 1450 3850 0    50   Input ~ 0
+Text GLabel 1450 3950 0    50   Input ~ 0
 USART2_TX_LIN2
-Text GLabel 1450 3950 0    50   Output ~ 0
+Text GLabel 1450 3850 0    50   Output ~ 0
 USART2_RX_LIN2
-Text GLabel 1450 5700 0    50   Input ~ 0
+Text GLabel 1450 5800 0    50   Input ~ 0
 USART3_TX_LIN3
-Text GLabel 1450 5800 0    50   Output ~ 0
+Text GLabel 1450 5700 0    50   Output ~ 0
 USART3_RX_LIN3
 Text GLabel 5400 1850 0    50   Input ~ 0
 CAN1_TX
@@ -196,32 +196,11 @@ F 3 "~" H 1700 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1900 1850 1900
+	1450 1900 1700 1900
 Wire Wire Line
-	1450 2000 1700 2000
+	1450 3850 1700 3850
 Wire Wire Line
-	1700 1700 1700 2000
-Connection ~ 1700 2000
-Wire Wire Line
-	1700 2000 1850 2000
-Wire Wire Line
-	1450 3850 1850 3850
-Wire Wire Line
-	1450 3950 1700 3950
-Wire Wire Line
-	1700 3650 1700 3950
-Connection ~ 1700 3950
-Wire Wire Line
-	1700 3950 1850 3950
-Wire Wire Line
-	1850 5700 1450 5700
-Wire Wire Line
-	1850 5800 1700 5800
-Wire Wire Line
-	1700 5500 1700 5800
-Connection ~ 1700 5800
-Wire Wire Line
-	1700 5800 1450 5800
+	1850 5700 1700 5700
 $Comp
 L power:+3.3V #PWR0105
 U 1 1 5C9B766A
@@ -968,12 +947,12 @@ $EndComp
 $Comp
 L power:GND #PWR0153
 U 1 1 5CA67402
-P 3800 6450
-F 0 "#PWR0153" H 3800 6200 50  0001 C CNN
-F 1 "GND" H 3805 6277 50  0000 C CNN
-F 2 "" H 3800 6450 50  0001 C CNN
-F 3 "" H 3800 6450 50  0001 C CNN
-	1    3800 6450
+P 7200 7400
+F 0 "#PWR0153" H 7200 7150 50  0001 C CNN
+F 1 "GND" H 7205 7227 50  0000 C CNN
+F 2 "" H 7200 7400 50  0001 C CNN
+F 3 "" H 7200 7400 50  0001 C CNN
+	1    7200 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1144,4 +1123,206 @@ Wire Wire Line
 Connection ~ 5900 4200
 Wire Wire Line
 	5900 4200 6200 4200
+Wire Wire Line
+	1450 2000 1850 2000
+Wire Wire Line
+	1700 1700 1700 1900
+Connection ~ 1700 1900
+Wire Wire Line
+	1700 1900 1850 1900
+Wire Wire Line
+	1450 3950 1850 3950
+Wire Wire Line
+	1700 3650 1700 3850
+Connection ~ 1700 3850
+Wire Wire Line
+	1700 3850 1850 3850
+Wire Wire Line
+	1450 5800 1850 5800
+Wire Wire Line
+	1700 5500 1700 5700
+Connection ~ 1700 5700
+Wire Wire Line
+	1700 5700 1450 5700
+Text GLabel 5650 6300 0    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 5650 6200 0    50   Input ~ 0
+I2C2_SCL
+$Comp
+L Interface_Expansion:PCF8574A U?
+U 1 1 5CF888F7
+P 7200 6600
+F 0 "U?" H 6750 7350 50  0000 C CNN
+F 1 "PCF8574A" H 6850 7250 50  0000 C CNN
+F 2 "" H 7200 6600 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 7200 6600 50  0001 C CNN
+	1    7200 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 6200 2    50   Output ~ 0
+SLP-LIN1
+Text GLabel 7850 6300 2    50   Output ~ 0
+SLP-LIN2
+Text GLabel 7850 6400 2    50   Output ~ 0
+SLP-LIN3
+Text GLabel 7850 6500 2    50   Output ~ 0
+STB-CAN
+Wire Wire Line
+	7700 6500 7850 6500
+Wire Wire Line
+	7700 6400 7850 6400
+Wire Wire Line
+	7700 6300 7850 6300
+Wire Wire Line
+	7700 6200 7850 6200
+$Comp
+L power:GND #PWR?
+U 1 1 5CFC8198
+P 6350 6750
+F 0 "#PWR?" H 6350 6500 50  0001 C CNN
+F 1 "GND" H 6355 6577 50  0000 C CNN
+F 2 "" H 6350 6750 50  0001 C CNN
+F 3 "" H 6350 6750 50  0001 C CNN
+	1    6350 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6600 6350 6700
+Connection ~ 6350 6700
+Wire Wire Line
+	6350 6700 6350 6750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CFDD90C
+P 7200 5650
+F 0 "#PWR?" H 7200 5500 50  0001 C CNN
+F 1 "+3.3V" H 7215 5823 50  0000 C CNN
+F 2 "" H 7200 5650 50  0001 C CNN
+F 3 "" H 7200 5650 50  0001 C CNN
+	1    7200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CFE3BF0
+P 7450 5750
+F 0 "C?" V 7198 5750 50  0000 C CNN
+F 1 "100nF" V 7289 5750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7488 5600 50  0001 C CNN
+F 3 "~" H 7450 5750 50  0001 C CNN
+	1    7450 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CFE91D8
+P 7900 5800
+F 0 "#PWR?" H 7900 5550 50  0001 C CNN
+F 1 "GND" H 7905 5627 50  0000 C CNN
+F 2 "" H 7900 5800 50  0001 C CNN
+F 3 "" H 7900 5800 50  0001 C CNN
+	1    7900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5650 7200 5750
+Wire Wire Line
+	7300 5750 7200 5750
+Connection ~ 7200 5750
+Wire Wire Line
+	7200 5750 7200 5900
+Wire Wire Line
+	7900 5750 7900 5800
+Wire Wire Line
+	7600 5750 7900 5750
+$Comp
+L Device:R R?
+U 1 1 5D005AC4
+P 6150 5900
+F 0 "R?" H 6220 5946 50  0000 L CNN
+F 1 "10K" H 6220 5855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 5900 50  0001 C CNN
+F 3 "~" H 6150 5900 50  0001 C CNN
+	1    6150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D005ACA
+P 6150 5650
+F 0 "#PWR?" H 6150 5500 50  0001 C CNN
+F 1 "+3.3V" H 6165 5823 50  0000 C CNN
+F 2 "" H 6150 5650 50  0001 C CNN
+F 3 "" H 6150 5650 50  0001 C CNN
+	1    6150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5750 6150 5650
+$Comp
+L Device:R R?
+U 1 1 5D00C9F0
+P 5850 5900
+F 0 "R?" H 5920 5946 50  0000 L CNN
+F 1 "10K" H 5920 5855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5780 5900 50  0001 C CNN
+F 3 "~" H 5850 5900 50  0001 C CNN
+	1    5850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D00C9F6
+P 5850 5650
+F 0 "#PWR?" H 5850 5500 50  0001 C CNN
+F 1 "+3.3V" H 5865 5823 50  0000 C CNN
+F 2 "" H 5850 5650 50  0001 C CNN
+F 3 "" H 5850 5650 50  0001 C CNN
+	1    5850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5750 5850 5650
+Wire Wire Line
+	5650 6200 5850 6200
+Wire Wire Line
+	5650 6300 6150 6300
+Wire Wire Line
+	5850 6050 5850 6200
+Connection ~ 5850 6200
+Wire Wire Line
+	5850 6200 6700 6200
+Wire Wire Line
+	6150 6050 6150 6300
+Connection ~ 6150 6300
+Wire Wire Line
+	6150 6300 6700 6300
+Wire Wire Line
+	7200 7300 7200 7400
+Text GLabel 7850 6900 2    50   Output ~ 0
+VSW_Disp_EN
+Text GLabel 7850 6800 2    50   Output ~ 0
+5V_Raspi_EN
+Text GLabel 7850 6700 2    50   Output ~ 0
+3VA_EN
+Text GLabel 7850 6600 2    50   Output ~ 0
+5V_EN
+Wire Wire Line
+	7850 6600 7700 6600
+Wire Wire Line
+	7850 6700 7700 6700
+Wire Wire Line
+	7850 6800 7700 6800
+Wire Wire Line
+	7850 6900 7700 6900
+Wire Wire Line
+	6350 6600 6700 6600
+Wire Wire Line
+	6350 6700 6700 6700
+Wire Wire Line
+	6700 6500 6450 6500
+Wire Wire Line
+	6450 6500 6450 5750
+Wire Wire Line
+	6450 5750 7200 5750
 $EndSCHEMATC

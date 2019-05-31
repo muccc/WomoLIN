@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -111,10 +111,6 @@ Text GLabel 6800 6050 2    50   Input ~ 0
 LPUART_RX_RX485
 Text GLabel 6800 5950 2    50   Output ~ 0
 LPUART_TX_RS485
-Text GLabel 6800 7650 2    50   Input ~ 0
-USART3_RX_LIN3
-Text GLabel 6800 7550 2    50   Output ~ 0
-USART3_TX_LIN3
 Text GLabel 6800 8450 2    50   Input ~ 0
 UART5_RX
 Text GLabel 6800 7750 2    50   Output ~ 0
@@ -309,17 +305,6 @@ JTAG_TDO
 Text GLabel 6800 5350 2    50   Input ~ 0
 JTAG_RES
 $Comp
-L Device:Crystal Y2
-U 1 1 5CA1CD9F
-P 7550 8100
-F 0 "Y2" V 7504 8231 50  0000 L CNN
-F 1 "32.768" V 7595 8231 50  0000 L CNN
-F 2 "" H 7550 8100 50  0001 C CNN
-F 3 "~" H 7550 8100 50  0001 C CNN
-	1    7550 8100
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Crystal Y1
 U 1 1 5CA1CF07
 P 3450 4800
@@ -330,36 +315,8 @@ F 3 "~" H 3450 4800 50  0001 C CNN
 	1    3450 4800
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:C C12
-U 1 1 5CA1D026
-P 8100 7950
-F 0 "C12" V 7848 7950 50  0000 C CNN
-F 1 "3p3" V 7939 7950 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8138 7800 50  0001 C CNN
-F 3 "~" H 8100 7950 50  0001 C CNN
-	1    8100 7950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 5CA1D165
-P 8100 8250
-F 0 "C13" V 7848 8250 50  0000 C CNN
-F 1 "3p3" V 7939 8250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8138 8100 50  0001 C CNN
-F 3 "~" H 8100 8250 50  0001 C CNN
-	1    8100 8250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7950 7950 7550 7950
-Connection ~ 7550 7950
 Wire Wire Line
 	7350 8050 7350 8250
-Connection ~ 7550 8250
-Wire Wire Line
-	7550 8250 7950 8250
 $Comp
 L power:GND #PWR0131
 U 1 1 5CA22D9A
@@ -371,12 +328,6 @@ F 3 "" H 2550 5100 50  0001 C CNN
 	1    2550 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 7950 8400 7950
-Wire Wire Line
-	8400 7950 8400 8250
-Wire Wire Line
-	8250 8250 8400 8250
 Wire Wire Line
 	2550 4950 2550 5100
 $Comp
@@ -451,28 +402,14 @@ $EndComp
 Wire Wire Line
 	2550 3600 2550 3650
 $Comp
-L power:GND #PWR0133
-U 1 1 5CA43499
-P 8400 8400
-F 0 "#PWR0133" H 8400 8150 50  0001 C CNN
-F 1 "GND" H 8405 8227 50  0000 C CNN
-F 2 "" H 8400 8400 50  0001 C CNN
-F 3 "" H 8400 8400 50  0001 C CNN
-	1    8400 8400
-	1    0    0    -1  
-$EndComp
-Connection ~ 8400 8250
-Wire Wire Line
-	8400 8250 8400 8400
-$Comp
 L Connector:USB_B_Micro J3
 U 1 1 5CA22A0B
-P 13050 5450
-F 0 "J3" H 13105 5917 50  0000 C CNN
-F 1 "USB_B_Micro" H 13105 5826 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 13200 5400 50  0001 C CNN
-F 3 "~" H 13200 5400 50  0001 C CNN
-	1    13050 5450
+P 9600 5600
+F 0 "J3" H 9655 6067 50  0000 C CNN
+F 1 "USB_B_Micro" H 9655 5976 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 9750 5550 50  0001 C CNN
+F 3 "~" H 9750 5550 50  0001 C CNN
+	1    9600 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -486,65 +423,43 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_d
 	1    13700 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power_Protection:SP0504BAJT D3
-U 1 1 5CA2F4B9
-P 11100 5000
-F 0 "D3" H 11405 5046 50  0000 L CNN
-F 1 "SP0504BAJT" H 11405 4955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 11400 4950 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 11225 5125 50  0001 C CNN
-	1    11100 5000
-	1    0    0    -1  
-$EndComp
-Text GLabel 14000 6200 0    50   Input ~ 0
+Text GLabel 10550 6350 0    50   Input ~ 0
 USB_D-
-Text GLabel 15000 6200 2    50   Input ~ 0
+Text GLabel 11550 6350 2    50   Input ~ 0
 USB_D+
-Text GLabel 13450 5650 2    50   Input ~ 0
+Text GLabel 10000 5800 2    50   Input ~ 0
 USB_ID
-$Comp
-L power:GND #PWR0134
-U 1 1 5CA3E241
-P 11100 5200
-F 0 "#PWR0134" H 11100 4950 50  0001 C CNN
-F 1 "GND" H 11105 5027 50  0000 C CNN
-F 2 "" H 11100 5200 50  0001 C CNN
-F 3 "" H 11100 5200 50  0001 C CNN
-	1    11100 5200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0135
 U 1 1 5CA40A3E
-P 13050 5850
-F 0 "#PWR0135" H 13050 5600 50  0001 C CNN
-F 1 "GND" H 13055 5677 50  0000 C CNN
-F 2 "" H 13050 5850 50  0001 C CNN
-F 3 "" H 13050 5850 50  0001 C CNN
-	1    13050 5850
+P 9600 6000
+F 0 "#PWR0135" H 9600 5750 50  0001 C CNN
+F 1 "GND" H 9605 5827 50  0000 C CNN
+F 2 "" H 9600 6000 50  0001 C CNN
+F 3 "" H 9600 6000 50  0001 C CNN
+	1    9600 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0136
 U 1 1 5CA431EB
-P 12950 5850
-F 0 "#PWR0136" H 12950 5600 50  0001 C CNN
-F 1 "GND" H 12955 5677 50  0000 C CNN
-F 2 "" H 12950 5850 50  0001 C CNN
-F 3 "" H 12950 5850 50  0001 C CNN
-	1    12950 5850
+P 9500 6000
+F 0 "#PWR0136" H 9500 5750 50  0001 C CNN
+F 1 "GND" H 9505 5827 50  0000 C CNN
+F 2 "" H 9500 6000 50  0001 C CNN
+F 3 "" H 9500 6000 50  0001 C CNN
+	1    9500 6000
 	1    0    0    -1  
 $EndComp
-Text GLabel 14450 3500 2    50   Input ~ 0
+Text GLabel 14450 3500 2    50   Output ~ 0
 JTAG_TCK
-Text GLabel 14450 3800 2    50   Input ~ 0
+Text GLabel 14450 3800 2    50   Output ~ 0
 JTAG_TDI
-Text GLabel 14450 3700 2    50   Input ~ 0
+Text GLabel 14450 3700 2    50   Output ~ 0
 JTAG_TDO
-Text GLabel 14450 3100 2    50   Input ~ 0
+Text GLabel 14450 3100 2    50   Output ~ 0
 JTAG_RES
-Text GLabel 14450 3600 2    50   Input ~ 0
+Text GLabel 14450 3600 2    50   Output ~ 0
 JTAG_TMS
 Wire Wire Line
 	14300 3500 14450 3500
@@ -557,12 +472,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0137
 U 1 1 5CA7FBF5
-P 14500 6600
-F 0 "#PWR0137" H 14500 6350 50  0001 C CNN
-F 1 "GND" H 14505 6427 50  0000 C CNN
-F 2 "" H 14500 6600 50  0001 C CNN
-F 3 "" H 14500 6600 50  0001 C CNN
-	1    14500 6600
+P 11050 6750
+F 0 "#PWR0137" H 11050 6500 50  0001 C CNN
+F 1 "GND" H 11055 6577 50  0000 C CNN
+F 2 "" H 11050 6750 50  0001 C CNN
+F 3 "" H 11050 6750 50  0001 C CNN
+	1    11050 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -588,17 +503,6 @@ F 3 "" H 1900 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5VL #PWR0140
-U 1 1 5CA9B38B
-P 10650 4600
-F 0 "#PWR0140" H 10650 4450 50  0001 C CNN
-F 1 "+5VL" H 10665 4773 50  0000 C CNN
-F 2 "" H 10650 4600 50  0001 C CNN
-F 3 "" H 10650 4600 50  0001 C CNN
-	1    10650 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C15
 U 1 1 5CA9B7A9
 P 11800 7950
@@ -609,63 +513,17 @@ F 3 "~" H 11800 7950 50  0001 C CNN
 	1    11800 7950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power_Protection:SP0504BAJT D1
-U 1 1 5CAADD43
-P 10500 5950
-F 0 "D1" H 9800 5950 50  0000 L CNN
-F 1 "SP0504BAJT" H 9750 5850 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 10800 5900 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10625 6075 50  0001 C CNN
-	1    10500 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0141
-U 1 1 5CAADD4A
-P 10500 6150
-F 0 "#PWR0141" H 10500 5900 50  0001 C CNN
-F 1 "GND" H 10505 5977 50  0000 C CNN
-F 2 "" H 10500 6150 50  0001 C CNN
-F 3 "" H 10500 6150 50  0001 C CNN
-	1    10500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power_Protection:SP0504BAJT D2
-U 1 1 5CAB197E
-P 10500 3350
-F 0 "D2" H 10805 3396 50  0000 L CNN
-F 1 "SP0504BAJT" H 10805 3305 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 10800 3300 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 10625 3475 50  0001 C CNN
-	1    10500 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0142
-U 1 1 5CAB1985
-P 10500 3550
-F 0 "#PWR0142" H 10500 3300 50  0001 C CNN
-F 1 "GND" H 10505 3377 50  0000 C CNN
-F 2 "" H 10500 3550 50  0001 C CNN
-F 3 "" H 10500 3550 50  0001 C CNN
-	1    10500 3550
-	1    0    0    -1  
-$EndComp
 Text GLabel 3700 5650 0    50   Output ~ 0
 SPI1_MOSI
 Text GLabel 3700 5450 0    50   Output ~ 0
 SPI1_SCK
 Text GLabel 3700 5750 0    50   Output ~ 0
 SPI1_NSS
-Text GLabel 8650 5550 2    50   Input ~ 0
-Disp_PD
 Text GLabel 3700 5550 0    50   Input ~ 0
 SPI1_MISO
-Text GLabel 9000 5400 0    50   Output ~ 0
+Text GLabel 6800 7450 2    50   Input ~ 0
 LCD_INT
-Text GLabel 2100 3650 0    50   Output ~ 0
+Text GLabel 2100 3650 0    50   Input ~ 0
 PWR_Reset
 Wire Wire Line
 	14450 2150 14450 2250
@@ -693,17 +551,9 @@ F 3 "" H 11800 8100 50  0001 C CNN
 	1    11800 8100
 	1    0    0    -1  
 $EndComp
-Text GLabel 8650 4850 2    50   Input ~ 0
-BLE_MOSI
-Text GLabel 8650 5050 2    50   Input ~ 0
-BLE_SCK
-Text GLabel 8650 4750 2    50   Output ~ 0
-BLE_MISO
-Text GLabel 8650 4950 2    50   Input ~ 0
-BLE_REQN
-Text GLabel 8650 4550 2    50   Output ~ 0
-BLE_RDNY
-Text GLabel 8650 4450 2    50   Output ~ 0
+Text GLabel 3700 6350 0    50   Input ~ 0
+BLE_INT
+Text GLabel 3700 6550 0    50   Input ~ 0
 BLE_Active
 $Comp
 L MCU_ST_STM32L4+:STM32L4R9ZITx U?
@@ -772,7 +622,7 @@ Text GLabel 6800 9750 2    50   Output ~ 0
 LCD_B3
 Text GLabel 3700 7850 0    50   Output ~ 0
 LCD_B1
-Text GLabel 7500 7300 2    50   Input ~ 0
+Text GLabel 6800 7350 2    50   Input ~ 0
 TOUCH_INT
 Text GLabel 6800 3750 2    50   Output ~ 0
 LCD_BL_CTR
@@ -1205,18 +1055,16 @@ Connection ~ 6150 2000
 $Comp
 L Power_Protection:USBLC6-2SC6 U?
 U 1 1 5D018138
-P 14500 6100
-F 0 "U?" H 14800 5700 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 15000 5600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 13750 6500 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 14700 6450 50  0001 C CNN
-	1    14500 6100
+P 11050 6250
+F 0 "U?" H 11350 5850 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 11550 5750 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10300 6650 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 11250 6600 50  0001 C CNN
+	1    11050 6250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 8250 7550 8250
 $Comp
-L SamacSys_Parts:54104-4031 J?
+L Womo-rescue:54104-4031-SamacSys_Parts J?
 U 1 1 5CD73C86
 P 10100 7700
 F 0 "J?" H 10550 7965 50  0000 C CNN
@@ -1233,7 +1081,7 @@ F 9 "54104-4031" H 10850 7100 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:52271-0679 J?
+L Womo-rescue:52271-0679-SamacSys_Parts J?
 U 1 1 5CDBE570
 P 13500 8500
 F 0 "J?" H 13900 8765 50  0000 C CNN
@@ -1413,7 +1261,7 @@ Wire Wire Line
 	11100 9100 11000 9100
 Wire Wire Line
 	11100 9300 11000 9300
-Text GLabel 7500 7450 2    50   Output ~ 0
+Text GLabel 6800 8750 2    50   Output ~ 0
 LCD_EN
 Wire Wire Line
 	10000 9200 10100 9200
@@ -1502,17 +1350,15 @@ Wire Wire Line
 Wire Wire Line
 	6650 8550 6800 8550
 Wire Wire Line
-	6650 7950 7550 7950
-Wire Wire Line
 	6650 8050 7350 8050
 Text GLabel 10000 9200 0    50   Input ~ 0
 LCD_EN
 Text GLabel 13400 8700 0    50   Output ~ 0
 TOUCH_INT
 Text GLabel 14400 8600 2    50   BiDi ~ 0
-I2C2_SDA
+I2C3_SDA
 Text GLabel 13400 8600 0    50   Input ~ 0
-I2C2_SCL
+I2C3_SCL
 Text GLabel 14400 8700 2    50   Input ~ 0
 TOUCH_RESET
 $Comp
@@ -1662,38 +1508,26 @@ Wire Wire Line
 Wire Wire Line
 	6800 3950 6650 3950
 Wire Wire Line
-	14500 5250 14500 5600
+	11050 5400 11050 5750
 Wire Wire Line
-	14000 5550 14000 6000
+	10550 5700 10550 6150
 Wire Wire Line
-	13350 5550 14000 5550
+	9900 5700 10550 5700
 Wire Wire Line
-	13350 5450 15000 5450
+	9900 5600 11550 5600
 Wire Wire Line
-	15000 5450 15000 6000
+	11550 5600 11550 6150
 Wire Wire Line
-	13350 5250 14500 5250
+	9900 5400 11050 5400
 Wire Wire Line
-	13450 5650 13350 5650
+	10000 5800 9900 5800
 Text GLabel 6800 6150 2    50   Output ~ 0
 LPUART_RTS_DE_RS485
-Text GLabel 9050 3600 0    50   Input ~ 0
-STB-CAN
-Text GLabel 9050 3800 0    50   Input ~ 0
-SLP-LIN1
-Text GLabel 9050 4050 0    50   Input ~ 0
-SLP-LIN2
-Text GLabel 9050 4250 0    50   Input ~ 0
-SLP-LIN3
-Text GLabel 9500 3600 2    50   Input ~ 0
+Text GLabel 3700 7450 0    50   Output ~ 0
 ESP_Boot
-Text GLabel 9500 3700 2    50   Output ~ 0
-ESP_TxD
-Text GLabel 9500 3900 2    50   Input ~ 0
-ESP_RxD
-Text GLabel 10000 4150 0    50   Input ~ 0
+Text GLabel 3700 7250 0    50   Output ~ 0
 ESP_Reset
-Text GLabel 10000 4350 0    50   Input ~ 0
+Text GLabel 3700 7350 0    50   Output ~ 0
 ESP_Enable
 Text GLabel 6800 6350 2    50   BiDi ~ 0
 I2C2_SDA
@@ -1728,7 +1562,7 @@ I2C4_SDA
 Text GLabel 3700 7950 0    50   Output ~ 0
 I2C4_SCL
 $Comp
-L SamacSys_Parts:IS66WVH8M8BLL-100B1LI_0 IC?
+L Womo-rescue:IS66WVH8M8BLL-100B1LI_0-SamacSys_Parts IC?
 U 1 1 5CEEF24B
 P 13050 1050
 F 0 "IC?" H 13700 1315 50  0000 C CNN
@@ -1743,7 +1577,7 @@ F 7 "IS66WVH8M8BLL-100B1LI" H 13200 1600 50  0001 L CNN "Manufacturer_Part_Numbe
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:MX25LM51245GXDI00 IC?
+L Womo-rescue:MX25LM51245GXDI00-SamacSys_Parts IC?
 U 1 1 5CEEF3B2
 P 9200 1050
 F 0 "IC?" H 9850 1315 50  0000 C CNN
@@ -2168,7 +2002,7 @@ $EndComp
 Wire Wire Line
 	11800 7550 11800 7800
 Connection ~ 11800 7800
-Text GLabel 8600 5800 2    50   Output ~ 0
+Text GLabel 6800 8650 2    50   Output ~ 0
 LCD_BL_CTRL
 $Comp
 L power:+VSW #PWR?
@@ -2196,4 +2030,103 @@ Text GLabel 11150 9500 2    50   Output ~ 0
 TOUCH_INT
 Text GLabel 9950 9500 0    50   Input ~ 0
 TOUCH_RESET
+Text GLabel 6800 6450 2    50   Output ~ 0
+Rasp_Shutdown
+Text GLabel 6800 6650 2    50   Input ~ 0
+Rasp_down
+Wire Wire Line
+	8400 8250 8400 8400
+$Comp
+L power:GND #PWR0133
+U 1 1 5CA43499
+P 8400 8400
+F 0 "#PWR0133" H 8400 8150 50  0001 C CNN
+F 1 "GND" H 8405 8227 50  0000 C CNN
+F 2 "" H 8400 8400 50  0001 C CNN
+F 3 "" H 8400 8400 50  0001 C CNN
+	1    8400 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 8250 8400 8250
+Connection ~ 8400 8250
+Wire Wire Line
+	8400 7950 8400 8250
+Wire Wire Line
+	8250 7950 8400 7950
+$Comp
+L Device:C C13
+U 1 1 5CA1D165
+P 8100 8250
+F 0 "C13" V 8250 8250 50  0000 C CNN
+F 1 "3p3" V 8350 8250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8138 8100 50  0001 C CNN
+F 3 "~" H 8100 8250 50  0001 C CNN
+	1    8100 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5CA1D026
+P 8100 7950
+F 0 "C12" V 7848 7950 50  0000 C CNN
+F 1 "3p3" V 7939 7950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8138 7800 50  0001 C CNN
+F 3 "~" H 8100 7950 50  0001 C CNN
+	1    8100 7950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 8250 7550 8250
+Wire Wire Line
+	7550 8250 7950 8250
+Connection ~ 7550 8250
+Wire Wire Line
+	6650 7950 7550 7950
+Wire Wire Line
+	7950 7950 7550 7950
+Connection ~ 7550 7950
+$Comp
+L Device:Crystal Y2
+U 1 1 5CA1CD9F
+P 7550 8100
+F 0 "Y2" V 7504 8231 50  0000 L CNN
+F 1 "32.768" V 7595 8231 50  0000 L CNN
+F 2 "" H 7550 8100 50  0001 C CNN
+F 3 "~" H 7550 8100 50  0001 C CNN
+	1    7550 8100
+	0    1    1    0   
+$EndComp
+Text GLabel 6800 7550 2    50   Output ~ 0
+USART3_TX_LIN3
+Text GLabel 6800 7650 2    50   Input ~ 0
+USART3_RX_LIN3
+Wire Wire Line
+	6800 7450 6650 7450
+Wire Wire Line
+	6800 7350 6650 7350
+Wire Wire Line
+	6800 6650 6650 6650
+Wire Wire Line
+	6800 6450 6650 6450
+Wire Wire Line
+	6800 6150 6650 6150
+Wire Wire Line
+	3700 6350 3850 6350
+Wire Wire Line
+	3700 6550 3850 6550
+Wire Wire Line
+	3850 7250 3700 7250
+Wire Wire Line
+	3850 7350 3700 7350
+Wire Wire Line
+	3850 7450 3700 7450
+Wire Wire Line
+	6650 8650 6800 8650
+Wire Wire Line
+	6650 8750 6800 8750
+Wire Wire Line
+	14450 3100 14300 3100
+Text GLabel 2000 3800 0    50   Input ~ 0
+Boot0
 $EndSCHEMATC
