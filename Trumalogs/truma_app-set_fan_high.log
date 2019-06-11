@@ -1,0 +1,166 @@
+Time Stamp(sec)   Frame ID          Frame Data        Baud Rate(bits/sec)     Error Condition
+1337,399712            D8     FE FF FF FF FF FF FF FF        9597            
+1337,449201            3C     01 06 B2 23 17 46 10 03        9597            
+1337,499099            7D     01 06 F2 01 00 00 00 FF        9597            
+1337,549815            03     86 0B FF FF FF FF FF FF        9615            
+1337,599304            C4     AA 0A FF FF FF FF FF FF        9615            
+1337,648793            85     01 FF FF FF FF FF FF FF        9597            
+1337,698282            06     00 00 FF FF FF FF FF FF        9615            
+1337,747771            47     01 00 FF FF FF FF FF FF        9597            
+1337,797669            49     FF FF FF FF FF FF FF FF        9597            
+1337,847158            D6     00 0F 61 0B B6 0C 27 85        9597            
+1337,897874            97            9597            Checksum Error
+1337,947772            D8     FE FF FF FF FF FF FF FF        9597            
+1337,997261            3C     FF FF FF FF FF FF FF FF        9597            
+1338,046750            7D            9597            Checksum Error
+1338,097057            03     86 0B FF FF FF FF FF FF        9597            
+1338,146955            C4     AA 0A FF FF FF FF FF FF        9615            
+1338,196444            85     01 FF FF FF FF FF FF FF        9597            
+1338,246342            06     00 00 FF FF FF FF FF FF        9597            
+1338,295831            47     01 00 FF FF FF FF FF FF        9615            
+1338,345729            49     FF FF FF FF FF FF FF FF        9615            
+1338,395218            D6     00 0F 62 0B B6 0C 77 85        9597            
+1338,445934            97            9597            Checksum Error
+1338,495832            D8     FE FF FF FF FF FF FF FF        9597            
+1338,545321            3C     FF FF FF FF FF FF FF FF        9597            
+1338,595219            7D            9597            Checksum Error
+1338,645935            03     86 0B FF FF FF FF FF FF        9597            
+1338,695424            C4     AA 0A FF FF FF FF FF FF        9597            
+1338,744913            85     01 FF FF FF FF FF FF FF        9597            
+1338,794402            06     00 00 FF FF FF FF FF FF        9597            
+1338,843891            47     01 00 FF FF FF FF FF FF        9615            
+1338,893380            49     FF FF FF FF FF FF FF FF        9597            
+1338,942869            D6     00 0F 61 0B B6 0C 27 85        9597            
+1338,993585            97            9597            Checksum Error
+1339,043483            D8     FE FF FF FF FF FF FF FF        9597            
+1339,092972            3C     01 04 B8 10 03 01 FF FF        9615            
+1339,142870            7D     01 03 F8 02 02 FF FF FF        9597            
+1339,193586            03     86 0B FF FF FF FF FF FF        9615            
+1339,243075            C4     AA 0A FF FF FF FF FF FF        9597            
+1339,292973            85     01 FF FF FF FF FF FF FF        9597            
+1339,342462            06     00 00 FF FF FF FF FF FF        9615            
+1339,392360            47     01 00 FF FF FF FF FF FF        9597            
+1339,441849            49     FF FF FF FF FF FF FF FF        9597            
+1339,491747            D6     00 0F 61 0B B6 0C 27 85        9597            
+1339,542054            97            9615            Checksum Error
+1339,591952            D8     FE FF FF FF FF FF FF FF        9597            
+1339,641441            3C     01 06 B2 23 17 46 10 03        9597            
+1339,691339            7D     01 06 F2 01 00 00 00 FF        9597            
+1339,742055            03     86 0B FF FF FF FF FF FF        9597            
+1339,791544            C4     AA 0A FF FF FF FF FF FF        9597            
+1339,841442            85     01 FF FF FF FF FF FF FF        9597            
+1339,890931            06     00 00 FF FF FF FF FF FF        9597            
+1339,940829            47     01 00 FF FF FF FF FF FF        9597            
+1339,990318            49     FF FF FF FF FF FF FF FF        9597            
+1340,035992            D6     00 0F 61 0B B6 0C 6D 85        9597            
+1340,086708            97            9597            Checksum Error
+1340,136197            D8     FF FF FF FF FF FF FF FF        9597            
+1340,186095            3C     FF FF FF FF FF FF FF FF        9597            
+1340,235584            7D            9597            Checksum Error
+1340,286300            03     86 0B FF FF FF FF FF FF        9597            
+1340,336198            C4     AA 0A FF FF FF FF FF FF        9597            
+1340,385687            85     01 FF FF FF FF FF FF FF        9597            
+1340,435585            06     00 00 FF FF FF FF FF FF        9597            
+1340,485074            47     01 00 FF FF FF FF FF FF        9615            
+1340,534972            49     FF FF FF FF FF FF FF FF        9597            
+1340,584461            D6     00 0F 61 0B B6 0C 27 85        9615            
+1340,635177            97            9597            Checksum Error
+1340,684666            D8     FF FF FF FF FF FF FF FF        9597            
+1340,734564            3C     03 05 B9 00 1F 00 00 FF        9597            
+1340,784053            7D     03 02 F9 00 FF FF FF FF        9597            
+1340,833951            3C     03 10 0B BA 00 1F 00 1E        9597            
+1340,883440            3C     03 21 00 00 22 FF FF FF        9597            
+1340,933338            7D     03 10 29 FA 00 1F 00 1E        9597            
+1340,982827            7D     03 21 00 00 22 FF FF FF        9597            
+1341,032316            7D     03 22 54 01 0C 32 21 AD        9597            
+1341,081805            7D     03 23 86 0B 0A 00 00 00        9597            
+1341,131703            7D     03 24 00 00 00 00 01 01        9597            
+1341,181192            7D     03 25 00 00 00 00 00 00        9597            
+1341,231090            7D     03 26 00 00 00 00 00 00        9597            
+1341,281806            03     86 0B FF FF FF FF FF FF        9597            
+1341,331295            C4     AA 0A FF FF FF FF FF FF        9597            
+1341,381193            85     01 FF FF FF FF FF FF FF        9597            
+1341,430682            06     00 00 FF FF FF FF FF FF        9597            
+1341,480580            47     01 00 FF FF FF FF FF FF        9597            
+1341,530069            49     FF FF FF FF FF FF FF FF        9597            
+1341,579967            D6     00 0F 61 0B B6 0C 27 85        9597            
+1341,630683            97            9597            Checksum Error
+1341,680172            D8     FE FF FF FF FF FF FF FF        9615            
+1341,729661            3C     01 04 B8 10 03 01 FF FF        9597            
+1341,779559            7D     01 03 F8 02 02 FF FF FF        9615            
+1341,830275            03     86 0B FF FF FF FF FF FF        9615            
+1341,879764            C4     AA 0A FF FF FF FF FF FF        9615            
+1341,929253            85     01 FF FF FF FF FF FF FF        9615            
+1341,979151            06     00 00 FF FF FF FF FF FF        9615            
+1342,028640            47     02 00 FF FF FF FF FF FF        9615            
+1342,078129            49     FF FF FF FF FF FF FF FF        9597            
+1342,128027            D6     00 0F 61 0B B6 0C 27 85        9597            
+1342,177516            08     86 0B 71 00 00 00 00 FF        9597            
+1342,227414            97            9597            Checksum Error
+1342,276903            D8     FE FF FF FF FF FF FF FF        9597            
+1342,326801            3C     01 06 B2 23 17 46 10 03        9597            
+1342,376290            7D     01 06 F2 01 00 00 00 FF        9597            
+1342,427006            03     86 0B FF FF FF FF FF FF        9597            
+1342,476495            C4     AA 0A FF FF FF FF FF FF        9597            
+1342,525984            85     01 FF FF FF FF FF FF FF        9597            
+1342,575473            06     00 00 FF FF FF FF FF FF        9597            
+1342,625371            47     02 00 FF FF FF FF FF FF        9597            
+1342,674860            49     FF FF FF FF FF FF FF FF        9597            
+1342,724758            D6     00 0F 61 0B B6 0C 27 85        9597            
+1342,774247            08     86 0B 71 00 00 00 00 FF        9597            
+1342,824145            97            9597            Checksum Error
+1342,873634            D8     FE FF FF FF FF FF FF FF        9597            
+1342,923532            3C     FF FF FF FF FF FF FF FF        9597            
+1342,973021            7D            9597            Checksum Error
+1343,023737            03     86 0B FF FF FF FF FF FF        9597            
+1343,073635            C4     AA 0A FF FF FF FF FF FF        9597            
+1343,123124            85     01 FF FF FF FF FF FF FF        9597            
+1343,173022            06     00 00 FF FF FF FF FF FF        9597            
+1343,222511            47     02 00 FF FF FF FF FF FF        9597            
+1343,272409            49     FF FF FF FF FF FF FF FF        9597            
+1343,321898            D6     00 0F 61 0B B6 0C 27 85        9597            
+1343,371796            08     86 0B 71 00 00 00 00 FF        9615            
+1343,421285            97            9597            Checksum Error
+1343,471183            D8     FE FF FF FF FF FF FF FF        9597            
+1343,520672            3C     03 05 B9 00 1F 00 00 FF        9597            
+1343,570570            7D     03 02 F9 00 FF FF FF FF        9615            
+1343,620059            3C     03 10 29 BB 00 1F 00 1E        9597            
+1343,669957            3C     03 21 00 00 22 FF FF FF        9597            
+1343,719446            3C     03 22 54 01 02 0D 21 7A        9597            
+1343,769344            3C     03 23 00 00 00 00 00 00        9597            
+1343,818833            3C     03 24 00 00 00 00 00 00        9597            
+1343,868731            3C     03 25 00 00 00 00 00 00        9597            
+1343,918220            3C     03 26 00 00 00 00 00 00        9597            
+1343,968118            7D     03 01 FB FF FF FF FF FF        9597            
+1344,017607            3C     03 05 B9 00 1F 00 01 FF        9615            
+1344,067505            7D     03 02 F9 00 FF FF FF FF        9615            
+1344,118221            03     86 0B FF FF FF FF FF FF        9615            
+1344,167710            C4     AA 0A FF FF FF FF FF FF        9597            
+1344,217199            85     01 FF FF FF FF FF FF FF        9597            
+1344,267097            06     00 00 FF FF FF FF FF FF        9597            
+1344,316586            47     02 00 FF FF FF FF FF FF        9597            
+1344,366484            49     FF FF FF FF FF FF FF FF        9597            
+1344,415973            D6     00 0F 61 0B B6 0C 27 85        9615            
+1344,465871            08     86 0B 71 00 00 00 00 FF        9597            
+1344,515360            97            9597            Checksum Error
+1344,565258            D8     FE FF FF FF FF FF FF FF        9597            
+1344,614747            3C     FF FF FF FF FF FF FF FF        9597            
+1344,664236            7D            9597            Checksum Error
+1344,714543            03     86 0B FF FF FF FF FF FF        9597            
+1344,764441            C4     AA 0A FF FF FF FF FF FF        9597            
+1344,813930            85     01 FF FF FF FF FF FF FF        9597            
+1344,863828            06     00 00 FF FF FF FF FF FF        9615            
+1344,913317            47     02 00 FF FF FF FF FF FF        9597            
+1344,963215            49     FF FF FF FF FF FF FF FF        9597            
+1345,012704            D6     00 0F 61 0B B6 0C 63 85        9615            
+1345,063420            97            9597            Checksum Error
+1345,113318            D8     FE FF FF FF FF FF FF FF        9597            
+1345,162807            3C     01 04 B8 10 03 01 FF FF        9615            
+1345,212705            7D     01 03 F8 02 02 FF FF FF        9597            
+1345,263421            03     86 0B FF FF FF FF FF FF        9597            
+1345,312910            C4     AA 0A FF FF FF FF FF FF        9615            
+1345,362808            85     01 FF FF FF FF FF FF FF        9597            
+1345,412297            06     00 00 FF FF FF FF FF FF        9597            
+1345,462195            47     02 00 FF FF FF FF FF FF        9615            
+1345,511684            49     FF FF FF FF FF FF FF FF        9597            
+1345,561582            D6     00 0F 62 0B B4 0C 1D 85        9597            

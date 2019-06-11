@@ -1,8 +1,8 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 6 7
 Title ""
@@ -402,4 +402,369 @@ Wire Notes Line
 	3750 1800 3750 600 
 Text Notes 5500 750  0    50   ~ 0
 CAN & RS485
+$Comp
+L Connector_Generic:Conn_02x25_Odd_Even J2
+U 1 1 5D03A2E7
+P 11500 3400
+F 0 "J2" H 11550 4817 50  0000 C CNN
+F 1 "Conn_02x25_Odd_Even" H 11550 4726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical" H 11500 3400 50  0001 C CNN
+F 3 "~" H 11500 3400 50  0001 C CNN
+	1    11500 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 11200 2700 0    50   Input ~ 0
+M_CAN1_RX
+Text GLabel 11200 2600 0    50   Output ~ 0
+M_CAN1_TX
+Text GLabel 11200 2400 0    50   Input ~ 0
+M_LPUART_RX_RX485
+Text GLabel 11200 2300 0    50   Output ~ 0
+M_LPUART_TX_RS485
+Text GLabel 11200 2500 0    50   Output ~ 0
+M_LPUART_RTS_DE_RS485
+Text GLabel 11200 2900 0    50   BiDi ~ 0
+M_I2C2_SDA
+Text GLabel 11200 2800 0    50   Output ~ 0
+M_I2C2_SCL
+Text GLabel 11200 3600 0    50   Output ~ 0
+M_ESP_Boot
+Text GLabel 11200 3400 0    50   Output ~ 0
+M_ESP_Reset
+Text GLabel 11200 3500 0    50   Output ~ 0
+M_ESP_Enable
+Text GLabel 11200 3100 0    50   BiDi ~ 0
+M_I2C4_SDA
+Text GLabel 11200 3000 0    50   Output ~ 0
+M_I2C4_SCL
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DCCE73A
+P 11200 4100
+AR Path="/5C8BBC94/5DCCE73A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCE73A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11200 3950 50  0001 C CNN
+F 1 "+3.3V" V 11200 4350 50  0000 C CNN
+F 2 "" H 11200 4100 50  0001 C CNN
+F 3 "" H 11200 4100 50  0001 C CNN
+	1    11200 4100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11200 4400 0    50   Input ~ 0
+M_LCD_LED-K
+Text GLabel 11200 3200 0    50   Input ~ 0
+M_PWR_Reset
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCE742
+P 11200 2200
+AR Path="/5C8BBC94/5DCCE742" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCE742" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11200 1950 50  0001 C CNN
+F 1 "GND" V 11200 1950 50  0000 C CNN
+F 2 "" H 11200 2200 50  0001 C CNN
+F 3 "" H 11200 2200 50  0001 C CNN
+	1    11200 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCE748
+P 11200 3300
+AR Path="/5C8BBC94/5DCCE748" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCE748" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11200 3050 50  0001 C CNN
+F 1 "GND" V 11200 3050 50  0000 C CNN
+F 2 "" H 11200 3300 50  0001 C CNN
+F 3 "" H 11200 3300 50  0001 C CNN
+	1    11200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCE74E
+P 11200 4600
+AR Path="/5C8BBC94/5DCCE74E" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCE74E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11200 4350 50  0001 C CNN
+F 1 "GND" V 11200 4350 50  0000 C CNN
+F 2 "" H 11200 4600 50  0001 C CNN
+F 3 "" H 11200 4600 50  0001 C CNN
+	1    11200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCE754
+P 11200 4300
+AR Path="/5C8BBC94/5DCCE754" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCE754" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11200 4050 50  0001 C CNN
+F 1 "GND" V 11200 4050 50  0000 C CNN
+F 2 "" H 11200 4300 50  0001 C CNN
+F 3 "" H 11200 4300 50  0001 C CNN
+	1    11200 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11250 4400 11200 4400
+Wire Wire Line
+	11200 4600 11300 4600
+Wire Wire Line
+	11200 4300 11300 4300
+Text GLabel 11900 2400 2    50   Input ~ 0
+M_USART1_RX_LIN1
+Text GLabel 11900 2300 2    50   Output ~ 0
+M_USART1_TX_LIN1
+Text GLabel 11900 3400 2    50   Output ~ 0
+M_Rasp_Shutdown
+Text GLabel 11900 3500 2    50   Input ~ 0
+M_Rasp_down
+Text GLabel 11900 3100 2    50   Output ~ 0
+M_UART5_TX
+Text GLabel 11900 2700 2    50   Output ~ 0
+M_USART3_TX_LIN3
+Text GLabel 11900 2800 2    50   Input ~ 0
+M_USART3_RX_LIN3
+Text GLabel 11900 3200 2    50   Input ~ 0
+M_UART5_RX
+Text GLabel 11900 2600 2    50   Input ~ 0
+M_USART2_RX_LIN2
+Text GLabel 11900 2500 2    50   Output ~ 0
+M_USART2_TX_LIN2
+Text GLabel 11900 2900 2    50   Output ~ 0
+M_UART4_TX
+Text GLabel 11900 3000 2    50   Input ~ 0
+M_UART4_RX
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCFEE5
+P 11900 2200
+AR Path="/5C8BBC94/5DCCFEE5" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCFEE5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 1950 50  0001 C CNN
+F 1 "GND" V 11900 1950 50  0000 C CNN
+F 2 "" H 11900 2200 50  0001 C CNN
+F 3 "" H 11900 2200 50  0001 C CNN
+	1    11900 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5DCCFEEB
+P 11900 3900
+AR Path="/5C8BBC9A/5DCCFEEB" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DCCFEEB" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BC88B/5DCCFEEB" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5DCCFEEB" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCFEEB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 3750 50  0001 C CNN
+F 1 "+3.3VA" V 11900 4150 50  0000 C CNN
+F 2 "" H 11900 3900 50  0001 C CNN
+F 3 "" H 11900 3900 50  0001 C CNN
+	1    11900 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+VSW #PWR?
+U 1 1 5DCCFEF1
+P 11900 4100
+AR Path="/5C8BBC9A/5DCCFEF1" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5DCCFEF1" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCFEF1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 3950 50  0001 C CNN
+F 1 "+VSW" V 11900 4350 50  0000 C CNN
+F 2 "" H 11900 4100 50  0001 C CNN
+F 3 "" H 11900 4100 50  0001 C CNN
+	1    11900 4100
+	0    1    1    0   
+$EndComp
+Text GLabel 11900 4400 2    50   Input ~ 0
+M_LCD_LED-A
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCFEF8
+P 11900 3300
+AR Path="/5C8BBC94/5DCCFEF8" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCFEF8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 3050 50  0001 C CNN
+F 1 "GND" V 11900 3050 50  0000 C CNN
+F 2 "" H 11900 3300 50  0001 C CNN
+F 3 "" H 11900 3300 50  0001 C CNN
+	1    11900 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCFEFE
+P 11900 4600
+AR Path="/5C8BBC94/5DCCFEFE" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCFEFE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 4350 50  0001 C CNN
+F 1 "GND" V 11900 4350 50  0000 C CNN
+F 2 "" H 11900 4600 50  0001 C CNN
+F 3 "" H 11900 4600 50  0001 C CNN
+	1    11900 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DCCFF04
+P 11900 4300
+AR Path="/5C8BBC94/5DCCFF04" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DCCFF04" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 4050 50  0001 C CNN
+F 1 "GND" V 11900 4050 50  0000 C CNN
+F 2 "" H 11900 4300 50  0001 C CNN
+F 3 "" H 11900 4300 50  0001 C CNN
+	1    11900 4300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11900 3600 2    50   BiDi ~ 0
+M_PF11
+Text GLabel 11900 3700 2    50   BiDi ~ 0
+M_PB2
+Text GLabel 11200 3700 0    50   BiDi ~ 0
+M_PA9
+Wire Wire Line
+	11200 2200 11300 2200
+Wire Wire Line
+	11200 2300 11300 2300
+Wire Wire Line
+	11200 2400 11300 2400
+Wire Wire Line
+	11200 2500 11300 2500
+Wire Wire Line
+	11200 2600 11300 2600
+Wire Wire Line
+	11200 2700 11300 2700
+Wire Wire Line
+	11200 2800 11300 2800
+Wire Wire Line
+	11200 2900 11300 2900
+Wire Wire Line
+	11200 3000 11300 3000
+Wire Wire Line
+	11200 3100 11300 3100
+Wire Wire Line
+	11200 3200 11300 3200
+Wire Wire Line
+	11200 3300 11300 3300
+Wire Wire Line
+	11200 3400 11300 3400
+Wire Wire Line
+	11200 3500 11300 3500
+Wire Wire Line
+	11200 3600 11300 3600
+Wire Wire Line
+	11200 3700 11300 3700
+Wire Wire Line
+	11900 2200 11800 2200
+Wire Wire Line
+	11900 2300 11800 2300
+Wire Wire Line
+	11900 2400 11800 2400
+Wire Wire Line
+	11900 2500 11800 2500
+Wire Wire Line
+	11900 2600 11800 2600
+Wire Wire Line
+	11900 2700 11800 2700
+Wire Wire Line
+	11900 2800 11800 2800
+Wire Wire Line
+	11900 2900 11800 2900
+Wire Wire Line
+	11900 3000 11800 3000
+Wire Wire Line
+	11900 3100 11800 3100
+Wire Wire Line
+	11900 3200 11800 3200
+Wire Wire Line
+	11900 3300 11800 3300
+Wire Wire Line
+	11900 3400 11800 3400
+Wire Wire Line
+	11900 3500 11800 3500
+Wire Wire Line
+	11900 3600 11800 3600
+Wire Wire Line
+	11900 3700 11800 3700
+Wire Wire Line
+	11300 4500 11250 4500
+Wire Wire Line
+	11250 4500 11250 4400
+Wire Wire Line
+	11300 4400 11250 4400
+Connection ~ 11250 4400
+Wire Wire Line
+	11800 4500 11850 4500
+Wire Wire Line
+	11850 4500 11850 4400
+Wire Wire Line
+	11850 4400 11900 4400
+Wire Wire Line
+	11800 4400 11850 4400
+Connection ~ 11850 4400
+Wire Wire Line
+	11900 4600 11800 4600
+Wire Wire Line
+	11900 4300 11800 4300
+Wire Wire Line
+	11900 4100 11850 4100
+Wire Wire Line
+	11850 4100 11850 4200
+Wire Wire Line
+	11850 4200 11800 4200
+Wire Wire Line
+	11800 4100 11850 4100
+Connection ~ 11850 4100
+Wire Wire Line
+	11300 4200 11250 4200
+Wire Wire Line
+	11250 4200 11250 4100
+Wire Wire Line
+	11250 4100 11200 4100
+Wire Wire Line
+	11300 4100 11250 4100
+Connection ~ 11250 4100
+$Comp
+L power:GND #PWR?
+U 1 1 5DDEA534
+P 11900 3800
+AR Path="/5C8BBC94/5DDEA534" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DDEA534" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 3550 50  0001 C CNN
+F 1 "GND" V 11900 3550 50  0000 C CNN
+F 2 "" H 11900 3800 50  0001 C CNN
+F 3 "" H 11900 3800 50  0001 C CNN
+	1    11900 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDEE298
+P 11200 3800
+AR Path="/5C8BBC94/5DDEE298" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DDEE298" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11200 3550 50  0001 C CNN
+F 1 "GND" V 11200 3550 50  0000 C CNN
+F 2 "" H 11200 3800 50  0001 C CNN
+F 3 "" H 11200 3800 50  0001 C CNN
+	1    11200 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11850 3900 11850 4000
+Wire Wire Line
+	11850 4000 11800 4000
+Wire Wire Line
+	11800 3900 11850 3900
+Wire Wire Line
+	11900 3900 11850 3900
+Connection ~ 11850 3900
+Wire Wire Line
+	11900 3800 11800 3800
+Wire Wire Line
+	11200 3800 11300 3800
 $EndSCHEMATC

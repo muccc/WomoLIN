@@ -1,0 +1,273 @@
+Time Stamp(sec)   Frame ID          Frame Data        Baud Rate(bits/sec)     Error Condition
+679,778781            03     7C 0B FF FF FF FF FF FF        9597            
+679,828270            C4     AA 0A FF FF FF FF FF FF        9597            
+679,878168            85     01 FF FF FF FF FF FF FF        9615            
+679,927657            06     00 00 FF FF FF FF FF FF        9597            
+679,977555            47     01 00 FF FF FF FF FF FF        9597            
+680,027044            49     FF FF FF FF FF FF FF FF        9597            
+680,076942            D6     00 0F 5F 0B F6 0C 77 85        9597            
+680,126431            08     86 0B 71 00 00 00 00 FF        9597            
+680,175920            97            9597            Checksum Error
+680,225818            D8     FE FF FF FF FF FF FF FF        9579            
+680,275307            3C     FF FF FF FF FF FF FF FF        9597            
+680,325205            7D            9597            Checksum Error
+680,375512            03     7C 0B FF FF FF FF FF FF        9597            
+680,425001            C4     AA 0A FF FF FF FF FF FF        9597            
+680,474899            85     01 FF FF FF FF FF FF FF        9597            
+680,524388            06     00 00 FF FF FF FF FF FF        9597            
+680,574286            47     01 00 FF FF FF FF FF FF        9597            
+680,623775            49     FF FF FF FF FF FF FF FF        9579            
+680,673673            D6     00 0F 5F 0B F6 0C 77 85        9597            
+680,723162            08     86 0B 71 00 00 00 00 FF        9597            
+680,773060            97            9597            Checksum Error
+680,822549            D8     FE FF FF FF FF FF FF FF        9597            
+680,872447            3C     03 05 B9 00 1F 00 00 FF        9597            
+680,921936            7D     03 02 F9 00 FF FF FF FF        9597            
+680,971425            3C     03 10 29 BB 00 1F 00 1E        9597            
+681,021323            3C     03 21 00 00 22 FF FF FF        9597            
+681,070812            3C     03 22 54 01 02 0D 13 88        9597            
+681,120710            3C     03 23 00 00 00 00 00 00        9597            
+681,170199            3C     03 24 00 00 00 00 00 00        9597            
+681,220097            3C     03 25 00 00 00 00 00 00        9597            
+681,269586            3C     03 26 00 00 00 00 00 00        9597            
+681,319484            7D     03 01 FB FF FF FF FF FF        9579            
+681,368973            3C     03 05 B9 00 1F 00 01 FF        9597            
+681,418871            7D     03 02 F9 00 FF FF FF FF        9597            
+681,469587            03     7C 0B FF FF FF FF FF FF        9597            
+681,519485            C4     AA 0A FF FF FF FF FF FF        9579            
+681,568974            85     01 FF FF FF FF FF FF FF        9597            
+681,618872            06     00 00 FF FF FF FF FF FF        9597            
+681,668361            47     01 00 FF FF FF FF FF FF        9597            
+681,718259            49     FF FF FF FF FF FF FF FF        9597            
+681,767748            D6     00 0F 5F 0B F6 0C 77 85        9597            
+681,817646            08     86 0B 71 00 00 00 00 FF        9597            
+681,867135            97            9597            Checksum Error
+681,917033            D8     FE FF FF FF FF FF FF FF        9597            
+681,966522            3C     FF FF FF FF FF FF FF FF        9597            
+682,016420            7D            9597            Checksum Error
+682,067136            03     7C 0B FF FF FF FF FF FF        9597            
+682,116625            C4     AA 0A FF FF FF FF FF FF        9597            
+682,166523            85     01 FF FF FF FF FF FF FF        9597            
+682,216012            06     00 00 FF FF FF FF FF FF        9597            
+682,265910            47     01 00 FF FF FF FF FF FF        9615            
+682,315399            49     FF FF FF FF FF FF FF FF        9597            
+682,365297            D6     00 0F 5F 0B F6 0C 77 85        9615            
+682,415604            97            9597            Checksum Error
+682,465502            D8     FE FF FF FF FF FF FF FF        9615            
+682,514991            3C     01 04 B8 10 03 01 FF FF        9597            
+682,564889            7D     01 03 F8 02 02 FF FF FF        9615            
+682,615196            03     7C 0B FF FF FF FF FF FF        9597            
+682,664685            C4     AA 0A FF FF FF FF FF FF        9597            
+682,714174            85     01 FF FF FF FF FF FF FF        9597            
+682,763663            06     00 00 FF FF FF FF FF FF        9597            
+682,813152            47     01 00 FF FF FF FF FF FF        9597            
+682,862641            49     FF FF FF FF FF FF FF FF        9597            
+682,912130            D6     00 0F 5F 0B F6 0C 77 85        9597            
+682,962437            97            9597            Checksum Error
+683,012335            D8     FE FF FF FF FF FF FF FF        9597            
+683,061824            3C     01 06 B2 23 17 46 10 03        9597            
+683,111722            7D     01 06 F2 01 00 00 00 FF        9597            
+683,162438            03     7C 0B FF FF FF FF FF FF        9597            
+683,211927            C4     AA 0A FF FF FF FF FF FF        9597            
+683,261825            85     01 FF FF FF FF FF FF FF        9615            
+683,311314            06     00 00 FF FF FF FF FF FF        9597            
+683,361212            47     01 00 FF FF FF FF FF FF        9597            
+683,410701            49     FF FF FF FF FF FF FF FF        9597            
+683,460599            D6     00 0F 5F 0B F6 0C 77 85        9597            
+683,511315            97            9597            Checksum Error
+683,560804            D8     FE FF FF FF FF FF FF FF        9597            
+683,610293            3C     FF FF FF FF FF FF FF FF        9597            
+683,659782            7D            9597            Checksum Error
+683,710089            03     7C 0B FF FF FF FF FF FF        9597            
+683,759987            C4     AA 0A FF FF FF FF FF FF        9597            
+683,809476            85     01 FF FF FF FF FF FF FF        9597            
+683,858965            06     00 00 FF FF FF FF FF FF        9597            
+683,908454            47     01 00 FF FF FF FF FF FF        9597            
+683,957943            49     FF FF FF FF FF FF FF FF        9597            
+684,007841            D6     00 0F 5F 0B F6 0C 77 85        9597            
+684,058557            97            9597            Checksum Error
+684,108046            D8     FE FF FF FF FF FF FF FF        9597            
+684,157944            3C     FF FF FF FF FF FF FF FF        9597            
+684,207433            7D            9597            Checksum Error
+684,258149            03     7C 0B FF FF FF FF FF FF        9579            
+684,308047            C4     AA 0A FF FF FF FF FF FF        9597            
+684,357536            85     01 FF FF FF FF FF FF FF        9597            
+684,407434            06     00 00 FF FF FF FF FF FF        9579            
+684,456923            47     01 00 FF FF FF FF FF FF        9615            
+684,506821            49     FF FF FF FF FF FF FF FF        9597            
+684,556310            D6     00 0F 5F 0B F6 0C 77 85        9597            
+684,607026            97            9597            Checksum Error
+684,656924            D8     FE FF FF FF FF FF FF FF        9597            
+684,706822            3C     01 04 B8 10 03 01 FF FF        9597            
+684,756311            7D     01 03 F8 02 02 FF FF FF        9579            
+684,807027            03     7C 0B FF FF FF FF FF FF        9597            
+684,856925            C4     AA 0A FF FF FF FF FF FF        9597            
+684,906414            85     01 FF FF FF FF FF FF FF        9579            
+684,956312            06     00 00 FF FF FF FF FF FF        9597            
+685,005801            47     01 00 FF FF FF FF FF FF        9597            
+685,055699            49     FF FF FF FF FF FF FF FF        9597            
+685,105188            D6     00 0F 5F 0B F6 0C 77 85        9597            
+685,155904            97            9597            Checksum Error
+685,205802            D8     FE FF FF FF FF FF FF FF        9579            
+685,255291            3C     01 06 B2 23 17 46 10 03        9597            
+685,304780            7D     01 06 F2 01 00 00 00 FF        9597            
+685,355496            03     7C 0B FF FF FF FF FF FF        9597            
+685,404985            C4     AA 0A FF FF FF FF FF FF        9597            
+685,454474            85     01 FF FF FF FF FF FF FF        9597            
+685,503963            06     00 00 FF FF FF FF FF FF        9597            
+685,553452            47     01 00 FF FF FF FF FF FF        9597            
+685,603350            49     FF FF FF FF FF FF FF FF        9597            
+685,652839            D6     00 0F 5F 0B F6 0C 77 85        9597            
+685,703555            97            9597            Checksum Error
+685,753044            D8     FE FF FF FF FF FF FF FF        9597            
+685,802533            3C     FF FF FF FF FF FF FF FF        9597            
+Time Stamp(sec)   Frame ID          Frame Data        Baud Rate(bits/sec)     Error Condition
+725,707577            D8     FE FF FF FF FF FF FF FF        9597            
+725,757066            3C     01 04 B8 10 03 01 FF FF        9615            
+725,806964            7D     01 03 F8 02 02 FF FF FF        9615            
+725,857271            03     86 0B FF FF FF FF FF FF        9615            
+725,907169            C4     AA 0A FF FF FF FF FF FF        9615            
+725,956658            85     01 FF FF FF FF FF FF FF        9597            
+726,006556            06     00 00 FF FF FF FF FF FF        9615            
+726,056045            47     01 00 FF FF FF FF FF FF        9597            
+726,105943            49     FF FF FF FF FF FF FF FF        9597            
+726,155432            D6     00 0F 60 0B F2 0C 77 85        9597            
+726,206148            97            9597            Checksum Error
+726,256046            D8     FE FF FF FF FF FF FF FF        9597            
+726,305535            3C     01 06 B2 23 17 46 10 03        9597            
+726,355433            7D     01 06 F2 01 00 00 00 FF        9597            
+726,406149            03     86 0B FF FF FF FF FF FF        9597            
+726,455638            C4     AA 0A FF FF FF FF FF FF        9597            
+726,505536            85     01 FF FF FF FF FF FF FF        9597            
+726,555025            06     00 00 FF FF FF FF FF FF        9597            
+726,604923            47     01 00 FF FF FF FF FF FF        9597            
+726,654412            49     FF FF FF FF FF FF FF FF        9597            
+726,704310            D6     00 0F 60 0B F2 0C 77 85        9597            
+726,755026            97            9597            Checksum Error
+726,804515            D8     FE FF FF FF FF FF FF FF        9597            
+726,854413            3C     FF FF FF FF FF FF FF FF        9597            
+726,903902            7D            9597            Checksum Error
+726,954618            03     86 0B FF FF FF FF FF FF        9597            
+727,004516            C4     AA 0A FF FF FF FF FF FF        9597            
+727,054005            85     01 FF FF FF FF FF FF FF        9615            
+727,103903            06     00 00 FF FF FF FF FF FF        9597            
+727,153392            47     01 00 FF FF FF FF FF FF        9597            
+727,203290            49     FF FF FF FF FF FF FF FF        9597            
+727,252779            D6     00 0F 60 0B F2 0C 77 85        9597            
+727,303495            97            9597            Checksum Error
+727,353393            D8     FE FF FF FF FF FF FF FF        9597            
+727,402882            3C     FF FF FF FF FF FF FF FF        9597            
+727,452780            7D            9597            Checksum Error
+727,503496            03     86 0B FF FF FF FF FF FF        9579            
+727,552985            C4     AA 0A FF FF FF FF FF FF        9597            
+727,602883            85     01 FF FF FF FF FF FF FF        9597            
+727,652372            06     00 00 FF FF FF FF FF FF        9597            
+727,702270            47     01 00 FF FF FF FF FF FF        9597            
+727,751759            49     FF FF FF FF FF FF FF FF        9597            
+727,801657            D6     00 0F 60 0B F2 0C 77 85        9597            
+727,852373            97            9597            Checksum Error
+727,901862            D8     FE FF FF FF FF FF FF FF        9597            
+727,951760            3C     01 04 B8 10 03 01 FF FF        9597            
+728,001249            7D     01 03 F8 02 02 FF FF FF        9597            
+728,051965            03     86 0B FF FF FF FF FF FF        9597            
+728,101863            C4     AA 0A FF FF FF FF FF FF        9597            
+728,151352            85     01 FF FF FF FF FF FF FF        9597            
+728,201250            06     00 00 FF FF FF FF FF FF        9597            
+728,250739            47     01 00 FF FF FF FF FF FF        9597            
+728,300637            49     FF FF FF FF FF FF FF FF        9597            
+728,350126            D6     00 0F 60 0B F2 0C 77 85        9597            
+728,400842            97            9597            Checksum Error
+728,450331            D8     FF FF FF FF FF FF FF FF        9597            
+728,500229            3C     01 06 B2 23 17 46 10 03        9597            
+728,549718            7D     01 06 F2 01 00 00 00 FF        9597            
+728,600434            03     86 0B FF FF FF FF FF FF        9597            
+728,650332            C4     AA 0A FF FF FF FF FF FF        9597            
+728,699821            85     01 FF FF FF FF FF FF FF        9597            
+728,749719            06     00 00 FF FF FF FF FF FF        9615            
+728,799208            47     01 00 FF FF FF FF FF FF        9597            
+728,849106            49     FF FF FF FF FF FF FF FF        9615            
+728,898595            D6     00 0F 60 0B F2 0C 77 85        9597            
+728,949311            97            9597            Checksum Error
+728,999209            D8     FF FF FF FF FF FF FF FF        9597            
+729,048698            3C     FF FF FF FF FF FF FF FF        9597            
+729,098596            7D            9597            Checksum Error
+729,149312            03     86 0B FF FF FF FF FF FF        9597            
+729,198801            C4     AA 0A FF FF FF FF FF FF        9597            
+729,248699            85     01 FF FF FF FF FF FF FF        9597            
+729,298188            06     00 00 FF FF FF FF FF FF        9597            
+729,348086            47     01 00 FF FF FF FF FF FF        9597            
+729,397575            49     FF FF FF FF FF FF FF FF        9597            
+729,447473            D6     00 0F 60 0B F2 0C 77 85        9597            
+729,498189            97            9597            Checksum Error
+729,547678            D8     FF FF FF FF FF FF FF FF        9597            
+729,597576            3C     03 05 B9 00 1F 00 00 FF        9597            
+729,647065            7D     03 02 F9 00 FF FF FF FF        9597            
+729,696963            3C     03 10 0B BA 00 1F 00 1E        9597            
+729,746452            3C     03 21 00 00 22 FF FF FF        9597            
+729,796350            7D     03 10 29 FA 00 1F 00 1E        9615            
+729,845839            7D     03 21 00 00 22 FF FF FF        9597            
+729,895737            7D     03 22 54 01 0C 32 15 CC        9615            
+729,945226            7D     03 23 7C 0B 01 00 00 00        9597            
+729,995124            7D     03 24 00 00 00 00 01 01        9597            
+730,044613            7D     03 25 00 00 00 00 00 00        9597            
+730,094511            7D     03 26 00 00 00 00 00 00        9597            
+730,145227            03     86 0B FF FF FF FF FF FF        9597            
+730,194716            C4     AA 0A FF FF FF FF FF FF        9597            
+730,244614            85     01 FF FF FF FF FF FF FF        9597            
+730,294103            06     00 00 FF FF FF FF FF FF        9597            
+730,343592            47     01 00 FF FF FF FF FF FF        9597            
+730,393081            49     FF FF FF FF FF FF FF FF        9597            
+730,442979            D6     00 0F 60 0B F2 0C 77 85        9597            
+730,493695            97            9615            Checksum Error
+730,543184            D8     FE FF FF FF FF FF FF FF        9597            
+730,593082            3C     01 04 B8 10 03 01 FF FF        9597            
+730,642571            7D     01 03 F8 02 02 FF FF FF        9597            
+730,693287            03     7C 0B FF FF FF FF FF FF        9597            
+730,743185            C4     AA 0A FF FF FF FF FF FF        9597            
+730,792674            85     01 FF FF FF FF FF FF FF        9597            
+730,842572            06     00 00 FF FF FF FF FF FF        9597            
+730,892061            47     01 00 FF FF FF FF FF FF        9597            
+730,941959            49     FF FF FF FF FF FF FF FF        9597            
+730,991448            D6     00 0F 60 0B F2 0C 77 85        9597            
+731,041346            08     86 0B 71 00 00 00 00 FF        9597            
+731,090835            97            9615            Checksum Error
+731,140733            D8     FE FF FF FF FF FF FF FF        9597            
+731,190222            3C     01 06 B2 23 17 46 10 03        9597            
+731,240120            7D     01 06 F2 01 00 00 00 FF        9597            
+731,290836            03     7C 0B FF FF FF FF FF FF        9597            
+731,340325            C4     AA 0A FF FF FF FF FF FF        9579            
+731,390223            85     01 FF FF FF FF FF FF FF        9597            
+731,439712            06     00 00 FF FF FF FF FF FF        9597            
+731,489610            47     01 00 FF FF FF FF FF FF        9597            
+731,539099            49     FF FF FF FF FF FF FF FF        9597            
+731,588588            D6     00 0F 60 0B F2 0C 77 85        9597            
+731,638077            08     86 0B 71 00 00 00 00 FF        9597            
+731,687566            97            9597            Checksum Error
+731,737464            D8     FE FF FF FF FF FF FF FF        9597            
+731,786953            3C     FF FF FF FF FF FF FF FF        9597            
+731,836851            7D            9597            Checksum Error
+731,887567            03     7C 0B FF FF FF FF FF FF        9597            
+731,937056            C4     AA 0A FF FF FF FF FF FF        9597            
+731,986954            85     01 FF FF FF FF FF FF FF        9597            
+732,036443            06     00 00 FF FF FF FF FF FF        9597            
+732,086341            47     01 00 FF FF FF FF FF FF        9597            
+732,136239            49     FF FF FF FF FF FF FF FF        9579            
+732,185728            D6     00 0F 60 0B F2 0C 77 85        9597            
+732,235626            08     86 0B 71 00 00 00 00 FF        9597            
+732,285115            97            9597            Checksum Error
+732,335013            D8     FE FF FF FF FF FF FF FF        9597            
+732,384502            3C     03 05 B9 00 1F 00 00 FF        9579            
+732,434400            7D     03 02 F9 00 FF FF FF FF        9597            
+732,483889            3C     03 10 29 BB 00 1F 00 1E        9597            
+732,533378            3C     03 21 00 00 22 FF FF FF        9597            
+732,583276            3C     03 22 54 01 02 0D 15 86        9597            
+732,632765            3C     03 23 00 00 00 00 00 00        9597            
+732,682663            3C     03 24 00 00 00 00 00 00        9597            
+732,732152            3C     03 25 00 00 00 00 00 00        9597            
+732,782050            3C     03 26 00 00 00 00 00 00        9597            
+732,831948            7D     03 01 FB FF FF FF FF FF        9597            
+732,881437            3C     03 05 B9 00 1F 00 01 FF        9597            
+732,931335            7D     03 02 F9 00 FF FF FF FF        9597            
+732,981642            03     7C 0B FF FF FF FF FF FF        9597            
+733,031131            C4     AA 0A FF FF FF FF FF FF        9597            
+733,081029            85     01 FF FF FF FF FF FF FF        9597            

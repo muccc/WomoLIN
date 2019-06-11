@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -212,86 +212,6 @@ Wire Wire Line
 	7950 1950 7950 1350
 Wire Wire Line
 	7950 1350 8400 1350
-$Comp
-L RF_Bluetooth:MOD-nRF8001 U15
-U 1 1 5CDFE053
-P 7950 5200
-F 0 "U15" H 7300 5850 50  0000 C CNN
-F 1 "MOD-nRF8001" H 7500 5750 50  0000 C CNN
-F 2 "RF_Module:MOD-nRF8001" H 8000 5250 50  0001 C CNN
-F 3 "https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/" H 8000 5200 50  0001 C CNN
-	1    7950 5200
-	1    0    0    -1  
-$EndComp
-Text GLabel 8650 5300 2    50   Input ~ 0
-SPI1_MOSI
-Text GLabel 8650 5500 2    50   Input ~ 0
-SPI1_SCK
-Text GLabel 8650 5200 2    50   Output ~ 0
-SPI1_MISO
-$Comp
-L power:GND #PWR0249
-U 1 1 5CDFE14F
-P 7950 5800
-F 0 "#PWR0249" H 7950 5550 50  0001 C CNN
-F 1 "GND" H 7955 5627 50  0000 C CNN
-F 2 "" H 7950 5800 50  0001 C CNN
-F 3 "" H 7950 5800 50  0001 C CNN
-	1    7950 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C63
-U 1 1 5CDFE647
-P 8550 4400
-F 0 "C63" H 8665 4446 50  0000 L CNN
-F 1 "10u" H 8665 4355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 8588 4250 50  0001 C CNN
-F 3 "~" H 8550 4400 50  0001 C CNN
-	1    8550 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0250
-U 1 1 5CDFE64E
-P 8550 4550
-F 0 "#PWR0250" H 8550 4300 50  0001 C CNN
-F 1 "GND" H 8555 4377 50  0000 C CNN
-F 2 "" H 8550 4550 50  0001 C CNN
-F 3 "" H 8550 4550 50  0001 C CNN
-	1    8550 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8550 4250 8550 4200
-Wire Wire Line
-	8550 4200 7950 4200
-Wire Wire Line
-	7950 4200 7950 4600
-NoConn ~ 7450 5300
-NoConn ~ 7450 5400
-Text GLabel 8650 5400 2    50   Input ~ 0
-SPI1_NSS
-Text GLabel 8650 5000 2    50   Output ~ 0
-BLE_INT
-Text GLabel 8650 4900 2    50   Output ~ 0
-BLE_Active
-Text GLabel 7250 5000 0    50   Input ~ 0
-BLE_RST
-Wire Wire Line
-	7250 5000 7450 5000
-Wire Wire Line
-	8450 4900 8650 4900
-Wire Wire Line
-	8450 5000 8650 5000
-Wire Wire Line
-	8450 5200 8650 5200
-Wire Wire Line
-	8450 5300 8650 5300
-Wire Wire Line
-	8450 5400 8650 5400
-Wire Wire Line
-	8450 5500 8650 5500
 Text GLabel 8700 2450 2    50   Output ~ 0
 UART5_TX
 Text GLabel 3500 2500 0    50   Input ~ 0
@@ -322,27 +242,12 @@ Wire Wire Line
 	5300 2500 5200 2500
 $Comp
 L power:+3.3VA #PWR?
-U 1 1 5D4E449C
-P 7950 4100
-AR Path="/5C8BBC9A/5D4E449C" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5D4E449C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7950 3950 50  0001 C CNN
-F 1 "+3.3VA" H 7965 4273 50  0000 C CNN
-F 2 "" H 7950 4100 50  0001 C CNN
-F 3 "" H 7950 4100 50  0001 C CNN
-	1    7950 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 4100 7950 4200
-Connection ~ 7950 4200
-$Comp
-L power:+3.3VA #PWR?
 U 1 1 5D4E6269
 P 7950 1250
 AR Path="/5C8BBC9A/5D4E6269" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5D4E6269" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7950 1100 50  0001 C CNN
+AR Path="/5C8BC88B/5D4E6269" Ref="#PWR0254"  Part="1" 
+F 0 "#PWR0254" H 7950 1100 50  0001 C CNN
 F 1 "+3.3VA" H 7965 1423 50  0000 C CNN
 F 2 "" H 7950 1250 50  0001 C CNN
 F 3 "" H 7950 1250 50  0001 C CNN
