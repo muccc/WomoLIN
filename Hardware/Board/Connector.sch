@@ -414,29 +414,29 @@ F 3 "~" H 11500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11200 2700 0    50   Input ~ 0
-M_CAN1_RX
+CAN1_RX
 Text GLabel 11200 2600 0    50   Output ~ 0
-M_CAN1_TX
+CAN1_TX
 Text GLabel 11200 2400 0    50   Input ~ 0
-M_LPUART_RX_RX485
+LPUART_RX_RX485
 Text GLabel 11200 2300 0    50   Output ~ 0
-M_LPUART_TX_RS485
+LPUART_TX_RS485
 Text GLabel 11200 2500 0    50   Output ~ 0
-M_LPUART_RTS_DE_RS485
+LPUART_RTS_DE_RS485
 Text GLabel 11200 2900 0    50   BiDi ~ 0
-M_I2C2_SDA
+I2C2_SDA
 Text GLabel 11200 2800 0    50   Output ~ 0
-M_I2C2_SCL
+I2C2_SCL
 Text GLabel 11200 3600 0    50   Output ~ 0
-M_ESP_Boot
+ESP_Boot
 Text GLabel 11200 3400 0    50   Output ~ 0
-M_ESP_Reset
+ESP_Reset
 Text GLabel 11200 3500 0    50   Output ~ 0
-M_ESP_Enable
+ESP_Enable
 Text GLabel 11200 3100 0    50   BiDi ~ 0
-M_I2C4_SDA
+I2C4_SDA
 Text GLabel 11200 3000 0    50   Output ~ 0
-M_I2C4_SCL
+I2C4_SCL
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5DCCE73A
@@ -451,9 +451,9 @@ F 3 "" H 11200 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 11200 4400 0    50   Input ~ 0
-M_LCD_LED-K
+LCD_LED-K
 Text GLabel 11200 3200 0    50   Input ~ 0
-M_PWR_Reset
+PWR_Reset
 $Comp
 L power:GND #PWR?
 U 1 1 5DCCE742
@@ -513,29 +513,29 @@ Wire Wire Line
 Wire Wire Line
 	11200 4300 11300 4300
 Text GLabel 11900 2400 2    50   Input ~ 0
-M_USART1_RX_LIN1
+USART1_RX_LIN1
 Text GLabel 11900 2300 2    50   Output ~ 0
-M_USART1_TX_LIN1
+USART1_TX_LIN1
 Text GLabel 11900 3400 2    50   Output ~ 0
-M_Rasp_Shutdown
+Rasp_Shutdown
 Text GLabel 11900 3500 2    50   Input ~ 0
-M_Rasp_down
+Rasp_down
 Text GLabel 11900 3100 2    50   Output ~ 0
-M_UART5_TX
+UART5_TX
 Text GLabel 11900 2700 2    50   Output ~ 0
-M_USART3_TX_LIN3
+USART3_TX_LIN3
 Text GLabel 11900 2800 2    50   Input ~ 0
-M_USART3_RX_LIN3
+USART3_RX_LIN3
 Text GLabel 11900 3200 2    50   Input ~ 0
-M_UART5_RX
+UART5_RX
 Text GLabel 11900 2600 2    50   Input ~ 0
-M_USART2_RX_LIN2
+USART2_RX_LIN2
 Text GLabel 11900 2500 2    50   Output ~ 0
-M_USART2_TX_LIN2
+USART2_TX_LIN2
 Text GLabel 11900 2900 2    50   Output ~ 0
-M_UART4_TX
+UART4_TX
 Text GLabel 11900 3000 2    50   Input ~ 0
-M_UART4_RX
+UART4_RX
 $Comp
 L power:GND #PWR?
 U 1 1 5DCCFEE5
@@ -580,7 +580,7 @@ F 3 "" H 11900 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 11900 4400 2    50   Input ~ 0
-M_LCD_LED-A
+LCD_LED-A
 $Comp
 L power:GND #PWR?
 U 1 1 5DCCFEF8
@@ -621,11 +621,11 @@ F 3 "" H 11900 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 11900 3600 2    50   BiDi ~ 0
-M_PF11
+PF11
 Text GLabel 11900 3700 2    50   BiDi ~ 0
-M_PB2
+PB2
 Text GLabel 11200 3700 0    50   BiDi ~ 0
-M_PA9
+PA9
 Wire Wire Line
 	11200 2200 11300 2200
 Wire Wire Line
@@ -767,4 +767,12 @@ Wire Wire Line
 	11900 3800 11800 3800
 Wire Wire Line
 	11200 3800 11300 3800
+Text GLabel 4750 2600 2    50   Input ~ 0
+AIN0
+Text GLabel 4750 2700 2    50   Input ~ 0
+AIN1
+Text GLabel 4750 2800 2    50   Input ~ 0
+AIN2
+Text GLabel 4750 2900 2    50   Input ~ 0
+AIN3
 $EndSCHEMATC
