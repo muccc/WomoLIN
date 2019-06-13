@@ -1540,4 +1540,513 @@ Wire Wire Line
 	12950 7500 12850 7500
 Wire Wire Line
 	12950 7600 12850 7600
+$Comp
+L Womo-rescue:DS2482S-800+-2019-03-28_15-45-29 U?
+U 1 1 60654C82
+P 5000 8450
+F 0 "U?" H 5000 7363 60  0000 C CNN
+F 1 "DS2482S-800+" H 5000 7469 60  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5000 9390 60  0001 C CNN
+F 3 "" H 4200 9150 60  0000 C CNN
+	1    5000 8450
+	-1   0    0    1   
+$EndComp
+Text GLabel 6000 8150 2    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 6000 9150 2    50   Input ~ 0
+I2C1_SCL
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 60654C8B
+P 5950 7100
+F 0 "#PWR?" H 5950 6950 50  0001 C CNN
+F 1 "+3.3VA" H 5965 7273 50  0000 C CNN
+F 2 "" H 5950 7100 50  0001 C CNN
+F 3 "" H 5950 7100 50  0001 C CNN
+	1    5950 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60654C91
+P 3950 9350
+F 0 "#PWR?" H 3950 9100 50  0001 C CNN
+F 1 "GND" H 3955 9177 50  0000 C CNN
+F 2 "" H 3950 9350 50  0001 C CNN
+F 3 "" H 3950 9350 50  0001 C CNN
+	1    3950 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 8450 3950 8450
+Wire Wire Line
+	3950 8450 3950 8750
+Wire Wire Line
+	4200 8750 3950 8750
+Connection ~ 3950 8750
+Wire Wire Line
+	3950 8750 3950 8850
+Wire Wire Line
+	4200 8850 3950 8850
+Connection ~ 3950 8850
+Wire Wire Line
+	3950 8850 3950 8950
+Wire Wire Line
+	4200 8950 3950 8950
+Connection ~ 3950 8950
+Wire Wire Line
+	3950 8950 3950 9350
+Wire Wire Line
+	6000 8150 5800 8150
+Wire Wire Line
+	6000 9150 5800 9150
+NoConn ~ 5800 7950
+Wire Wire Line
+	5800 7750 5950 7750
+Wire Wire Line
+	5950 7750 5950 7200
+$Comp
+L Power_Protection:SP0504BAJT D?
+U 1 1 60654CA7
+P 7100 9300
+F 0 "D?" H 7000 8800 50  0000 L CNN
+F 1 "SP0504BAJT" H 6950 8700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 7400 9250 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 7225 9425 50  0001 C CNN
+	1    7100 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SP0504BAJT D?
+U 1 1 60654CAE
+P 8750 9300
+F 0 "D?" H 8600 8800 50  0000 L CNN
+F 1 "SP0504BAJT" H 8550 8700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 9050 9250 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 8875 9425 50  0001 C CNN
+	1    8750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60654CB5
+P 7100 9500
+F 0 "#PWR?" H 7100 9250 50  0001 C CNN
+F 1 "GND" H 7105 9327 50  0000 C CNN
+F 2 "" H 7100 9500 50  0001 C CNN
+F 3 "" H 7100 9500 50  0001 C CNN
+	1    7100 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60654CBB
+P 8750 9500
+F 0 "#PWR?" H 8750 9250 50  0001 C CNN
+F 1 "GND" H 8755 9327 50  0000 C CNN
+F 2 "" H 8750 9500 50  0001 C CNN
+F 3 "" H 8750 9500 50  0001 C CNN
+	1    8750 9500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 8850 2    50   Input ~ 0
+1Wire_P1
+Text GLabel 9750 8950 2    50   Input ~ 0
+1Wire_P0
+Text GLabel 9750 8750 2    50   Input ~ 0
+1Wire_P2
+Text GLabel 9750 8650 2    50   Input ~ 0
+1Wire_P3
+Text GLabel 9750 8550 2    50   Input ~ 0
+1Wire_P4
+Text GLabel 9750 8450 2    50   Input ~ 0
+1Wire_P5
+Text GLabel 9750 8350 2    50   Input ~ 0
+1Wire_P6
+Text GLabel 9750 8250 2    50   Input ~ 0
+1Wire_P7
+Wire Wire Line
+	8950 9100 8950 8550
+Connection ~ 8950 8550
+Wire Wire Line
+	8650 9100 8650 8250
+Connection ~ 8650 8250
+Wire Wire Line
+	8750 9100 8750 8350
+Connection ~ 8750 8350
+Wire Wire Line
+	8850 9100 8850 8450
+Connection ~ 8850 8450
+Wire Wire Line
+	7000 9100 7000 8650
+Wire Wire Line
+	7100 9100 7100 8750
+Wire Wire Line
+	7200 9100 7200 8850
+Wire Wire Line
+	7300 9100 7300 8950
+$Comp
+L Device:C C?
+U 1 1 60654CD5
+P 6200 7500
+F 0 "C?" H 6315 7546 50  0000 L CNN
+F 1 "10uF" H 6315 7455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 6238 7350 50  0001 C CNN
+F 3 "~" H 6200 7500 50  0001 C CNN
+	1    6200 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60654CDC
+P 6650 7500
+F 0 "C?" H 6765 7546 50  0000 L CNN
+F 1 "100nF" H 6765 7455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 7350 50  0001 C CNN
+F 3 "~" H 6650 7500 50  0001 C CNN
+	1    6650 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60654CE3
+P 6200 7650
+F 0 "#PWR?" H 6200 7400 50  0001 C CNN
+F 1 "GND" H 6205 7477 50  0000 C CNN
+F 2 "" H 6200 7650 50  0001 C CNN
+F 3 "" H 6200 7650 50  0001 C CNN
+	1    6200 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60654CE9
+P 6650 7650
+F 0 "#PWR?" H 6650 7400 50  0001 C CNN
+F 1 "GND" H 6655 7477 50  0000 C CNN
+F 2 "" H 6650 7650 50  0001 C CNN
+F 3 "" H 6650 7650 50  0001 C CNN
+	1    6650 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7200 6200 7200
+Wire Wire Line
+	6650 7200 6650 7350
+Connection ~ 5950 7200
+Wire Wire Line
+	5950 7200 5950 7100
+Wire Wire Line
+	6200 7350 6200 7200
+Connection ~ 6200 7200
+Wire Wire Line
+	6200 7200 6650 7200
+$Comp
+L Device:R R?
+U 1 1 60654CF6
+P 7100 7850
+F 0 "R?" H 6950 8050 50  0000 L CNN
+F 1 "4k7" H 7100 8050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 7850 50  0001 C CNN
+F 3 "~" H 7100 7850 50  0001 C CNN
+	1    7100 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60654CFD
+P 7500 7850
+F 0 "R?" H 7350 8050 50  0000 L CNN
+F 1 "4k7" H 7500 8050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7430 7850 50  0001 C CNN
+F 3 "~" H 7500 7850 50  0001 C CNN
+	1    7500 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60654D04
+P 7900 7850
+F 0 "R?" H 7750 8050 50  0000 L CNN
+F 1 "4k7" H 7900 8050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7830 7850 50  0001 C CNN
+F 3 "~" H 7900 7850 50  0001 C CNN
+	1    7900 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60654D0B
+P 8300 7850
+F 0 "R?" H 8150 8050 50  0000 L CNN
+F 1 "4k7" H 8300 8050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 7850 50  0001 C CNN
+F 3 "~" H 8300 7850 50  0001 C CNN
+	1    8300 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60654D12
+P 7300 7850
+F 0 "R?" H 7150 8200 50  0000 L CNN
+F 1 "4k7" H 7300 8200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 7850 50  0001 C CNN
+F 3 "~" H 7300 7850 50  0001 C CNN
+	1    7300 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60654D19
+P 7700 7850
+F 0 "R?" H 7550 8200 50  0000 L CNN
+F 1 "4k7" H 7700 8200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7630 7850 50  0001 C CNN
+F 3 "~" H 7700 7850 50  0001 C CNN
+	1    7700 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60654D20
+P 8100 7850
+F 0 "R?" H 7950 8200 50  0000 L CNN
+F 1 "4k7" H 8100 8200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8030 7850 50  0001 C CNN
+F 3 "~" H 8100 7850 50  0001 C CNN
+	1    8100 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60654D27
+P 8500 7850
+F 0 "R?" H 8350 8200 50  0000 L CNN
+F 1 "4k7" H 8500 8200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 7850 50  0001 C CNN
+F 3 "~" H 8500 7850 50  0001 C CNN
+	1    8500 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 7200 7100 7200
+Wire Wire Line
+	8500 7200 8500 7700
+Connection ~ 6650 7200
+Wire Wire Line
+	7100 7700 7100 7200
+Connection ~ 7100 7200
+Wire Wire Line
+	7100 7200 7300 7200
+Wire Wire Line
+	7300 7700 7300 7200
+Connection ~ 7300 7200
+Wire Wire Line
+	7300 7200 7500 7200
+Wire Wire Line
+	7500 7700 7500 7200
+Connection ~ 7500 7200
+Wire Wire Line
+	7500 7200 7700 7200
+Wire Wire Line
+	7700 7700 7700 7200
+Connection ~ 7700 7200
+Wire Wire Line
+	7700 7200 7900 7200
+Wire Wire Line
+	7900 7700 7900 7200
+Connection ~ 7900 7200
+Wire Wire Line
+	7900 7200 8100 7200
+Wire Wire Line
+	8100 7700 8100 7200
+Connection ~ 8100 7200
+Wire Wire Line
+	8100 7200 8300 7200
+Wire Wire Line
+	8300 7700 8300 7200
+Connection ~ 8300 7200
+Wire Wire Line
+	8300 7200 8500 7200
+Wire Wire Line
+	8500 8000 8500 8950
+Connection ~ 8500 8950
+Wire Wire Line
+	8300 8000 8300 8850
+Connection ~ 8300 8850
+Wire Wire Line
+	8100 8000 8100 8750
+Connection ~ 8100 8750
+Wire Wire Line
+	7900 8000 7900 8650
+Connection ~ 7900 8650
+Wire Wire Line
+	7700 8000 7700 8550
+Connection ~ 7700 8550
+Wire Wire Line
+	7700 8550 8950 8550
+Wire Wire Line
+	7500 8000 7500 8450
+Connection ~ 7500 8450
+Wire Wire Line
+	7500 8450 8850 8450
+Wire Wire Line
+	7300 8000 7300 8350
+Connection ~ 7300 8350
+Wire Wire Line
+	7300 8350 8750 8350
+Wire Wire Line
+	5800 8250 7100 8250
+Wire Wire Line
+	7100 8000 7100 8250
+Connection ~ 7100 8250
+Wire Wire Line
+	7100 8250 8650 8250
+Wire Wire Line
+	5800 8350 7300 8350
+Wire Wire Line
+	5800 8450 7500 8450
+Wire Wire Line
+	5800 8550 7700 8550
+Wire Wire Line
+	5800 8650 7000 8650
+Wire Wire Line
+	5800 8750 7100 8750
+Wire Wire Line
+	5800 8850 7200 8850
+Wire Wire Line
+	5800 8950 7300 8950
+Connection ~ 7000 8650
+Wire Wire Line
+	7000 8650 7900 8650
+Connection ~ 7100 8750
+Wire Wire Line
+	7100 8750 8100 8750
+Connection ~ 7200 8850
+Connection ~ 7300 8950
+Wire Wire Line
+	7200 8850 8300 8850
+Wire Wire Line
+	7300 8950 8500 8950
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D6A
+P 9450 8250
+F 0 "FB?" V 9400 7850 50  0000 C CNN
+F 1 "100R" V 9400 8100 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9380 8250 50  0001 C CNN
+F 3 "~" H 9450 8250 50  0001 C CNN
+	1    9450 8250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D71
+P 9500 8350
+F 0 "FB?" V 9450 7900 50  0000 C CNN
+F 1 "100R" V 9450 8150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9430 8350 50  0001 C CNN
+F 3 "~" H 9500 8350 50  0001 C CNN
+	1    9500 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D78
+P 9550 8450
+F 0 "FB?" V 9500 7950 50  0000 C CNN
+F 1 "100R" V 9500 8200 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9480 8450 50  0001 C CNN
+F 3 "~" H 9550 8450 50  0001 C CNN
+	1    9550 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D7F
+P 9600 8550
+F 0 "FB?" V 9550 8000 50  0000 C CNN
+F 1 "100R" V 9550 8250 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9530 8550 50  0001 C CNN
+F 3 "~" H 9600 8550 50  0001 C CNN
+	1    9600 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D86
+P 9450 8650
+F 0 "FB?" V 9400 8250 50  0000 C CNN
+F 1 "100R" V 9400 8500 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9380 8650 50  0001 C CNN
+F 3 "~" H 9450 8650 50  0001 C CNN
+	1    9450 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D8D
+P 9500 8750
+F 0 "FB?" V 9450 8300 50  0000 C CNN
+F 1 "100R" V 9450 8550 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9430 8750 50  0001 C CNN
+F 3 "~" H 9500 8750 50  0001 C CNN
+	1    9500 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D94
+P 9550 8850
+F 0 "FB?" V 9500 8350 50  0000 C CNN
+F 1 "100R" V 9500 8600 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9480 8850 50  0001 C CNN
+F 3 "~" H 9550 8850 50  0001 C CNN
+	1    9550 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60654D9B
+P 9600 8950
+F 0 "FB?" V 9550 8400 50  0000 C CNN
+F 1 "100R" V 9550 8650 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 9530 8950 50  0001 C CNN
+F 3 "~" H 9600 8950 50  0001 C CNN
+	1    9600 8950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 8250 9350 8250
+Wire Wire Line
+	8750 8350 9400 8350
+Wire Wire Line
+	8850 8450 9450 8450
+Wire Wire Line
+	8950 8550 9500 8550
+Wire Wire Line
+	7900 8650 9350 8650
+Wire Wire Line
+	8100 8750 9400 8750
+Wire Wire Line
+	8300 8850 9450 8850
+Wire Wire Line
+	8500 8950 9500 8950
+Wire Wire Line
+	9750 8950 9700 8950
+Wire Wire Line
+	9750 8850 9650 8850
+Wire Wire Line
+	9750 8750 9600 8750
+Wire Wire Line
+	9750 8650 9550 8650
+Wire Wire Line
+	9750 8550 9700 8550
+Wire Wire Line
+	9750 8450 9650 8450
+Wire Wire Line
+	9750 8350 9600 8350
+Wire Wire Line
+	9750 8250 9550 8250
 $EndSCHEMATC
