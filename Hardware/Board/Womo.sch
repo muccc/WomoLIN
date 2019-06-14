@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -27,19 +27,13 @@ F0 "Power Managment" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 1150 3400 2250 1700
+S 1150 3350 2250 1700
 U 5C8BC88B
 F0 "Connection to Raspberry PI" 50
 F1 "Raspberry.sch" 50
 $EndSheet
 $Sheet
-S 4150 3450 2000 1350
-U 5C9E4308
-F0 "Sensor Connection" 50
-F1 "Sensor.sch" 50
-$EndSheet
-$Sheet
-S 6850 3450 2000 1350
+S 3900 3400 2000 1350
 U 5CC9A992
 F0 "Connector" 50
 F1 "Connector.sch" 50
@@ -70,9 +64,9 @@ Text Notes 1350 3650 0    50   ~ 0
 Rasberry 3B with power down control
 Text Notes 1350 3850 0    50   ~ 0
 ESP Modul 12f
-Text Notes 4250 3650 0    50   ~ 0
+Text Notes 6100 1950 0    50   ~ 0
 1 Wire sensor Hub DS2482-800
-Text Notes 6950 3650 0    50   ~ 0
+Text Notes 4000 3600 0    50   ~ 0
 Board connections
 Text Notes 1950 4050 2    50   ~ 0
 nRF8001 Modul\n

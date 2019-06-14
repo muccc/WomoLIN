@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -1409,25 +1409,14 @@ Wire Wire Line
 	13000 5000 12850 5000
 Wire Wire Line
 	13000 5100 12850 5100
-Text GLabel 11750 7500 0    50   BiDi ~ 0
+Text GLabel 11750 7900 0    50   BiDi ~ 0
 I2C2_SDA
-Text GLabel 11750 7400 0    50   Input ~ 0
+Text GLabel 11750 7800 0    50   Input ~ 0
 I2C2_SCL
 Wire Wire Line
 	11850 4500 11750 4500
 Wire Wire Line
 	11850 4400 11750 4400
-$Comp
-L Analog_ADC:MAX11613 U?
-U 1 1 5D89986D
-P 12350 7500
-F 0 "U?" H 12800 8000 50  0000 C CNN
-F 1 "MAX11613" H 12700 7900 50  0000 C CNN
-F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 12800 7150 50  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf" H 12450 8000 50  0001 C CNN
-	1    12350 7500
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D89B8D9
@@ -1472,17 +1461,6 @@ F 3 "~" H 12600 6850 50  0001 C CNN
 	1    12600 6850
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D8DBE2A
-P 12350 8100
-F 0 "#PWR?" H 12350 7850 50  0001 C CNN
-F 1 "GND" H 12355 7927 50  0000 C CNN
-F 2 "" H 12350 8100 50  0001 C CNN
-F 3 "" H 12350 8100 50  0001 C CNN
-	1    12350 8100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12350 6750 12350 6850
 Wire Wire Line
@@ -1494,14 +1472,8 @@ Wire Wire Line
 	12750 6850 13050 6850
 Wire Wire Line
 	12350 6850 12350 7100
-Wire Wire Line
-	11850 7400 11750 7400
-Wire Wire Line
-	11850 7500 11750 7500
-Wire Wire Line
-	12350 8000 12350 8100
-Text Notes 11450 8050 0    50   ~ 0
-I2C-ADR: 0110100
+Text Notes 11450 8650 0    50   ~ 0
+I2C-ADR: 0110011
 Text Notes 11500 3050 0    50   ~ 0
 I2C ADR: 0111001
 Text Notes 11500 5500 0    50   ~ 0
@@ -1552,9 +1524,9 @@ F 3 "" H 4200 9150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6000 8150 2    50   BiDi ~ 0
-I2C1_SDA
+I2C2_SDA
 Text GLabel 6000 9150 2    50   Input ~ 0
-I2C1_SCL
+I2C2_SCL
 $Comp
 L power:+3.3VA #PWR?
 U 1 1 60654C8B
@@ -2049,4 +2021,66 @@ Wire Wire Line
 	9750 8350 9600 8350
 Wire Wire Line
 	9750 8250 9550 8250
+Text Notes 4650 9650 0    50   ~ 0
+I2C ADR: 0011000
+$Comp
+L Analog_ADC:MAX11615 U?
+U 1 1 5F61F3FA
+P 12350 7800
+F 0 "U?" H 12750 8600 50  0000 C CNN
+F 1 "MAX11615" H 12700 8500 50  0000 C CNN
+F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 12800 7150 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf" H 12450 8600 50  0001 C CNN
+	1    12350 7800
+	-1   0    0    -1  
+$EndComp
+Text GLabel 12950 7700 2    50   Input ~ 0
+AIN4
+Text GLabel 12950 7800 2    50   Input ~ 0
+AIN5
+Text GLabel 12950 7900 2    50   Input ~ 0
+AIN6
+Text GLabel 12950 8000 2    50   Input ~ 0
+AIN7
+Wire Wire Line
+	11750 7800 11850 7800
+Wire Wire Line
+	11850 7900 11750 7900
+Wire Wire Line
+	12950 7700 12850 7700
+Wire Wire Line
+	12950 7800 12850 7800
+Wire Wire Line
+	12950 7900 12850 7900
+Wire Wire Line
+	12950 8000 12850 8000
+$Comp
+L power:GND #PWR?
+U 1 1 5F70EB36
+P 12350 8700
+F 0 "#PWR?" H 12350 8450 50  0001 C CNN
+F 1 "GND" H 12355 8527 50  0000 C CNN
+F 2 "" H 12350 8700 50  0001 C CNN
+F 3 "" H 12350 8700 50  0001 C CNN
+	1    12350 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 8600 12350 8700
+Text GLabel 13000 4400 2    50   BiDi ~ 0
+P0
+Text GLabel 13000 4500 2    50   BiDi ~ 0
+P1
+Text GLabel 13000 4600 2    50   BiDi ~ 0
+P2
+Text GLabel 13000 4700 2    50   BiDi ~ 0
+P3
+Text GLabel 13000 4800 2    50   BiDi ~ 0
+P4
+Text GLabel 13000 4900 2    50   BiDi ~ 0
+P5
+Text GLabel 13000 5000 2    50   BiDi ~ 0
+P6
+Text GLabel 13000 5100 2    50   BiDi ~ 0
+P7
 $EndSCHEMATC
