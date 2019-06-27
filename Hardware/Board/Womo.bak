@@ -71,7 +71,7 @@ Board connections
 Text Notes 1950 4050 2    50   ~ 0
 nRF8001 Modul\n
 $Sheet
-S 3650 1150 1500 1350
+S 3700 1150 1500 1350
 U 5C8BBC94
 F0 "Main Controller" 50
 F1 "MCU.sch" 50
