@@ -374,10 +374,10 @@ Wire Wire Line
 Text Notes 7650 4650 0    50   ~ 0
 SIM800L Modul\n
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR0372
 U 1 1 5D9A02CF
 P 7300 5750
-F 0 "#PWR?" H 7300 5600 50  0001 C CNN
+F 0 "#PWR0372" H 7300 5600 50  0001 C CNN
 F 1 "+5VD" H 7315 5923 50  0000 C CNN
 F 2 "" H 7300 5750 50  0001 C CNN
 F 3 "" H 7300 5750 50  0001 C CNN
@@ -385,10 +385,10 @@ F 3 "" H 7300 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:B230 D?
+L Diode:B230 D20
 U 1 1 5D9A0C60
 P 7650 5800
-F 0 "D?" H 7650 5584 50  0000 C CNN
+F 0 "D20" H 7650 5584 50  0000 C CNN
 F 1 "B230" H 7650 5675 50  0000 C CNN
 F 2 "Diode_SMD:D_SMB" H 7650 5625 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7650 5800 50  0001 C CNN
@@ -396,10 +396,10 @@ F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7650 5800 50  0
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:B230 D?
+L Diode:B230 D21
 U 1 1 5D9A0DCB
 P 7950 5800
-F 0 "D?" H 7950 5584 50  0000 C CNN
+F 0 "D21" H 7950 5584 50  0000 C CNN
 F 1 "B230" H 7950 5675 50  0000 C CNN
 F 2 "Diode_SMD:D_SMB" H 7950 5625 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7950 5800 50  0001 C CNN
@@ -407,10 +407,10 @@ F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 7950 5800 50  0
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:B230 D?
+L Diode:B230 D22
 U 1 1 5D9A175A
 P 8250 5800
-F 0 "D?" H 8250 5584 50  0000 C CNN
+F 0 "D22" H 8250 5584 50  0000 C CNN
 F 1 "B230" H 8250 5675 50  0000 C CNN
 F 2 "Diode_SMD:D_SMB" H 8250 5625 50  0001 C CNN
 F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8250 5800 50  0001 C CNN
@@ -418,10 +418,10 @@ F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 8250 5800 50  0
 	-1   0    0    1   
 $EndComp
 $Comp
-L stmbl:+4V #PWR?
+L stmbl:+4V #PWR0373
 U 1 1 5D9A20CD
 P 8550 5750
-F 0 "#PWR?" H 8550 5600 50  0001 C CNN
+F 0 "#PWR0373" H 8550 5600 50  0001 C CNN
 F 1 "+4V" H 8565 5923 50  0000 C CNN
 F 2 "" H 8550 5750 50  0001 C CNN
 F 3 "" H 8550 5750 50  0001 C CNN

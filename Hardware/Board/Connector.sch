@@ -1726,28 +1726,6 @@ F 3 "~" H 6050 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L stmbl:Q_NPN_BEC Q6
-U 1 1 5D877437
-P 7800 2600
-F 0 "Q6" H 8000 3100 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 7900 3000 50  0000 L CNN
-F 2 "" H 8000 2700 50  0001 C CNN
-F 3 "" H 7800 2600 50  0001 C CNN
-	1    7800 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L stmbl:Q_NPN_BEC Q5
-U 1 1 5D877543
-P 7450 2900
-F 0 "Q5" H 7700 3000 50  0000 L CNN
-F 1 "Q_NPN_BEC" H 7600 3150 50  0000 L CNN
-F 2 "" H 7650 3000 50  0001 C CNN
-F 3 "" H 7450 2900 50  0001 C CNN
-	1    7450 2900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5D895D11
 P 6050 2800
@@ -2514,4 +2492,26 @@ Wire Notes Line
 	8800 11100 5850 11100
 Wire Notes Line
 	5850 11100 5850 6700
+$Comp
+L Transistor_FET:2N7002 Q5
+U 1 1 5D1CDA94
+P 7450 2900
+F 0 "Q5" H 7656 2946 50  0000 L CNN
+F 1 "2N7002" H 7656 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7650 2825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7450 2900 50  0001 L CNN
+	1    7450 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q6
+U 1 1 5D1ED8DF
+P 7800 2600
+F 0 "Q6" H 8006 2646 50  0000 L CNN
+F 1 "2N7002" H 8006 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 2525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7800 2600 50  0001 L CNN
+	1    7800 2600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

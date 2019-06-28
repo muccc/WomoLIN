@@ -40,4 +40,11 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP XAL8080-682MEB
+D Fixed Inductors XAL8080 High Current 20 % 
+K
+F http://www.coilcraft.com/pdfs/xal8080.pdf
+$ENDCMP
+#
+
 #End Doc Library
