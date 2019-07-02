@@ -624,8 +624,6 @@ Text GLabel 7800 9350 2    50   BiDi ~ 0
 PF11
 Text GLabel 7800 9450 2    50   BiDi ~ 0
 PB2
-Text GLabel 7100 9450 0    50   BiDi ~ 0
-PA9
 Wire Wire Line
 	7100 7950 7200 7950
 Wire Wire Line
@@ -1871,7 +1869,7 @@ U 1 1 5DABF027
 P 3450 7850
 F 0 "J16" V 3450 8450 50  0000 L CNN
 F 1 "Conn_01x06" V 3350 8200 50  0000 L CNN
-F 2 "" H 3450 7850 50  0001 C CNN
+F 2 "SamacSys_Parts:436500628" H 3450 7850 50  0001 C CNN
 F 3 "~" H 3450 7850 50  0001 C CNN
 	1    3450 7850
 	0    -1   -1   0   
@@ -1882,7 +1880,7 @@ U 1 1 5DABF198
 P 3450 9500
 F 0 "J17" V 3500 10150 50  0000 L CNN
 F 1 "Conn_01x05" V 3400 9850 50  0000 L CNN
-F 2 "" H 3450 9500 50  0001 C CNN
+F 2 "SamacSys_Parts:436500527" H 3450 9500 50  0001 C CNN
 F 3 "~" H 3450 9500 50  0001 C CNN
 	1    3450 9500
 	0    -1   -1   0   
@@ -2191,8 +2189,6 @@ Text GLabel 4200 4850 0    50   BiDi ~ 0
 PC6
 Text GLabel 4200 4950 0    50   BiDi ~ 0
 PC7
-Text GLabel 4200 5050 0    50   BiDi ~ 0
-PA9
 Text GLabel 4200 5150 0    50   BiDi ~ 0
 PB2
 Wire Wire Line
@@ -2201,9 +2197,6 @@ Connection ~ 4350 4850
 Wire Wire Line
 	4200 4950 4450 4950
 Connection ~ 4450 4950
-Wire Wire Line
-	4200 5050 4550 5050
-Connection ~ 4550 5050
 Wire Wire Line
 	4200 5150 4650 5150
 Connection ~ 4650 5150
@@ -2514,4 +2507,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7800 2600 50  000
 	1    7800 2600
 	-1   0    0    -1  
 $EndComp
+Text GLabel 7100 9450 0    50   Output ~ 0
+LCD_BL_CTR
 $EndSCHEMATC

@@ -1446,16 +1446,9 @@ F 3 "~" H 12600 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12350 6750 12350 6850
-Wire Wire Line
-	12450 6850 12350 6850
-Connection ~ 12350 6850
-Wire Wire Line
 	13050 6850 13050 6900
 Wire Wire Line
 	12750 6850 13050 6850
-Wire Wire Line
-	12350 6850 12350 7100
 Text Notes 11450 8650 0    50   ~ 0
 I2C-ADR: 0110011
 Text Notes 11500 3050 0    50   ~ 0
@@ -2251,4 +2244,11 @@ Wire Wire Line
 Connection ~ 13100 7300
 Wire Wire Line
 	13100 7300 14100 7300
+Wire Wire Line
+	12350 6750 12350 6850
+Wire Wire Line
+	12350 6850 12450 6850
+Wire Wire Line
+	12350 7100 12350 6850
+Connection ~ 12350 6850
 $EndSCHEMATC

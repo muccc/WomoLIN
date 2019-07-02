@@ -46,5 +46,16 @@ K
 F http://www.coilcraft.com/pdfs/xal8080.pdf
 $ENDCMP
 #
-
+$CMP 43650-0527
+D Molex MICRO-FIT 3.0 Series, Series Number 43650, 3mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 5A
+K
+F https://componentsearchengine.com/Datasheets/1/43650-0527.pdf
+$ENDCMP
+#
+$CMP 43650-0628
+D Molex MICRO-FIT 3.0 Series, Series Number 43650, 3mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination, 5A
+K
+F https://componentsearchengine.com/Datasheets/1/43650-0628.pdf
+$ENDCMP
+#
 #End Doc Library

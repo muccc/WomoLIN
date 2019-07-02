@@ -274,7 +274,7 @@ U 1 1 60626D7E
 P 8400 4800
 F 0 "J15" H 8320 5217 50  0000 C CNN
 F 1 "Conn_01x06" H 8320 5126 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Horizontal" H 8400 4800 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 8400 4800 50  0001 C CNN
 F 3 "~" H 8400 4800 50  0001 C CNN
 	1    8400 4800
 	-1   0    0    -1  
