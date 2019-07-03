@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -27,13 +27,7 @@ F0 "Power Managment" 50
 F1 "Power.sch" 50
 $EndSheet
 $Sheet
-S 1150 3350 2250 1700
-U 5C8BC88B
-F0 "Connection to Raspberry PI" 50
-F1 "Raspberry.sch" 50
-$EndSheet
-$Sheet
-S 3900 3400 2000 1350
+S 1150 3100 2000 1350
 U 5CC9A992
 F0 "Connector" 50
 F1 "Connector.sch" 50
@@ -60,15 +54,15 @@ Text Notes 6100 1500 0    50   ~ 0
 1 * RS485 MAX3072\n
 Text Notes 6100 1650 0    50   ~ 0
 1 + CAN TJA1051\n
-Text Notes 1350 3650 0    50   ~ 0
+Text Notes 1250 3450 0    50   ~ 0
 Rasberry 3B with power down control
-Text Notes 1350 3850 0    50   ~ 0
+Text Notes 1250 3600 0    50   ~ 0
 ESP Modul 12f
 Text Notes 6100 1950 0    50   ~ 0
 1 Wire sensor Hub DS2482-800
-Text Notes 4000 3600 0    50   ~ 0
+Text Notes 1250 3300 0    50   ~ 0
 Board connections
-Text Notes 1950 4050 2    50   ~ 0
+Text Notes 1850 3750 2    50   ~ 0
 nRF8001 Modul\n
 $Sheet
 S 3700 1150 1500 1350
