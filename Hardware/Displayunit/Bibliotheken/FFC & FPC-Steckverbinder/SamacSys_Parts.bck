@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1-1734592-0
+D 10W SMT r/a  bott contact 0.5mm FFC conn
+F https://componentsearchengine.com/Datasheets/1/1-1734592-0.pdf
+$ENDCMP
+#
+$CMP 1-1734592-2
+D TE Connectivity 0.5mm Pitch 12 Way Right Angle Female FPC Connector Locking Mechanism
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1734592%7FC%7Fpdf%7FEnglish%7FENG_CD_1734592_C_C_1734592.pdf%7F1-1734592-2
+$ENDCMP
+#
+$CMP 1-1734592-4
+D 14W SMT r/a  bott contact 0.5mm FFC conn
+F https://componentsearchengine.com/Datasheets/1/1-1734592-4.pdf
+$ENDCMP
+#
+$CMP 1734592-8
+D FPC receptacle, 0.5mm, SMT, R/A, 12P
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734592&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1734592-8
+$ENDCMP
+#
+$CMP 52271-0679
+D 6 way r/a bottom FFC ZIF connector,1mm Molex FFC/FPC SMT Series 1mm Pitch 6 Way 1 Row Right Angle SMT Female FPC Connector, Tin Bismuth Alloy Plated Contacts
+F https://componentsearchengine.com/Datasheets/1/52271-0679.pdf
+$ENDCMP
+#
+$CMP 54104-4031
+D Connector 0.5mm, FFC/FPC, SMT,r/a,40w,Au Molex FFC/FPC SMT Series 0.5mm Pitch 40 Way Right Angle SMT Female FPC Connector, ZIF Top Contact
+F https://componentsearchengine.com/Datasheets/1/54104-4031.pdf
+$ENDCMP
+#
+$CMP MX25LM51245GXDI00
+D S-NOR 512M
+F http://www.macronix.com/Lists/Datasheet/Attachments/7417/MX25LM51245G,%203V,%20512Mb,%20v1.0.pdf
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+#End Doc Library

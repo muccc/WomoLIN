@@ -15,12 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5950 1200 1650 1300
-U 5C8BBC97
-F0 "In- Output Section" 50
-F1 "IO.sch" 50
-$EndSheet
-$Sheet
 S 1150 1150 1650 1400
 U 5C8BBC9A
 F0 "Power Managment" 50
@@ -74,4 +68,10 @@ Text Notes 1300 2050 0    50   ~ 0
 Backlight LED DC/DC
 Text Notes 6100 1800 0    50   ~ 0
 I2C Power Managment
+$Sheet
+S 5950 1200 1550 1300
+U 5C8BBC97
+F0 "In- Output Section" 50
+F1 "IO.sch" 50
+$EndSheet
 $EndSCHEMATC
