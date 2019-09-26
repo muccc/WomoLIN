@@ -37,11 +37,11 @@ Text Notes 1300 1750 0    50   ~ 0
 Text Notes 1300 1900 0    50   ~ 0
 5V 1A Display
 Text Notes 3800 1350 0    50   ~ 0
-STM32L4R9 Cortex M4\n
+STM32L476 Cortex M4\n
 Text Notes 3800 1500 0    50   ~ 0
-Octo SPI Flash + RAM\n
+Quad SPI Flash + SD-Karte\n
 Text Notes 3800 1650 0    50   ~ 0
-8 Bit TFT RGB Display connection\n
+Control Bus driver\n
 Text Notes 6100 1350 0    50   ~ 0
 3 x LIN Bus TJA1029\n
 Text Notes 6100 1500 0    50   ~ 0
