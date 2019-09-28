@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Womo-Lin)(type Legacy)(uri P:/Git/Womo_LIN/Hardware/Biblotheken/Womo-Lin/Womo-Lin.lib)(options "")(descr ""))
+  (lib (name WAGO_Klemmleisten)(type Legacy)(uri "P:/Git/Womo_LIN/Hardware/Biblotheken/WAGO/WAGO Klemmleisten.lib")(options "")(descr ""))
+  (lib (name RS_Bauteile)(type Legacy)(uri "P:/Git/Womo_LIN/Hardware/Biblotheken/RS SMD/RS_Bauteile.lib")(options "")(descr ""))
+  (lib (name opendous)(type Legacy)(uri P:/Git/Womo_LIN/Hardware/Biblotheken/Opendous/opendous.lib)(options "")(descr ""))
+)
