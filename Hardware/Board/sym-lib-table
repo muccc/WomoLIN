@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Womo-rescue)(type Legacy)(uri ${KIPRJMOD}/Womo-rescue.lib)(options "")(descr ""))
+  (lib (name Womo-Lin)(type Legacy)(uri P:/Git/Womo_LIN/Hardware/Biblotheken/Womo-Lin/Womo-Lin.lib)(options "")(descr ""))
 )
