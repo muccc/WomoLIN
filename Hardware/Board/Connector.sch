@@ -5206,4 +5206,76 @@ Text GLabel 10850 10700 0    50   Input ~ 0
 REL1_RESET
 Text GLabel 10850 13300 0    50   Input ~ 0
 REL2_RESET
+Text GLabel 1850 11950 0    50   BiDi ~ 0
+K1_COM
+Text GLabel 1850 12050 0    50   BiDi ~ 0
+K1_NC
+Text GLabel 1850 12150 0    50   BiDi ~ 0
+K1_NO
+Text GLabel 1900 12400 0    50   BiDi ~ 0
+K2_COM
+Text GLabel 1900 12500 0    50   BiDi ~ 0
+K2_NC
+Text GLabel 1900 12600 0    50   BiDi ~ 0
+K2_NO
+Text GLabel 1900 12850 0    50   BiDi ~ 0
+K3_COM
+Text GLabel 1900 12950 0    50   BiDi ~ 0
+K3_NC
+Text GLabel 1900 13050 0    50   BiDi ~ 0
+K3_NO
+Text GLabel 1900 13350 0    50   BiDi ~ 0
+K4_COM
+Text GLabel 1900 13450 0    50   BiDi ~ 0
+K4_NC
+Text GLabel 1900 13550 0    50   BiDi ~ 0
+K4_NO
+Text GLabel 12750 13200 2    50   Output ~ 0
+REL1
+Text GLabel 12750 13300 2    50   Output ~ 0
+REL2
+Text GLabel 12750 13400 2    50   Output ~ 0
+REL3
+Text GLabel 12750 13500 2    50   Output ~ 0
+REL4
+Text GLabel 12750 13600 2    50   Output ~ 0
+REL5
+Text GLabel 12750 13700 2    50   Output ~ 0
+REL6
+Text GLabel 12750 13800 2    50   Output ~ 0
+REL7
+Text GLabel 12750 13900 2    50   Output ~ 0
+REL8
+Wire Wire Line
+	12750 13200 12650 13200
+Wire Wire Line
+	12750 13300 12650 13300
+Wire Wire Line
+	12750 13400 12650 13400
+Wire Wire Line
+	12750 13500 12650 13500
+Wire Wire Line
+	12750 13600 12650 13600
+Wire Wire Line
+	12750 13700 12650 13700
+Wire Wire Line
+	12750 13800 12650 13800
+Wire Wire Line
+	12750 13900 12650 13900
+Text GLabel 1800 14200 2    50   Output ~ 0
+REL1
+Text GLabel 1800 14300 2    50   Output ~ 0
+REL2
+Text GLabel 1800 14400 2    50   Output ~ 0
+REL3
+Text GLabel 1800 14500 2    50   Output ~ 0
+REL4
+Text GLabel 1800 14600 2    50   Output ~ 0
+REL5
+Text GLabel 1800 14700 2    50   Output ~ 0
+REL6
+Text GLabel 1800 14800 2    50   Output ~ 0
+REL7
+Text GLabel 1800 14900 2    50   Output ~ 0
+REL8
 $EndSCHEMATC
