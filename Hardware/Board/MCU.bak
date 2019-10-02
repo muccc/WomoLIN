@@ -718,41 +718,6 @@ Connection ~ 5250 900
 Wire Wire Line
 	1100 3250 1400 3250
 Connection ~ 1400 3250
-$Comp
-L Switch:SW_Push SW2
-U 1 1 5D1A738D
-P 2350 1900
-F 0 "SW2" V 2350 2185 50  0000 C CNN
-F 1 "Wakeup" V 2250 2150 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H8.5mm" H 2350 2100 50  0001 C CNN
-F 3 "" H 2350 2100 50  0001 C CNN
-	1    2350 1900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2350 1200 2350 1300
-$Comp
-L Device:R R2
-U 1 1 5D241F0D
-P 2350 1450
-F 0 "R2" H 2420 1496 50  0000 L CNN
-F 1 "10K" H 2420 1405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1450 50  0001 C CNN
-F 3 "~" H 2350 1450 50  0001 C CNN
-	1    2350 1450
-	1    0    0    -1  
-$EndComp
-Text GLabel 2450 1650 2    50   Output ~ 0
-Wakeup
-Wire Wire Line
-	2450 1650 2350 1650
-Wire Wire Line
-	2350 1650 2350 1600
-Wire Wire Line
-	2350 1700 2350 1650
-Connection ~ 2350 1650
-Wire Wire Line
-	2350 2200 2350 2100
 Text GLabel 5750 4950 2    50   Output ~ 0
 Signal_LED
 Wire Wire Line
@@ -1208,17 +1173,6 @@ F 1 "+3.3V" H 5265 923 50  0000 C CNN
 F 2 "" H 5250 750 50  0001 C CNN
 F 3 "" H 5250 750 50  0001 C CNN
 	1    5250 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0332
-U 1 1 5E5E939E
-P 2350 1200
-F 0 "#PWR0332" H 2350 1050 50  0001 C CNN
-F 1 "+3.3V" H 2365 1373 50  0000 C CNN
-F 2 "" H 2350 1200 50  0001 C CNN
-F 3 "" H 2350 1200 50  0001 C CNN
-	1    2350 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1876,17 +1830,6 @@ F 3 "" H 1400 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0361
-U 1 1 60B12A54
-P 2350 2200
-F 0 "#PWR0361" H 2350 1950 50  0001 C CNN
-F 1 "GND" H 2355 2027 50  0000 C CNN
-F 2 "" H 2350 2200 50  0001 C CNN
-F 3 "" H 2350 2200 50  0001 C CNN
-	1    2350 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Memory_Flash:M25PX32-VMW U?
 U 1 1 60B7225F
 P 11300 1750
@@ -2277,4 +2220,20 @@ Wire Wire Line
 	3050 9750 3200 9750
 Wire Wire Line
 	3050 9850 3200 9850
+Wire Wire Line
+	3050 4950 3200 4950
+Wire Wire Line
+	3050 5050 3200 5050
+Wire Wire Line
+	3050 5150 3200 5150
+Wire Wire Line
+	3050 5250 3200 5250
+Wire Wire Line
+	3050 5350 3200 5350
+Wire Wire Line
+	3050 5450 3200 5450
+Wire Wire Line
+	3050 5550 3200 5550
+Wire Wire Line
+	3050 5650 3200 5650
 $EndSCHEMATC

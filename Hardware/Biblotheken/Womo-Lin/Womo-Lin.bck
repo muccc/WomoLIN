@@ -20,6 +20,21 @@ D FPC receptacle, 0.5mm, SMT, R/A, 12P
 F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1734592&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1734592-8
 $ENDCMP
 #
+$CMP 43650-0527
+D Molex MICRO-FIT 3.0 Series, Series Number 43650, 3mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 5A
+F https://componentsearchengine.com/Datasheets/1/43650-0527.pdf
+$ENDCMP
+#
+$CMP 43650-0628
+D Molex MICRO-FIT 3.0 Series, Series Number 43650, 3mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination, 5A
+F https://componentsearchengine.com/Datasheets/1/43650-0628.pdf
+$ENDCMP
+#
+$CMP 5-1393243-2
+D General Purpose Relays RT424F05
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2_bistable%7F1116%7Fpdf%7FEnglish%7FENG_DS_RT2_bistable_1116.pdf%7F5-1393243-2
+$ENDCMP
+#
 $CMP 52271-0679
 D 6 way r/a bottom FFC ZIF connector,1mm Molex FFC/FPC SMT Series 1mm Pitch 6 Way 1 Row Right Angle SMT Female FPC Connector, Tin Bismuth Alloy Plated Contacts
 F https://componentsearchengine.com/Datasheets/1/52271-0679.pdf
@@ -40,36 +55,14 @@ D Single Precision Timer
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
-$CMP XAL8080-682MEB
-D Fixed Inductors XAL8080 High Current 20 % 
-K
-F http://www.coilcraft.com/pdfs/xal8080.pdf
-$ENDCMP
-#
-$CMP 43650-0527
-D Molex MICRO-FIT 3.0 Series, Series Number 43650, 3mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 5A
-K
-F https://componentsearchengine.com/Datasheets/1/43650-0527.pdf
-$ENDCMP
-#
-$CMP 43650-0628
-D Molex MICRO-FIT 3.0 Series, Series Number 43650, 3mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination, 5A
-K
-F https://componentsearchengine.com/Datasheets/1/43650-0628.pdf
-$ENDCMP
-#
-#
 $CMP SPSGRFC-868
 D STMICROELECTRONICS - SPSGRFC-868 - RF TRANSCEIVERS, 500KBPS, 868MHZ
-K
 F https://www.st.com/resource/en/datasheet/spsgrfc.pdf
 $ENDCMP
 #
-#
-$CMP 5-1393243-2
-D General Purpose Relays RT424F05
-K
-F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FRT2_bistable%7F1116%7Fpdf%7FEnglish%7FENG_DS_RT2_bistable_1116.pdf%7F5-1393243-2
+$CMP XAL8080-682MEB
+D Fixed Inductors XAL8080 High Current 20 %
+F http://www.coilcraft.com/pdfs/xal8080.pdf
 $ENDCMP
 #
 #End Doc Library

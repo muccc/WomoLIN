@@ -2236,4 +2236,12 @@ Wire Wire Line
 	3050 5550 3200 5550
 Wire Wire Line
 	3050 5650 3200 5650
+Text GLabel 3050 5750 0    50   Output ~ 0
+REL1_RESET
+Text GLabel 3050 6450 0    50   Output ~ 0
+REL2_RESET
+Wire Wire Line
+	3200 5750 3050 5750
+Wire Wire Line
+	3200 6450 3050 6450
 $EndSCHEMATC

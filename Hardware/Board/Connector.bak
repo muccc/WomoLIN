@@ -4285,47 +4285,9 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=655-5-1393243-2" H 8800 9
 	1    7650 10400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:BAV70 D?
-U 1 1 5DBB47AA
-P 9150 10750
-F 0 "D?" V 9104 10829 50  0000 L CNN
-F 1 "BAV70" V 9195 10829 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 10750 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9150 10750 50  0001 C CNN
-	1    9150 10750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5DBB6E95
-P 8850 10750
-AR Path="/5C8BBC9A/5DBB6E95" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5DBB6E95" Ref="#PWR?"  Part="1" 
-AR Path="/5CC9A992/5DBB6E95" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8850 10600 50  0001 C CNN
-F 1 "+5V" H 8865 10923 50  0000 C CNN
-F 2 "" H 8850 10750 50  0001 C CNN
-F 3 "" H 8850 10750 50  0001 C CNN
-	1    8850 10750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 10750 8850 10750
-Wire Wire Line
-	8750 10750 8850 10750
-Connection ~ 8850 10750
-Wire Wire Line
-	9150 11050 9150 11100
-Wire Wire Line
-	9150 11100 8750 11100
-Wire Wire Line
-	8750 10400 9150 10400
-Wire Wire Line
-	9150 10400 9150 10450
-Text GLabel 9250 10400 2    50   Input ~ 0
+Text GLabel 8850 10400 2    50   Input ~ 0
 K1_SET
-Text GLabel 9250 11100 2    50   Input ~ 0
+Text GLabel 8850 11100 2    50   Input ~ 0
 K1_RESET
 Text GLabel 6850 10850 0    50   Output ~ 0
 K1_STATUS
@@ -4335,12 +4297,6 @@ Text GLabel 7550 10500 0    50   BiDi ~ 0
 K1_NC
 Text GLabel 7550 10600 0    50   BiDi ~ 0
 K1_NO
-Wire Wire Line
-	9250 10400 9150 10400
-Connection ~ 9150 10400
-Wire Wire Line
-	9250 11100 9150 11100
-Connection ~ 9150 11100
 Wire Wire Line
 	7650 10400 7550 10400
 Wire Wire Line
@@ -4415,46 +4371,22 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=655-5-1393243-2" H 8800 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BAV70 D?
-U 1 1 5E072BBD
-P 9150 11950
-F 0 "D?" V 9104 12029 50  0000 L CNN
-F 1 "BAV70" V 9195 12029 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 11950 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9150 11950 50  0001 C CNN
-	1    9150 11950
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5E072BC4
-P 8850 11950
+P 8850 10750
 AR Path="/5C8BBC9A/5E072BC4" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E072BC4" Ref="#PWR?"  Part="1" 
 AR Path="/5CC9A992/5E072BC4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8850 11800 50  0001 C CNN
-F 1 "+5V" H 8865 12123 50  0000 C CNN
-F 2 "" H 8850 11950 50  0001 C CNN
-F 3 "" H 8850 11950 50  0001 C CNN
-	1    8850 11950
-	1    0    0    -1  
+F 0 "#PWR?" H 8850 10600 50  0001 C CNN
+F 1 "+5V" V 8850 10950 50  0000 C CNN
+F 2 "" H 8850 10750 50  0001 C CNN
+F 3 "" H 8850 10750 50  0001 C CNN
+	1    8850 10750
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8950 11950 8850 11950
-Wire Wire Line
-	8750 11950 8850 11950
-Connection ~ 8850 11950
-Wire Wire Line
-	9150 12250 9150 12300
-Wire Wire Line
-	9150 12300 8750 12300
-Wire Wire Line
-	8750 11600 9150 11600
-Wire Wire Line
-	9150 11600 9150 11650
-Text GLabel 9250 11600 2    50   Input ~ 0
+Text GLabel 8850 11600 2    50   Input ~ 0
 K2_SET
-Text GLabel 9250 12300 2    50   Input ~ 0
+Text GLabel 8850 12300 2    50   Input ~ 0
 K2_RESET
 Text GLabel 6850 12050 0    50   Output ~ 0
 K2_STATUS
@@ -4464,12 +4396,6 @@ Text GLabel 7550 11700 0    50   BiDi ~ 0
 K2_NC
 Text GLabel 7550 11800 0    50   BiDi ~ 0
 K2_NO
-Wire Wire Line
-	9250 11600 9150 11600
-Connection ~ 9150 11600
-Wire Wire Line
-	9250 12300 9150 12300
-Connection ~ 9150 12300
 Wire Wire Line
 	7650 11600 7550 11600
 Wire Wire Line
@@ -4543,47 +4469,9 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=655-5-1393243-2" H 8800 1
 	1    7650 12800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:BAV70 D?
-U 1 1 5E0FE0C1
-P 9150 13150
-F 0 "D?" V 9104 13229 50  0000 L CNN
-F 1 "BAV70" V 9195 13229 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 13150 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9150 13150 50  0001 C CNN
-	1    9150 13150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5E0FE0C8
-P 8850 13150
-AR Path="/5C8BBC9A/5E0FE0C8" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E0FE0C8" Ref="#PWR?"  Part="1" 
-AR Path="/5CC9A992/5E0FE0C8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8850 13000 50  0001 C CNN
-F 1 "+5V" H 8865 13323 50  0000 C CNN
-F 2 "" H 8850 13150 50  0001 C CNN
-F 3 "" H 8850 13150 50  0001 C CNN
-	1    8850 13150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 13150 8850 13150
-Wire Wire Line
-	8750 13150 8850 13150
-Connection ~ 8850 13150
-Wire Wire Line
-	9150 13450 9150 13500
-Wire Wire Line
-	9150 13500 8750 13500
-Wire Wire Line
-	8750 12800 9150 12800
-Wire Wire Line
-	9150 12800 9150 12850
-Text GLabel 9250 12800 2    50   Input ~ 0
+Text GLabel 8850 12800 2    50   Input ~ 0
 K3_SET
-Text GLabel 9250 13500 2    50   Input ~ 0
+Text GLabel 8850 13500 2    50   Input ~ 0
 K3_RESET
 Text GLabel 6850 13250 0    50   Output ~ 0
 K3_STATUS
@@ -4593,12 +4481,6 @@ Text GLabel 7550 12900 0    50   BiDi ~ 0
 K3_NC
 Text GLabel 7550 13000 0    50   BiDi ~ 0
 K3_NO
-Wire Wire Line
-	9250 12800 9150 12800
-Connection ~ 9150 12800
-Wire Wire Line
-	9250 13500 9150 13500
-Connection ~ 9150 13500
 Wire Wire Line
 	7650 12800 7550 12800
 Wire Wire Line
@@ -4672,47 +4554,9 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=655-5-1393243-2" H 8800 1
 	1    7650 14000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:BAV70 D?
-U 1 1 5E14638F
-P 9150 14350
-F 0 "D?" V 9104 14429 50  0000 L CNN
-F 1 "BAV70" V 9195 14429 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 14350 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 9150 14350 50  0001 C CNN
-	1    9150 14350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5E146396
-P 8850 14350
-AR Path="/5C8BBC9A/5E146396" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E146396" Ref="#PWR?"  Part="1" 
-AR Path="/5CC9A992/5E146396" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8850 14200 50  0001 C CNN
-F 1 "+5V" H 8865 14523 50  0000 C CNN
-F 2 "" H 8850 14350 50  0001 C CNN
-F 3 "" H 8850 14350 50  0001 C CNN
-	1    8850 14350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8950 14350 8850 14350
-Wire Wire Line
-	8750 14350 8850 14350
-Connection ~ 8850 14350
-Wire Wire Line
-	9150 14650 9150 14700
-Wire Wire Line
-	9150 14700 8750 14700
-Wire Wire Line
-	8750 14000 9150 14000
-Wire Wire Line
-	9150 14000 9150 14050
-Text GLabel 9250 14000 2    50   Input ~ 0
+Text GLabel 8850 14000 2    50   Input ~ 0
 K4_SET
-Text GLabel 9250 14700 2    50   Input ~ 0
+Text GLabel 8850 14700 2    50   Input ~ 0
 K4_RESET
 Text GLabel 6850 14450 0    50   Output ~ 0
 K4_STATUS
@@ -4722,12 +4566,6 @@ Text GLabel 7550 14100 0    50   BiDi ~ 0
 K4_NC
 Text GLabel 7550 14200 0    50   BiDi ~ 0
 K4_NO
-Wire Wire Line
-	9250 14000 9150 14000
-Connection ~ 9150 14000
-Wire Wire Line
-	9250 14700 9150 14700
-Connection ~ 9150 14700
 Wire Wire Line
 	7650 14000 7550 14000
 Wire Wire Line
@@ -4948,4 +4786,373 @@ Wire Notes Line
 	17500 700  21600 700 
 Wire Notes Line
 	17500 3650 21600 3650
+Text GLabel 10850 10800 0    50   Input ~ 0
+SPI3_NSS
+Text GLabel 10850 11000 0    50   Input ~ 0
+SPI3_SCK
+Text GLabel 10850 13700 0    50   Output ~ 0
+SPI3_MISO
+Text GLabel 10850 10900 0    50   Input ~ 0
+SPI3_MOSI
+Text GLabel 10850 13600 0    50   Input ~ 0
+SPI3_SCK
+Text GLabel 10850 13400 0    50   Input ~ 0
+SPI3_NSS
+Text GLabel 10850 11100 0    50   Output ~ 0
+SPI3_SOSI
+Text GLabel 10850 13500 0    50   Input ~ 0
+SPI3_SOSI
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5DBC639C
+P 11800 12400
+AR Path="/5C8BBC9A/5DBC639C" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DBC639C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5DBC639C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DBC639C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11800 12250 50  0001 C CNN
+F 1 "+3.3VA" H 11815 12573 50  0000 C CNN
+F 2 "" H 11800 12400 50  0001 C CNN
+F 3 "" H 11800 12400 50  0001 C CNN
+	1    11800 12400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 12400 11800 12450
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5DC17933
+P 11800 9800
+AR Path="/5C8BBC9A/5DC17933" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DC17933" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5DC17933" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DC17933" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11800 9650 50  0001 C CNN
+F 1 "+3.3VA" H 11815 9973 50  0000 C CNN
+F 2 "" H 11800 9800 50  0001 C CNN
+F 3 "" H 11800 9800 50  0001 C CNN
+	1    11800 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 9800 11800 9850
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5DC68D47
+P 10850 11200
+AR Path="/5C8BBC9A/5DC68D47" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DC68D47" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5DC68D47" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DC68D47" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 11050 50  0001 C CNN
+F 1 "+3.3VA" V 10850 11500 50  0000 C CNN
+F 2 "" H 10850 11200 50  0001 C CNN
+F 3 "" H 10850 11200 50  0001 C CNN
+	1    10850 11200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5DEA37A6
+P 10850 13800
+AR Path="/5C8BBC9A/5DEA37A6" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DEA37A6" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5DEA37A6" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DEA37A6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 13650 50  0001 C CNN
+F 1 "+3.3VA" V 10850 14100 50  0000 C CNN
+F 2 "" H 10850 13800 50  0001 C CNN
+F 3 "" H 10850 13800 50  0001 C CNN
+	1    10850 13800
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 10950 10600
+NoConn ~ 10950 13200
+Wire Wire Line
+	10950 11100 10850 11100
+Wire Wire Line
+	10950 10800 10850 10800
+Wire Wire Line
+	10950 10900 10850 10900
+Wire Wire Line
+	10950 11200 10850 11200
+Wire Wire Line
+	10950 11000 10850 11000
+Wire Wire Line
+	10950 13800 10850 13800
+Wire Wire Line
+	10950 13400 10850 13400
+Wire Wire Line
+	10950 13500 10850 13500
+Wire Wire Line
+	10950 13600 10850 13600
+Text GLabel 12750 10600 2    50   Output ~ 0
+K1_SET
+Text GLabel 12750 10700 2    50   Output ~ 0
+K1_RESET
+Text GLabel 12750 10800 2    50   Output ~ 0
+K2_SET
+Text GLabel 12750 10900 2    50   Output ~ 0
+K2_RESET
+Text GLabel 12750 11000 2    50   Output ~ 0
+K3_SET
+Text GLabel 12750 11100 2    50   Output ~ 0
+K3_RESET
+Text GLabel 12750 11200 2    50   Output ~ 0
+K4_SET
+Text GLabel 12750 11300 2    50   Output ~ 0
+K4_RESET
+Wire Wire Line
+	12750 10600 12650 10600
+Wire Wire Line
+	12750 10700 12650 10700
+Wire Wire Line
+	12750 10800 12650 10800
+Wire Wire Line
+	12750 10900 12650 10900
+Wire Wire Line
+	12750 11000 12650 11000
+Wire Wire Line
+	12750 11100 12650 11100
+Wire Wire Line
+	12750 11200 12650 11200
+Wire Wire Line
+	12750 11300 12650 11300
+$Comp
+L Womo-Lin:max4896atp+ U?
+U 1 1 5DB0BD6F
+P 10950 10350
+F 0 "U?" H 11300 10750 60  0000 C CNN
+F 1 "max4896atp+" H 11400 10650 60  0000 C CNN
+F 2 "21-0140L_T2055-5" H 11850 10500 60  0001 C CNN
+F 3 "" H 10950 10000 60  0000 C CNN
+	1    10950 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-Lin:max4896atp+ U?
+U 1 1 5DB0C961
+P 10950 12950
+F 0 "U?" H 11300 13400 60  0000 C CNN
+F 1 "max4896atp+" H 11400 13300 60  0000 C CNN
+F 2 "21-0140L_T2055-5" H 11850 13100 60  0001 C CNN
+F 3 "" H 10950 12600 60  0000 C CNN
+	1    10950 12950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE2618E
+P 10850 11400
+AR Path="/5C8BBC94/5DE2618E" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DE2618E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 11150 50  0001 C CNN
+F 1 "GND" H 10855 11227 50  0000 C CNN
+F 2 "" H 10850 11400 50  0001 C CNN
+F 3 "" H 10850 11400 50  0001 C CNN
+	1    10850 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DE7DA5D
+P 11550 11850
+AR Path="/5C8BBC94/5DE7DA5D" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DE7DA5D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11550 11600 50  0001 C CNN
+F 1 "GND" H 11555 11677 50  0000 C CNN
+F 2 "" H 11550 11850 50  0001 C CNN
+F 3 "" H 11550 11850 50  0001 C CNN
+	1    11550 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DED532C
+P 11700 11850
+AR Path="/5C8BBC94/5DED532C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DED532C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11700 11600 50  0001 C CNN
+F 1 "GND" H 11705 11677 50  0000 C CNN
+F 2 "" H 11700 11850 50  0001 C CNN
+F 3 "" H 11700 11850 50  0001 C CNN
+	1    11700 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF2CBFB
+P 11900 11850
+AR Path="/5C8BBC94/5DF2CBFB" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DF2CBFB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 11600 50  0001 C CNN
+F 1 "GND" H 11905 11677 50  0000 C CNN
+F 2 "" H 11900 11850 50  0001 C CNN
+F 3 "" H 11900 11850 50  0001 C CNN
+	1    11900 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF844CA
+P 12050 11850
+AR Path="/5C8BBC94/5DF844CA" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DF844CA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12050 11600 50  0001 C CNN
+F 1 "GND" H 12055 11677 50  0000 C CNN
+F 2 "" H 12050 11850 50  0001 C CNN
+F 3 "" H 12050 11850 50  0001 C CNN
+	1    12050 11850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFDC3D4
+P 12500 9900
+AR Path="/5C8BBC94/5DFDC3D4" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DFDC3D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12500 9650 50  0001 C CNN
+F 1 "GND" H 12505 9727 50  0000 C CNN
+F 2 "" H 12500 9900 50  0001 C CNN
+F 3 "" H 12500 9900 50  0001 C CNN
+	1    12500 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E033EE7
+P 10850 14000
+AR Path="/5C8BBC94/5E033EE7" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E033EE7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10850 13750 50  0001 C CNN
+F 1 "GND" H 10855 13827 50  0000 C CNN
+F 2 "" H 10850 14000 50  0001 C CNN
+F 3 "" H 10850 14000 50  0001 C CNN
+	1    10850 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E08B7B6
+P 11550 14450
+AR Path="/5C8BBC94/5E08B7B6" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E08B7B6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11550 14200 50  0001 C CNN
+F 1 "GND" H 11555 14277 50  0000 C CNN
+F 2 "" H 11550 14450 50  0001 C CNN
+F 3 "" H 11550 14450 50  0001 C CNN
+	1    11550 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0E3085
+P 11700 14450
+AR Path="/5C8BBC94/5E0E3085" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E0E3085" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11700 14200 50  0001 C CNN
+F 1 "GND" H 11705 14277 50  0000 C CNN
+F 2 "" H 11700 14450 50  0001 C CNN
+F 3 "" H 11700 14450 50  0001 C CNN
+	1    11700 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E13A954
+P 11900 14450
+AR Path="/5C8BBC94/5E13A954" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E13A954" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11900 14200 50  0001 C CNN
+F 1 "GND" H 11905 14277 50  0000 C CNN
+F 2 "" H 11900 14450 50  0001 C CNN
+F 3 "" H 11900 14450 50  0001 C CNN
+	1    11900 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E192223
+P 12050 14450
+AR Path="/5C8BBC94/5E192223" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E192223" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12050 14200 50  0001 C CNN
+F 1 "GND" H 12055 14277 50  0000 C CNN
+F 2 "" H 12050 14450 50  0001 C CNN
+F 3 "" H 12050 14450 50  0001 C CNN
+	1    12050 14450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E2EC146
+P 8850 11950
+AR Path="/5C8BBC9A/5E2EC146" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E2EC146" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E2EC146" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8850 11800 50  0001 C CNN
+F 1 "+5V" V 8850 12150 50  0000 C CNN
+F 2 "" H 8850 11950 50  0001 C CNN
+F 3 "" H 8850 11950 50  0001 C CNN
+	1    8850 11950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E3E7A7A
+P 8850 13150
+AR Path="/5C8BBC9A/5E3E7A7A" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E3E7A7A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E3E7A7A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8850 13000 50  0001 C CNN
+F 1 "+5V" V 8850 13350 50  0000 C CNN
+F 2 "" H 8850 13150 50  0001 C CNN
+F 3 "" H 8850 13150 50  0001 C CNN
+	1    8850 13150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E4DF30A
+P 8850 14350
+AR Path="/5C8BBC9A/5E4DF30A" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E4DF30A" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5E4DF30A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8850 14200 50  0001 C CNN
+F 1 "+5V" V 8850 14550 50  0000 C CNN
+F 2 "" H 8850 14350 50  0001 C CNN
+F 3 "" H 8850 14350 50  0001 C CNN
+	1    8850 14350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10950 11300 10850 11300
+Wire Wire Line
+	10850 11300 10850 11400
+Wire Wire Line
+	10950 13900 10850 13900
+Wire Wire Line
+	10850 13900 10850 14000
+Wire Wire Line
+	8850 12800 8750 12800
+Wire Wire Line
+	8850 13150 8750 13150
+Wire Wire Line
+	8850 13500 8750 13500
+Wire Wire Line
+	8850 14000 8750 14000
+Wire Wire Line
+	8850 14350 8750 14350
+Wire Wire Line
+	8850 12300 8750 12300
+Wire Wire Line
+	8850 10400 8750 10400
+Wire Wire Line
+	8850 10750 8750 10750
+Wire Wire Line
+	8850 11100 8750 11100
+Wire Wire Line
+	8850 14700 8750 14700
+Wire Wire Line
+	8850 11950 8750 11950
 $EndSCHEMATC
