@@ -1,0 +1,157 @@
+<!-- Uhrzeiten -->
+<signal>
+	<description>Aktuelle Uhrzeit vom der Mainunit Real Time Clock</description>
+	<direction>output</direction>
+	<name>time_rtc_mainunit</name>
+	<datatype>time</datatype>
+	<realtime>1s</realtime>
+</signal>
+<signal>
+	<description>Setzen der Uhrzeit vom der Mainunit Real Time Clock</description>
+	<direction>input</direction>
+	<name>set_time_rtc_mainunit</name>
+	<datatype>time</datatype>
+</signal>
+
+<!-- Spannungen -->
+<signal>
+	<description>Aktuelle Spannung der Aufbaubatterie (Main Battery)</description>
+	<direction>input</direction>
+	<name>voltage_main_battery</name>
+	<datatype>voltage_battery</datatype>
+	<realtime>1s</realtime>
+	<minvalue>0V</minvalue>
+	<maxvalue>20V</maxvalue>
+	<low_warning>11V</low_warning>
+	<low_allert>10V</low_allert>
+</signal>
+<signal>
+	<description>Aktuelle Spannung der Fahrzeugbatterie (Car Battery)</description>
+	<direction>input</direction>
+	<name>voltage_car_battery</name>
+	<datatype>voltage_battery</datatype>
+	<realtime>1s</realtime>
+	<minvalue>0V</minvalue>
+	<maxvalue>20V</maxvalue>
+	<low_warning>11V</low_warning>
+	<low_allert>10V</low_allert>
+</signal>
+
+<!-- Ströme -->
+<signal> 
+	<description>Aktuelle Ladestrom Main Battery</description>
+	<direction>input</direction>
+	<name>charge_current_main_battery</name>
+	<datatype>charge_current</datatype>
+	<realtime>1s</realtime>
+	<minvalue>0A</minvalue>
+	<maxvalue>50A</maxvalue>
+</signal>
+<signal> 
+	<description>Aktueller Entladestrom Main Battery</description>
+	<direction>input</direction>
+	<name>load_current_main_battery</name>
+	<datatype>load_current</datatype>
+	<realtime>1s</realtime>
+	<minvalue>0A</minvalue>
+	<maxvalue>100A</maxvalue>
+</signal>
+
+<!-- Batterie Kapazitäten -->
+<signal> 
+	<description>Aktuelle Kapazität der Main Battery</description>
+	<direction>input</direction>
+	<name>capacity_main_battery</name>
+	<datatype>capacity</datatype>
+	<realtime>1min</realtime>
+	<minvalue>0Ah</minvalue>
+	<maxvalue>120Ah</maxvalue>
+</signal>
+
+
+<!-- Landstrom -->
+<signal> 
+	<description>Netzspannung angeschlossen oder nicht angeschlossen</description>
+	<direction>input</direction>
+	<name>main_power_active</name>
+	<datatype>active_deactive</datatype>
+	<realtime>3s</realtime>
+</signal>
+
+
+<!-- Licht statisch-->
+<signal> 
+	<description>Licht Bad toggeln</description>
+	<direction>output</direction>
+	<name>toggle_light_bathroom</name>
+	<datatype>toggle</datatype>
+	<default>off</default>
+	<depends>toggle_light_bathroom_from_door</depends> <!-- priority -->
+	<depends>toogle_light_bathroom_from_display</depends>
+</signal>
+<signal> 
+	<description>Licht Bad Status</description>
+	<direction>input</direction>
+	<name>get_light_bathroom</name>
+	<datatype>on_off</datatype>
+</signal>
+<signal> 
+	<description>Licht toogle über Display Unit</description>
+	<direction>input</direction>
+	<name>toogle_light_bathroom_from_display</name>
+	<datatype>toogle</datatype>
+</signal>
+<signal> 
+	<description>Licht Toggle an der Tür</description>
+	<direction>input</direction>
+	<name>toogle_light_bathroom_from_door</name>
+	<datatype>toogle</datatype>
+</signal>
+
+<!-- Licht dimmen-->
+<signal> 
+	<description>Licht Wohnraum dimmen</description>
+	<direction>output</direction>
+	<name>set_light_livingroom</name>
+	<datatype>procent_100</datatype>
+	<default>0%</default>
+</signal>
+<signal> 
+	<description>Licht dimmen an der Tür</description>
+	<direction>input</direction>
+	<name>dimmen_light_livingroom_from_door</name>
+	<datatype>procent_100</datatype>
+</signal>
+
+
+<!-- Wasserpumpe -->
+<signal> 
+	<description>Wasserpumpe ein- und ausschalten</description>
+	<direction>output</direction>
+	<name>pump_watter_onoff</name>
+	<datatype>on_off</datatype>
+	<default>off</default>
+	<depends>pump_watter_onoff_from_display</depends>
+</signal>
+<signal> 
+	<description>Wasserpumpe ein/aus vom Display</description>
+	<direction>input</direction>
+	<name>pump_watter_onoff_from_display</name>
+	<datatype>on_off</datatype>
+</signal>
+<signal> 
+	<description>Status Wasserpumpe</description>
+	<direction>output</direction>
+	<name>pump_watter_status</name>
+	<datatype>on_off</datatype>
+</signal>
+
+
+
+
+
+
+
+
+
+
