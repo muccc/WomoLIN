@@ -2,7 +2,7 @@
 
 Wohnmobilsteuerung fuer Heizung, Klima, Remote u.v.a.
 
-![System Applikationen](./doc/freeplan/system_applikationen.latest?raw=true "System Applikationen")
+![System Applikationen](./doc/freeplan/system_applikationen_v1.0.png?raw=true "System Applikationen")
 ![System Benutzerschnittstellen](./doc/freeplan/system_benutzerschnittstellen_v1.0.png "System Benutzerschnittstellen")
 
 ## Dockerfile 
