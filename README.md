@@ -2,6 +2,8 @@
 
 Wohnmobilsteuerung fuer Heizung, Klima, Remote u.v.a.
 
+![Alt text](./doc/freeplan/system_applikationen_latest.png?raw=true "")
+
 ## Dockerfile 
 
 ### Anleitungen
@@ -18,7 +20,7 @@ wo sich auch das Dockerfile befindet, also im Root des Womo Lin Repositories.
 ```
 docker build -t womo-lin/env:latest .
 ```
-### Images mit Login starten 
+### Container mit Login starten 
 
 ```
 docker run -it womo-lin/env 
