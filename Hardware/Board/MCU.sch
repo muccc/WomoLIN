@@ -1198,17 +1198,6 @@ F 3 "" H 13950 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0335
-U 1 1 5E658DBC
-P 13550 1000
-F 0 "#PWR0335" H 13550 850 50  0001 C CNN
-F 1 "+3.3V" H 13565 1173 50  0000 C CNN
-F 2 "" H 13550 1000 50  0001 C CNN
-F 3 "" H 13550 1000 50  0001 C CNN
-	1    13550 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0336
 U 1 1 5E690DBA
 P 13300 7700
@@ -2244,4 +2233,85 @@ Wire Wire Line
 	3200 5750 3050 5750
 Wire Wire Line
 	3200 6450 3050 6450
+Text GLabel 3050 6650 0    50   BiDi ~ 0
+PF0
+Text GLabel 3050 6750 0    50   BiDi ~ 0
+PF1
+Text GLabel 3050 6950 0    50   BiDi ~ 0
+PF3
+Text GLabel 3050 6850 0    50   BiDi ~ 0
+PF2
+Text GLabel 3050 7050 0    50   BiDi ~ 0
+PF4
+Text GLabel 3050 7150 0    50   BiDi ~ 0
+PF5
+Text GLabel 3050 7250 0    50   BiDi ~ 0
+PF6
+Text GLabel 3050 7350 0    50   BiDi ~ 0
+PF7
+Text GLabel 3050 7450 0    50   BiDi ~ 0
+PF8
+Text GLabel 3050 7550 0    50   BiDi ~ 0
+PF9
+Text GLabel 3050 7650 0    50   BiDi ~ 0
+PF10
+Text GLabel 3050 7750 0    50   BiDi ~ 0
+PF11
+Text GLabel 3050 7850 0    50   BiDi ~ 0
+PF12
+Text GLabel 3050 7950 0    50   BiDi ~ 0
+PF13
+Text GLabel 3050 8050 0    50   BiDi ~ 0
+PF14
+Text GLabel 3050 8150 0    50   BiDi ~ 0
+PF15
+Wire Wire Line
+	3050 6650 3200 6650
+Wire Wire Line
+	3050 6750 3200 6750
+Wire Wire Line
+	3050 6850 3200 6850
+Wire Wire Line
+	3050 6950 3200 6950
+Wire Wire Line
+	3050 7050 3200 7050
+Wire Wire Line
+	3050 7150 3200 7150
+Wire Wire Line
+	3050 7250 3200 7250
+Wire Wire Line
+	3050 7350 3200 7350
+Wire Wire Line
+	3050 7450 3200 7450
+Wire Wire Line
+	3050 7550 3200 7550
+Wire Wire Line
+	3050 7650 3200 7650
+Wire Wire Line
+	3050 7750 3200 7750
+Wire Wire Line
+	3050 7850 3200 7850
+Wire Wire Line
+	3050 7950 3200 7950
+Wire Wire Line
+	3050 8050 3200 8050
+Wire Wire Line
+	3050 8150 3200 8150
+Text GLabel 3050 8550 0    50   Input ~ 0
+IO_INT
+Wire Wire Line
+	3050 8550 3200 8550
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 631265D5
+P 13550 1000
+AR Path="/5C8BBC97/631265D5" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/631265D5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 13550 850 50  0001 C CNN
+F 1 "+3.3VA" H 13565 1173 50  0000 C CNN
+F 2 "" H 13550 1000 50  0001 C CNN
+F 3 "" H 13550 1000 50  0001 C CNN
+	1    13550 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

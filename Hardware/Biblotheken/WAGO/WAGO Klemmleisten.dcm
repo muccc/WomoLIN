@@ -24,4 +24,54 @@ $CMP WAGO_Klemmleiste_8-pol
 F ~
 $ENDCMP
 #
+#
+$CMP 733-363
+D Conn Shrouded Header HDR 3 POS 2.5mm Solder RA Thru-Hole Box
+K
+F https://www.wago.com/gb/search/?text=733-364
+$ENDCMP
+#
+#
+$CMP 733-366
+D 733-366
+K
+F https://www.wago.com/gb/search/?text=733-364
+$ENDCMP
+#
+#
+$CMP 733-368
+D WAGO - 733-368.. - PIN HEADER, 8 POSITION, 2.5MM
+K
+F http://www.farnell.com/datasheets/2157626.pdf
+$ENDCMP
+#
+#
+$CMP 733-370
+D WAGO - 733-370 - Terminal Block, Header, 2.5 mm, 10 Ways, 4 A, 150 V, Through Hole Right Angle
+K
+F https://www.wago.com/global/pluggable-connectors/tht-male-header/p/733-370
+$ENDCMP
+#
+#
+$CMP 734-163
+D WAGO - 734-163 - TERMINAL BLOCK, R/A, HEADER, 3POS, TH
+K
+F https://eshop.wago.com/JPBC/0_5StartPage.jsp;jsessionid=D9B01D0F8E580A07FCBF8203AF454392?supplierAID=734-163&catalogID=WAGO01&zone=7
+$ENDCMP
+#
+#
+$CMP 734-164
+D WAGO - 734-164 - Terminal Block, Header, 3.5 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle
+K
+F https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-164
+$ENDCMP
+#
+#
+$CMP 734-168
+D WAGO - 734-168 - TERMINAL BLOCK, R/A, HEADER, 8POS, TH
+K
+F https://componentsearchengine.com/Datasheets/2/734-168.pdf
+$ENDCMP
+#
+#
 #End Doc Library
