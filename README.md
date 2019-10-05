@@ -1,4 +1,4 @@
-# Womo Lin 
+# Womo LIN 
 
 Wohnmobilsteuerung fuer Heizung, Klima, Remote u.v.a.
 
@@ -24,4 +24,15 @@ docker build -t womo-lin/env:latest .
 ```
 docker run -it -e DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix:rw womo-lin/env:latest
 ```
+### Beispiele: Applikationen im Container starten 
+
+```
+git clone https://github.com/muccc/Womo_LIN.git
+kicad
+freeplane
+dia
+java -jar /usr/share/java/umlet.jar
+```
+
+
 
