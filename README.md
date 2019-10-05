@@ -13,17 +13,15 @@ Wohnmobilsteuerung fuer Heizung, Klima, Remote u.v.a.
 
 ### Images erzeugen 
 
-Im Dockerfile sind alle Tools und die Entwicklungsumgebung enthalten
-Erzeugung der Docker Images.
-Der folgende Dockerbefehl muss im Verzeichnis ausgefuehrt werden,
-wo sich auch das Dockerfile befindet, also im Root des Womo Lin Repositories.
-
+Im Dockerfile sind alle Tools und die Entwicklungsumgebung enthalten.
+Der folgende Dockerbefehl muss im Root des Womo Lin Repositories ausgefuehrt werden.
+Vor dem Ausfuehren, die eigene user id im Dockerfile ersetzen.
 ```
 docker build -t womo-lin/env:latest .
 ```
-### Container mit Login starten 
+### Container starten 
 
 ```
-docker run -it womo-lin/env 
+docker run -it -e DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix:rw womo-lin/env:latest
 ```
 
