@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./build.sh freeplane 
+./build.sh $0 

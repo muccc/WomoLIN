@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./start.sh freeplane 
+./start.sh $0 

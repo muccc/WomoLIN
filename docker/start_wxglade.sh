@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./start.sh wxglade 
+./start.sh $0 

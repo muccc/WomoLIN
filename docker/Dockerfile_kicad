@@ -1,0 +1,6 @@
+FROM womolinux 
+MAINTAINER Norym
+
+RUN sudo apt-get update && sudo apt-get install -y kicad 
+RUN sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+RUN sudo apt-get update && sudo apt-get install -y kicad 
