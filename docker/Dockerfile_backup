@@ -1,0 +1,43 @@
+FROM ubuntu:18.04
+MAINTAINER Norym
+
+# for wxglade 
+ENV NO_AT_BRIDGE 1
+ENV HOME /home/developer
+
+# add-apt-repository
+RUN apt-get update
+RUN apt-get install -y apt-utils 
+RUN apt-get install -y software-properties-common 
+
+RUN add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+
+# install tools 
+RUN apt-get update
+#RUN apt-get install -y apt-utils schon installiert, von vorher? 
+RUN apt-get install -y kicad
+#	dia  \
+#	freeplane  \
+#	git  \
+RUN apt-get install -y libcanberra-gtk-module
+RUN apt-get install -y libcanberra-gtk3-module 
+RUN apt-get install -y sudo 
+#	umlet  \
+#	vim  \
+#	wget  \
+#	wxglade \
+#&& rm -rf /var/lib/apt/lists/*
+
+# Replace 1001 with your user / group id
+RUN export uid=1001 gid=1001 && \
+    mkdir -p /home/developer && \
+    echo "developer:x:${uid}:${gid}:Developer,,,:/home/developer:/bin/bash" >> /etc/passwd && \
+    echo "developer:x:${uid}:" >> /etc/group && \
+    echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
+    chmod 0440 /etc/sudoers.d/developer && \
+    chown ${uid}:${gid} -R /home/developer
+
+USER developer
+WORKDIR /home/developer
+
+CMD /bin/bash

@@ -1,0 +1,6 @@
+FROM womolinux
+MAINTAINER Norym
+
+ENV NO_AT_BRIDGE 1
+
+RUN sudo apt-get install -y wxglade 
