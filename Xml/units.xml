@@ -1,0 +1,75 @@
+<unit>
+	<name>bileay_k1</name> <!-- es gibt k1 bis k4 -->
+	<close_com_no>
+		<signal>light_bathroom_from_door_on</signal>
+		<signal>light_bathroom_from_display_on</signal>
+	</close_com_no>
+	<close_com_nc>
+		<signal>light_bathroom_from_door_off</signal>
+		<signal>light_bathroom_from_display_off</signal>
+	</close_com_nc>
+	<status>
+		<com_no_closed>light_bathroom_on</com_no_closed>
+		<com_nc_closed>light_bathroom_off</com_nc_closed>
+	<status>
+</units>
+
+<unit>
+	<name>highside_hs1</name> <!-- es gibt hs1 bis hs4 -->
+	<close>
+		<signal>light_car_on</signal>
+	</close>
+	<open>
+		<signal>light_car_off</signal>
+	</open>
+	<status>
+		<close>light_car_on</close>
+		<open>light_car_off</open>
+	</status>
+</units>
+
+<unit>
+	<name>adc8_percent</name>
+	<channel>1</channel> <!-- es gibt a1 bis a8 -->
+	<signal>water_percent</signal>
+	<lookup> <!-- ohne lookup, 0V = 0%, maxVolt = 100% -->
+		<voltage_percent>0mV, 0%</voltage_percent>	
+		<voltage_percent>1V, 50%</voltage_percent>	
+		<voltage_percent>3V, 100%</voltage_percent>	
+	</lookup>
+</unit>
+
+
+<unit>
+	<name>adc8_four_percent</name> 
+	<chanel_range>2,5</name> <!-- mussen immer 4 channels sein -->
+	<status>water_steps</status> <!-- liefert 0, 25, 50, 75, 100% -->
+</unit>
+
+
+<unit>
+	<name>victron</name> 
+	<port>tty1</port>
+	<voltage>voltage_main_battery</voltage>
+	<current_main_charge>charge_current_main_battery</current_main_charge>
+	<current_main_load>load_current_main_battery</current_main_load>
+	<capacity_main_battery>capacity_main_battery</capacity_main_battery>
+</unit>
+
+<unit>
+	<name>solar</name> 
+	<port>tty2</port>
+	<voltage_solar>voltage_solar_dach</voltage_solar>
+	<charge_current_main_battery>charge_current_main_battery</charge_current_main_battery>
+</unit>
+
+<unit>
+	<name>heller_ibs</name> 
+	<port>lin1</port>
+	<voltage>voltage_car_battery</voltage>
+	<current_car_charge>charge_current_car_battery</current_car_charge>
+	<current_car_load>load_current_car_battery</current_car_load>
+	<capacity_car_battery>capacity_car_battery</capacity_car_battery>
+</unit>
+
+

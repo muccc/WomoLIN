@@ -128,21 +128,21 @@
 <signal> 
 	<description>Wasserpumpe ein- und ausschalten</description>
 	<direction>output</direction>
-	<name>pump_watter_onoff</name>
+	<name>pump_water_onoff</name>
 	<datatype>on_off</datatype>
 	<default>off</default>
-	<depends>pump_watter_onoff_from_display</depends>
+	<depends>pump_water_onoff_from_display</depends>
 </signal>
 <signal> 
 	<description>Wasserpumpe ein/aus vom Display</description>
 	<direction>input</direction>
-	<name>pump_watter_onoff_from_display</name>
+	<name>pump_water_onoff_from_display</name>
 	<datatype>on_off</datatype>
 </signal>
 <signal> 
 	<description>Status Wasserpumpe</description>
 	<direction>output</direction>
-	<name>pump_watter_status</name>
+	<name>pump_water_status</name>
 	<datatype>on_off</datatype>
 </signal>
 
