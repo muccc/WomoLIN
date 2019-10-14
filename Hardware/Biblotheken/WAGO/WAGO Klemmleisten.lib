@@ -345,4 +345,29 @@ P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
 ENDDRAW
 ENDDEF
 #
+#
+#SamacSys ECAD Model 734-264
+#/1448420/154082/2.44/4/3/Connector
+DEF 734-264 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "734-264" 650 200 50 H V L CNN
+F2 "SHDR4W120P0X381_1X4_1640X1030X850P" 650 100 50 H I L CNN
+F3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" 650 0 50 H I L CNN
+F4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "Wago" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "734-264" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "RS Part Number"
+F11 "" 650 -800 50 H I L CNN "RS Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 B
+X 4 4 0 -300 200 R 50 50 0 0 B
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

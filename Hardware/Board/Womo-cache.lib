@@ -1786,6 +1786,26 @@ X 8 8 0 -700 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
+# WAGO_Klemmleisten_734-264
+#
+DEF WAGO_Klemmleisten_734-264 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "WAGO_Klemmleisten_734-264" 650 200 50 H V L CNN
+F2 "SHDR4W120P0X381_1X4_1640X1030X850P" 650 100 50 H I L CNN
+F3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" 650 0 50 H I L CNN
+F4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "Wago" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "734-264" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 B
+X 4 4 0 -300 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
 # Womo-Lin_5-1393243-2
 #
 DEF Womo-Lin_5-1393243-2 K 0 30 Y Y 1 F N
@@ -1810,6 +1830,29 @@ X NO_2 24 0 -650 200 R 50 50 0 0 B
 X Set A2 1100 0 200 L 50 50 0 0 O L
 X Reset A1 1100 -700 200 L 50 50 1 0 O L
 X + A3 1100 -350 200 L 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# Womo-Lin_BTS6143D
+#
+DEF Womo-Lin_BTS6143D IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "Womo-Lin_BTS6143D" 1050 200 50 H V L CNN
+F2 "BTS6143D" 1050 100 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022" 1050 0 50 H I L CNN
+F4 "INFINEON - BTS6143D - IC, PROFET, P-TO252-5" 1050 -100 50 H I L CNN "Description"
+F5 "2" 1050 -200 50 H I L CNN "Height"
+F6 "726-BTS6143D" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BTS6143D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Infineon" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BTS6143D" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X OUT_1 1 0 0 200 R 50 50 0 0 B
+X IN 2 0 -100 200 R 50 50 0 0 B
+X VBB 3 0 -200 200 R 50 50 0 0 B
+X IS 4 1200 0 200 L 50 50 0 0 B
+X OUT_2 5 1200 -100 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
@@ -2008,29 +2051,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
 X GND1 1 0 0 0 U 30 30 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Womo-rescue_WAGO_Klemmleiste_4-pol-WAGO_Klemmleisten
-#
-DEF Womo-rescue_WAGO_Klemmleiste_4-pol-WAGO_Klemmleisten J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Womo-rescue_WAGO_Klemmleiste_4-pol-WAGO_Klemmleisten" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- WAGO_Klemmleiste_*_4-pol
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

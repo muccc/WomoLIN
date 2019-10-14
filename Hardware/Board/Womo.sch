@@ -44,15 +44,15 @@ Text Notes 3800 1650 0    50   ~ 0
 Control Bus driver\n
 Text Notes 6100 1350 0    50   ~ 0
 4 * LIN Bus TJA1029\n
-Text Notes 6100 1500 0    50   ~ 0
-4 * RS485 MAX3072\n
 Text Notes 6100 1650 0    50   ~ 0
+4 * RS232 TTL\n
+Text Notes 6100 1800 0    50   ~ 0
 1 * CAN TJA1051\n
 Text Notes 1250 3450 0    50   ~ 0
 Rasberry 3B with power down control
-Text Notes 1250 3600 0    50   ~ 0
-ESP Modul 12f
-Text Notes 6100 1950 0    50   ~ 0
+Text Notes 1250 4050 0    50   ~ 0
+Debug Interface
+Text Notes 6100 2100 0    50   ~ 0
 1 Wire sensor Hub DS2482-800
 Text Notes 1250 3300 0    50   ~ 0
 Board connections
@@ -66,12 +66,20 @@ F1 "MCU.sch" 50
 $EndSheet
 Text Notes 1300 2050 0    50   ~ 0
 5V 3A GSM
-Text Notes 6100 1800 0    50   ~ 0
-I2C Power Managment
+Text Notes 6100 1950 0    50   ~ 0
+I2C Periphal
 $Sheet
 S 5950 1200 1550 1300
 U 5C8BBC97
 F0 "In- Output Section" 50
 F1 "IO.sch" 50
 $EndSheet
+Text Notes 1250 3600 0    50   ~ 0
+ESP Modul 12f
+Text Notes 1250 3750 0    50   ~ 0
+GSM/LTE/GNSS Modul\n
+Text Notes 1250 3900 0    50   ~ 0
+ACC/MAG Sensor Board
+Text Notes 6100 1500 0    50   ~ 0
+4 * RS485 MAX3072\n
 $EndSCHEMATC

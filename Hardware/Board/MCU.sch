@@ -2261,10 +2261,6 @@ Text GLabel 3050 7850 0    50   BiDi ~ 0
 PF12
 Text GLabel 3050 7950 0    50   BiDi ~ 0
 PF13
-Text GLabel 3050 8050 0    50   BiDi ~ 0
-PF14
-Text GLabel 3050 8150 0    50   BiDi ~ 0
-PF15
 Wire Wire Line
 	3050 6650 3200 6650
 Wire Wire Line
@@ -2314,4 +2310,16 @@ F 3 "" H 13550 1000 50  0001 C CNN
 	1    13550 1000
 	1    0    0    -1  
 $EndComp
+Text GLabel 3050 8050 0    50   Output ~ 0
+HSS_1_EN
+Text GLabel 3050 8150 0    50   Output ~ 0
+HSS_2_EN
+Text GLabel 3050 8350 0    50   Output ~ 0
+HSS_3_EN
+Text GLabel 3050 8450 0    50   Output ~ 0
+HSS_4_EN
+Wire Wire Line
+	3200 8450 3050 8450
+Wire Wire Line
+	3200 8350 3050 8350
 $EndSCHEMATC

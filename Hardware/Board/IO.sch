@@ -4273,4 +4273,743 @@ F 3 "" H 10850 1650 50  0001 C CNN
 	1    10850 1650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Womo-Lin:BTS6143D IC?
+U 1 1 5DB2DE83
+P 19400 4600
+F 0 "IC?" H 20000 4865 50  0000 C CNN
+F 1 "BTS6143D" H 20000 4774 50  0000 C CNN
+F 2 "BTS6143D" H 20450 4700 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022" H 20450 4600 50  0001 L CNN
+F 4 "INFINEON - BTS6143D - IC, PROFET, P-TO252-5" H 20450 4500 50  0001 L CNN "Description"
+F 5 "2" H 20450 4400 50  0001 L CNN "Height"
+F 6 "726-BTS6143D" H 20450 4300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BTS6143D" H 20450 4200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Infineon" H 20450 4100 50  0001 L CNN "Manufacturer_Name"
+F 9 "BTS6143D" H 20450 4000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    19400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DB3583C
+P 18850 5250
+AR Path="/5C8BBC9A/5DB3583C" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DB3583C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5DB3583C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18850 5000 50  0001 C CNN
+F 1 "GND" H 18850 5050 50  0000 C CNN
+F 2 "" H 18850 5250 50  0001 C CNN
+F 3 "" H 18850 5250 50  0001 C CNN
+	1    18850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DB35842
+P 18350 5000
+AR Path="/5C8BBC9A/5DB35842" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5DB35842" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5DB35842" Ref="R?"  Part="1" 
+F 0 "R?" V 18250 4900 50  0000 C CNN
+F 1 "10k" V 18450 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 18280 5000 50  0001 C CNN
+F 3 "~" H 18350 5000 50  0001 C CNN
+	1    18350 5000
+	0    1    1    0   
+$EndComp
+Text GLabel 18000 5000 0    50   Input ~ 0
+HSS_1_EN
+Wire Wire Line
+	18200 5000 18000 5000
+Wire Wire Line
+	18550 5000 18500 5000
+Wire Wire Line
+	18850 5200 18850 5250
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5DB3584D
+P 18750 5000
+AR Path="/5C8BBC9A/5DB3584D" Ref="Q?"  Part="1" 
+AR Path="/5C8BBC97/5DB3584D" Ref="Q?"  Part="1" 
+F 0 "Q?" H 18955 5046 50  0000 L CNN
+F 1 "2N7002" H 18955 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 18950 4925 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 18750 5000 50  0001 L CNN
+	1    18750 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD74055
+P 20850 4600
+AR Path="/5C8BBC9A/5DD74055" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5DD74055" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5DD74055" Ref="R?"  Part="1" 
+F 0 "R?" V 20750 4500 50  0000 C CNN
+F 1 "10k" V 20750 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20780 4600 50  0001 C CNN
+F 3 "~" H 20850 4600 50  0001 C CNN
+	1    20850 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDD543C
+P 21000 4600
+F 0 "#PWR?" H 21000 4350 50  0001 C CNN
+F 1 "GND" H 21005 4427 50  0000 C CNN
+F 2 "" H 21000 4600 50  0001 C CNN
+F 3 "" H 21000 4600 50  0001 C CNN
+	1    21000 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19400 4700 18850 4700
+Wire Wire Line
+	18850 4700 18850 4800
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5E3DC546
+P 19600 1600
+AR Path="/5C8BBC9A/5E3DC546" Ref="L?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC546" Ref="L?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC546" Ref="L?"  Part="1" 
+F 0 "L?" V 19400 1700 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 19500 1700 50  0000 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 19600 1600 50  0001 C CNN
+F 3 "~" H 19600 1600 50  0001 C CNN
+	1    19600 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5E3DC54D
+P 18150 1600
+AR Path="/5C8BBC9A/5E3DC54D" Ref="F?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC54D" Ref="F?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC54D" Ref="F?"  Part="1" 
+F 0 "F?" V 17953 1600 50  0000 C CNN
+F 1 "KFZ 10A" V 18044 1600 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" V 18080 1600 50  0001 C CNN
+F 3 "~" H 18150 1600 50  0001 C CNN
+	1    18150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3DC554
+P 20050 2400
+AR Path="/5C8BBC9A/5E3DC554" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC554" Ref="C?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC554" Ref="C?"  Part="1" 
+F 0 "C?" H 19750 2450 50  0000 L CNN
+F 1 "47u" H 19750 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 20088 2250 50  0001 C CNN
+F 3 "~" H 20050 2400 50  0001 C CNN
+	1    20050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E3DC55B
+P 20050 1750
+AR Path="/5C8BBC9A/5E3DC55B" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC55B" Ref="C?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC55B" Ref="C?"  Part="1" 
+F 0 "C?" H 20165 1796 50  0000 L CNN
+F 1 "47u" H 20165 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 20088 1600 50  0001 C CNN
+F 3 "~" H 20050 1750 50  0001 C CNN
+	1    20050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3DC57C
+P 20050 2550
+AR Path="/5C8BBC9A/5E3DC57C" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC57C" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC57C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 20050 2300 50  0001 C CNN
+F 1 "GND" H 20055 2377 50  0000 C CNN
+F 2 "" H 20050 2550 50  0001 C CNN
+F 3 "" H 20050 2550 50  0001 C CNN
+	1    20050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3DC582
+P 20050 1900
+AR Path="/5C8BBC9A/5E3DC582" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC582" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC582" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 20050 1650 50  0001 C CNN
+F 1 "GND" H 20055 1727 50  0000 C CNN
+F 2 "" H 20050 1900 50  0001 C CNN
+F 3 "" H 20050 1900 50  0001 C CNN
+	1    20050 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 17900 1600 0    50   Input ~ 0
+DC_Input
+$Comp
+L pspice:DIODE D?
+U 1 1 5E3DC596
+P 18600 1800
+AR Path="/5C8BBC9A/5E3DC596" Ref="D?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC596" Ref="D?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC596" Ref="D?"  Part="1" 
+F 0 "D?" V 19100 2150 50  0000 C CNN
+F 1 "B345BE-13" V 19000 2050 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 18600 1800 50  0001 C CNN
+F 3 "~" H 18600 1800 50  0001 C CNN
+	1    18600 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 5E3DC59D
+P 18900 1800
+AR Path="/5C8BBC9A/5E3DC59D" Ref="D?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC59D" Ref="D?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC59D" Ref="D?"  Part="1" 
+F 0 "D?" V 19400 1950 50  0000 C CNN
+F 1 "B345BE-13" V 19300 1850 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 18900 1800 50  0001 C CNN
+F 3 "~" H 18900 1800 50  0001 C CNN
+	1    18900 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3DC5A4
+P 18600 2000
+AR Path="/5C8BBC9A/5E3DC5A4" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC5A4" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC5A4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18600 1750 50  0001 C CNN
+F 1 "GND" H 18605 1827 50  0000 C CNN
+F 2 "" H 18600 2000 50  0001 C CNN
+F 3 "" H 18600 2000 50  0001 C CNN
+	1    18600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E3DC5AA
+P 18900 2000
+AR Path="/5C8BBC9A/5E3DC5AA" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E3DC5AA" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5E3DC5AA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18900 1750 50  0001 C CNN
+F 1 "GND" H 18905 1827 50  0000 C CNN
+F 2 "" H 18900 2000 50  0001 C CNN
+F 3 "" H 18900 2000 50  0001 C CNN
+	1    18900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18900 1600 18600 1600
+Connection ~ 18900 1600
+Wire Wire Line
+	18300 1600 18600 1600
+Connection ~ 18600 1600
+Wire Wire Line
+	17900 1600 18000 1600
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5E81A51C
+P 19600 2900
+AR Path="/5C8BBC9A/5E81A51C" Ref="L?"  Part="1" 
+AR Path="/5E0C5EEA/5E81A51C" Ref="L?"  Part="1" 
+AR Path="/5C8BBC97/5E81A51C" Ref="L?"  Part="1" 
+F 0 "L?" V 19400 3000 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 19500 3000 50  0000 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 19600 2900 50  0001 C CNN
+F 3 "~" H 19600 2900 50  0001 C CNN
+	1    19600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5E8DEB6A
+P 19600 3550
+AR Path="/5C8BBC9A/5E8DEB6A" Ref="L?"  Part="1" 
+AR Path="/5E0C5EEA/5E8DEB6A" Ref="L?"  Part="1" 
+AR Path="/5C8BBC97/5E8DEB6A" Ref="L?"  Part="1" 
+F 0 "L?" V 19400 3650 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 19500 3650 50  0000 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 19600 3550 50  0001 C CNN
+F 3 "~" H 19600 3550 50  0001 C CNN
+	1    19600 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5E940F96
+P 19600 2250
+AR Path="/5C8BBC9A/5E940F96" Ref="L?"  Part="1" 
+AR Path="/5E0C5EEA/5E940F96" Ref="L?"  Part="1" 
+AR Path="/5C8BBC97/5E940F96" Ref="L?"  Part="1" 
+F 0 "L?" V 19400 2350 50  0000 C CNN
+F 1 "L_Core_Ferrite" V 19500 2350 50  0000 C CNN
+F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 19600 2250 50  0001 C CNN
+F 3 "~" H 19600 2250 50  0001 C CNN
+	1    19600 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5ED745F6
+P 20050 3050
+AR Path="/5C8BBC9A/5ED745F6" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5ED745F6" Ref="C?"  Part="1" 
+AR Path="/5C8BBC97/5ED745F6" Ref="C?"  Part="1" 
+F 0 "C?" H 20165 3096 50  0000 L CNN
+F 1 "47u" H 20165 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 20088 2900 50  0001 C CNN
+F 3 "~" H 20050 3050 50  0001 C CNN
+	1    20050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED745FD
+P 20050 3200
+AR Path="/5C8BBC9A/5ED745FD" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5ED745FD" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5ED745FD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 20050 2950 50  0001 C CNN
+F 1 "GND" H 20055 3027 50  0000 C CNN
+F 2 "" H 20050 3200 50  0001 C CNN
+F 3 "" H 20050 3200 50  0001 C CNN
+	1    20050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EE37E0E
+P 20050 3700
+AR Path="/5C8BBC9A/5EE37E0E" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5EE37E0E" Ref="C?"  Part="1" 
+AR Path="/5C8BBC97/5EE37E0E" Ref="C?"  Part="1" 
+F 0 "C?" H 20165 3746 50  0000 L CNN
+F 1 "47u" H 20165 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 20088 3550 50  0001 C CNN
+F 3 "~" H 20050 3700 50  0001 C CNN
+	1    20050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EE37E15
+P 20050 3850
+AR Path="/5C8BBC9A/5EE37E15" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5EE37E15" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5EE37E15" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 20050 3600 50  0001 C CNN
+F 1 "GND" H 20055 3677 50  0000 C CNN
+F 2 "" H 20050 3850 50  0001 C CNN
+F 3 "" H 20050 3850 50  0001 C CNN
+	1    20050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20050 3550 19750 3550
+Wire Wire Line
+	19450 3550 19300 3550
+Wire Wire Line
+	19300 3550 19300 2900
+Wire Wire Line
+	18900 1600 19300 1600
+Connection ~ 19300 1600
+Wire Wire Line
+	19300 1600 19450 1600
+Wire Wire Line
+	20050 1600 19750 1600
+Wire Wire Line
+	19750 2250 20050 2250
+Wire Wire Line
+	19450 2250 19300 2250
+Connection ~ 19300 2250
+Wire Wire Line
+	19300 2250 19300 1600
+Wire Wire Line
+	19450 2900 19300 2900
+Connection ~ 19300 2900
+Wire Wire Line
+	19300 2900 19300 2250
+Text GLabel 20350 1600 2    50   Output ~ 0
+VBB_1
+Text GLabel 20350 2250 2    50   Output ~ 0
+VBB_1
+Text GLabel 20350 2900 2    50   Output ~ 0
+VBB_1
+Text GLabel 20350 3550 2    50   Output ~ 0
+VBB_1
+Wire Wire Line
+	20350 3550 20050 3550
+Connection ~ 20050 3550
+Wire Wire Line
+	20350 2900 20050 2900
+Connection ~ 20050 2900
+Wire Wire Line
+	19750 2900 20050 2900
+Wire Wire Line
+	20350 2250 20050 2250
+Connection ~ 20050 2250
+Wire Wire Line
+	20350 1600 20050 1600
+Connection ~ 20050 1600
+Text GLabel 19300 4800 0    50   Input ~ 0
+VBB_1
+Wire Wire Line
+	19400 4800 19300 4800
+Text GLabel 19300 4600 0    50   Output ~ 0
+HSS_1
+Text GLabel 20700 4700 2    50   Output ~ 0
+HSS_1
+Wire Wire Line
+	20700 4600 20600 4600
+Wire Wire Line
+	20700 4700 20600 4700
+Wire Wire Line
+	19400 4600 19300 4600
+$Comp
+L Womo-Lin:BTS6143D IC?
+U 1 1 5F998D58
+P 19400 5850
+F 0 "IC?" H 20000 6115 50  0000 C CNN
+F 1 "BTS6143D" H 20000 6024 50  0000 C CNN
+F 2 "BTS6143D" H 20450 5950 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022" H 20450 5850 50  0001 L CNN
+F 4 "INFINEON - BTS6143D - IC, PROFET, P-TO252-5" H 20450 5750 50  0001 L CNN "Description"
+F 5 "2" H 20450 5650 50  0001 L CNN "Height"
+F 6 "726-BTS6143D" H 20450 5550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BTS6143D" H 20450 5450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Infineon" H 20450 5350 50  0001 L CNN "Manufacturer_Name"
+F 9 "BTS6143D" H 20450 5250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    19400 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F998D5F
+P 18850 6500
+AR Path="/5C8BBC9A/5F998D5F" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5F998D5F" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5F998D5F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18850 6250 50  0001 C CNN
+F 1 "GND" H 18850 6300 50  0000 C CNN
+F 2 "" H 18850 6500 50  0001 C CNN
+F 3 "" H 18850 6500 50  0001 C CNN
+	1    18850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F998D65
+P 18350 6250
+AR Path="/5C8BBC9A/5F998D65" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5F998D65" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5F998D65" Ref="R?"  Part="1" 
+F 0 "R?" V 18250 6150 50  0000 C CNN
+F 1 "10k" V 18450 6150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 18280 6250 50  0001 C CNN
+F 3 "~" H 18350 6250 50  0001 C CNN
+	1    18350 6250
+	0    1    1    0   
+$EndComp
+Text GLabel 18000 6250 0    50   Input ~ 0
+HSS_2_EN
+Wire Wire Line
+	18200 6250 18000 6250
+Wire Wire Line
+	18550 6250 18500 6250
+Wire Wire Line
+	18850 6450 18850 6500
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F998D70
+P 18750 6250
+AR Path="/5C8BBC9A/5F998D70" Ref="Q?"  Part="1" 
+AR Path="/5C8BBC97/5F998D70" Ref="Q?"  Part="1" 
+F 0 "Q?" H 18955 6296 50  0000 L CNN
+F 1 "2N7002" H 18955 6205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 18950 6175 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 18750 6250 50  0001 L CNN
+	1    18750 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F998D77
+P 20850 5850
+AR Path="/5C8BBC9A/5F998D77" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5F998D77" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5F998D77" Ref="R?"  Part="1" 
+F 0 "R?" V 20750 5750 50  0000 C CNN
+F 1 "10k" V 20750 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20780 5850 50  0001 C CNN
+F 3 "~" H 20850 5850 50  0001 C CNN
+	1    20850 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F998D7E
+P 21000 5850
+F 0 "#PWR?" H 21000 5600 50  0001 C CNN
+F 1 "GND" H 21005 5677 50  0000 C CNN
+F 2 "" H 21000 5850 50  0001 C CNN
+F 3 "" H 21000 5850 50  0001 C CNN
+	1    21000 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19400 5950 18850 5950
+Wire Wire Line
+	18850 5950 18850 6050
+Text GLabel 19300 6050 0    50   Input ~ 0
+VBB_2
+Wire Wire Line
+	19400 6050 19300 6050
+Text GLabel 19300 5850 0    50   Output ~ 0
+HSS_2
+Text GLabel 20700 5950 2    50   Output ~ 0
+HSS_2
+Wire Wire Line
+	20700 5850 20600 5850
+Wire Wire Line
+	20700 5950 20600 5950
+Wire Wire Line
+	19400 5850 19300 5850
+$Comp
+L Womo-Lin:BTS6143D IC?
+U 1 1 5F9FF7F0
+P 19400 7050
+F 0 "IC?" H 20000 7315 50  0000 C CNN
+F 1 "BTS6143D" H 20000 7224 50  0000 C CNN
+F 2 "BTS6143D" H 20450 7150 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022" H 20450 7050 50  0001 L CNN
+F 4 "INFINEON - BTS6143D - IC, PROFET, P-TO252-5" H 20450 6950 50  0001 L CNN "Description"
+F 5 "2" H 20450 6850 50  0001 L CNN "Height"
+F 6 "726-BTS6143D" H 20450 6750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BTS6143D" H 20450 6650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Infineon" H 20450 6550 50  0001 L CNN "Manufacturer_Name"
+F 9 "BTS6143D" H 20450 6450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    19400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9FF7F7
+P 18850 7700
+AR Path="/5C8BBC9A/5F9FF7F7" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5F9FF7F7" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5F9FF7F7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18850 7450 50  0001 C CNN
+F 1 "GND" H 18850 7500 50  0000 C CNN
+F 2 "" H 18850 7700 50  0001 C CNN
+F 3 "" H 18850 7700 50  0001 C CNN
+	1    18850 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9FF7FD
+P 18350 7450
+AR Path="/5C8BBC9A/5F9FF7FD" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5F9FF7FD" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5F9FF7FD" Ref="R?"  Part="1" 
+F 0 "R?" V 18250 7350 50  0000 C CNN
+F 1 "10k" V 18450 7350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 18280 7450 50  0001 C CNN
+F 3 "~" H 18350 7450 50  0001 C CNN
+	1    18350 7450
+	0    1    1    0   
+$EndComp
+Text GLabel 18000 7450 0    50   Input ~ 0
+HSS_3_EN
+Wire Wire Line
+	18200 7450 18000 7450
+Wire Wire Line
+	18550 7450 18500 7450
+Wire Wire Line
+	18850 7650 18850 7700
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5F9FF808
+P 18750 7450
+AR Path="/5C8BBC9A/5F9FF808" Ref="Q?"  Part="1" 
+AR Path="/5C8BBC97/5F9FF808" Ref="Q?"  Part="1" 
+F 0 "Q?" H 18955 7496 50  0000 L CNN
+F 1 "2N7002" H 18955 7405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 18950 7375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 18750 7450 50  0001 L CNN
+	1    18750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F9FF80F
+P 20850 7050
+AR Path="/5C8BBC9A/5F9FF80F" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5F9FF80F" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5F9FF80F" Ref="R?"  Part="1" 
+F 0 "R?" V 20750 6950 50  0000 C CNN
+F 1 "10k" V 20750 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20780 7050 50  0001 C CNN
+F 3 "~" H 20850 7050 50  0001 C CNN
+	1    20850 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9FF816
+P 21000 7050
+F 0 "#PWR?" H 21000 6800 50  0001 C CNN
+F 1 "GND" H 21005 6877 50  0000 C CNN
+F 2 "" H 21000 7050 50  0001 C CNN
+F 3 "" H 21000 7050 50  0001 C CNN
+	1    21000 7050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19400 7150 18850 7150
+Wire Wire Line
+	18850 7150 18850 7250
+Text GLabel 19300 7250 0    50   Input ~ 0
+VBB_3
+Wire Wire Line
+	19400 7250 19300 7250
+Text GLabel 19300 7050 0    50   Output ~ 0
+HSS_3
+Text GLabel 20700 7150 2    50   Output ~ 0
+HSS_3
+Wire Wire Line
+	20700 7050 20600 7050
+Wire Wire Line
+	20700 7150 20600 7150
+Wire Wire Line
+	19400 7050 19300 7050
+$Comp
+L Womo-Lin:BTS6143D IC?
+U 1 1 5FA68629
+P 19400 8150
+F 0 "IC?" H 20000 8415 50  0000 C CNN
+F 1 "BTS6143D" H 20000 8324 50  0000 C CNN
+F 2 "BTS6143D" H 20450 8250 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022" H 20450 8150 50  0001 L CNN
+F 4 "INFINEON - BTS6143D - IC, PROFET, P-TO252-5" H 20450 8050 50  0001 L CNN "Description"
+F 5 "2" H 20450 7950 50  0001 L CNN "Height"
+F 6 "726-BTS6143D" H 20450 7850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=726-BTS6143D" H 20450 7750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Infineon" H 20450 7650 50  0001 L CNN "Manufacturer_Name"
+F 9 "BTS6143D" H 20450 7550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    19400 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA68630
+P 18850 8800
+AR Path="/5C8BBC9A/5FA68630" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5FA68630" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC97/5FA68630" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18850 8550 50  0001 C CNN
+F 1 "GND" H 18850 8600 50  0000 C CNN
+F 2 "" H 18850 8800 50  0001 C CNN
+F 3 "" H 18850 8800 50  0001 C CNN
+	1    18850 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA68636
+P 18350 8550
+AR Path="/5C8BBC9A/5FA68636" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5FA68636" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5FA68636" Ref="R?"  Part="1" 
+F 0 "R?" V 18250 8450 50  0000 C CNN
+F 1 "10k" V 18450 8450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 18280 8550 50  0001 C CNN
+F 3 "~" H 18350 8550 50  0001 C CNN
+	1    18350 8550
+	0    1    1    0   
+$EndComp
+Text GLabel 18000 8550 0    50   Input ~ 0
+HSS_4_EN
+Wire Wire Line
+	18200 8550 18000 8550
+Wire Wire Line
+	18550 8550 18500 8550
+Wire Wire Line
+	18850 8750 18850 8800
+$Comp
+L Transistor_FET:2N7002 Q?
+U 1 1 5FA68641
+P 18750 8550
+AR Path="/5C8BBC9A/5FA68641" Ref="Q?"  Part="1" 
+AR Path="/5C8BBC97/5FA68641" Ref="Q?"  Part="1" 
+F 0 "Q?" H 18955 8596 50  0000 L CNN
+F 1 "2N7002" H 18955 8505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 18950 8475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 18750 8550 50  0001 L CNN
+	1    18750 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FA68648
+P 20850 8150
+AR Path="/5C8BBC9A/5FA68648" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5FA68648" Ref="R?"  Part="1" 
+AR Path="/5C8BBC97/5FA68648" Ref="R?"  Part="1" 
+F 0 "R?" V 20750 8050 50  0000 C CNN
+F 1 "10k" V 20750 8250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 20780 8150 50  0001 C CNN
+F 3 "~" H 20850 8150 50  0001 C CNN
+	1    20850 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA6864F
+P 21000 8150
+F 0 "#PWR?" H 21000 7900 50  0001 C CNN
+F 1 "GND" H 21005 7977 50  0000 C CNN
+F 2 "" H 21000 8150 50  0001 C CNN
+F 3 "" H 21000 8150 50  0001 C CNN
+	1    21000 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19400 8250 18850 8250
+Wire Wire Line
+	18850 8250 18850 8350
+Text GLabel 19300 8350 0    50   Input ~ 0
+VBB_4
+Wire Wire Line
+	19400 8350 19300 8350
+Text GLabel 19300 8150 0    50   Output ~ 0
+HSS_4
+Text GLabel 20700 8250 2    50   Output ~ 0
+HSS_4
+Wire Wire Line
+	20700 8150 20600 8150
+Wire Wire Line
+	20700 8250 20600 8250
+Wire Wire Line
+	19400 8150 19300 8150
+Wire Notes Line
+	17050 850  21800 850 
+Wire Notes Line
+	21800 850  21800 9600
+Wire Notes Line
+	21800 9600 17050 9600
+Wire Notes Line
+	17050 9600 17050 850 
 $EndSCHEMATC

@@ -65,4 +65,11 @@ D Fixed Inductors XAL8080 High Current 20 %
 F http://www.coilcraft.com/pdfs/xal8080.pdf
 $ENDCMP
 #
+#
+$CMP BTS6143D
+D INFINEON - BTS6143D - IC, PROFET, P-TO252-5
+K
+F https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022
+$ENDCMP
+#
 #End Doc Library
