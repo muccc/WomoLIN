@@ -1,0 +1,36 @@
+Das Projekt stellt eine universelle Platform für Wohnmobile und weitere Anwendungen zur Verfügung. Herzstück des Projektes ist die Main Unit, eine Leiterplatte mit einer Vielzahl an Anschlussmöglichkeiten, rund um das Wohnmobil. Diese Main Unit wird durch eine Display Unit ergänzt, welche in das Wohnmobil verbaut wird.
+
+Ergänzend zu dem Display gibt es aber auch wietere Möglichkeiten der Steuerung z.B. über Smartphone.
+
+Ziel ist auch die mobile Stromversorgung zu Regeln und zu Übwerwachen.
+
+
+Das Projekt wurde ursprünglich auf dem Easterhegg 2019 vorgestellt und auch auf der GPN 2019 diskutiert.
+
+
+Projektkonzept
+
+Universelle, skalierbare und durch den Anwender konfigurierbare Open Source Platform.
+Unterstützung von frei definierbaren Hard- und Softwaremodulen. Offene Strukturen für z.B. eigenen Bedieneroberflächen.
+Super Low Power Konzept für Langzeitverfügbarkeit bei z.B. Akkubetrieb.
+Sehr gut einsetzbar auch für neue Energiemanagement Aufgaben, z.B. autarke Systeme (Solar, Wind etc.)
+Offene und anpassbare Schnittestellen zu bestehenden HarÜbd- und Softwarekomponenten und Protokollen.
+
+Möglichkeiten zur Anbindung moderner Kommunikationstechniken wie IoT, Cloud, WLAN, LTE, Bluetooth, ISM866 MHz, Homematic
+
+Einsatzmöglichkeiten sind z.B. 
+- Womobile
+- Boote
+- freistehende Gebäude
+- sämtliche Überwachungsaufgaben im Bereich niedriger Echtzeitanforderungen
+- Protokoll- und Schnittstellenumsetzer
+- Steuerung von Wäre, Klima- und Lüftungsanlagen
+- Ortung und Tracking
+
+Hardwarekonzept
+
+
+
+Softwarekonzept
+
+
