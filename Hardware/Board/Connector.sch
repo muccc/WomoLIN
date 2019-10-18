@@ -1541,7 +1541,7 @@ AR Path="/5C8BC88B/5D3238D6" Ref="J?"  Part="1"
 AR Path="/5CC9A992/5D3238D6" Ref="J320"  Part="1" 
 F 0 "J320" H 9500 4300 50  0000 C CNN
 F 1 "Raspberry_Pi_2_3" H 9600 4200 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 10750 2900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 10750 2900 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 10750 2900 50  0001 C CNN
 	1    10750 2900
 	1    0    0    -1  
@@ -1612,19 +1612,6 @@ F 3 "" H 13500 2400 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5D3238FF
-P 10150 1250
-AR Path="/5C8BC88B/5D3238FF" Ref="C?"  Part="1" 
-AR Path="/5CC9A992/5D3238FF" Ref="C302"  Part="1" 
-F 0 "C302" H 10265 1296 50  0000 L CNN
-F 1 "47u" H 10265 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 10188 1100 50  0001 C CNN
-F 3 "~" H 10150 1250 50  0001 C CNN
-	1    10150 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
 U 1 1 5D323906
 P 11250 1250
 AR Path="/5C8BC88B/5D323906" Ref="C?"  Part="1" 
@@ -1634,19 +1621,6 @@ F 1 "10u" H 11365 1205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 11288 1100 50  0001 C CNN
 F 3 "~" H 11250 1250 50  0001 C CNN
 	1    11250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D32390D
-P 10150 1400
-AR Path="/5C8BC88B/5D32390D" Ref="#PWR?"  Part="1" 
-AR Path="/5CC9A992/5D32390D" Ref="#PWR0230"  Part="1" 
-F 0 "#PWR0230" H 10150 1150 50  0001 C CNN
-F 1 "GND" H 10155 1227 50  0000 C CNN
-F 2 "" H 10150 1400 50  0001 C CNN
-F 3 "" H 10150 1400 50  0001 C CNN
-	1    10150 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1682,10 +1656,6 @@ Wire Wire Line
 Connection ~ 10550 1400
 Wire Wire Line
 	10550 1400 10550 1050
-Wire Wire Line
-	10150 1100 10150 1050
-Wire Wire Line
-	10150 1050 10550 1050
 $Comp
 L RF_Module:ESP-12F U?
 U 1 1 5D323928
@@ -1785,60 +1755,6 @@ F 3 "" H 18450 1150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18450 1150 18450 1250
-$Comp
-L Device:C C?
-U 1 1 5D323978
-P 20050 4500
-AR Path="/5C8BC88B/5D323978" Ref="C?"  Part="1" 
-AR Path="/5CC9A992/5D323978" Ref="C319"  Part="1" 
-F 0 "C319" H 20165 4546 50  0000 L CNN
-F 1 "10u" H 20165 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 20088 4350 50  0001 C CNN
-F 3 "~" H 20050 4500 50  0001 C CNN
-	1    20050 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D32397F
-P 20050 4650
-AR Path="/5C8BC88B/5D32397F" Ref="#PWR?"  Part="1" 
-AR Path="/5CC9A992/5D32397F" Ref="#PWR0254"  Part="1" 
-F 0 "#PWR0254" H 20050 4400 50  0001 C CNN
-F 1 "GND" H 20055 4477 50  0000 C CNN
-F 2 "" H 20050 4650 50  0001 C CNN
-F 3 "" H 20050 4650 50  0001 C CNN
-	1    20050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5D323985
-P 19650 4500
-AR Path="/5C8BC88B/5D323985" Ref="C?"  Part="1" 
-AR Path="/5CC9A992/5D323985" Ref="C318"  Part="1" 
-F 0 "C318" H 19765 4546 50  0000 L CNN
-F 1 "10u" H 19765 4455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 19688 4350 50  0001 C CNN
-F 3 "~" H 19650 4500 50  0001 C CNN
-	1    19650 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D32398C
-P 19650 4650
-AR Path="/5C8BC88B/5D32398C" Ref="#PWR?"  Part="1" 
-AR Path="/5CC9A992/5D32398C" Ref="#PWR0372"  Part="1" 
-F 0 "#PWR0372" H 19650 4400 50  0001 C CNN
-F 1 "GND" H 19655 4477 50  0000 C CNN
-F 2 "" H 19650 4650 50  0001 C CNN
-F 3 "" H 19650 4650 50  0001 C CNN
-	1    19650 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20050 4350 20050 4200
 Text GLabel 18900 4500 2    50   Input ~ 0
 UART4_TX_GSM
 Text GLabel 18900 4600 2    50   Output ~ 0
@@ -1885,9 +1801,6 @@ F 3 "~" H 18500 5100 50  0001 C CNN
 	1    18500 5100
 	1    0    0    -1  
 $EndComp
-Connection ~ 19650 4200
-Wire Wire Line
-	19650 4200 19650 4350
 Wire Wire Line
 	18800 4200 18900 4200
 Wire Wire Line
@@ -1901,8 +1814,6 @@ Wire Wire Line
 	18900 4500 18800 4500
 Wire Wire Line
 	18900 4600 18800 4600
-Wire Wire Line
-	19650 4200 20050 4200
 $Comp
 L power:GND #PWR0236
 U 1 1 5DCA45DC
@@ -2100,7 +2011,7 @@ F 1 "NUP2105L" V 15205 3529 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 15100 3450 50  0001 C CNN
 F 3 "~" H 15100 3450 50  0001 C CNN
 	1    15250 3450
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
@@ -2143,19 +2054,6 @@ F 3 "~" H 14500 3450 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5EC05F71
-P 15600 3500
-AR Path="/5C8BBC97/5EC05F71" Ref="#PWR?"  Part="1" 
-AR Path="/5CC9A992/5EC05F71" Ref="#PWR0252"  Part="1" 
-F 0 "#PWR0252" H 15600 3250 50  0001 C CNN
-F 1 "GND" H 15605 3327 50  0000 C CNN
-F 2 "" H 15600 3500 50  0001 C CNN
-F 3 "" H 15600 3500 50  0001 C CNN
-	1    15600 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5EC05F77
 P 14250 3500
 AR Path="/5C8BBC97/5EC05F77" Ref="#PWR?"  Part="1" 
@@ -2176,10 +2074,6 @@ Wire Wire Line
 Connection ~ 14650 3050
 Wire Wire Line
 	14650 3050 15250 3050
-Wire Wire Line
-	15400 3450 15600 3450
-Wire Wire Line
-	15600 3450 15600 3500
 Wire Wire Line
 	14650 3400 14650 3450
 Wire Wire Line
@@ -2268,14 +2162,14 @@ Wire Wire Line
 $Comp
 L power:+5VD #PWR?
 U 1 1 5F062050
-P 10650 1050
+P 10550 1050
 AR Path="/5C8BC88B/5F062050" Ref="#PWR?"  Part="1" 
 AR Path="/5CC9A992/5F062050" Ref="#PWR0256"  Part="1" 
-F 0 "#PWR0256" H 10650 900 50  0001 C CNN
-F 1 "+5VD" H 10665 1223 50  0000 C CNN
-F 2 "" H 10650 1050 50  0001 C CNN
-F 3 "" H 10650 1050 50  0001 C CNN
-	1    10650 1050
+F 0 "#PWR0256" H 10550 900 50  0001 C CNN
+F 1 "+5VD" H 10565 1223 50  0000 C CNN
+F 2 "" H 10550 1050 50  0001 C CNN
+F 3 "" H 10550 1050 50  0001 C CNN
+	1    10550 1050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5250,9 +5144,6 @@ Text Notes 9100 8550 0    118  ~ 0
 Sensor Board
 Text Notes 9100 800  0    118  ~ 0
 Raspberry Pi with Control Bus
-Wire Wire Line
-	10650 1050 10550 1050
-Connection ~ 10550 1050
 Text Notes 17250 3950 0    118  ~ 0
 Modem / GNSS Socket
 Text Notes 3850 5700 0    118  ~ 0
@@ -6010,4 +5901,15 @@ Wire Wire Line
 	7000 9550 6450 9550
 Wire Wire Line
 	7050 9650 6450 9650
+$Comp
+L power:GND #PWR0252
+U 1 1 5DB3B959
+P 15100 3450
+F 0 "#PWR0252" H 15100 3200 50  0001 C CNN
+F 1 "GND" V 15100 3250 50  0000 C CNN
+F 2 "" H 15100 3450 50  0001 C CNN
+F 3 "" H 15100 3450 50  0001 C CNN
+	1    15100 3450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
