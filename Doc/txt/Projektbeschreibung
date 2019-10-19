@@ -19,7 +19,7 @@ Offene und anpassbare Schnittestellen zu bestehenden HarÜbd- und Softwarekompon
 Möglichkeiten zur Anbindung moderner Kommunikationstechniken wie IoT, Cloud, WLAN, LTE, Bluetooth, ISM866 MHz, Homematic
 
 Einsatzmöglichkeiten sind z.B. 
-- Womobile
+- Wohnmobile
 - Boote
 - freistehende Gebäude
 - sämtliche Überwachungsaufgaben im Bereich niedriger Echtzeitanforderungen
@@ -27,10 +27,80 @@ Einsatzmöglichkeiten sind z.B.
 - Steuerung von Wäre, Klima- und Lüftungsanlagen
 - Ortung und Tracking
 
+Resilience:
+
+Im Bereich regenerativer Energieversorgung im mobilen als auch häuslichen Umfeld tummeln sich leider viele propitäre Schnittstellen, die zwar oft extrem überteuerte Bedienteile mitbringen, die aber kein gesamtheitliches Energiemanagement ermöglichen. Durch Revers Engineering und Beschreibung der Schnittstellen Parameter und Kommandos kann sich eine ganzheitliche Regelung und dadurch eine ergibt sich eine optimalere Verwendung knapper Ressourcen. 
+
 Hardwarekonzept
 
+Das Hardwarekonzept sieht eine universelle Kommunikationsplattform vor, die eine Vielzahl von Schnittstellen bietet, diese hat sich erheblich vom vorgestellten Stand am Easterhegg 2019 weiter entwickelt. Um eine Vielzahl von kommerziell erhältlicher Peripherie abzudecken, sind die meisten Ports gemultiplext. Dies ermöglicht auch den Betrieb von Komponenten, die Aufgrund von Adress- oder Geschwindigkeitsdifferenzen nicht an einem Bus arbeiten können.
+
+Controller STM32L476, 8 Mbyte SPI Flash
+
+Schnittstellen:
+
+4 * LIN Bus
+4 * RS485
+4 * TTL RS232 Isoliert
+1 * CAN Bus
+8 * 1-Wire mit proxmity power
+1 * USB
+8 * Analog in
+8 * Digital I/O 3,3V
+1 * 3 Achsen Lagesensor mit Kompass 
+1 * BHE680 Umweltsensor
+1 * Bluetooth nRF8001
+1 * 866 MHz ISM TRX
+1 * GSM/LTE/GNSSS Modem
+
+Schaltmöglichkeiten:
+
+4 * Bistabile Relais 8A mit Rückmeldung
+8 * Low Side Treiber für externe Relais
+4 * high Side Treiber 2,5A 30V
+
+Stromversorgung:
+
+60V Automotiv Schaltregler mit abschaltbaren Versogungsspannungen ermöglichen den uneingeschränkten Betrieb in 12 und 24V Netzen
+Mit kleineren Modifikation ist auch der Betrieb in 48V Netzen möglich.
+
+Steuerung:
+
+Das Steuerkonzept hat sich auch erheblich geändert, das User Interface ist nicht mehr Bestandteil der Main Unit.
+
+Die Bedienung erfolgt über dem NMEA2000 Standard angelehnten Control Bus, der physical Layer ist CAN, was einen Problemlosen Multi Master Betrieb ermöglicht.
+
+An diesen Control Bus hängen als Steuerelemente:
+
+1 * Raspberry PI (Steckbar Onboard mit eigenem Schaltregler und CAN Treiber)
+1 * ESP 12f Modul (bestückbar mit eigenem CAN Treiber)
+1 * Display Unit mit Touch Display
+1 * Rechner mit USB Interface
 
 
-Softwarekonzept
+Display Unit:
+
+STM32L4R9 mit Grafik Controller
+24 Bit RGB Touchdisplay Interface
+Kapazitiver oder resistier Touch Controller
+USB Interface
+
+
+
+Softwarekonzept:
+
+Signal Beschreibung ToDo
+
+Unit Beschreibung ToDo
+
+Firmware Beschreibung ToDo
+
+Reverse Engineering der Protokolle der Hersteller ist in der Regel das mitschneiden der Kommunikation zwischen dem original Bedienteil und Steuerung der Hersteller. Als physikalische Schnittstelle dient ja meist, CAN, LIN, RS485, R2323 etc. Die Beschreibung erfolgt dann als Unit mit den entsprechenden Kommandos und Parameter der verwendeten physikalischen Schnittstelle.
+
+
+
+Live Demo:
+
+Eine kurze Live Demonstration der bis dahin aufgebauten Main Unit, mit div. Sensoren, Laderegler, Batteriemanagment etc. ist geplant.
 
 
