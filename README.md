@@ -1,34 +1,7 @@
 # Womo LIN 
 
-Wohnmobilsteuerung fuer Heizung, Klima, Remote u.v.a.
+Neue Wege in der konfigurierbaren Software Entwicklung eines Community Projektes
 
-![System Applikationen](./Doc/freeplan/system_applikationen_v1.0.png?raw=true "System Applikationen")
-![System Benutzerschnittstellen](./Doc/freeplan/system_benutzerschnittstellen_v1.0.png "System Benutzerschnittstellen")
+![Womo Bild](./Doc/pics/womo.png?raw=true)
 
-## Dockerfile 
-
-### Anleitungen
-
-* [Grundkurs Docker](https://jaxenter.de/einfuehrung-docker-tutorial-container-61528) - Mit Installationsanleitungen 
-
-### Images erzeugen 
-TODO
-```
-```
-### Container starten 
-
-```
-TODO
-```
-### Beispiele: Applikationen im Container starten 
-
-```
-TODO
-#git clone https://github.com/muccc/Womo_LIN.git
-#kicad
-#freeplane
-#dia
-#java -jar /usr/share/java/umlet.jar
-```
-
-
+Alle Infos findet Ihr in unserem Wiki hier auf Github. 
