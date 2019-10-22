@@ -1,0 +1,6 @@
+FROM womolinux
+MAINTAINER Norym
+
+RUN sudo apt-get update && sudo apt-get install -y software-properties-common 
+RUN sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+RUN sudo apt-get update && sudo apt-get install -y gcc-9 g++-9
