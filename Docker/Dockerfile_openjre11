@@ -1,0 +1,4 @@
+FROM womolinux
+MAINTAINER Norym
+
+RUN sudo apt-get install -y openjdk-11-jre
