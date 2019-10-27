@@ -8,12 +8,14 @@
 class SignalOnOffInput
 {
 public:
+   virtual ~SignalOnOffInput() = default;
    virtual bool setSignalOnOff(const std::string & signal_value) = 0;       
 };
 
 class SignalOnOffOutput
 {
 public:
+   virtual ~SignalOnOffOutput() = default;
    virtual std::string getSignalOnOff() const = 0;       
 };
 
@@ -23,12 +25,14 @@ public:
 class SignalTemperatureInput
 {
 public:
+   virtual ~SignalTemperatureInput() = default;
    virtual bool setSignalTemperature(const std::string & signal_value) = 0;       
 };
 
 class SignalTemperatureOutput
 {
 public:
+   virtual ~SignalTemperatureOutput() = default;
    virtual std::string getSignalTemperature() const = 0;       
 };
 
@@ -41,6 +45,7 @@ public:
 class SetBiRelay : public SignalOnOffInput, public SignalTemperatureInput
 {
 public:
+   ~SetBiRelay() = default;
    bool setSignalOnOff(const std::string & signal_value) override final { std::cout << "setSignalOnOff" << std::endl; return true; };       
    bool setSignalTemperature(const std::string & signal_value) override final { std::cout << "setSignalTemperature" << std::endl; return true; };       
 };
@@ -48,10 +53,10 @@ public:
 class GetBiRelayStatus : public SignalOnOffOutput, public SignalTemperatureOutput
 {
 public:
+   ~GetBiRelayStatus() = default;
    std::string getSignalOnOff() const override final { return "return from getSignalOnOff"; };       
    std::string getSignalTemperature() const override final { return "return from getSignalTemperature"; };       
 };
-
 
 
 /*******************************************************************************
@@ -62,8 +67,9 @@ template<class T>
 class SignalInput
 {
 public:
+   ~SignalInput() = default;
    SignalInput(std::vector<T *> & units) : units(units) {};
-   virtual void SendToUnits();
+   void SendToUnits() {};
 private:
    std::vector<T *>&  units;
 };
@@ -94,8 +100,9 @@ template<class T>
 class SignalOutput
 {
 public:
+   ~SignalOutput() = default;
    SignalOutput(const T& unit) : unit(unit) {};
-   virtual std::string GetFromUnit();
+   std::string GetFromUnit(){return "";};
 private:
    const T&  unit;
 };

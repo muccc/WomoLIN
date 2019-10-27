@@ -1,13 +1,16 @@
 #!/bin/bash
 
+# Linux Base
 ./build_linux.sh
+
+# Develop Environment
 ./build_openjre11.sh
+./build_eclipse.sh
+./build_gcc8.sh #includes eclipse
 
-for f in `ls -1 build_*`
-do
-	if ( [ $f != "build_all.sh" ]  && [ $f != "build_linux.sh" ] && [ $f != "build_openjre11.sh" ]);
-	then
-		./$f	
-	fi
-done
-
+# Tools
+./build_dia.sh
+./build_freeplane.sh
+./build_umlet.sh
+./build_wxglade.sh
+./build_kicad.sh
