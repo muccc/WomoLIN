@@ -1,0 +1,9 @@
+FROM womoopenjre11
+MAINTAINER Norym
+
+COPY en.stm32cubemx_v5.4.0.zip /tmp
+
+RUN sudo apt-get update && sudo apt-get install unzip
+RUN unzip /tmp/en.stm32cubemx_v5.4.0.zip -d ${HOME} 
+RUN chmod +x SetupSTM32CubeMX-5.4.0.linux
+
