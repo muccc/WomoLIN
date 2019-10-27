@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>549</y>
+      <w>441</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+I_Signal_Input_OnOff
+--
++setSignalOnOff(signal_value : const std::string &amp; ) : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>0</y>
+      <w>441</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>I_Signal_Output_OnOff
+--
++getSignalOnOff() : std::string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>549</y>
+      <w>441</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+I_Unit_Output_BiRelay
+--
++setSignalOnOff(signal_value : const std::string &amp; ) : bool
++setSignalCloseOpen(signal_value : const std::string &amp; ) : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>594</x>
+      <y>567</y>
+      <w>117</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>837</x>
+      <y>657</y>
+      <w>441</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+I_Signal_Input_CloseOpen
+--
++setSignalCloseOpen(signal_value : const std::string &amp; ) : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>594</x>
+      <y>567</y>
+      <w>261</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>270.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>738</y>
+      <w>441</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Unit_Output_BiRelay
+--
+-setSignalOnOff(signal_value : const std::string &amp; ) : bool
+-setSignalCloseOpen(signal_value : const std::string &amp; ) : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>351</x>
+      <y>630</y>
+      <w>27</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>162</y>
+      <w>576</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Template&gt;&gt;
+Signal_Input
+--
++Signal_Input(units : std::vector&lt;T *&gt; &amp; )
+
++SendToUnits()&lt;I_Signal_Input_OnOff&gt;() : void
++SendToUnits()&lt;I_Signal_Input_CloseOpen&gt;() : void
+
+-units : std::vector&lt;T *&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>315</y>
+      <w>63</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1215</x>
+      <y>315</y>
+      <w>63</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;380.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>36</x>
+      <y>162</y>
+      <w>576</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>Unit_Output_BiRelay_Test
+--
++ test_unit1 = Unit_Output_BiRelay()
++ test_unit2 = Unit_Output_BiRelay()
++ test_unit_vector = std::vector&lt;I_Unit_Output_BiRelay&gt; = {test_unit1, test_unit2}
+
++ signal_test1 = Signal_Input&lt;I_Signal_Input_OnOff&gt;(test_unit_vector)
++ signal_test2 = Signal_Input&lt;I_Signal_Input_CloseOpen&gt;(test_unit_vector)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>603</x>
+      <y>243</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>225</x>
+      <y>315</y>
+      <w>63</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;use&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
