@@ -1,20 +1,18 @@
-Das Projekt stellt eine universelle Platform für Wohnmobile und weitere Anwendungen zur Verfügung. Herzstück des Projektes ist die Main Unit, eine Leiterplatte mit einer Vielzahl an Anschlussmöglichkeiten, rund um das Wohnmobil. Diese Main Unit wird durch eine Display Unit ergänzt, welche in das Wohnmobil verbaut wird.
+﻿Das Projekt stellt eine universelle Platform für Wohnmobile und weitere Anwendungen zur Verfügung. Herzstück des Projektes ist die Main Unit, eine Leiterplatte mit einer Vielzahl an Anschlussmöglichkeiten, rund um das Wohnmobil. Diese Main Unit wird durch eine Display Unit ergänzt, welche in das Wohnmobil verbaut wird.
 
-Ergänzend zu dem Display gibt es aber auch wietere Möglichkeiten der Steuerung z.B. über Smartphone.
+Ergänzend zu dem Display gibt es aber auch weitere Möglichkeiten der Steuerung z. B. über Smartphone.
 
-Ziel ist auch die mobile Stromversorgung zu Regeln und zu Übwerwachen.
-
+Ziel ist auch die mobile, autarke Stromversorgung zu Regeln und zu Übwerwachen.
 
 Das Projekt wurde ursprünglich auf dem Easterhegg 2019 vorgestellt und auch auf der GPN 2019 diskutiert.
 
-
 Projektkonzept
 
-Universelle, skalierbare und durch den Anwender konfigurierbare Open Source Platform.
+Universelle, skalierbare und durch den Anwender konfigurierbare Open Source Plattform.
 Unterstützung von frei definierbaren Hard- und Softwaremodulen. Offene Strukturen für z.B. eigenen Bedieneroberflächen.
 Super Low Power Konzept für Langzeitverfügbarkeit bei z.B. Akkubetrieb.
 Sehr gut einsetzbar auch für neue Energiemanagement Aufgaben, z.B. autarke Systeme (Solar, Wind etc.)
-Offene und anpassbare Schnittestellen zu bestehenden HarÜbd- und Softwarekomponenten und Protokollen.
+Offene und anpassbare Schnittstellen zu bestehenden Hard- und Softwarekomponenten und Protokollen.
 
 Möglichkeiten zur Anbindung moderner Kommunikationstechniken wie IoT, Cloud, WLAN, LTE, Bluetooth, ISM866 MHz, Homematic
 
@@ -29,9 +27,135 @@ Einsatzmöglichkeiten sind z.B.
 
 Resilience:
 
-Im Bereich regenerativer Energieversorgung im mobilen als auch häuslichen Umfeld tummeln sich leider viele propitäre Schnittstellen, die zwar oft extrem überteuerte Bedienteile mitbringen, die aber kein gesamtheitliches Energiemanagement ermöglichen. Durch Revers Engineering und Beschreibung der Schnittstellen Parameter und Kommandos kann sich eine ganzheitliche Regelung und dadurch eine ergibt sich eine optimalere Verwendung knapper Ressourcen. 
+Im Bereich regenerativer Energieversorgung im mobilen als auch häuslichen Umfeld tummeln sich leider viele Proprietäre Schnittstellen, die zwar oft extrem überteuerte Bedienteile mitbringen, die aber kein gesamtheitliches Energiemanagement ermöglichen. Durch Revers Engineering und Beschreibung der Schnittstellen Parameter und Kommandos kann sich eine ganzheitliche Regelung und dadurch eine ergibt sich eine optimalere Verwendung knapper Ressourcen. 
 
-Hardwarekonzept
+Softwarekonzept
+***************
+
+Hardware Voraussetzungen
+- Stromsparende Mikrocontroller
+- Wenig Speicher und Rechenleistung für die Software
+- Individuelle Hardware und Benutzeranforderungen
+
+Anforderungen an die Software
+- muss mit wenig Ressourcen zurecht kommen
+- muss für individuelle Benutzeranforderungen geeignet sein
+- einfache Konfigurierbarkeit
+- Testbar
+- Simulierbar 
+- einfache Fehlerdiagnose
+
+Die besondere Herausforderung in diesem Projekt entsteht insbesondere durch die individuellen Benutzeranforderungen.
+Dadurch, dass jedes System anderen Komponenten und Informationen verarbeiten muss, und die Ressourcen beschränkt sind, 
+ist für jedes System eine eigene Software nötig. Diese Software muss sich aus den Anforderungen des Systems ableiten. 
+
+Die Zielsetzung muss daher sein, eine Softwarearchitektur zu entwickeln, die es ermöglicht, dass der Anwender durch
+eine Konfiguration, eine auf Ihn zugeschnittene Software für sein System erhält.
+In der Praxis ist diese Lösung mit einer SPS (System Programmierbare Steuerung) zu vergleichen.
+Es liegt also nahe, auch Open Sourcs SPS Lösungen, im Vergleich zu dem hier vorgestellten Konzept, zu untersuchen.
+
+SigUni , Anwender Framework für Systeme:
+****************************************
+
+Das Konzept basiert auf einer sehr einfach Herangehensweise. 
+Es gibt nur zwei Dinge, die es zu beachten gibt:
+
+1. Signale : welche Informationen sollen im System existieren 
+2. Units   : welche Einheiten gibt es, die diese Signale verarbeiten
+
+Aus diesen zwei Anforderungen an das System wurde der Name des Konzepts "SigUni" abgeleitet.
+
+Wie sieht das nun in der Praxis aus? Der folgende Graph zeigt die Zusammenhänge:
+
+Anwenderdefinition       Tool               WomoLIN
+------------------       -------------      -----------------------
+Signale ---> Units -|--> Codegenerator ---> Software für das System
+Signale ---> Units -|
+Signale ---> Units -|
+
+Es gibt also einen einfachen Zusammenhang. Der Anwender des Systems (hier WomoLIN) muss die Signale definieren,
+die für Ihn als Anwender wichtig sind. Dann verknüpft er diese Signale mit Einheiten, die vom System zur Verfügung
+gestellt werden. 
+Ein Tool erzeugt dann aus diesen Informationen die Software für das System.
+
+Beschreibung der Signale und Units
+**********************************
+Sämtliche Beschreibungen und Definitionen erfolgen in XML. Dieses wiederum wird über ein XML Schema validiert, damit
+der Anwender immer sicher sein kann, eine gültige XML Datei zu erfassen.
+Im späteren Entwicklungsstand, kann auch eine eigenen Anwendung für das Verfassen der XML Dateien programmiert werden.
+Die Verwendung von XML stellt eine Moderne und flexible Lösung dar, die rein text basiert ist. 
+
+Im folgenden ist jeweils ein Beispiel für ein Signal und für eine Unit dargestellt:
+
+<signal>
+   <type>onoff</type>	
+	<name>light_onoff</name>
+	<description>Licht ein- und ausschalten</description>
+</signal>
+
+<unit>
+	<name>relay_k1</name>
+	<open>
+		<signal>
+         <name>light_onoff</name>
+         <value>on</value>
+	</open>
+	<close>
+         <name>light_onoff</name>
+         <value>off</value>
+	</close>
+</units>
+
+Erklärung des Beispiels für Licht an / aus:
+-------------------------------------------
+Es gibt vordefinierte Signaltypen im System. Einer davon ist der Signaltyp "onoff". Wie der Name schon sagt, kann dieses Signal
+den Wert "on" oder "off" annehmen. 
+Jedes Signal im System bekommt einen Namen vom Anwender, hier "light_onoff". Über eine Beschreibung kann der Nutzer später seine
+Signale genau identifizieren.
+
+Jedes Signal macht nur sinn, wenn es mit einer unit verbunden ist. Hier in diesem Beispiel gibt es eine Unit "relay_k1".
+Dieser Unit ist in der Lage Signale vom Typ "onoff" zu verarbeiten. Weiterhin verfügt die Unit über zwei Eigenschaften, hier "open" und "close"
+Diese Eigenschaften müssen über den Anwender mit den Signalen verbunden werden. 
+In unserem Beispiel, öffnet das Relay, wenn es das Signal "light_onoff" mit dem Wert "on" empfängt.
+Es schließt, wenn es das Signal "light_onoff" mit dem Wert "off" empfängt.
+
+In dieser Art und Weise, wird das gesamte System, durch den Anwender definiert.
+
+Codegenerator Signale/Units in eine Software
+********************************************
+
+Nachdem das System über die Signale und Units definiert ist, werden die XML Dateien über einen Codegenerator interpretiert und in C++ Code gewandelt. 
+Der C++ Code wird dann zu der finalen Soft- und Firmware kompiliert. 
+Durch dieses vorgehen, erhält das System einen individuelle und performante Software.
+Der Codegenerator wird über die Programmiersprache Python realisiert.
+
+
+Kommunikation zwischen Main Unit und Bedieneinheiten
+****************************************************
+
+Die Main Unit ist das Herzstück des Systems. In der Main Unit laufen alle Informationen zusammen, da die Main Unit die physikalischen Schnittstellen
+für, z.B. das Wohnmobil, hat. 
+Die Main Unit kommuniziert über eine serielle Schnittstelle. Über diese Schnittstelle werden die Signale von und zu der Main Unit gesendet. 
+Es ist möglich, dass mehrere Teilnehmer z.B. mehrere Displays an diese Schnittstelle angeschlossen werden.
+
+Anforderungen an die Bedieneinheiten, Display, Web etc.
+*******************************************************
+Das System hat keine besonderen Anforderungen an die Benutzeroberflächen, egal ob Web oder Embedded Display.
+Alles ist individuell umsetzbar. Einzig die Signale müssen von den Benutzerinterfaces empfangen und gesendet werden können. 
+Daher ist es sinnvoll, wenn auch die Bedieneinheiten von den XML Dateien ableiten. 
+Sowohl Design, als auch Verhaltensweisen der Bedieneinheiten können individuell durch den Anwender vorgegeben werden. 
+
+
+Entwicklungsumgebung
+********************
+Die komplette Entwicklung erfolgt nach modernden Vorgehensweisen, wie Docker, Versionskontrolle, Unit Tests usw. 
+Das Basissystem ist Linux. Aber auch Windows und Mac sollte möglich sein.
+
+Die Umgebung lässt es zu, dass viele Entwickler gleichzeitig entwickeln können. Über das offene Softwaredesign ist es auch möglich,
+dass jede neue Hardware eingebunden werden kann.
+
+
+Hardwarekonzept:
 
 Das Hardwarekonzept sieht eine universelle Kommunikationsplattform vor, die eine Vielzahl von Schnittstellen bietet, diese hat sich erheblich vom vorgestellten Stand am Easterhegg 2019 weiter entwickelt. Um eine Vielzahl von kommerziell erhältlicher Peripherie abzudecken, sind die meisten Ports gemultiplext. Dies ermöglicht auch den Betrieb von Komponenten, die Aufgrund von Adress- oder Geschwindigkeitsdifferenzen nicht an einem Bus arbeiten können.
 
@@ -82,24 +206,11 @@ Display Unit:
 
 STM32L4R9 mit Grafik Controller
 24 Bit RGB Touchdisplay Interface
-Kapazitiver oder resistier Touch Controller
+Kapazitiver oder resistiver Touch Controller
 USB Interface
 
 
 
-Softwarekonzept:
-
-Signal Beschreibung ToDo
-
-Unit Beschreibung ToDo
-
-Firmware Beschreibung ToDo
-
-Reverse Engineering der Protokolle der Hersteller ist in der Regel das mitschneiden der Kommunikation zwischen dem original Bedienteil und Steuerung der Hersteller. Als physikalische Schnittstelle dient ja meist, CAN, LIN, RS485, R2323 etc. Die Beschreibung erfolgt dann als Unit mit den entsprechenden Kommandos und Parameter der verwendeten physikalischen Schnittstelle.
-
-
-
-Live Demo:
 
 Eine kurze Live Demonstration der bis dahin aufgebauten Main Unit, mit div. Sensoren, Laderegler, Batteriemanagment etc. ist geplant.
 
