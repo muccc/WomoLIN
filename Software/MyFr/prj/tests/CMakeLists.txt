@@ -8,3 +8,7 @@ add_executable(womolintest ${SOURCES})
 
 target_link_libraries(womolintest womolin pthread gtest)
 
+add_test(
+	NAME WomoLinUnitTests
+	COMMAND womolintest
+)
