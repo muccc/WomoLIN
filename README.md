@@ -6,4 +6,4 @@ Neue Wege in der konfigurierbaren Software Entwicklung eines Community Projektes
 
 Alle Infos findet Ihr in unserem Wiki hier auf Github. 
 
-https://github.com/muccc/Womo_LIN/wiki/Projektbeschreibung
+https://github.com/muccc/Womo_LIN/wiki/Home
