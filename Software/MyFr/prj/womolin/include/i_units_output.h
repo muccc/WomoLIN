@@ -28,9 +28,9 @@ class I_RelaySet
 public:
    I_RelaySet() = default;
    virtual ~I_RelaySet() = default;
-   bool UpdateUnitSignalSetReset ( std::string & signal_value ) = 0;
-   bool UpdateUnitSignalOnOff    ( std::string & signal_value ) = 0;
-   bool UpdateUnitSignalCloseOpen( std::string & signal_value ) = 0;
+   bool UpdateUnitSignalSetReset ( std::string & signal_value ) override = 0;
+   bool UpdateUnitSignalOnOff    ( std::string & signal_value ) override = 0;
+   bool UpdateUnitSignalCloseOpen( std::string & signal_value ) override = 0;
 };
 
 /*******************************************************************************
