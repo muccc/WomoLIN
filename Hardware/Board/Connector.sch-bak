@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -17,7 +17,7 @@ $EndDescr
 Text GLabel 2200 850  0    50   Output ~ 0
 DC_Input
 $Comp
-L Womo-rescue:GND-power #PWR0241
+L power:GND #PWR0241
 U 1 1 5CB74866
 P 2250 1200
 F 0 "#PWR0241" H 2250 950 50  0001 C CNN
@@ -62,7 +62,7 @@ Text GLabel 2000 3700 0    50   Output ~ 0
 Text GLabel 2000 3900 0    50   Output ~ 0
 1Wire_P7
 $Comp
-L Womo-rescue:GND-power #PWR0242
+L power:GND #PWR0242
 U 1 1 5CB76AAC
 P 2150 2600
 F 0 "#PWR0242" H 2150 2350 50  0001 C CNN
@@ -73,7 +73,7 @@ F 3 "" H 2150 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0243
+L power:GND #PWR0243
 U 1 1 5CB76AF5
 P 2150 4000
 F 0 "#PWR0243" H 2150 3750 50  0001 C CNN
@@ -132,11 +132,9 @@ Connection ~ 2150 3600
 Wire Wire Line
 	2150 3600 2150 3800
 $Comp
-L Womo-rescue:RJ12-Connector J304
+L Connector:RJ12 J304
 U 1 1 5CBD13E9
 P 2050 4950
-AR Path="/5CBD13E9" Ref="J304"  Part="1" 
-AR Path="/5CC9A992/5CBD13E9" Ref="J304"  Part="1" 
 F 0 "J304" H 1720 4954 50  0000 R CNN
 F 1 "Truma" H 1720 5045 50  0000 R CNN
 F 2 "Connector_RJ:RJ12_Amphenol_54601" V 2050 4975 50  0001 C CNN
@@ -145,11 +143,9 @@ F 3 "~" V 2050 4975 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Womo-rescue:RJ45-Connector J305
+L Connector:RJ45 J305
 U 1 1 5CBD1556
 P 2050 7000
-AR Path="/5CBD1556" Ref="J305"  Part="1" 
-AR Path="/5CC9A992/5CBD1556" Ref="J305"  Part="1" 
 F 0 "J305" H 1720 7004 50  0000 R CNN
 F 1 "Dormetic" H 1720 7095 50  0000 R CNN
 F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 2050 7025 50  0001 C CNN
@@ -170,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 6000 1150 6000
 $Comp
-L Womo-rescue:GND-power #PWR0244
+L power:GND #PWR0244
 U 1 1 5CBD275A
 P 1450 6400
 F 0 "#PWR0244" H 1450 6150 50  0001 C CNN
@@ -181,7 +177,7 @@ F 3 "" H 1450 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0245
+L power:GND #PWR0245
 U 1 1 5CBD2C26
 P 1450 5350
 F 0 "#PWR0245" H 1450 5100 50  0001 C CNN
@@ -192,7 +188,7 @@ F 3 "" H 1450 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0246
+L power:GND #PWR0246
 U 1 1 5CBD30F2
 P 1450 7500
 F 0 "#PWR0246" H 1450 7250 50  0001 C CNN
@@ -302,7 +298,7 @@ CAN-H
 Text GLabel 4700 1300 0    50   Output ~ 0
 CAN-L
 $Comp
-L Womo-rescue:GND-power #PWR0247
+L power:GND #PWR0247
 U 1 1 5CBE3C8E
 P 4900 1500
 F 0 "#PWR0247" H 4900 1250 50  0001 C CNN
@@ -337,7 +333,7 @@ AIN6
 Text GLabel 9500 14600 0    50   Output ~ 0
 AIN7
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA61DBD
 P 9900 13300
 AR Path="/5C8BBC97/5FA61DBD" Ref="R?"  Part="1" 
@@ -350,7 +346,7 @@ F 3 "~" H 9900 13300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA664E2
 P 10150 13300
 AR Path="/5C8BBC97/5FA664E2" Ref="R?"  Part="1" 
@@ -363,7 +359,7 @@ F 3 "~" H 10150 13300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA6AC1A
 P 10400 13300
 AR Path="/5C8BBC97/5FA6AC1A" Ref="R?"  Part="1" 
@@ -376,7 +372,7 @@ F 3 "~" H 10400 13300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA6F34F
 P 10650 13300
 AR Path="/5C8BBC97/5FA6F34F" Ref="R?"  Part="1" 
@@ -389,7 +385,7 @@ F 3 "~" H 10650 13300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA785B6
 P 10950 12600
 AR Path="/5C8BBC97/5FA785B6" Ref="R?"  Part="1" 
@@ -402,7 +398,7 @@ F 3 "~" H 10950 12600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA7CDF4
 P 10950 12400
 AR Path="/5C8BBC97/5FA7CDF4" Ref="R?"  Part="1" 
@@ -415,7 +411,7 @@ F 3 "~" H 10950 12400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA8159F
 P 10950 12800
 AR Path="/5C8BBC97/5FA8159F" Ref="R?"  Part="1" 
@@ -428,7 +424,7 @@ F 3 "~" H 10950 12800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FA85CE6
 P 10950 13000
 AR Path="/5C8BBC97/5FA85CE6" Ref="R?"  Part="1" 
@@ -441,7 +437,7 @@ F 3 "~" H 10950 13000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FA8A82F
 P 11400 12400
 AR Path="/5C8BBC97/5FA8A82F" Ref="FB?"  Part="1" 
@@ -454,7 +450,7 @@ F 3 "~" H 11400 12400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FA8F09B
 P 11400 12600
 AR Path="/5C8BBC97/5FA8F09B" Ref="FB?"  Part="1" 
@@ -467,7 +463,7 @@ F 3 "~" H 11400 12600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FA937CB
 P 11400 12800
 AR Path="/5C8BBC97/5FA937CB" Ref="FB?"  Part="1" 
@@ -480,7 +476,7 @@ F 3 "~" H 11400 12800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FA97EFE
 P 11400 13000
 AR Path="/5C8BBC97/5FA97EFE" Ref="FB?"  Part="1" 
@@ -493,7 +489,7 @@ F 3 "~" H 11400 13000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FA9CA42
 P 11600 13250
 AR Path="/5C8BBC97/5FA9CA42" Ref="C?"  Part="1" 
@@ -506,7 +502,7 @@ F 3 "~" H 11600 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0262
+L power:GND #PWR0262
 U 1 1 5FA9CA49
 P 11600 13450
 F 0 "#PWR0262" H 11600 13200 50  0001 C CNN
@@ -519,7 +515,7 @@ $EndComp
 Wire Wire Line
 	11600 13400 11600 13450
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FAA139D
 P 11900 13250
 AR Path="/5C8BBC97/5FAA139D" Ref="C?"  Part="1" 
@@ -532,7 +528,7 @@ F 3 "~" H 11900 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0263
+L power:GND #PWR0263
 U 1 1 5FAA13A4
 P 11900 13450
 F 0 "#PWR0263" H 11900 13200 50  0001 C CNN
@@ -545,7 +541,7 @@ $EndComp
 Wire Wire Line
 	11900 13400 11900 13450
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FAA5B87
 P 12200 13250
 AR Path="/5C8BBC97/5FAA5B87" Ref="C?"  Part="1" 
@@ -558,7 +554,7 @@ F 3 "~" H 12200 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0264
+L power:GND #PWR0264
 U 1 1 5FAA5B8E
 P 12200 13450
 F 0 "#PWR0264" H 12200 13200 50  0001 C CNN
@@ -571,7 +567,7 @@ $EndComp
 Wire Wire Line
 	12200 13400 12200 13450
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FAAA3DA
 P 12500 13250
 AR Path="/5C8BBC97/5FAAA3DA" Ref="C?"  Part="1" 
@@ -584,7 +580,7 @@ F 3 "~" H 12500 13250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0265
+L power:GND #PWR0265
 U 1 1 5FAAA3E1
 P 12500 13450
 F 0 "#PWR0265" H 12500 13200 50  0001 C CNN
@@ -597,7 +593,7 @@ $EndComp
 Wire Wire Line
 	12500 13400 12500 13450
 $Comp
-L Womo-rescue:GND-power #PWR0266
+L power:GND #PWR0266
 U 1 1 5FAB3639
 P 10650 13450
 F 0 "#PWR0266" H 10650 13200 50  0001 C CNN
@@ -608,7 +604,7 @@ F 3 "" H 10650 13450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0267
+L power:GND #PWR0267
 U 1 1 5FAB7EC4
 P 10400 13450
 F 0 "#PWR0267" H 10400 13200 50  0001 C CNN
@@ -619,7 +615,7 @@ F 3 "" H 10400 13450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0268
+L power:GND #PWR0268
 U 1 1 5FABC74F
 P 10150 13450
 F 0 "#PWR0268" H 10150 13200 50  0001 C CNN
@@ -630,7 +626,7 @@ F 3 "" H 10150 13450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0269
+L power:GND #PWR0269
 U 1 1 5FAC0FDA
 P 9900 13450
 F 0 "#PWR0269" H 9900 13200 50  0001 C CNN
@@ -675,7 +671,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 12400 9900 13150
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390CB
 P 9900 14900
 AR Path="/5C8BBC97/5FB390CB" Ref="R?"  Part="1" 
@@ -688,7 +684,7 @@ F 3 "~" H 9900 14900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390D2
 P 10150 14900
 AR Path="/5C8BBC97/5FB390D2" Ref="R?"  Part="1" 
@@ -701,7 +697,7 @@ F 3 "~" H 10150 14900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390D9
 P 10400 14900
 AR Path="/5C8BBC97/5FB390D9" Ref="R?"  Part="1" 
@@ -714,7 +710,7 @@ F 3 "~" H 10400 14900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390E0
 P 10650 14900
 AR Path="/5C8BBC97/5FB390E0" Ref="R?"  Part="1" 
@@ -727,7 +723,7 @@ F 3 "~" H 10650 14900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390E7
 P 10950 14200
 AR Path="/5C8BBC97/5FB390E7" Ref="R?"  Part="1" 
@@ -740,7 +736,7 @@ F 3 "~" H 10950 14200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390EE
 P 10950 14000
 AR Path="/5C8BBC97/5FB390EE" Ref="R?"  Part="1" 
@@ -753,7 +749,7 @@ F 3 "~" H 10950 14000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390F5
 P 10950 14400
 AR Path="/5C8BBC97/5FB390F5" Ref="R?"  Part="1" 
@@ -766,7 +762,7 @@ F 3 "~" H 10950 14400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5FB390FC
 P 10950 14600
 AR Path="/5C8BBC97/5FB390FC" Ref="R?"  Part="1" 
@@ -779,7 +775,7 @@ F 3 "~" H 10950 14600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FB39103
 P 11400 14000
 AR Path="/5C8BBC97/5FB39103" Ref="FB?"  Part="1" 
@@ -792,7 +788,7 @@ F 3 "~" H 11400 14000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FB3910A
 P 11400 14200
 AR Path="/5C8BBC97/5FB3910A" Ref="FB?"  Part="1" 
@@ -805,7 +801,7 @@ F 3 "~" H 11400 14200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FB39111
 P 11400 14400
 AR Path="/5C8BBC97/5FB39111" Ref="FB?"  Part="1" 
@@ -818,7 +814,7 @@ F 3 "~" H 11400 14400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5FB39118
 P 11400 14600
 AR Path="/5C8BBC97/5FB39118" Ref="FB?"  Part="1" 
@@ -831,7 +827,7 @@ F 3 "~" H 11400 14600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FB3911F
 P 11600 14850
 AR Path="/5C8BBC97/5FB3911F" Ref="C?"  Part="1" 
@@ -844,7 +840,7 @@ F 3 "~" H 11600 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0271
+L power:GND #PWR0271
 U 1 1 5FB39126
 P 11600 15050
 F 0 "#PWR0271" H 11600 14800 50  0001 C CNN
@@ -857,7 +853,7 @@ $EndComp
 Wire Wire Line
 	11600 15000 11600 15050
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FB3912D
 P 11900 14850
 AR Path="/5C8BBC97/5FB3912D" Ref="C?"  Part="1" 
@@ -870,7 +866,7 @@ F 3 "~" H 11900 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0272
+L power:GND #PWR0272
 U 1 1 5FB39134
 P 11900 15050
 F 0 "#PWR0272" H 11900 14800 50  0001 C CNN
@@ -883,7 +879,7 @@ $EndComp
 Wire Wire Line
 	11900 15000 11900 15050
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FB3913B
 P 12200 14850
 AR Path="/5C8BBC97/5FB3913B" Ref="C?"  Part="1" 
@@ -896,7 +892,7 @@ F 3 "~" H 12200 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0273
+L power:GND #PWR0273
 U 1 1 5FB39142
 P 12200 15050
 F 0 "#PWR0273" H 12200 14800 50  0001 C CNN
@@ -909,7 +905,7 @@ $EndComp
 Wire Wire Line
 	12200 15000 12200 15050
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5FB39149
 P 12500 14850
 AR Path="/5C8BBC97/5FB39149" Ref="C?"  Part="1" 
@@ -922,7 +918,7 @@ F 3 "~" H 12500 14850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0274
+L power:GND #PWR0274
 U 1 1 5FB39150
 P 12500 15050
 F 0 "#PWR0274" H 12500 14800 50  0001 C CNN
@@ -935,7 +931,7 @@ $EndComp
 Wire Wire Line
 	12500 15000 12500 15050
 $Comp
-L Womo-rescue:GND-power #PWR0275
+L power:GND #PWR0275
 U 1 1 5FB39157
 P 10650 15050
 F 0 "#PWR0275" H 10650 14800 50  0001 C CNN
@@ -946,7 +942,7 @@ F 3 "" H 10650 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0276
+L power:GND #PWR0276
 U 1 1 5FB3915D
 P 10400 15050
 F 0 "#PWR0276" H 10400 14800 50  0001 C CNN
@@ -957,7 +953,7 @@ F 3 "" H 10400 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0277
+L power:GND #PWR0277
 U 1 1 5FB39163
 P 10150 15050
 F 0 "#PWR0277" H 10150 14800 50  0001 C CNN
@@ -968,7 +964,7 @@ F 3 "" H 10150 15050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0278
+L power:GND #PWR0278
 U 1 1 5FB39169
 P 9900 15050
 F 0 "#PWR0278" H 9900 14800 50  0001 C CNN
@@ -1031,7 +1027,7 @@ Wire Wire Line
 Wire Wire Line
 	11300 12400 11100 12400
 $Comp
-L Womo-rescue:Conn_01x06-Connector_Generic J321
+L Connector_Generic:Conn_01x06 J321
 U 1 1 5DABF027
 P 11800 12100
 F 0 "J321" V 11800 12700 50  0000 L CNN
@@ -1042,7 +1038,7 @@ F 3 "~" H 11800 12100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:Conn_01x05-Connector_Generic J322
+L Connector_Generic:Conn_01x05 J322
 U 1 1 5DABF198
 P 11800 13750
 F 0 "J322" V 11850 14400 50  0000 L CNN
@@ -1121,7 +1117,7 @@ Connection ~ 12000 14600
 Wire Wire Line
 	12000 14600 12500 14600
 $Comp
-L Womo-rescue:+BATT-power #PWR?
+L power:+BATT #PWR?
 U 1 1 5D2C5E75
 P 12200 13950
 AR Path="/5C8BBC9A/5D2C5E75" Ref="#PWR?"  Part="1" 
@@ -1135,7 +1131,7 @@ F 3 "" H 12200 13950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:+BATT-power #PWR?
+L power:+BATT #PWR?
 U 1 1 5D2D8F59
 P 12250 12300
 AR Path="/5C8BBC9A/5D2D8F59" Ref="#PWR?"  Part="1" 
@@ -1157,7 +1153,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 13950 12200 13950
 $Comp
-L Womo-rescue:SP0504BAJT-Power_Protection D300
+L Power_Protection:SP0504BAJT D300
 U 1 1 5D32D076
 P 4300 4250
 F 0 "D300" H 4200 3750 50  0000 L CNN
@@ -1168,7 +1164,7 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:SP0504BAJT-Power_Protection D301
+L Power_Protection:SP0504BAJT D301
 U 1 1 5D32D07D
 P 4900 4250
 F 0 "D301" H 4750 3750 50  0000 L CNN
@@ -1179,7 +1175,7 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0287
+L power:GND #PWR0287
 U 1 1 5D32D084
 P 4300 4450
 F 0 "#PWR0287" H 4300 4200 50  0001 C CNN
@@ -1190,7 +1186,7 @@ F 3 "" H 4300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0288
+L power:GND #PWR0288
 U 1 1 5D32D08A
 P 4900 4450
 F 0 "#PWR0288" H 4900 4200 50  0001 C CNN
@@ -1209,7 +1205,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 4050 5000 3400
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB300
+L Device:Ferrite_Bead_Small FB300
 U 1 1 5D32D0C8
 P 5600 3200
 F 0 "FB300" V 5550 2800 50  0000 C CNN
@@ -1220,7 +1216,7 @@ F 3 "~" H 5600 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB301
+L Device:Ferrite_Bead_Small FB301
 U 1 1 5D32D0CF
 P 5650 3300
 F 0 "FB301" V 5600 2850 50  0000 C CNN
@@ -1231,7 +1227,7 @@ F 3 "~" H 5650 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB302
+L Device:Ferrite_Bead_Small FB302
 U 1 1 5D32D0D6
 P 5700 3400
 F 0 "FB302" V 5650 2900 50  0000 C CNN
@@ -1242,7 +1238,7 @@ F 3 "~" H 5700 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB303
+L Device:Ferrite_Bead_Small FB303
 U 1 1 5D32D0DD
 P 5750 3500
 F 0 "FB303" V 5700 2950 50  0000 C CNN
@@ -1253,7 +1249,7 @@ F 3 "~" H 5750 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB304
+L Device:Ferrite_Bead_Small FB304
 U 1 1 5D32D0E4
 P 5600 3600
 F 0 "FB304" V 5550 3200 50  0000 C CNN
@@ -1264,7 +1260,7 @@ F 3 "~" H 5600 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB305
+L Device:Ferrite_Bead_Small FB305
 U 1 1 5D32D0EB
 P 5650 3700
 F 0 "FB305" V 5600 3250 50  0000 C CNN
@@ -1275,7 +1271,7 @@ F 3 "~" H 5650 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB306
+L Device:Ferrite_Bead_Small FB306
 U 1 1 5D32D0F2
 P 5700 3800
 F 0 "FB306" V 5650 3300 50  0000 C CNN
@@ -1286,7 +1282,7 @@ F 3 "~" H 5700 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB307
+L Device:Ferrite_Bead_Small FB307
 U 1 1 5D32D0F9
 P 5750 3900
 F 0 "FB307" V 5700 3350 50  0000 C CNN
@@ -1358,7 +1354,7 @@ Wire Wire Line
 	4050 3900 4500 3900
 Connection ~ 4500 3900
 $Comp
-L Womo-rescue:SP0504BAJT-Power_Protection D302
+L Power_Protection:SP0504BAJT D302
 U 1 1 5D1AD042
 P 7400 4250
 F 0 "D302" H 7250 3750 50  0000 L CNN
@@ -1369,7 +1365,7 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:Conn_02x10_Odd_Even-Connector_Generic J318
+L Connector_Generic:Conn_02x10_Odd_Even J318
 U 1 1 5D1C5DEF
 P 6100 3400
 F 0 "J318" H 6150 4017 50  0000 C CNN
@@ -1380,7 +1376,7 @@ F 3 "~" H 6100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB314
+L Device:Ferrite_Bead_Small FB314
 U 1 1 5D1DE842
 P 6700 3600
 F 0 "FB314" V 6650 3150 50  0000 C CNN
@@ -1391,7 +1387,7 @@ F 3 "~" H 6700 3600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB315
+L Device:Ferrite_Bead_Small FB315
 U 1 1 5D1DE849
 P 6650 3700
 F 0 "FB315" V 6600 3200 50  0000 C CNN
@@ -1402,7 +1398,7 @@ F 3 "~" H 6650 3700 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB316
+L Device:Ferrite_Bead_Small FB316
 U 1 1 5D1DE850
 P 6600 3800
 F 0 "FB316" V 6550 3250 50  0000 C CNN
@@ -1413,7 +1409,7 @@ F 3 "~" H 6600 3800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB317
+L Device:Ferrite_Bead_Small FB317
 U 1 1 5D229C48
 P 6550 3900
 F 0 "FB317" V 6500 3300 50  0000 C CNN
@@ -1432,7 +1428,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3600 6600 3600
 $Comp
-L Womo-rescue:+3.3V-power #PWR?
+L power:+3.3V #PWR?
 U 1 1 5D3DF1EE
 P 7150 2800
 AR Path="/5C8BBC97/5D3DF1EE" Ref="#PWR?"  Part="1" 
@@ -1445,7 +1441,7 @@ F 3 "" H 7150 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5D3FA31A
 P 7400 2800
 AR Path="/5C8BBC97/5D3FA31A" Ref="#PWR?"  Part="1" 
@@ -1458,7 +1454,7 @@ F 3 "" H 7400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB312
+L Device:Ferrite_Bead_Small FB312
 U 1 1 5D4DD9B5
 P 6600 3400
 F 0 "FB312" V 6550 2950 50  0000 C CNN
@@ -1469,7 +1465,7 @@ F 3 "~" H 6600 3400 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB313
+L Device:Ferrite_Bead_Small FB313
 U 1 1 5D4DD9BC
 P 6550 3500
 F 0 "FB313" V 6500 3000 50  0000 C CNN
@@ -1484,7 +1480,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3400 6400 3400
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB311
+L Device:Ferrite_Bead_Small FB311
 U 1 1 5D52F2F1
 P 6650 3300
 F 0 "FB311" V 6600 2800 50  0000 C CNN
@@ -1499,7 +1495,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 3300 6400 3300
 $Comp
-L Womo-rescue:GND-power #PWR0294
+L power:GND #PWR0294
 U 1 1 5D7D1215
 P 5750 3000
 F 0 "#PWR0294" H 5750 2750 50  0001 C CNN
@@ -1519,7 +1515,7 @@ Wire Wire Line
 	5900 3000 5800 3000
 Connection ~ 5800 3000
 $Comp
-L Womo-rescue:GND-power #PWR0295
+L power:GND #PWR0295
 U 1 1 5D8A136E
 P 7400 4450
 F 0 "#PWR0295" H 7400 4200 50  0001 C CNN
@@ -1538,7 +1534,7 @@ Wire Notes Line
 Wire Notes Line
 	3750 5200 3750 2300
 $Comp
-L Womo-rescue:Raspberry_Pi_2_3-Connector J?
+L Connector:Raspberry_Pi_2_3 J?
 U 1 1 5D3238D6
 P 10750 2900
 AR Path="/5C8BC88B/5D3238D6" Ref="J?"  Part="1" 
@@ -1551,7 +1547,7 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/r
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5D3238DD
 P 10650 4350
 AR Path="/5C8BC88B/5D3238DD" Ref="#PWR?"  Part="1" 
@@ -1602,7 +1598,7 @@ Connection ~ 10950 4300
 Wire Wire Line
 	10950 4300 10850 4300
 $Comp
-L Womo-rescue:+5VD-power #PWR?
+L power:+5VD #PWR?
 U 1 1 5D3238F9
 P 13500 2400
 AR Path="/5C8BC88B/5D3238F9" Ref="#PWR?"  Part="1" 
@@ -1615,7 +1611,7 @@ F 3 "" H 13500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5D323906
 P 11250 1250
 AR Path="/5C8BC88B/5D323906" Ref="C?"  Part="1" 
@@ -1628,7 +1624,7 @@ F 3 "~" H 11250 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5D323913
 P 11250 1400
 AR Path="/5C8BC88B/5D323913" Ref="#PWR?"  Part="1" 
@@ -1661,7 +1657,7 @@ Connection ~ 10550 1400
 Wire Wire Line
 	10550 1400 10550 1050
 $Comp
-L Womo-rescue:ESP-12F-RF_Module U?
+L RF_Module:ESP-12F U?
 U 1 1 5D323928
 P 18450 2500
 AR Path="/5C8BC88B/5D323928" Ref="U?"  Part="1" 
@@ -1678,7 +1674,7 @@ ESP_Reset
 Text GLabel 17650 2100 0    50   Input ~ 0
 ESP_Enable
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5D323931
 P 18900 1400
 AR Path="/5C8BC88B/5D323931" Ref="C?"  Part="1" 
@@ -1691,7 +1687,7 @@ F 3 "~" H 18900 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5D323938
 P 18900 1550
 AR Path="/5C8BC88B/5D323938" Ref="#PWR?"  Part="1" 
@@ -1704,7 +1700,7 @@ F 3 "" H 18900 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5D32393E
 P 18450 3200
 AR Path="/5C8BC88B/5D32393E" Ref="#PWR?"  Part="1" 
@@ -1743,7 +1739,7 @@ Wire Wire Line
 Wire Wire Line
 	11650 2100 11550 2100
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5D323956
 P 18450 1150
 AR Path="/5C8BBC9A/5D323956" Ref="#PWR?"  Part="1" 
@@ -1795,7 +1791,7 @@ Wire Wire Line
 	10850 950  10850 1100
 Connection ~ 10850 1100
 $Comp
-L Womo-rescue:Conn_02x20_Odd_Even-Connector_Generic J324
+L Connector_Generic:Conn_02x20_Odd_Even J324
 U 1 1 5DA68FC7
 P 18500 5100
 F 0 "J324" H 18550 6217 50  0000 C CNN
@@ -1819,7 +1815,7 @@ Wire Wire Line
 Wire Wire Line
 	18900 4600 18800 4600
 $Comp
-L Womo-rescue:GND-power #PWR0236
+L power:GND #PWR0236
 U 1 1 5DCA45DC
 P 18900 4800
 F 0 "#PWR0236" H 18900 4550 50  0001 C CNN
@@ -1830,7 +1826,7 @@ F 3 "" H 18900 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0237
+L power:GND #PWR0237
 U 1 1 5DCBFBAA
 P 18900 5100
 F 0 "#PWR0237" H 18900 4850 50  0001 C CNN
@@ -1841,7 +1837,7 @@ F 3 "" H 18900 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0238
+L power:GND #PWR0238
 U 1 1 5DCDB178
 P 18900 5600
 F 0 "#PWR0238" H 18900 5350 50  0001 C CNN
@@ -1852,7 +1848,7 @@ F 3 "" H 18900 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0239
+L power:GND #PWR0239
 U 1 1 5DCF67FC
 P 18900 5800
 F 0 "#PWR0239" H 18900 5550 50  0001 C CNN
@@ -1871,7 +1867,7 @@ Wire Wire Line
 Wire Wire Line
 	18900 5800 18800 5800
 $Comp
-L Womo-rescue:GND-power #PWR0240
+L power:GND #PWR0240
 U 1 1 5DD9DA57
 P 18200 4600
 F 0 "#PWR0240" H 18200 4350 50  0001 C CNN
@@ -1882,7 +1878,7 @@ F 3 "" H 18200 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0248
+L power:GND #PWR0248
 U 1 1 5DDB9967
 P 18200 5400
 F 0 "#PWR0248" H 18200 5150 50  0001 C CNN
@@ -1893,7 +1889,7 @@ F 3 "" H 18200 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0249
+L power:GND #PWR0249
 U 1 1 5DDD5877
 P 18200 6100
 F 0 "#PWR0249" H 18200 5850 50  0001 C CNN
@@ -1914,7 +1910,7 @@ Wire Notes Line
 Wire Notes Line
 	17050 3700 17050 6300
 $Comp
-L Womo-rescue:TJA1049T-3-Interface_CAN_LIN U?
+L Interface_CAN_LIN:TJA1049T-3 U?
 U 1 1 5EC05F17
 P 13500 3150
 AR Path="/5C8BBC97/5EC05F17" Ref="U?"  Part="1" 
@@ -1931,7 +1927,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 3050 12550 3050
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EC05F22
 P 12850 3650
 AR Path="/5C8BBC97/5EC05F22" Ref="C?"  Part="1" 
@@ -1944,7 +1940,7 @@ F 3 "~" H 12850 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EC05F29
 P 14000 2650
 AR Path="/5C8BBC97/5EC05F29" Ref="C?"  Part="1" 
@@ -1957,7 +1953,7 @@ F 3 "~" H 14000 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EC05F36
 P 12850 3850
 AR Path="/5C8BBC97/5EC05F36" Ref="#PWR?"  Part="1" 
@@ -1981,7 +1977,7 @@ STB-RASPI_CTRL
 Wire Wire Line
 	12550 3350 13000 3350
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EC05F49
 P 14350 2700
 AR Path="/5C8BBC97/5EC05F49" Ref="#PWR?"  Part="1" 
@@ -2005,7 +2001,7 @@ Wire Wire Line
 Wire Wire Line
 	14350 2650 14350 2700
 $Comp
-L Womo-rescue:D_TVS_x2_AAC-Device D?
+L Device:D_TVS_x2_AAC D?
 U 1 1 5EC05F55
 P 15250 3450
 AR Path="/5C8BBC97/5EC05F55" Ref="D?"  Part="1" 
@@ -2018,7 +2014,7 @@ F 3 "~" H 15100 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5EC05F5C
 P 14650 3250
 AR Path="/5C8BBC97/5EC05F5C" Ref="R?"  Part="1" 
@@ -2031,7 +2027,7 @@ F 3 "~" H 14650 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5EC05F63
 P 14650 3650
 AR Path="/5C8BBC97/5EC05F63" Ref="R?"  Part="1" 
@@ -2044,7 +2040,7 @@ F 3 "~" H 14650 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EC05F6A
 P 14500 3450
 AR Path="/5C8BBC97/5EC05F6A" Ref="C?"  Part="1" 
@@ -2057,7 +2053,7 @@ F 3 "~" H 14500 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EC05F77
 P 14250 3500
 AR Path="/5C8BBC97/5EC05F77" Ref="#PWR?"  Part="1" 
@@ -2107,7 +2103,7 @@ Wire Wire Line
 	15750 3850 15250 3850
 Connection ~ 15250 3850
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EC05F96
 P 13500 3850
 AR Path="/5C8BBC97/5EC05F96" Ref="#PWR?"  Part="1" 
@@ -2122,7 +2118,7 @@ $EndComp
 Wire Wire Line
 	13500 3550 13500 3850
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5EC05F9D
 P 15850 3050
 AR Path="/5C8BBC97/5EC05F9D" Ref="FB?"  Part="1" 
@@ -2135,7 +2131,7 @@ F 3 "~" H 15850 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5EC05FA4
 P 15850 3850
 AR Path="/5C8BBC97/5EC05FA4" Ref="FB?"  Part="1" 
@@ -2164,7 +2160,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 4000 14650 3850
 $Comp
-L Womo-rescue:+5VD-power #PWR?
+L power:+5VD #PWR?
 U 1 1 5F062050
 P 10550 1050
 AR Path="/5C8BC88B/5F062050" Ref="#PWR?"  Part="1" 
@@ -2213,7 +2209,7 @@ RS485_4_A
 Text GLabel 4250 10000 2    50   Input ~ 0
 RS485_4_B
 $Comp
-L Womo-rescue:+5VL-power #PWR0257
+L power:+5VL #PWR0257
 U 1 1 60FBD799
 P 19650 4200
 F 0 "#PWR0257" H 19650 4050 50  0001 C CNN
@@ -2228,7 +2224,7 @@ CTRL_BUS_H
 Text GLabel 16150 6000 2    50   Output ~ 0
 CTRL_BUS_L
 $Comp
-L Womo-rescue:TJA1049T-3-Interface_CAN_LIN U?
+L Interface_CAN_LIN:TJA1049T-3 U?
 U 1 1 5E1DD8F5
 P 13950 5900
 AR Path="/5C8BBC97/5E1DD8F5" Ref="U?"  Part="1" 
@@ -2247,7 +2243,7 @@ Wire Wire Line
 Wire Wire Line
 	13450 6000 13300 6000
 $Comp
-L Womo-rescue:D_TVS_x2_AAC-Device D?
+L Device:D_TVS_x2_AAC D?
 U 1 1 5E1DD913
 P 15700 5600
 AR Path="/5C8BBC97/5E1DD913" Ref="D?"  Part="1" 
@@ -2260,7 +2256,7 @@ F 3 "~" H 15550 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5E1DD91A
 P 15100 5400
 AR Path="/5C8BBC97/5E1DD91A" Ref="R?"  Part="1" 
@@ -2273,7 +2269,7 @@ F 3 "~" H 15100 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5E1DD921
 P 15100 5800
 AR Path="/5C8BBC97/5E1DD921" Ref="R?"  Part="1" 
@@ -2286,7 +2282,7 @@ F 3 "~" H 15100 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E1DD928
 P 14950 5600
 AR Path="/5C8BBC97/5E1DD928" Ref="C?"  Part="1" 
@@ -2299,7 +2295,7 @@ F 3 "~" H 14950 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E1DD92F
 P 16050 5650
 AR Path="/5C8BBC97/5E1DD92F" Ref="#PWR?"  Part="1" 
@@ -2312,7 +2308,7 @@ F 3 "" H 16050 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E1DD935
 P 14700 5650
 AR Path="/5C8BBC97/5E1DD935" Ref="#PWR?"  Part="1" 
@@ -2351,7 +2347,7 @@ Wire Wire Line
 	15100 5950 15100 6000
 Connection ~ 15100 6000
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E1DD952
 P 13950 6600
 AR Path="/5C8BBC97/5E1DD952" Ref="#PWR?"  Part="1" 
@@ -2366,7 +2362,7 @@ $EndComp
 Wire Wire Line
 	13950 6300 13950 6350
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5E1DD959
 P 15900 5200
 AR Path="/5C8BBC97/5E1DD959" Ref="FB?"  Part="1" 
@@ -2379,7 +2375,7 @@ F 3 "~" H 15900 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5E1DD960
 P 15900 6000
 AR Path="/5C8BBC97/5E1DD960" Ref="FB?"  Part="1" 
@@ -2396,7 +2392,7 @@ Wire Wire Line
 Wire Wire Line
 	16150 6000 16000 6000
 $Comp
-L Womo-rescue:FT232RL-Interface_USB U401
+L Interface_USB:FT232RL U401
 U 1 1 5E20001E
 P 12200 6400
 F 0 "U401" H 11700 7450 50  0000 C CNN
@@ -2407,11 +2403,9 @@ F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 12200 6400 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:RJ45_Shielded-Connector J401
+L Connector:RJ45_Shielded J401
 U 1 1 5E2003C0
 P 15000 6950
-AR Path="/5E2003C0" Ref="J401"  Part="1" 
-AR Path="/5CC9A992/5E2003C0" Ref="J401"  Part="1" 
 F 0 "J401" H 15055 7617 50  0000 C CNN
 F 1 "RJ45_Shielded" H 15055 7526 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15000 6975 50  0001 C CNN
@@ -2420,11 +2414,9 @@ F 3 "~" V 15000 6975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:RJ45_Shielded-Connector J317
+L Connector:RJ45_Shielded J317
 U 1 1 5E200920
 P 7400 1500
-AR Path="/5E200920" Ref="J317"  Part="1" 
-AR Path="/5CC9A992/5E200920" Ref="J317"  Part="1" 
 F 0 "J317" H 6950 2050 50  0000 C CNN
 F 1 "RJ45_Shielded" H 7455 2076 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 7400 1525 50  0001 C CNN
@@ -2433,7 +2425,7 @@ F 3 "~" V 7400 1525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:USB_B_Micro-Connector J?
+L Connector:USB_B_Micro J?
 U 1 1 5E420A33
 P 9350 6000
 AR Path="/5C8BBC94/5E420A33" Ref="J?"  Part="1" 
@@ -2446,7 +2438,7 @@ F 3 "~" H 9500 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:USBLC6-2SC6-Power_Protection U?
+L Power_Protection:USBLC6-2SC6 U?
 U 1 1 5E420A3D
 P 10600 6650
 AR Path="/5C8BBC94/5E420A3D" Ref="U?"  Part="1" 
@@ -2465,7 +2457,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 7150 10600 7250
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E420A4C
 P 9250 6400
 AR Path="/5C8BBC94/5E420A4C" Ref="#PWR?"  Part="1" 
@@ -2478,7 +2470,7 @@ F 3 "" H 9250 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E420A52
 P 9350 6400
 AR Path="/5C8BBC94/5E420A52" Ref="#PWR?"  Part="1" 
@@ -2491,7 +2483,7 @@ F 3 "" H 9350 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E420A58
 P 10600 7250
 AR Path="/5C8BBC94/5E420A58" Ref="#PWR?"  Part="1" 
@@ -2504,7 +2496,7 @@ F 3 "" H 10600 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E4D069E
 P 12200 7550
 AR Path="/5C8BBC97/5E4D069E" Ref="#PWR?"  Part="1" 
@@ -2535,7 +2527,7 @@ Connection ~ 12300 7500
 Wire Wire Line
 	12300 7500 12200 7500
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E5827C6
 P 12900 5150
 AR Path="/5C8BBC94/5E5827C6" Ref="C?"  Part="1" 
@@ -2548,7 +2540,7 @@ F 3 "~" H 12900 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E5827CD
 P 12550 5150
 AR Path="/5C8BBC94/5E5827CD" Ref="C?"  Part="1" 
@@ -2561,7 +2553,7 @@ F 3 "~" H 12550 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E5827D4
 P 12550 5300
 AR Path="/5C8BBC94/5E5827D4" Ref="#PWR?"  Part="1" 
@@ -2574,7 +2566,7 @@ F 3 "" H 12550 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E5827DA
 P 12900 5300
 AR Path="/5C8BBC94/5E5827DA" Ref="#PWR?"  Part="1" 
@@ -2587,7 +2579,7 @@ F 3 "" H 12900 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E6584E9
 P 14150 5150
 AR Path="/5C8BBC94/5E6584E9" Ref="C?"  Part="1" 
@@ -2600,7 +2592,7 @@ F 3 "~" H 14150 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E6584F0
 P 14150 5300
 AR Path="/5C8BBC94/5E6584F0" Ref="#PWR?"  Part="1" 
@@ -2638,7 +2630,7 @@ Wire Wire Line
 	12100 5000 12100 5400
 Connection ~ 12300 5000
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E7556AF
 P 11250 5700
 AR Path="/5C8BBC94/5E7556AF" Ref="C?"  Part="1" 
@@ -2651,7 +2643,7 @@ F 3 "~" H 11250 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E7556B6
 P 11100 5700
 AR Path="/5C8BBC94/5E7556B6" Ref="#PWR?"  Part="1" 
@@ -2664,7 +2656,7 @@ F 3 "" H 11100 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Device:Ferrite_Bead_Small FB?
 U 1 1 5E80E7F9
 P 10600 5350
 AR Path="/5C8BBC97/5E80E7F9" Ref="FB?"  Part="1" 
@@ -2700,7 +2692,7 @@ Connection ~ 12100 5000
 Wire Wire Line
 	10600 5450 10600 5800
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E9F64BA
 P 9850 6500
 AR Path="/5C8BBC94/5E9F64BA" Ref="C?"  Part="1" 
@@ -2713,7 +2705,7 @@ F 3 "~" H 9850 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E9F64C1
 P 9850 6650
 AR Path="/5C8BBC94/5E9F64C1" Ref="#PWR?"  Part="1" 
@@ -2740,7 +2732,7 @@ Connection ~ 9850 5800
 Wire Wire Line
 	9850 5800 10600 5800
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E1DD907
 P 17250 9550
 AR Path="/5C8BBC97/5E1DD907" Ref="#PWR?"  Part="1" 
@@ -2762,7 +2754,7 @@ Wire Wire Line
 	14550 5200 15100 5200
 Connection ~ 15100 5200
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EC0E1DB
 P 15550 6550
 AR Path="/5C8BBC97/5EC0E1DB" Ref="#PWR?"  Part="1" 
@@ -2821,7 +2813,7 @@ I2C3_SDA
 Text GLabel 12200 9450 0    50   Input ~ 0
 I2C3_SCL
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5EFA22F6
 P 11100 9050
 AR Path="/5C8BBC94/5EFA22F6" Ref="R?"  Part="1" 
@@ -2834,7 +2826,7 @@ F 3 "~" H 11100 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5EFA22FD
 P 10800 9050
 AR Path="/5C8BBC94/5EFA22FD" Ref="R?"  Part="1" 
@@ -2847,7 +2839,7 @@ F 3 "~" H 10800 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:LSM303C-Sensor_Motion U?
+L Sensor_Motion:LSM303C U?
 U 1 1 5EFA2304
 P 13000 9650
 AR Path="/5C8BBC94/5EFA2304" Ref="U?"  Part="1" 
@@ -2860,7 +2852,7 @@ F 3 "www.st.com/resource/en/datasheet/lsm303c.pdf" H 13100 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:BME680-Sensor U?
+L Sensor:BME680 U?
 U 1 1 5EFA230B
 P 10000 9600
 AR Path="/5C8BBC94/5EFA230B" Ref="U?"  Part="1" 
@@ -2873,7 +2865,7 @@ F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-D
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA2312
 P 9900 10200
 AR Path="/5C8BBC94/5EFA2312" Ref="#PWR?"  Part="1" 
@@ -2886,7 +2878,7 @@ F 3 "" H 9900 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA2318
 P 10100 10200
 AR Path="/5C8BBC94/5EFA2318" Ref="#PWR?"  Part="1" 
@@ -2899,7 +2891,7 @@ F 3 "" H 10100 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA231E
 P 13000 10350
 AR Path="/5C8BBC94/5EFA231E" Ref="#PWR?"  Part="1" 
@@ -2921,7 +2913,7 @@ Connection ~ 13000 10300
 Wire Wire Line
 	13000 10300 13000 10350
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5EFA2329
 P 9900 8800
 AR Path="/5C8BBC9A/5EFA2329" Ref="#PWR?"  Part="1" 
@@ -2936,7 +2928,7 @@ F 3 "" H 9900 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5EFA232F
 P 13000 8550
 AR Path="/5C8BBC9A/5EFA232F" Ref="#PWR?"  Part="1" 
@@ -2955,7 +2947,7 @@ I2C3_SCL
 Text GLabel 11150 9700 2    50   BiDi ~ 0
 I2C3_SDA
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EFA2337
 P 9450 9000
 AR Path="/5C8BBC94/5EFA2337" Ref="C?"  Part="1" 
@@ -2968,7 +2960,7 @@ F 3 "~" H 9450 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EFA233E
 P 9100 9000
 AR Path="/5C8BBC94/5EFA233E" Ref="C?"  Part="1" 
@@ -2981,7 +2973,7 @@ F 3 "~" H 9100 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA2345
 P 9100 9150
 AR Path="/5C8BBC94/5EFA2345" Ref="#PWR?"  Part="1" 
@@ -2994,7 +2986,7 @@ F 3 "" H 9100 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA234B
 P 9450 9150
 AR Path="/5C8BBC94/5EFA234B" Ref="#PWR?"  Part="1" 
@@ -3025,7 +3017,7 @@ I2C-ADR: 1110110
 Text Notes 11950 10250 0    50   ~ 0
 ACL I2C-ADR: 0011001
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA235B
 P 10600 9300
 AR Path="/5C8BBC94/5EFA235B" Ref="#PWR?"  Part="1" 
@@ -3038,7 +3030,7 @@ F 3 "" H 10600 9300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5EFA2361
 P 12200 9650
 AR Path="/5C8BBC9A/5EFA2361" Ref="#PWR?"  Part="1" 
@@ -3090,7 +3082,7 @@ Connection ~ 12250 9650
 Wire Wire Line
 	12250 9650 12200 9650
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5EFA237C
 P 10600 9900
 AR Path="/5C8BBC9A/5EFA237C" Ref="#PWR?"  Part="1" 
@@ -3105,7 +3097,7 @@ F 3 "" H 10600 9900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EFA2382
 P 12750 8800
 AR Path="/5C8BBC94/5EFA2382" Ref="C?"  Part="1" 
@@ -3118,7 +3110,7 @@ F 3 "~" H 12750 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EFA2389
 P 12400 8800
 AR Path="/5C8BBC94/5EFA2389" Ref="C?"  Part="1" 
@@ -3131,7 +3123,7 @@ F 3 "~" H 12400 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA2390
 P 12400 8950
 AR Path="/5C8BBC94/5EFA2390" Ref="#PWR?"  Part="1" 
@@ -3144,7 +3136,7 @@ F 3 "" H 12400 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA2396
 P 12750 8950
 AR Path="/5C8BBC94/5EFA2396" Ref="#PWR?"  Part="1" 
@@ -3157,7 +3149,7 @@ F 3 "" H 12750 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EFA239C
 P 13800 10000
 AR Path="/5C8BBC94/5EFA239C" Ref="C?"  Part="1" 
@@ -3170,7 +3162,7 @@ F 3 "~" H 13800 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA23A3
 P 13800 10150
 AR Path="/5C8BBC94/5EFA23A3" Ref="#PWR?"  Part="1" 
@@ -3208,7 +3200,7 @@ Wire Wire Line
 Wire Wire Line
 	13700 9850 13800 9850
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EFA23B7
 P 13350 8800
 AR Path="/5C8BBC94/5EFA23B7" Ref="C?"  Part="1" 
@@ -3221,7 +3213,7 @@ F 3 "~" H 13350 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA23BE
 P 13350 8950
 AR Path="/5C8BBC94/5EFA23BE" Ref="#PWR?"  Part="1" 
@@ -3253,7 +3245,7 @@ Wire Wire Line
 Wire Wire Line
 	13800 9650 13700 9650
 $Comp
-L Womo-rescue:Conn_02x05_Odd_Even-Connector_Generic J?
+L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 5EFA23CE
 P 11200 10900
 AR Path="/5C8BBC94/5EFA23CE" Ref="J?"  Part="1" 
@@ -3276,7 +3268,7 @@ I2C3_SDA
 Text GLabel 10900 11000 0    50   Output ~ 0
 I2C3_SCL
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5EFA23DA
 P 11650 10650
 AR Path="/5C8BBC9A/5EFA23DA" Ref="#PWR?"  Part="1" 
@@ -3291,7 +3283,7 @@ F 3 "" H 11650 10650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFA23E0
 P 11650 11150
 AR Path="/5C8BBC94/5EFA23E0" Ref="#PWR?"  Part="1" 
@@ -3304,7 +3296,7 @@ F 3 "" H 11650 11150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:Conn_02x05_Odd_Even-Connector_Generic J?
+L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 5EFD4C55
 P 6900 6300
 AR Path="/5C8BBC94/5EFD4C55" Ref="J?"  Part="1" 
@@ -3327,7 +3319,7 @@ I2C3_SDA
 Text GLabel 4750 6400 0    50   Input ~ 0
 I2C3_SCL
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5EFD4C61
 P 7900 6000
 AR Path="/5C8BBC9A/5EFD4C61" Ref="#PWR?"  Part="1" 
@@ -3342,7 +3334,7 @@ F 3 "" H 7900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EFD4C67
 P 7350 6550
 AR Path="/5C8BBC94/5EFD4C67" Ref="#PWR?"  Part="1" 
@@ -3398,7 +3390,7 @@ Wire Notes Line
 Text Notes 12450 11150 0    50   ~ 0
 MAG, ACL, Enviroment Sensors\nThis have ben mount horizontaly and in\nAir Flow, can be seperatd from main board\nUse 10 Pin 1:1 Ribbon cable instat
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5F2C1310
 P 7950 1100
 AR Path="/5C8BBC97/5F2C1310" Ref="#PWR?"  Part="1" 
@@ -3428,7 +3420,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 1400 7800 1400
 $Comp
-L Womo-rescue:+BATT-power #PWR?
+L power:+BATT #PWR?
 U 1 1 5F2FD0F2
 P 7950 1800
 AR Path="/5C8BBC9A/5F2FD0F2" Ref="#PWR?"  Part="1" 
@@ -3451,7 +3443,7 @@ Connection ~ 7900 1800
 Wire Wire Line
 	7900 1800 7800 1800
 $Comp
-L Womo-rescue:SP0504BAJT-Power_Protection D305
+L Power_Protection:SP0504BAJT D305
 U 1 1 5F406F08
 P 5600 7100
 F 0 "D305" H 5450 6600 50  0000 L CNN
@@ -3462,7 +3454,7 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0327
+L power:GND #PWR0327
 U 1 1 5F406F0F
 P 5600 7300
 F 0 "#PWR0327" H 5600 7050 50  0001 C CNN
@@ -3473,7 +3465,7 @@ F 3 "" H 5600 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5F472D90
 P 7400 2000
 AR Path="/5C8BBC94/5F472D90" Ref="#PWR?"  Part="1" 
@@ -3506,7 +3498,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 6100 7350 6100
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB318
+L Device:Ferrite_Bead_Small FB318
 U 1 1 61E6B5DF
 P 6350 6100
 F 0 "FB318" V 6300 6550 50  0000 C CNN
@@ -3517,7 +3509,7 @@ F 3 "~" H 6350 6100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB319
+L Device:Ferrite_Bead_Small FB319
 U 1 1 61E6B5E6
 P 6300 6200
 F 0 "FB319" V 6250 6600 50  0000 C CNN
@@ -3528,7 +3520,7 @@ F 3 "~" H 6300 6200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB320
+L Device:Ferrite_Bead_Small FB320
 U 1 1 61E6B5ED
 P 6250 6300
 F 0 "FB320" V 6200 6650 50  0000 C CNN
@@ -3539,7 +3531,7 @@ F 3 "~" H 6250 6300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB321
+L Device:Ferrite_Bead_Small FB321
 U 1 1 61E6B5F4
 P 6200 6400
 F 0 "FB321" V 6150 6700 50  0000 C CNN
@@ -3550,7 +3542,7 @@ F 3 "~" H 6200 6400 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB322
+L Device:Ferrite_Bead_Small FB322
 U 1 1 61E6B5FC
 P 6150 6500
 F 0 "FB322" V 6100 6750 50  0000 C CNN
@@ -3606,7 +3598,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 11550 3650 11550
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5DE43B0E
 P 3650 12050
 AR Path="/5C8BBC94/5DE43B0E" Ref="#PWR?"  Part="1" 
@@ -3623,7 +3615,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 11900 3650 12050
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5DEBFCDE
 P 3100 11650
 AR Path="/5C8BBC97/5DEBFCDE" Ref="R?"  Part="1" 
@@ -3641,7 +3633,7 @@ Wire Wire Line
 	3100 11800 2950 11800
 Connection ~ 3100 11800
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5DFF668E
 P 3100 11500
 AR Path="/5C8BBC9A/5DFF668E" Ref="#PWR?"  Part="1" 
@@ -3673,7 +3665,7 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=655-5-1393243-2" H 4900 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:+5V-power #PWR?
+L power:+5V #PWR?
 U 1 1 5E072BC4
 P 4950 11700
 AR Path="/5C8BBC9A/5E072BC4" Ref="#PWR?"  Part="1" 
@@ -3705,7 +3697,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 12750 3650 12750
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E072BDE
 P 3650 13250
 AR Path="/5C8BBC94/5E072BDE" Ref="#PWR?"  Part="1" 
@@ -3722,7 +3714,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 13100 3650 13250
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5E072BE6
 P 3100 12850
 AR Path="/5C8BBC97/5E072BE6" Ref="R?"  Part="1" 
@@ -3740,7 +3732,7 @@ Wire Wire Line
 	3100 13000 2950 13000
 Connection ~ 3100 13000
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5E072BF0
 P 3100 12700
 AR Path="/5C8BBC9A/5E072BF0" Ref="#PWR?"  Part="1" 
@@ -3790,7 +3782,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 13950 3650 13950
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E0FE0E2
 P 3650 14450
 AR Path="/5C8BBC94/5E0FE0E2" Ref="#PWR?"  Part="1" 
@@ -3807,7 +3799,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 14300 3650 14450
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5E0FE0EA
 P 3100 14050
 AR Path="/5C8BBC97/5E0FE0EA" Ref="R?"  Part="1" 
@@ -3825,7 +3817,7 @@ Wire Wire Line
 	3100 14200 2950 14200
 Connection ~ 3100 14200
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5E0FE0F4
 P 3100 13900
 AR Path="/5C8BBC9A/5E0FE0F4" Ref="#PWR?"  Part="1" 
@@ -3875,7 +3867,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 15150 3650 15150
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E1463B0
 P 3650 15650
 AR Path="/5C8BBC94/5E1463B0" Ref="#PWR?"  Part="1" 
@@ -3892,7 +3884,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 15500 3650 15650
 $Comp
-L Womo-rescue:R-Device R?
+L Device:R R?
 U 1 1 5E1463B8
 P 3100 15250
 AR Path="/5C8BBC97/5E1463B8" Ref="R?"  Part="1" 
@@ -3910,7 +3902,7 @@ Wire Wire Line
 	3100 15400 2950 15400
 Connection ~ 3100 15400
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5E1463C2
 P 3100 15100
 AR Path="/5C8BBC9A/5E1463C2" Ref="#PWR?"  Part="1" 
@@ -3925,7 +3917,7 @@ F 3 "" H 3100 15100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:TJA1049T-3-Interface_CAN_LIN U?
+L Interface_CAN_LIN:TJA1049T-3 U?
 U 1 1 5E630778
 P 20100 2200
 AR Path="/5C8BBC97/5E630778" Ref="U?"  Part="1" 
@@ -3938,7 +3930,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 20100 2200 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E630781
 P 19500 2700
 AR Path="/5C8BBC97/5E630781" Ref="C?"  Part="1" 
@@ -3951,7 +3943,7 @@ F 3 "~" H 19500 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5E630788
 P 20600 1700
 AR Path="/5C8BBC97/5E630788" Ref="C?"  Part="1" 
@@ -3964,7 +3956,7 @@ F 3 "~" H 20600 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E63078F
 P 19500 2900
 AR Path="/5C8BBC97/5E63078F" Ref="#PWR?"  Part="1" 
@@ -3990,7 +3982,7 @@ Wire Wire Line
 Wire Wire Line
 	20750 1700 20950 1700
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E6307A4
 P 20100 2900
 AR Path="/5C8BBC97/5E6307A4" Ref="#PWR?"  Part="1" 
@@ -4007,7 +3999,7 @@ Wire Wire Line
 Wire Wire Line
 	19050 2000 19600 2000
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5E9F3224
 P 19500 2300
 AR Path="/5C8BBC9A/5E9F3224" Ref="#PWR?"  Part="1" 
@@ -4051,7 +4043,7 @@ NoConn ~ 17850 2600
 NoConn ~ 17850 2500
 NoConn ~ 17850 2300
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5F1CBFE3
 P 20950 1700
 AR Path="/5C8BBC97/5F1CBFE3" Ref="#PWR?"  Part="1" 
@@ -4092,7 +4084,7 @@ SPI3_SOSI
 Text GLabel 6000 14700 0    50   Input ~ 0
 SPI3_SOSI
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5DBC639C
 P 6950 13600
 AR Path="/5C8BBC9A/5DBC639C" Ref="#PWR?"  Part="1" 
@@ -4109,7 +4101,7 @@ $EndComp
 Wire Wire Line
 	6950 13600 6950 13650
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5DC17933
 P 6950 11000
 AR Path="/5C8BBC9A/5DC17933" Ref="#PWR?"  Part="1" 
@@ -4126,7 +4118,7 @@ $EndComp
 Wire Wire Line
 	6950 11000 6950 11050
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5DC68D47
 P 6000 12400
 AR Path="/5C8BBC9A/5DC68D47" Ref="#PWR?"  Part="1" 
@@ -4141,7 +4133,7 @@ F 3 "" H 6000 12400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 5DEA37A6
 P 6000 15000
 AR Path="/5C8BBC9A/5DEA37A6" Ref="#PWR?"  Part="1" 
@@ -4230,7 +4222,7 @@ F 3 "" H 6100 13800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5DE2618E
 P 6000 12600
 AR Path="/5C8BBC94/5DE2618E" Ref="#PWR?"  Part="1" 
@@ -4243,7 +4235,7 @@ F 3 "" H 6000 12600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5DE7DA5D
 P 6700 13050
 AR Path="/5C8BBC94/5DE7DA5D" Ref="#PWR?"  Part="1" 
@@ -4256,7 +4248,7 @@ F 3 "" H 6700 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5DED532C
 P 6850 13050
 AR Path="/5C8BBC94/5DED532C" Ref="#PWR?"  Part="1" 
@@ -4269,7 +4261,7 @@ F 3 "" H 6850 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5DF2CBFB
 P 7050 13050
 AR Path="/5C8BBC94/5DF2CBFB" Ref="#PWR?"  Part="1" 
@@ -4282,7 +4274,7 @@ F 3 "" H 7050 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5DF844CA
 P 7200 13050
 AR Path="/5C8BBC94/5DF844CA" Ref="#PWR?"  Part="1" 
@@ -4295,7 +4287,7 @@ F 3 "" H 7200 13050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E033EE7
 P 6000 15200
 AR Path="/5C8BBC94/5E033EE7" Ref="#PWR?"  Part="1" 
@@ -4308,7 +4300,7 @@ F 3 "" H 6000 15200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E08B7B6
 P 6700 15650
 AR Path="/5C8BBC94/5E08B7B6" Ref="#PWR?"  Part="1" 
@@ -4321,7 +4313,7 @@ F 3 "" H 6700 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E0E3085
 P 6850 15650
 AR Path="/5C8BBC94/5E0E3085" Ref="#PWR?"  Part="1" 
@@ -4334,7 +4326,7 @@ F 3 "" H 6850 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E13A954
 P 7050 15650
 AR Path="/5C8BBC94/5E13A954" Ref="#PWR?"  Part="1" 
@@ -4347,7 +4339,7 @@ F 3 "" H 7050 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5E192223
 P 7200 15650
 AR Path="/5C8BBC94/5E192223" Ref="#PWR?"  Part="1" 
@@ -4360,7 +4352,7 @@ F 3 "" H 7200 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:+5V-power #PWR?
+L power:+5V #PWR?
 U 1 1 5E2EC146
 P 4950 12900
 AR Path="/5C8BBC9A/5E2EC146" Ref="#PWR?"  Part="1" 
@@ -4374,7 +4366,7 @@ F 3 "" H 4950 12900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:+5V-power #PWR?
+L power:+5V #PWR?
 U 1 1 5E3E7A7A
 P 4950 14100
 AR Path="/5C8BBC9A/5E3E7A7A" Ref="#PWR?"  Part="1" 
@@ -4388,7 +4380,7 @@ F 3 "" H 4950 14100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:+5V-power #PWR?
+L power:+5V #PWR?
 U 1 1 5E4DF30A
 P 4950 15300
 AR Path="/5C8BBC9A/5E4DF30A" Ref="#PWR?"  Part="1" 
@@ -4430,7 +4422,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 12900 4850 12900
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5EBB4B18
 P 7200 11050
 AR Path="/5C8BBC94/5EBB4B18" Ref="C?"  Part="1" 
@@ -4443,7 +4435,7 @@ F 3 "~" H 7200 11050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5EBB4B1F
 P 7350 11050
 AR Path="/5C8BBC94/5EBB4B1F" Ref="#PWR?"  Part="1" 
@@ -4456,7 +4448,7 @@ F 3 "" H 7350 11050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 5ECAA878
 P 7200 13650
 AR Path="/5C8BBC94/5ECAA878" Ref="C?"  Part="1" 
@@ -4469,7 +4461,7 @@ F 3 "~" H 7200 13650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L power:GND #PWR?
 U 1 1 5ECAA87F
 P 7350 13650
 AR Path="/5C8BBC94/5ECAA87F" Ref="#PWR?"  Part="1" 
@@ -4868,7 +4860,7 @@ Wire Wire Line
 	1450 6100 1450 6300
 Connection ~ 1450 6300
 $Comp
-L Womo-rescue:GND-power #PWR0420
+L power:GND #PWR0420
 U 1 1 5EF21911
 P 1800 8750
 F 0 "#PWR0420" H 1800 8500 50  0001 C CNN
@@ -4879,7 +4871,7 @@ F 3 "" H 1800 8750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0421
+L power:GND #PWR0421
 U 1 1 5EF8D1DA
 P 1800 9050
 F 0 "#PWR0421" H 1800 8800 50  0001 C CNN
@@ -4890,7 +4882,7 @@ F 3 "" H 1800 9050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0422
+L power:GND #PWR0422
 U 1 1 5EFF8AA3
 P 1800 9850
 F 0 "#PWR0422" H 1800 9600 50  0001 C CNN
@@ -4901,7 +4893,7 @@ F 3 "" H 1800 9850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0423
+L power:GND #PWR0423
 U 1 1 5F06436C
 P 1800 10150
 F 0 "#PWR0423" H 1800 9900 50  0001 C CNN
@@ -4912,7 +4904,7 @@ F 3 "" H 1800 10150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0424
+L power:GND #PWR0424
 U 1 1 5F0CFC35
 P 4250 10100
 F 0 "#PWR0424" H 4250 9850 50  0001 C CNN
@@ -4923,7 +4915,7 @@ F 3 "" H 4250 10100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0425
+L power:GND #PWR0425
 U 1 1 5F13B4FE
 P 4250 9800
 F 0 "#PWR0425" H 4250 9550 50  0001 C CNN
@@ -4934,7 +4926,7 @@ F 3 "" H 4250 9800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0426
+L power:GND #PWR0426
 U 1 1 5F1A6DC7
 P 4250 9000
 F 0 "#PWR0426" H 4250 8750 50  0001 C CNN
@@ -4945,7 +4937,7 @@ F 3 "" H 4250 9000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0427
+L power:GND #PWR0427
 U 1 1 5F212690
 P 4250 8700
 F 0 "#PWR0427" H 4250 8450 50  0001 C CNN
@@ -5090,7 +5082,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 14600 13250 14600
 $Comp
-L Womo-rescue:+BATT-power #PWR?
+L power:+BATT #PWR?
 U 1 1 606C98F8
 P 13400 13100
 AR Path="/5C8BBC9A/606C98F8" Ref="#PWR?"  Part="1" 
@@ -5104,7 +5096,7 @@ F 3 "" H 13400 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0429
+L power:GND #PWR0429
 U 1 1 60741235
 P 13400 14100
 F 0 "#PWR0429" H 13400 13850 50  0001 C CNN
@@ -5164,7 +5156,7 @@ Wire Wire Line
 	18450 1700 18450 1250
 Connection ~ 18450 1250
 $Comp
-L Womo-rescue:+5V-power #PWR?
+L power:+5V #PWR?
 U 1 1 63C96965
 P 20100 1450
 AR Path="/5C8BBC9A/63C96965" Ref="#PWR?"  Part="1" 
@@ -5206,7 +5198,7 @@ P5
 Text GLabel 6450 9350 0    50   BiDi ~ 0
 P4
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB323
+L Device:Ferrite_Bead_Small FB323
 U 1 1 641D616F
 P 7000 8950
 F 0 "FB323" V 6950 8550 50  0000 C CNN
@@ -5217,7 +5209,7 @@ F 3 "~" H 7000 8950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB324
+L Device:Ferrite_Bead_Small FB324
 U 1 1 641D6176
 P 7050 9050
 F 0 "FB324" V 7000 8600 50  0000 C CNN
@@ -5228,7 +5220,7 @@ F 3 "~" H 7050 9050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB325
+L Device:Ferrite_Bead_Small FB325
 U 1 1 641D617D
 P 7100 9150
 F 0 "FB325" V 7050 8650 50  0000 C CNN
@@ -5239,7 +5231,7 @@ F 3 "~" H 7100 9150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB326
+L Device:Ferrite_Bead_Small FB326
 U 1 1 641D6184
 P 7150 9250
 F 0 "FB326" V 7100 8700 50  0000 C CNN
@@ -5250,7 +5242,7 @@ F 3 "~" H 7150 9250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB327
+L Device:Ferrite_Bead_Small FB327
 U 1 1 641D618B
 P 7000 9350
 F 0 "FB327" V 6950 8950 50  0000 C CNN
@@ -5261,7 +5253,7 @@ F 3 "~" H 7000 9350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB328
+L Device:Ferrite_Bead_Small FB328
 U 1 1 641D6192
 P 7050 9450
 F 0 "FB328" V 7000 9000 50  0000 C CNN
@@ -5272,7 +5264,7 @@ F 3 "~" H 7050 9450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB329
+L Device:Ferrite_Bead_Small FB329
 U 1 1 641D6199
 P 7100 9550
 F 0 "FB329" V 7050 9050 50  0000 C CNN
@@ -5283,7 +5275,7 @@ F 3 "~" H 7100 9550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB330
+L Device:Ferrite_Bead_Small FB330
 U 1 1 641D61A0
 P 7150 9650
 F 0 "FB330" V 7100 9100 50  0000 C CNN
@@ -5310,7 +5302,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 9650 7250 9650
 $Comp
-L Womo-rescue:GND-power #PWR0431
+L power:GND #PWR0431
 U 1 1 64A66CB0
 P 7300 9750
 F 0 "#PWR0431" H 7300 9500 50  0001 C CNN
@@ -5321,7 +5313,7 @@ F 3 "" H 7300 9750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0432
+L power:GND #PWR0432
 U 1 1 64AEA791
 P 7300 8850
 F 0 "#PWR0432" H 7300 8600 50  0001 C CNN
@@ -5379,7 +5371,7 @@ Connection ~ 4400 3800
 Wire Wire Line
 	6750 3700 8000 3700
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB310
+L Device:Ferrite_Bead_Small FB310
 U 1 1 653B57EC
 P 6700 3200
 F 0 "FB310" V 6650 2800 50  0000 C CNN
@@ -5407,7 +5399,7 @@ Wire Wire Line
 	7600 4050 7600 3500
 Connection ~ 7600 3500
 $Comp
-L Womo-rescue:SP0504BAJT-Power_Protection D303
+L Power_Protection:SP0504BAJT D303
 U 1 1 656C093F
 P 8000 4250
 F 0 "D303" H 7850 3750 50  0000 L CNN
@@ -5418,7 +5410,7 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0433
+L power:GND #PWR0433
 U 1 1 656C0946
 P 8000 4450
 F 0 "#PWR0433" H 8000 4200 50  0001 C CNN
@@ -5466,7 +5458,7 @@ Wire Wire Line
 	8300 3200 7300 3200
 Connection ~ 7300 3200
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB309
+L Device:Ferrite_Bead_Small FB309
 U 1 1 65F11DD5
 P 6550 3100
 F 0 "FB309" V 6500 2600 50  0000 C CNN
@@ -5477,7 +5469,7 @@ F 3 "~" H 6550 3100 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB308
+L Device:Ferrite_Bead_Small FB308
 U 1 1 65F11DDC
 P 6600 3000
 F 0 "FB308" V 6550 2600 50  0000 C CNN
@@ -5502,7 +5494,7 @@ Wire Wire Line
 Text Notes 3850 2600 0    118  ~ 0
 Extension Port
 $Comp
-L Womo-rescue:SP0504BAJT-Power_Protection D304
+L Power_Protection:SP0504BAJT D304
 U 1 1 66542E10
 P 5000 6800
 F 0 "D304" H 4850 6300 50  0000 L CNN
@@ -5513,7 +5505,7 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0434
+L power:GND #PWR0434
 U 1 1 66542E17
 P 5000 7000
 F 0 "#PWR0434" H 5000 6750 50  0001 C CNN
@@ -5557,7 +5549,7 @@ Connection ~ 5500 6500
 Wire Wire Line
 	5500 6500 4750 6500
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB3
+L Device:Ferrite_Bead_Small FB3
 U 1 1 66D6FD12
 P 7550 6100
 F 0 "FB3" V 7500 6250 50  0000 C CNN
@@ -5645,7 +5637,7 @@ Wire Wire Line
 Wire Wire Line
 	19050 7850 18950 7850
 $Comp
-L Womo-rescue:GND-power #PWR0435
+L power:GND #PWR0435
 U 1 1 5FFBF54A
 P 19050 7250
 F 0 "#PWR0435" H 19050 7000 50  0001 C CNN
@@ -5656,7 +5648,7 @@ F 3 "" H 19050 7250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0436
+L power:GND #PWR0436
 U 1 1 6004BF46
 P 19050 7450
 F 0 "#PWR0436" H 19050 7200 50  0001 C CNN
@@ -5667,7 +5659,7 @@ F 3 "" H 19050 7450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0437
+L power:GND #PWR0437
 U 1 1 600D8942
 P 19050 7650
 F 0 "#PWR0437" H 19050 7400 50  0001 C CNN
@@ -5678,7 +5670,7 @@ F 3 "" H 19050 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0438
+L power:GND #PWR0438
 U 1 1 601656DA
 P 19050 7850
 F 0 "#PWR0438" H 19050 7600 50  0001 C CNN
@@ -5724,7 +5716,7 @@ I2C1_SDA
 Text GLabel 16650 9450 2    50   Input ~ 0
 I2C1_SCL
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB334
+L Device:Ferrite_Bead_Small FB334
 U 1 1 60A3DFFD
 P 16200 9350
 F 0 "FB334" V 16150 9650 50  0000 C CNN
@@ -5735,7 +5727,7 @@ F 3 "~" H 16200 9350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB335
+L Device:Ferrite_Bead_Small FB335
 U 1 1 60A3E004
 P 16150 9450
 F 0 "FB335" V 16100 9700 50  0000 C CNN
@@ -5746,7 +5738,7 @@ F 3 "~" H 16150 9450 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB333
+L Device:Ferrite_Bead_Small FB333
 U 1 1 60A3E00B
 P 16250 9250
 F 0 "FB333" V 16200 9600 50  0000 C CNN
@@ -5765,7 +5757,7 @@ Wire Wire Line
 Wire Wire Line
 	16650 9450 16250 9450
 $Comp
-L Womo-rescue:GND-power #PWR0439
+L power:GND #PWR0439
 U 1 1 61060541
 P 15750 9550
 F 0 "#PWR0439" H 15750 9300 50  0001 C CNN
@@ -5776,7 +5768,7 @@ F 3 "" H 15750 9550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR0440
+L power:GND #PWR0440
 U 1 1 610F0510
 P 15750 9050
 F 0 "#PWR0440" H 15750 8800 50  0001 C CNN
@@ -5787,7 +5779,7 @@ F 3 "" H 15750 9050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 6132FCA7
 P 17250 9100
 AR Path="/5C8BBC9A/6132FCA7" Ref="#PWR?"  Part="1" 
@@ -5802,7 +5794,7 @@ F 3 "" H 17250 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Device:C C?
 U 1 1 6132FCAD
 P 17250 9400
 AR Path="/5C8BBC94/6132FCAD" Ref="C?"  Part="1" 
@@ -5839,7 +5831,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 6700 5700 6900
 $Comp
-L Womo-rescue:+3.3VA-power #PWR?
+L power:+3.3VA #PWR?
 U 1 1 61C3DAB6
 P 5850 6850
 AR Path="/5C8BBC9A/61C3DAB6" Ref="#PWR?"  Part="1" 
@@ -5910,7 +5902,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 9650 6450 9650
 $Comp
-L Womo-rescue:GND-power #PWR0252
+L power:GND #PWR0252
 U 1 1 5DB3B959
 P 15100 3450
 F 0 "#PWR0252" H 15100 3200 50  0001 C CNN
