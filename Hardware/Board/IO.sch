@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -2268,7 +2268,7 @@ RX_RS485_2
 Text GLabel 3200 11100 2    50   Output ~ 0
 TX_RS485_3
 Text GLabel 3200 10700 2    50   Input ~ 0
-RX_RS485_2
+RX_RS485_3
 Text GLabel 3200 11200 2    50   Output ~ 0
 TX_RS485_4
 Text GLabel 3200 10800 2    50   Input ~ 0
@@ -2306,7 +2306,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 11700 3100 11700
 Text GLabel 2000 10900 0    50   Input ~ 0
-LPUART3_TX_RS485
+LPUART_TX_RS485
 Text GLabel 2000 10500 0    50   Output ~ 0
 LPUART_RX_RS485
 Wire Wire Line
@@ -2324,11 +2324,11 @@ RX_SER_2
 Text GLabel 13450 14250 0    50   Input ~ 0
 TX_SER_3
 Text GLabel 13450 14450 0    50   Output ~ 0
-RX_SER3
+RX_SER_3
 Text GLabel 13450 14350 0    50   Input ~ 0
-TX_SER4
+TX_SER_4
 Text GLabel 13450 14550 0    50   Output ~ 0
-RX_SER4
+RX_SER_4
 Wire Wire Line
 	13450 14250 13550 14250
 Wire Wire Line
@@ -3132,21 +3132,21 @@ Wire Wire Line
 Wire Wire Line
 	13450 14750 13450 14850
 Text GLabel 3100 14200 2    50   Output ~ 0
-TX_RS485_2
+DE_RS485_2
 Text GLabel 3100 13800 2    50   Output ~ 0
 RE_RS485_2
 Text GLabel 3100 14300 2    50   Output ~ 0
-TX_RS485_3
+DE_RS485_3
 Text GLabel 3100 13900 2    50   Output ~ 0
 RE_RS485_3
 Text GLabel 3100 14400 2    50   Output ~ 0
-TX_RS485_4
+DE_RS485_4
 Text GLabel 3100 14000 2    50   Output ~ 0
 RE_RS485_4
 Text GLabel 3100 13700 2    50   Output ~ 0
 RE_RS485_1
 Text GLabel 3100 14100 2    50   Output ~ 0
-TX_RS485_1
+DE_RS485_1
 Wire Wire Line
 	3100 13700 3000 13700
 Wire Wire Line
