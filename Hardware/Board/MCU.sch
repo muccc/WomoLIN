@@ -591,11 +591,11 @@ F 3 "https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/" H 8150 3700 50  00
 	1    0    0    -1  
 $EndComp
 Text GLabel 8800 3800 2    50   Input ~ 0
-SPI1_MOSI
+SPI2_MOSI
 Text GLabel 8800 4000 2    50   Input ~ 0
-SPI1_SCK
+SPI2_SCK
 Text GLabel 8800 3700 2    50   Output ~ 0
-SPI1_MISO
+SPI2_MISO
 $Comp
 L Womo-rescue:C-Device C?
 U 1 1 5D3326BE
@@ -618,7 +618,7 @@ Wire Wire Line
 NoConn ~ 7600 3800
 NoConn ~ 7600 3900
 Text GLabel 8800 3900 2    50   Input ~ 0
-SPI1_NSS
+SPI2_NSS
 Text GLabel 8800 3500 2    50   Output ~ 0
 BLE_INT
 Text GLabel 8800 3400 2    50   Output ~ 0
@@ -2022,13 +2022,13 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-SPSGRFC-868" H 10250 
 	-1   0    0    -1  
 $EndComp
 Text GLabel 7300 1500 0    50   Input ~ 0
-SPI2_NSS
+SPI1_NSS
 Text GLabel 9000 1900 2    50   Input ~ 0
-SPI2_SCK
+SPI1_SCK
 Text GLabel 7300 1300 0    50   Output ~ 0
-SPI2_MISO
+SPI1_MISO
 Text GLabel 7300 1400 0    50   Input ~ 0
-SPI2_MOSI
+SPI1_MOSI
 $Comp
 L Womo-rescue:GND-power #PWR0444
 U 1 1 5E2388A1
@@ -2352,10 +2352,10 @@ F 3 "" H 5700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L Womo-rescue:GND-power #PWR0375
 U 1 1 5DEBAE1D
 P 3000 1750
-F 0 "#PWR?" H 3000 1500 50  0001 C CNN
+F 0 "#PWR0375" H 3000 1500 50  0001 C CNN
 F 1 "GND" H 3005 1577 50  0000 C CNN
 F 2 "" H 3000 1750 50  0001 C CNN
 F 3 "" H 3000 1750 50  0001 C CNN
