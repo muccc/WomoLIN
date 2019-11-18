@@ -5093,7 +5093,7 @@ F 3 "~" H 7600 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2000 10900 0    50   Input ~ 0
-LPUART3_TX_RS485
+LPUART_TX_RS485
 Connection ~ 7600 2000
 Wire Wire Line
 	7300 2000 7600 2000
