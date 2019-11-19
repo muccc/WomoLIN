@@ -1,0 +1,2371 @@
+EESchema Schematic File Version 4
+LIBS:Womo-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 5
+Title "STM32LR MCU Section"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 5750 5750 2    50   Input ~ 0
+CAN1_RX
+Text GLabel 5750 5850 2    50   Output ~ 0
+CAN1_TX
+$Comp
+L Womo-rescue:C-Device C5
+U 1 1 5C9DF521
+P 3650 1700
+F 0 "C5" V 3600 1550 50  0000 C CNN
+F 1 "100n" V 3700 1500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1550 50  0001 C CNN
+F 3 "~" H 3650 1700 50  0001 C CNN
+	1    3650 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C4
+U 1 1 5C9DF5C2
+P 3650 1500
+F 0 "C4" V 3600 1350 50  0000 C CNN
+F 1 "100n" V 3700 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1350 50  0001 C CNN
+F 3 "~" H 3650 1500 50  0001 C CNN
+	1    3650 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C3
+U 1 1 5C9DF60F
+P 3650 1300
+F 0 "C3" V 3600 1150 50  0000 C CNN
+F 1 "100n" V 3700 1100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1150 50  0001 C CNN
+F 3 "~" H 3650 1300 50  0001 C CNN
+	1    3650 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C2
+U 1 1 5C9DF7EC
+P 3650 1100
+F 0 "C2" V 3600 950 50  0000 C CNN
+F 1 "100n" V 3700 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 950 50  0001 C CNN
+F 3 "~" H 3650 1100 50  0001 C CNN
+	1    3650 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C1
+U 1 1 5C9DF857
+P 3650 900
+F 0 "C1" V 3398 900 50  0000 C CNN
+F 1 "100n" V 3489 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 750 50  0001 C CNN
+F 3 "~" H 3650 900 50  0001 C CNN
+	1    3650 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 900  3900 900 
+Wire Wire Line
+	4100 900  4000 900 
+Connection ~ 4000 900 
+Text GLabel 5750 6050 2    50   Input ~ 0
+LPUART_RX_RS485
+Text GLabel 5750 5950 2    50   Output ~ 0
+LPUART_TX_RS485
+Text GLabel 5750 6750 2    50   BiDi ~ 0
+I2C3_SDA
+Text GLabel 5750 6650 2    50   Output ~ 0
+I2C3_SCL
+Wire Wire Line
+	4200 900  4100 900 
+Connection ~ 4100 900 
+Wire Wire Line
+	4300 900  4200 900 
+Connection ~ 4200 900 
+Text GLabel 5750 4350 2    50   Input ~ 0
+USB_D-
+Text GLabel 5750 4450 2    50   Input ~ 0
+USB_D+
+Text GLabel 5750 4250 2    50   Input ~ 0
+USB_ID
+Text GLabel 5750 4050 2    50   Input ~ 0
+USB_SOF
+Text GLabel 5750 4550 2    50   Input ~ 0
+JTAG_TMS
+Text GLabel 5750 4650 2    50   Input ~ 0
+JTAG_TCK
+Text GLabel 5750 4750 2    50   Input ~ 0
+JTAG_TDI
+$Comp
+L Womo-rescue:C-Device C11
+U 1 1 5CA05796
+P 5650 1050
+F 0 "C11" H 5765 1096 50  0000 L CNN
+F 1 "10nF" H 5765 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 900 50  0001 C CNN
+F 3 "~" H 5650 1050 50  0001 C CNN
+	1    5650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:C-Device C12
+U 1 1 5CA058B6
+P 6050 1050
+F 0 "C12" H 6165 1096 50  0000 L CNN
+F 1 "1uF" H 6165 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6088 900 50  0001 C CNN
+F 3 "~" H 6050 1050 50  0001 C CNN
+	1    6050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:C-Device C10
+U 1 1 5CA058F8
+P 5250 1050
+F 0 "C10" H 5365 1096 50  0000 L CNN
+F 1 "10uF" H 5365 1005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5288 900 50  0001 C CNN
+F 3 "~" H 5250 1050 50  0001 C CNN
+	1    5250 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 900  5100 900 
+Wire Wire Line
+	3500 900  3250 900 
+Wire Wire Line
+	3250 900  3250 1100
+Wire Wire Line
+	3500 1100 3250 1100
+Connection ~ 3250 1100
+Wire Wire Line
+	3250 1100 3250 1300
+Wire Wire Line
+	3500 1300 3250 1300
+Connection ~ 3250 1300
+Wire Wire Line
+	3250 1300 3250 1500
+Wire Wire Line
+	3500 1500 3250 1500
+Connection ~ 3250 1500
+Wire Wire Line
+	3250 1500 3250 1700
+Wire Wire Line
+	3500 1700 3250 1700
+Connection ~ 3250 1700
+Text GLabel 5750 5250 2    50   Input ~ 0
+JTAG_TDO
+Text GLabel 5750 5350 2    50   Input ~ 0
+JTAG_RES
+Wire Wire Line
+	6300 8150 6300 8350
+$Comp
+L Womo-rescue:C-Device C22
+U 1 1 5CA2B1BF
+P 2250 4750
+F 0 "C22" V 2200 4600 50  0000 C CNN
+F 1 "6p8" V 2300 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 4600 50  0001 C CNN
+F 3 "~" H 2250 4750 50  0001 C CNN
+	1    2250 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C21
+U 1 1 5CA2B358
+P 2250 4450
+F 0 "C21" V 2200 4300 50  0000 C CNN
+F 1 "6p8" V 2300 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2288 4300 50  0001 C CNN
+F 3 "~" H 2250 4450 50  0001 C CNN
+	1    2250 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 4650 3050 4650
+Wire Wire Line
+	3050 4650 3050 4450
+Wire Wire Line
+	2100 4750 1900 4750
+Wire Wire Line
+	2100 4450 1900 4450
+Wire Wire Line
+	1900 4450 1900 4750
+$Comp
+L Womo-rescue:C-Device C19
+U 1 1 5CA39760
+P 1600 3450
+F 0 "C19" H 1715 3496 50  0000 L CNN
+F 1 "100nF" H 1715 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1638 3300 50  0001 C CNN
+F 3 "~" H 1600 3450 50  0001 C CNN
+	1    1600 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3250 1600 3300
+$Comp
+L Womo-rescue:USB_B_Micro-Connector J1
+U 1 1 5CA22A0B
+P 10450 3350
+F 0 "J1" H 10505 3817 50  0000 C CNN
+F 1 "USB_B_Micro" H 10505 3726 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 10600 3300 50  0001 C CNN
+F 3 "~" H 10600 3300 50  0001 C CNN
+	1    10450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:Conn_ARM_JTAG_SWD_20-Connector J2
+U 1 1 5CA25131
+P 13950 3850
+F 0 "J2" H 13200 4850 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_20" H 13650 4700 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 14400 2800 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 13600 2600 50  0001 C CNN
+	1    13950 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 11400 4100 0    50   Input ~ 0
+USB_D-
+Text GLabel 12400 4100 2    50   Input ~ 0
+USB_D+
+Text GLabel 10850 3550 2    50   Input ~ 0
+USB_ID
+Text GLabel 14700 3750 2    50   Output ~ 0
+JTAG_TCK
+Text GLabel 14700 4050 2    50   Output ~ 0
+JTAG_TDI
+Text GLabel 14700 3950 2    50   Output ~ 0
+JTAG_TDO
+Text GLabel 14700 3350 2    50   Output ~ 0
+JTAG_RES
+Text GLabel 14700 3850 2    50   Output ~ 0
+JTAG_TMS
+Wire Wire Line
+	14550 3750 14700 3750
+Wire Wire Line
+	14550 3850 14700 3850
+Wire Wire Line
+	14550 3950 14700 3950
+Wire Wire Line
+	14550 4050 14700 4050
+$Comp
+L Womo-rescue:SW_Push-Switch SW3
+U 1 1 5CA4B2AF
+P 1400 3450
+F 0 "SW3" V 1400 3735 50  0000 C CNN
+F 1 "Reset" V 1300 3700 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1400 3650 50  0001 C CNN
+F 3 "" H 1400 3650 50  0001 C CNN
+	1    1400 3450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5750 3950 2    50   Output ~ 0
+SPI1_MOSI
+Text GLabel 5750 3750 2    50   Output ~ 0
+SPI1_SCK
+Text GLabel 5750 3650 2    50   Output ~ 0
+SPI1_NSS
+Text GLabel 5750 3850 2    50   Input ~ 0
+SPI1_MISO
+Text GLabel 5750 6850 2    50   Input ~ 0
+BLE_INT
+Text GLabel 5750 6950 2    50   Input ~ 0
+BLE_Active
+Wire Wire Line
+	4400 900  4300 900 
+Connection ~ 4300 900 
+Wire Wire Line
+	4500 900  4400 900 
+Connection ~ 4400 900 
+Connection ~ 4500 900 
+Wire Wire Line
+	4500 900  4600 900 
+Connection ~ 4600 900 
+Wire Wire Line
+	4600 900  4700 900 
+$Comp
+L Womo-rescue:C-Device C6
+U 1 1 5CD34B00
+P 3650 1900
+F 0 "C6" V 3600 1750 50  0000 C CNN
+F 1 "100n" V 3700 1700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1750 50  0001 C CNN
+F 3 "~" H 3650 1900 50  0001 C CNN
+	1    3650 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C7
+U 1 1 5CD3ED21
+P 3650 2100
+F 0 "C7" V 3600 1950 50  0000 C CNN
+F 1 "100n" V 3700 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 1950 50  0001 C CNN
+F 3 "~" H 3650 2100 50  0001 C CNN
+	1    3650 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C8
+U 1 1 5CD48F33
+P 3650 2300
+F 0 "C8" V 3600 2150 50  0000 C CNN
+F 1 "100n" V 3700 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 2150 50  0001 C CNN
+F 3 "~" H 3650 2300 50  0001 C CNN
+	1    3650 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C9
+U 1 1 5CD5314A
+P 3650 2500
+F 0 "C9" V 3600 2350 50  0000 C CNN
+F 1 "100n" V 3700 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3688 2350 50  0001 C CNN
+F 3 "~" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 1900 3250 1900
+Wire Wire Line
+	3250 1700 3250 1900
+Wire Wire Line
+	3500 2500 3250 2500
+Wire Wire Line
+	3250 2500 3250 2300
+Connection ~ 3250 1900
+Wire Wire Line
+	3500 2300 3250 2300
+Connection ~ 3250 2300
+Wire Wire Line
+	3250 2300 3250 2100
+Wire Wire Line
+	3500 2100 3250 2100
+Connection ~ 3250 2100
+Wire Wire Line
+	3250 2100 3250 1900
+Text GLabel 3050 3450 0    50   Input ~ 0
+Boot0
+$Comp
+L Womo-rescue:Battery_Cell-Device BT1
+U 1 1 5CE694AA
+P 2000 2700
+F 0 "BT1" H 2118 2796 50  0000 L CNN
+F 1 "Battery_Cell" H 2118 2705 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1058_1x2032" V 2000 2760 50  0001 C CNN
+F 3 "~" V 2000 2760 50  0001 C CNN
+	1    2000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:C-Device C18
+U 1 1 5CE69B2F
+P 1600 2650
+F 0 "C18" H 1715 2696 50  0000 L CNN
+F 1 "1uF" H 1715 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1638 2500 50  0001 C CNN
+F 3 "~" H 1600 2650 50  0001 C CNN
+	1    1600 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 2000 2500
+Wire Wire Line
+	1600 2500 2000 2500
+$Comp
+L Womo-rescue:C-Device C16
+U 1 1 5CEEF80E
+P 5400 2550
+F 0 "C16" V 5350 2400 50  0000 C CNN
+F 1 "100n" V 5450 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 2400 50  0001 C CNN
+F 3 "~" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C15
+U 1 1 5CEEF815
+P 5400 2350
+F 0 "C15" V 5350 2200 50  0000 C CNN
+F 1 "100n" V 5450 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 2200 50  0001 C CNN
+F 3 "~" H 5400 2350 50  0001 C CNN
+	1    5400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C14
+U 1 1 5CEEF81C
+P 5400 2150
+F 0 "C14" V 5350 2000 50  0000 C CNN
+F 1 "100n" V 5450 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 2000 50  0001 C CNN
+F 3 "~" H 5400 2150 50  0001 C CNN
+	1    5400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C17
+U 1 1 5CF52246
+P 5400 2750
+F 0 "C17" V 5350 2600 50  0000 C CNN
+F 1 "2u2" V 5450 2550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5438 2600 50  0001 C CNN
+F 3 "~" H 5400 2750 50  0001 C CNN
+	1    5400 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2150 5700 2350
+Wire Wire Line
+	5700 2750 5550 2750
+Wire Wire Line
+	5550 2150 5700 2150
+Wire Wire Line
+	5550 2350 5700 2350
+Connection ~ 5700 2350
+Wire Wire Line
+	5700 2350 5700 2550
+Wire Wire Line
+	5550 2550 5700 2550
+Connection ~ 5700 2550
+Wire Wire Line
+	5700 2550 5700 2750
+$Comp
+L Womo-rescue:C-Device C13
+U 1 1 5CFF9401
+P 5400 1950
+F 0 "C13" V 5450 2050 50  0000 L CNN
+F 1 "10uF" V 5350 2050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5438 1800 50  0001 C CNN
+F 3 "~" H 5400 1950 50  0001 C CNN
+	1    5400 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Womo-rescue:USBLC6-2SC6-Power_Protection U5
+U 1 1 5D018138
+P 11900 4000
+F 0 "U5" H 12200 3600 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 12400 3500 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 11150 4400 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 12100 4350 50  0001 C CNN
+	1    11900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3450 3200 3450
+Wire Wire Line
+	5750 4650 5600 4650
+Wire Wire Line
+	11900 3150 11900 3500
+Wire Wire Line
+	11400 3450 11400 3900
+Wire Wire Line
+	10750 3450 11400 3450
+Wire Wire Line
+	10750 3350 12400 3350
+Wire Wire Line
+	12400 3350 12400 3900
+Wire Wire Line
+	10750 3150 11900 3150
+Wire Wire Line
+	10850 3550 10750 3550
+Text GLabel 5750 6150 2    50   Output ~ 0
+LPUART_RTS_DE_RS485
+Text GLabel 5750 5450 2    50   Output ~ 0
+ESP_Boot
+Text GLabel 5750 5050 2    50   Output ~ 0
+ESP_Reset
+Text GLabel 5750 5150 2    50   Output ~ 0
+ESP_Enable
+Text GLabel 5750 6350 2    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 5750 6250 2    50   Output ~ 0
+I2C2_SCL
+Wire Wire Line
+	5750 6350 5600 6350
+Text GLabel 5750 5650 2    50   Input ~ 0
+USART1_RX_CTRL
+Text GLabel 5750 5550 2    50   Output ~ 0
+USART1_TX_CTRL
+Text GLabel 5750 3250 2    50   Output ~ 0
+UART4_TX_GSM
+Text GLabel 5750 3350 2    50   Input ~ 0
+UART4_RX_GSM
+$Comp
+L Womo-rescue:C-Device C27
+U 1 1 5D5D6B54
+P 11950 1100
+F 0 "C27" H 12100 1050 50  0000 L CNN
+F 1 "100nF" H 12000 950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11988 950 50  0001 C CNN
+F 3 "~" H 11950 1100 50  0001 C CNN
+	1    11950 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 2950 13950 3050
+Text GLabel 5750 8850 2    50   Output ~ 0
+Rasp_Shutdown
+Text GLabel 5750 8950 2    50   Input ~ 0
+Rasp_down
+Wire Wire Line
+	7200 8350 7350 8350
+Wire Wire Line
+	7200 8050 7350 8050
+$Comp
+L Womo-rescue:C-Device C24
+U 1 1 5CA1D165
+P 7050 8350
+F 0 "C24" V 7200 8350 50  0000 C CNN
+F 1 "4p7" V 7300 8350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 8200 50  0001 C CNN
+F 3 "~" H 7050 8350 50  0001 C CNN
+	1    7050 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C23
+U 1 1 5CA1D026
+P 7050 8050
+F 0 "C23" V 6798 8050 50  0000 C CNN
+F 1 "4p7" V 6889 8050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 7900 50  0001 C CNN
+F 3 "~" H 7050 8050 50  0001 C CNN
+	1    7050 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 8350 6500 8350
+Wire Wire Line
+	6500 8350 6900 8350
+Connection ~ 6500 8350
+Wire Wire Line
+	5600 8050 6500 8050
+Wire Wire Line
+	6900 8050 6500 8050
+Connection ~ 6500 8050
+$Comp
+L Womo-rescue:Crystal-Device Y2
+U 1 1 5CA1CD9F
+P 6500 8200
+F 0 "Y2" V 6454 8331 50  0000 L CNN
+F 1 "32.768" V 6545 8331 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm" H 6500 8200 50  0001 C CNN
+F 3 "~" H 6500 8200 50  0001 C CNN
+	1    6500 8200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14700 3350 14550 3350
+Text GLabel 1650 1750 2    50   Output ~ 0
+Boot0
+Wire Wire Line
+	7350 8050 7350 8350
+$Comp
+L Womo-rescue:MOD-nRF8001-RF_Bluetooth U?
+U 1 1 5D3326AE
+P 8100 3700
+AR Path="/5C8BC88B/5D3326AE" Ref="U?"  Part="1" 
+AR Path="/5C8BBC94/5D3326AE" Ref="U4"  Part="1" 
+F 0 "U4" H 7450 4350 50  0000 C CNN
+F 1 "MOD-nRF8001" H 7650 4250 50  0000 C CNN
+F 2 "RF_Module:MOD-nRF8001" H 8150 3750 50  0001 C CNN
+F 3 "https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/" H 8150 3700 50  0001 C CNN
+	1    8100 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8800 3800 2    50   Input ~ 0
+SPI2_MOSI
+Text GLabel 8800 4000 2    50   Input ~ 0
+SPI2_SCK
+Text GLabel 8800 3700 2    50   Output ~ 0
+SPI2_MISO
+$Comp
+L Womo-rescue:C-Device C?
+U 1 1 5D3326BE
+P 8700 2900
+AR Path="/5C8BC88B/5D3326BE" Ref="C?"  Part="1" 
+AR Path="/5C8BBC94/5D3326BE" Ref="C26"  Part="1" 
+F 0 "C26" H 8815 2946 50  0000 L CNN
+F 1 "10u" H 8815 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8738 2750 50  0001 C CNN
+F 3 "~" H 8700 2900 50  0001 C CNN
+	1    8700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2750 8700 2700
+Wire Wire Line
+	8700 2700 8100 2700
+Wire Wire Line
+	8100 2700 8100 3100
+NoConn ~ 7600 3800
+NoConn ~ 7600 3900
+Text GLabel 8800 3900 2    50   Input ~ 0
+SPI2_NSS
+Text GLabel 8800 3500 2    50   Output ~ 0
+BLE_INT
+Text GLabel 8800 3400 2    50   Output ~ 0
+BLE_Active
+Text GLabel 7400 3500 0    50   Input ~ 0
+BLE_RST
+Wire Wire Line
+	7400 3500 7600 3500
+Wire Wire Line
+	8600 3400 8800 3400
+Wire Wire Line
+	8600 3500 8800 3500
+Wire Wire Line
+	8600 3700 8800 3700
+Wire Wire Line
+	8600 3800 8800 3800
+Wire Wire Line
+	8600 3900 8800 3900
+Wire Wire Line
+	8600 4000 8800 4000
+Connection ~ 8100 2700
+$Comp
+L Womo-rescue:C-Device C30
+U 1 1 5E453F27
+P 13100 7600
+F 0 "C30" V 13050 7450 50  0000 C CNN
+F 1 "1u" V 13150 7400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13138 7450 50  0001 C CNN
+F 3 "~" H 13100 7600 50  0001 C CNN
+	1    13100 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13250 7600 13300 7600
+Wire Wire Line
+	11900 4500 11900 4600
+Wire Wire Line
+	13850 4650 13850 4750
+Wire Wire Line
+	8100 4350 8100 4300
+Wire Wire Line
+	8700 3050 8700 3100
+Wire Wire Line
+	1400 3250 1600 3250
+Text GLabel 1100 3250 0    50   Output ~ 0
+RESET
+$Comp
+L Womo-rescue:C-Device C20
+U 1 1 5D3B9245
+P 2700 3850
+F 0 "C20" H 2815 3896 50  0000 L CNN
+F 1 "1uF" H 2815 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 3700 50  0001 C CNN
+F 3 "~" H 2700 3850 50  0001 C CNN
+	1    2700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:SW_Push-Switch SW1
+U 1 1 5DCECFD4
+P 1400 1500
+F 0 "SW1" V 1400 1785 50  0000 C CNN
+F 1 "Boot" V 1300 1750 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 1400 1700 50  0001 C CNN
+F 3 "" H 1400 1700 50  0001 C CNN
+	1    1400 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Womo-rescue:R-Device R1
+U 1 1 5DD765CE
+P 1400 1950
+F 0 "R1" H 1470 1996 50  0000 L CNN
+F 1 "10K" H 1470 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1330 1950 50  0001 C CNN
+F 3 "~" H 1400 1950 50  0001 C CNN
+	1    1400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2100 1400 2200
+Wire Wire Line
+	1400 1200 1400 1300
+Wire Wire Line
+	1650 1750 1400 1750
+Wire Wire Line
+	1400 1750 1400 1700
+Wire Wire Line
+	1400 1800 1400 1750
+Connection ~ 1400 1750
+Wire Wire Line
+	5550 1950 5700 1950
+Wire Wire Line
+	5700 1950 5700 2150
+Connection ~ 5700 2150
+Connection ~ 5250 900 
+Wire Wire Line
+	1100 3250 1400 3250
+Connection ~ 1400 3250
+Text GLabel 5750 4950 2    50   Output ~ 0
+Signal_LED
+Wire Wire Line
+	5600 4950 5750 4950
+$Comp
+L Womo-rescue:LED-Device D1
+U 1 1 5D464432
+P 900 4550
+F 0 "D1" V 938 4433 50  0000 R CNN
+F 1 "LED" V 847 4433 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 900 4550 50  0001 C CNN
+F 3 "~" H 900 4550 50  0001 C CNN
+	1    900  4550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1000 4300 2    50   Input ~ 0
+Signal_LED
+Wire Wire Line
+	1000 4300 900  4300
+Wire Wire Line
+	900  4300 900  4400
+$Comp
+L Womo-rescue:Crystal_GND24-Device Y1
+U 1 1 5D1F17D8
+P 2700 4600
+F 0 "Y1" V 2450 4450 50  0000 L CNN
+F 1 "25 MHz" V 2450 4550 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2700 4600 50  0001 C CNN
+F 3 "~" H 2700 4600 50  0001 C CNN
+	1    2700 4600
+	0    1    1    0   
+$EndComp
+Connection ~ 1600 3250
+$Comp
+L Womo-rescue:STM32L476ZGTx-MCU_ST_STM32L4 U1
+U 1 1 5D84E598
+P 4400 6550
+F 0 "U1" H 4400 2700 50  0000 C CNN
+F 1 "STM32L476ZGTx" H 4400 2600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3400 3150 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108832.pdf" H 4400 6550 50  0001 C CNN
+	1    4400 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 8350 2    50   Output ~ 0
+SPI2_NSS
+Text GLabel 5750 8450 2    50   Output ~ 0
+SPI2_SCK
+Text GLabel 5750 8650 2    50   Input ~ 0
+SPI2_MISO
+Text GLabel 5750 8750 2    50   Output ~ 0
+SPI2_MOSI
+Text GLabel 5750 9450 2    50   Output ~ 0
+SER_SEL_A1
+Text GLabel 5750 9550 2    50   Output ~ 0
+SER_SEL_EN
+Text GLabel 5750 9350 2    50   Output ~ 0
+SER_SEL_A0
+Text GLabel 5750 9150 2    50   Output ~ 0
+LIN_SEL_A1
+Text GLabel 5750 9250 2    50   Output ~ 0
+LIN_SEL_EN
+Text GLabel 5750 9050 2    50   Output ~ 0
+LIN_SEL_A0
+Text GLabel 5750 7050 2    50   Output ~ 0
+USART3_TX_SER
+Text GLabel 5750 7150 2    50   Input ~ 0
+USART3_RX_SER
+Text GLabel 5750 3450 2    50   Output ~ 0
+USART2_TX_LIN
+Text GLabel 5750 3550 2    50   Input ~ 0
+USART2_RX_LIN
+Text GLabel 3050 9150 0    50   Output ~ 0
+5V_Raspi_EN
+Text GLabel 3050 9250 0    50   Output ~ 0
+5V_GSM_EN
+Text GLabel 3050 9050 0    50   Output ~ 0
+5V_EN
+Text GLabel 3050 8950 0    50   Output ~ 0
+3VA_EN
+Text GLabel 3050 9550 0    50   BiDi ~ 0
+QSPI_D0
+Text GLabel 3050 9650 0    50   BiDi ~ 0
+QSPI_D1
+Text GLabel 3050 9750 0    50   BiDi ~ 0
+QSPI_D2
+Text GLabel 3050 9850 0    50   BiDi ~ 0
+QSPI_D3
+Text GLabel 3050 9350 0    50   Output ~ 0
+QSPI_CLK
+Text GLabel 3050 9450 0    50   Output ~ 0
+QSPI_NCS
+Text GLabel 5750 7450 2    50   BiDi ~ 0
+uSD_D0
+Text GLabel 5750 7550 2    50   BiDi ~ 0
+uSD_D1
+Text GLabel 5750 7650 2    50   BiDi ~ 0
+uSD_D2
+Text GLabel 5750 7750 2    50   BiDi ~ 0
+uSD_D3
+Text GLabel 5750 7850 2    50   Output ~ 0
+uSD_CLK
+Text GLabel 5750 7950 2    50   Input ~ 0
+uSD_Detect
+$Comp
+L Womo-rescue:GND-power #PWR0329
+U 1 1 5DA4EA7D
+P 7350 8450
+F 0 "#PWR0329" H 7350 8200 50  0001 C CNN
+F 1 "GND" H 7355 8277 50  0000 C CNN
+F 2 "" H 7350 8450 50  0001 C CNN
+F 3 "" H 7350 8450 50  0001 C CNN
+	1    7350 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0330
+U 1 1 5DA77504
+P 3900 10350
+F 0 "#PWR0330" H 3900 10100 50  0001 C CNN
+F 1 "GND" H 3905 10177 50  0000 C CNN
+F 2 "" H 3900 10350 50  0001 C CNN
+F 3 "" H 3900 10350 50  0001 C CNN
+	1    3900 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 10150 5000 10250
+Wire Wire Line
+	5000 10250 4900 10250
+Wire Wire Line
+	3900 10250 3900 10350
+Wire Wire Line
+	5600 8150 6300 8150
+Wire Wire Line
+	5600 5250 5750 5250
+Wire Wire Line
+	5600 5350 5750 5350
+Wire Wire Line
+	5600 5550 5750 5550
+Wire Wire Line
+	5600 5650 5750 5650
+Wire Wire Line
+	5600 5750 5750 5750
+Wire Wire Line
+	5600 5850 5750 5850
+Wire Wire Line
+	5600 5950 5750 5950
+Wire Wire Line
+	5600 6050 5750 6050
+Wire Wire Line
+	5600 4450 5750 4450
+Wire Wire Line
+	5600 4350 5750 4350
+Wire Wire Line
+	5600 4250 5750 4250
+Wire Wire Line
+	5600 4050 5750 4050
+Wire Wire Line
+	5600 3550 5750 3550
+Wire Wire Line
+	5600 3450 5750 3450
+Wire Wire Line
+	5600 6250 5750 6250
+Wire Wire Line
+	5600 3250 5750 3250
+Wire Wire Line
+	5600 3350 5750 3350
+Wire Wire Line
+	5600 6150 5750 6150
+Wire Wire Line
+	5600 4150 5750 4150
+Wire Wire Line
+	3900 10150 3900 10250
+Connection ~ 3900 10250
+Wire Wire Line
+	4000 10150 4000 10250
+Connection ~ 4000 10250
+Wire Wire Line
+	4000 10250 3900 10250
+Wire Wire Line
+	4100 10150 4100 10250
+Connection ~ 4100 10250
+Wire Wire Line
+	4100 10250 4000 10250
+Wire Wire Line
+	4200 10150 4200 10250
+Connection ~ 4200 10250
+Wire Wire Line
+	4200 10250 4100 10250
+Wire Wire Line
+	4300 10150 4300 10250
+Connection ~ 4300 10250
+Wire Wire Line
+	4300 10250 4200 10250
+Wire Wire Line
+	4400 10150 4400 10250
+Connection ~ 4400 10250
+Wire Wire Line
+	4400 10250 4300 10250
+Wire Wire Line
+	4500 10150 4500 10250
+Connection ~ 4500 10250
+Wire Wire Line
+	4500 10250 4400 10250
+Wire Wire Line
+	4600 10150 4600 10250
+Connection ~ 4600 10250
+Wire Wire Line
+	4600 10250 4500 10250
+Wire Wire Line
+	4700 10150 4700 10250
+Connection ~ 4700 10250
+Wire Wire Line
+	4700 10250 4600 10250
+Wire Wire Line
+	4800 10150 4800 10250
+Connection ~ 4800 10250
+Wire Wire Line
+	4800 10250 4700 10250
+Wire Wire Line
+	4900 10150 4900 10250
+Connection ~ 4900 10250
+Wire Wire Line
+	4900 10250 4800 10250
+$Comp
+L Womo-rescue:SD_Card-Connector J3
+U 1 1 5DC82E2D
+P 13900 8650
+AR Path="/5DC82E2D" Ref="J3"  Part="1" 
+AR Path="/5C8BBC94/5DC82E2D" Ref="J3"  Part="1" 
+F 0 "J3" H 13900 9315 50  0000 C CNN
+F 1 "SD_Card" H 13900 9224 50  0000 C CNN
+F 2 "Connector_Card:10067847-001RLF" H 13900 8650 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 13900 8650 50  0001 C CNN
+	1    13900 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3650 5600 3650
+Wire Wire Line
+	5750 3750 5600 3750
+Wire Wire Line
+	5750 3850 5600 3850
+Wire Wire Line
+	5750 3950 5600 3950
+Wire Wire Line
+	5750 8350 5600 8350
+Wire Wire Line
+	5750 8450 5600 8450
+Wire Wire Line
+	5750 8650 5600 8650
+Wire Wire Line
+	5750 8750 5600 8750
+Text GLabel 3050 6150 0    50   Output ~ 0
+SPI3_NSS
+Text GLabel 3050 5850 0    50   Output ~ 0
+SPI3_SCK
+Text GLabel 3050 5950 0    50   Input ~ 0
+SPI3_MISO
+Text GLabel 3050 6050 0    50   Output ~ 0
+SPI3_MOSI
+Wire Wire Line
+	3050 5850 3200 5850
+Wire Wire Line
+	3050 5950 3200 5950
+Wire Wire Line
+	3050 6050 3200 6050
+Wire Wire Line
+	3050 6150 3200 6150
+Wire Wire Line
+	5750 6650 5600 6650
+Wire Wire Line
+	5750 6750 5600 6750
+Text GLabel 3050 6250 0    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 3050 6350 0    50   Output ~ 0
+I2C1_SCL
+Wire Wire Line
+	3050 6250 3200 6250
+Wire Wire Line
+	3050 6350 3200 6350
+Wire Wire Line
+	1600 3250 3200 3250
+Text GLabel 5750 8550 2    50   Output ~ 0
+uSD_CMD
+Wire Wire Line
+	5750 8550 5600 8550
+Text GLabel 11800 8950 0    50   BiDi ~ 0
+uSD_D0
+Text GLabel 11800 9050 0    50   BiDi ~ 0
+uSD_D1
+Text GLabel 11800 8250 0    50   BiDi ~ 0
+uSD_D2
+Text GLabel 11800 8350 0    50   BiDi ~ 0
+uSD_D3
+Text GLabel 11800 8750 0    50   Input ~ 0
+uSD_CLK
+Text GLabel 15050 8450 2    50   Input ~ 0
+uSD_Detect
+Text GLabel 11800 8450 0    50   Input ~ 0
+uSD_CMD
+$Comp
+L Womo-rescue:R-Device R7
+U 1 1 5E21377F
+P 12550 7950
+F 0 "R7" V 12500 8100 50  0000 L CNN
+F 1 "47K" V 12500 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12480 7950 50  0001 C CNN
+F 3 "~" H 12550 7950 50  0001 C CNN
+	1    12550 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:R-Device R6
+U 1 1 5E246ECF
+P 12400 7950
+F 0 "R6" V 12350 8100 50  0000 L CNN
+F 1 "47K" V 12350 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12330 7950 50  0001 C CNN
+F 3 "~" H 12400 7950 50  0001 C CNN
+	1    12400 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:R-Device R5
+U 1 1 5E2608E3
+P 12250 7950
+F 0 "R5" V 12200 8100 50  0000 L CNN
+F 1 "47K" V 12200 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12180 7950 50  0001 C CNN
+F 3 "~" H 12250 7950 50  0001 C CNN
+	1    12250 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:R-Device R4
+U 1 1 5E27A2E6
+P 12100 7950
+F 0 "R4" V 12050 8100 50  0000 L CNN
+F 1 "47K" V 12050 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12030 7950 50  0001 C CNN
+F 3 "~" H 12100 7950 50  0001 C CNN
+	1    12100 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:R-Device R3
+U 1 1 5E293CE8
+P 11950 7950
+F 0 "R3" V 11900 8100 50  0000 L CNN
+F 1 "47K" V 11900 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11880 7950 50  0001 C CNN
+F 3 "~" H 11950 7950 50  0001 C CNN
+	1    11950 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 8250 11800 8250
+Wire Wire Line
+	12400 8100 12400 8350
+Connection ~ 12400 8350
+Wire Wire Line
+	12400 8350 11800 8350
+Wire Wire Line
+	12250 8100 12250 8450
+Connection ~ 12250 8450
+Wire Wire Line
+	12250 8450 11800 8450
+Wire Wire Line
+	12100 8100 12100 8950
+Connection ~ 12100 8950
+Wire Wire Line
+	12100 8950 11800 8950
+Wire Wire Line
+	11950 8100 11950 9050
+Connection ~ 11950 9050
+Wire Wire Line
+	11950 9050 11800 9050
+$Comp
+L Womo-rescue:R-Device R8
+U 1 1 5E3EECFA
+P 14950 7950
+F 0 "R8" V 14900 8100 50  0000 L CNN
+F 1 "47K" V 14900 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14880 7950 50  0001 C CNN
+F 3 "~" H 14950 7950 50  0001 C CNN
+	1    14950 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 8450 14950 8450
+Wire Wire Line
+	14950 8100 14950 8450
+Connection ~ 14950 8450
+Wire Wire Line
+	14950 8450 14800 8450
+Wire Wire Line
+	12550 8100 12550 8250
+Wire Wire Line
+	12550 8250 13000 8250
+Connection ~ 12550 8250
+Wire Wire Line
+	12400 8350 13000 8350
+Wire Wire Line
+	12250 8450 13000 8450
+Wire Wire Line
+	11800 8750 13000 8750
+Wire Wire Line
+	12100 8950 13000 8950
+Wire Wire Line
+	11950 9050 13000 9050
+$Comp
+L Womo-rescue:+3.3V-power #PWR0331
+U 1 1 5E5CD617
+P 5250 750
+F 0 "#PWR0331" H 5250 600 50  0001 C CNN
+F 1 "+3.3V" H 5265 923 50  0000 C CNN
+F 2 "" H 5250 750 50  0001 C CNN
+F 3 "" H 5250 750 50  0001 C CNN
+	1    5250 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:+3.3V-power #PWR0333
+U 1 1 5E605125
+P 1400 1200
+F 0 "#PWR0333" H 1400 1050 50  0001 C CNN
+F 1 "+3.3V" H 1415 1373 50  0000 C CNN
+F 2 "" H 1400 1200 50  0001 C CNN
+F 3 "" H 1400 1200 50  0001 C CNN
+	1    1400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:+3.3V-power #PWR0334
+U 1 1 5E63D035
+P 13950 2950
+F 0 "#PWR0334" H 13950 2800 50  0001 C CNN
+F 1 "+3.3V" H 13965 3123 50  0000 C CNN
+F 2 "" H 13950 2950 50  0001 C CNN
+F 3 "" H 13950 2950 50  0001 C CNN
+	1    13950 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0336
+U 1 1 5E690DBA
+P 13300 7700
+F 0 "#PWR0336" H 13300 7450 50  0001 C CNN
+F 1 "GND" H 13305 7527 50  0000 C CNN
+F 2 "" H 13300 7700 50  0001 C CNN
+F 3 "" H 13300 7700 50  0001 C CNN
+	1    13300 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0337
+U 1 1 5E6ACF43
+P 1900 4900
+F 0 "#PWR0337" H 1900 4650 50  0001 C CNN
+F 1 "GND" H 1905 4727 50  0000 C CNN
+F 2 "" H 1900 4900 50  0001 C CNN
+F 3 "" H 1900 4900 50  0001 C CNN
+	1    1900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0338
+U 1 1 5E7002E3
+P 900 4700
+F 0 "#PWR0338" H 900 4450 50  0001 C CNN
+F 1 "GND" H 905 4527 50  0000 C CNN
+F 2 "" H 900 4700 50  0001 C CNN
+F 3 "" H 900 4700 50  0001 C CNN
+	1    900  4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0339
+U 1 1 5E7370E5
+P 1400 3650
+F 0 "#PWR0339" H 1400 3400 50  0001 C CNN
+F 1 "GND" H 1405 3477 50  0000 C CNN
+F 2 "" H 1400 3650 50  0001 C CNN
+F 3 "" H 1400 3650 50  0001 C CNN
+	1    1400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0340
+U 1 1 5E7525CF
+P 1600 3650
+F 0 "#PWR0340" H 1600 3400 50  0001 C CNN
+F 1 "GND" H 1605 3477 50  0000 C CNN
+F 2 "" H 1600 3650 50  0001 C CNN
+F 3 "" H 1600 3650 50  0001 C CNN
+	1    1600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0341
+U 1 1 5E788F9E
+P 2700 4000
+F 0 "#PWR0341" H 2700 3750 50  0001 C CNN
+F 1 "GND" H 2705 3827 50  0000 C CNN
+F 2 "" H 2700 4000 50  0001 C CNN
+F 3 "" H 2700 4000 50  0001 C CNN
+	1    2700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4900 1900 4750
+Connection ~ 1900 4750
+Wire Wire Line
+	1600 3650 1600 3600
+Wire Wire Line
+	7350 8450 7350 8350
+Connection ~ 7350 8350
+Wire Wire Line
+	11950 7600 12100 7600
+Wire Wire Line
+	11950 7800 11950 7600
+Connection ~ 11950 7600
+Wire Wire Line
+	12100 7800 12100 7600
+Connection ~ 12100 7600
+Wire Wire Line
+	12100 7600 12250 7600
+Wire Wire Line
+	12250 7800 12250 7600
+Connection ~ 12250 7600
+Wire Wire Line
+	12250 7600 12400 7600
+Wire Wire Line
+	12400 7800 12400 7600
+Connection ~ 12400 7600
+Wire Wire Line
+	12400 7600 12550 7600
+Wire Wire Line
+	12550 7800 12550 7600
+Connection ~ 12550 7600
+Wire Wire Line
+	12550 7600 12700 7600
+Wire Wire Line
+	13000 8650 12700 8650
+Wire Wire Line
+	12700 8650 12700 7600
+Connection ~ 12700 7600
+Wire Wire Line
+	12700 7600 12950 7600
+Wire Wire Line
+	13300 7600 13300 7700
+$Comp
+L Womo-rescue:GND-power #PWR0342
+U 1 1 5E94B2B7
+P 13000 8850
+F 0 "#PWR0342" H 13000 8600 50  0001 C CNN
+F 1 "GND" V 13000 8650 50  0000 C CNN
+F 2 "" H 13000 8850 50  0001 C CNN
+F 3 "" H 13000 8850 50  0001 C CNN
+	1    13000 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0343
+U 1 1 5E968D86
+P 13000 8550
+F 0 "#PWR0343" H 13000 8300 50  0001 C CNN
+F 1 "GND" V 13000 8350 50  0000 C CNN
+F 2 "" H 13000 8550 50  0001 C CNN
+F 3 "" H 13000 8550 50  0001 C CNN
+	1    13000 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0344
+U 1 1 5E986791
+P 14950 8950
+F 0 "#PWR0344" H 14950 8700 50  0001 C CNN
+F 1 "GND" H 14955 8777 50  0000 C CNN
+F 2 "" H 14950 8950 50  0001 C CNN
+F 3 "" H 14950 8950 50  0001 C CNN
+	1    14950 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 8750 14950 8750
+Wire Wire Line
+	14950 8750 14950 8850
+Wire Wire Line
+	14800 8850 14950 8850
+Connection ~ 14950 8850
+Wire Wire Line
+	14950 8850 14950 8950
+$Comp
+L Womo-rescue:GND-power #PWR0345
+U 1 1 5EA58436
+P 10350 3750
+F 0 "#PWR0345" H 10350 3500 50  0001 C CNN
+F 1 "GND" H 10355 3577 50  0000 C CNN
+F 2 "" H 10350 3750 50  0001 C CNN
+F 3 "" H 10350 3750 50  0001 C CNN
+	1    10350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0346
+U 1 1 5EA7605C
+P 10450 3750
+F 0 "#PWR0346" H 10450 3500 50  0001 C CNN
+F 1 "GND" H 10455 3577 50  0000 C CNN
+F 2 "" H 10450 3750 50  0001 C CNN
+F 3 "" H 10450 3750 50  0001 C CNN
+	1    10450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0347
+U 1 1 5EA93C82
+P 11900 4600
+F 0 "#PWR0347" H 11900 4350 50  0001 C CNN
+F 1 "GND" H 11905 4427 50  0000 C CNN
+F 2 "" H 11900 4600 50  0001 C CNN
+F 3 "" H 11900 4600 50  0001 C CNN
+	1    11900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0348
+U 1 1 5EAB18A8
+P 8100 4350
+F 0 "#PWR0348" H 8100 4100 50  0001 C CNN
+F 1 "GND" H 8105 4177 50  0000 C CNN
+F 2 "" H 8100 4350 50  0001 C CNN
+F 3 "" H 8100 4350 50  0001 C CNN
+	1    8100 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 7250 2    50   Output ~ 0
+STB-CAN
+Text GLabel 8800 8300 0    50   Input ~ 0
+USART1_TX_CTRL
+Text GLabel 8800 8400 0    50   Output ~ 0
+USART1_RX_CTRL
+Wire Wire Line
+	9250 8300 8800 8300
+Wire Wire Line
+	9250 8400 8800 8400
+$Comp
+L Womo-rescue:C-Device C?
+U 1 1 5EC63FD4
+P 9100 9000
+AR Path="/5C8BBC97/5EC63FD4" Ref="C?"  Part="1" 
+AR Path="/5C8BBC94/5EC63FD4" Ref="C31"  Part="1" 
+F 0 "C31" H 9215 9046 50  0000 L CNN
+F 1 "100nF" H 9215 8955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 8850 50  0001 C CNN
+F 3 "~" H 9100 9000 50  0001 C CNN
+	1    9100 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:C-Device C?
+U 1 1 5EC63FDB
+P 10250 8000
+AR Path="/5C8BBC97/5EC63FDB" Ref="C?"  Part="1" 
+AR Path="/5C8BBC94/5EC63FDB" Ref="C29"  Part="1" 
+F 0 "C29" V 9998 8000 50  0000 C CNN
+F 1 "100nF" V 10089 8000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10288 7850 50  0001 C CNN
+F 3 "~" H 10250 8000 50  0001 C CNN
+	1    10250 8000
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:+3.3V-power #PWR?
+U 1 1 5EC63FE2
+P 9100 8000
+AR Path="/5C8BBC97/5EC63FE2" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5EC63FE2" Ref="#PWR0349"  Part="1" 
+F 0 "#PWR0349" H 9100 7850 50  0001 C CNN
+F 1 "+3.3V" H 9115 8173 50  0000 C CNN
+F 2 "" H 9100 8000 50  0001 C CNN
+F 3 "" H 9100 8000 50  0001 C CNN
+	1    9100 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR?
+U 1 1 5EC63FE8
+P 9100 9200
+AR Path="/5C8BBC97/5EC63FE8" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5EC63FE8" Ref="#PWR0350"  Part="1" 
+F 0 "#PWR0350" H 9100 8950 50  0001 C CNN
+F 1 "GND" H 9105 9027 50  0000 C CNN
+F 2 "" H 9100 9200 50  0001 C CNN
+F 3 "" H 9100 9200 50  0001 C CNN
+	1    9100 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 8600 9100 8600
+Wire Wire Line
+	9100 8600 9100 8850
+Wire Wire Line
+	9100 8000 9100 8600
+Connection ~ 9100 8600
+Wire Wire Line
+	9100 9150 9100 9200
+Text GLabel 8800 8700 0    50   Input ~ 0
+STB-CTRL
+Wire Wire Line
+	8800 8700 9250 8700
+$Comp
+L Womo-rescue:+5V-power #PWR?
+U 1 1 5EC63FF5
+P 9750 7750
+AR Path="/5C8BBC97/5EC63FF5" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5EC63FF5" Ref="#PWR0351"  Part="1" 
+F 0 "#PWR0351" H 9750 7600 50  0001 C CNN
+F 1 "+5V" H 9765 7923 50  0000 C CNN
+F 2 "" H 9750 7750 50  0001 C CNN
+F 3 "" H 9750 7750 50  0001 C CNN
+	1    9750 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR?
+U 1 1 5EC63FFB
+P 10600 8050
+AR Path="/5C8BBC97/5EC63FFB" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5EC63FFB" Ref="#PWR0352"  Part="1" 
+F 0 "#PWR0352" H 10600 7800 50  0001 C CNN
+F 1 "GND" H 10605 7877 50  0000 C CNN
+F 2 "" H 10600 8050 50  0001 C CNN
+F 3 "" H 10600 8050 50  0001 C CNN
+	1    10600 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 7750 9750 8000
+Wire Wire Line
+	10100 8000 9750 8000
+Connection ~ 9750 8000
+Wire Wire Line
+	9750 8000 9750 8100
+Wire Wire Line
+	10400 8000 10600 8000
+Wire Wire Line
+	10600 8000 10600 8050
+Text GLabel 10450 8400 2    50   Input ~ 0
+CTRL_H
+Text GLabel 10450 8600 2    50   Input ~ 0
+CTRL_L
+$Comp
+L Womo-rescue:GND-power #PWR?
+U 1 1 5EC64048
+P 9750 9200
+AR Path="/5C8BBC97/5EC64048" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5EC64048" Ref="#PWR0353"  Part="1" 
+F 0 "#PWR0353" H 9750 8950 50  0001 C CNN
+F 1 "GND" H 9755 9027 50  0000 C CNN
+F 2 "" H 9750 9200 50  0001 C CNN
+F 3 "" H 9750 9200 50  0001 C CNN
+	1    9750 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 8900 9750 9200
+$Comp
+L Womo-rescue:TJA1049T-3-Interface_CAN_LIN U?
+U 1 1 5EC63FC9
+P 9750 8500
+AR Path="/5C8BBC97/5EC63FC9" Ref="U?"  Part="1" 
+AR Path="/5C8BBC94/5EC63FC9" Ref="U6"  Part="1" 
+F 0 "U6" H 9350 9050 50  0000 C CNN
+F 1 "TJA1049T-3" H 9500 8950 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9750 8000 50  0001 C CIN
+F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 9750 8500 50  0001 C CNN
+	1    9750 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 8400 10250 8400
+Wire Wire Line
+	10250 8600 10450 8600
+Wire Wire Line
+	5600 4750 5750 4750
+Text GLabel 5750 4150 2    50   Output ~ 0
+STB-CTRL
+Text GLabel 5750 9750 2    50   Output ~ 0
+RS485_SEL_A1
+Text GLabel 5750 9850 2    50   Output ~ 0
+RS485_SEL_EN
+Text GLabel 5750 9650 2    50   Output ~ 0
+RS485_SEL_A0
+Wire Wire Line
+	5750 9050 5600 9050
+Wire Wire Line
+	5750 9150 5600 9150
+Wire Wire Line
+	5750 9250 5600 9250
+Wire Wire Line
+	5750 9350 5600 9350
+Wire Wire Line
+	5750 9450 5600 9450
+Wire Wire Line
+	5750 9550 5600 9550
+Wire Wire Line
+	5750 9650 5600 9650
+Wire Wire Line
+	5750 9750 5600 9750
+Wire Wire Line
+	5750 9850 5600 9850
+Wire Wire Line
+	5600 7050 5750 7050
+Wire Wire Line
+	5750 7150 5600 7150
+Wire Wire Line
+	5250 750  5250 900 
+$Comp
+L Womo-rescue:GND-power #PWR0354
+U 1 1 603F3E3C
+P 3100 4000
+F 0 "#PWR0354" H 3100 3750 50  0001 C CNN
+F 1 "GND" H 3105 3827 50  0000 C CNN
+F 2 "" H 3100 4000 50  0001 C CNN
+F 3 "" H 3100 4000 50  0001 C CNN
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3750 3100 3750
+Wire Wire Line
+	3100 3750 3100 4000
+Wire Wire Line
+	3200 3650 2700 3650
+Wire Wire Line
+	2700 3650 2700 3700
+$Comp
+L Womo-rescue:Ferrite_Bead_Small-Device FB?
+U 1 1 6045713B
+P 3200 2900
+AR Path="/5C8BBC97/6045713B" Ref="FB?"  Part="1" 
+AR Path="/5CC9A992/6045713B" Ref="FB?"  Part="1" 
+AR Path="/5C8BBC94/6045713B" Ref="FB1"  Part="1" 
+F 0 "FB1" V 3150 2700 50  0000 C CNN
+F 1 "100R" V 3250 2700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 3130 2900 50  0001 C CNN
+F 3 "~" H 3200 2900 50  0001 C CNN
+	1    3200 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 900  3900 2950
+Wire Wire Line
+	4000 900  4000 1100
+Wire Wire Line
+	4100 900  4100 1300
+Wire Wire Line
+	4200 900  4200 1500
+Wire Wire Line
+	4400 900  4400 1900
+Wire Wire Line
+	4300 900  4300 1700
+Wire Wire Line
+	4500 900  4500 2100
+Wire Wire Line
+	4600 900  4600 2300
+Wire Wire Line
+	4700 900  4700 2500
+Wire Wire Line
+	3800 900  3900 900 
+Connection ~ 3900 900 
+Wire Wire Line
+	3800 1100 4000 1100
+Connection ~ 4000 1100
+Wire Wire Line
+	4000 1100 4000 2950
+Wire Wire Line
+	3800 1300 4100 1300
+Connection ~ 4100 1300
+Wire Wire Line
+	4100 1300 4100 2950
+Wire Wire Line
+	3800 1500 4200 1500
+Connection ~ 4200 1500
+Wire Wire Line
+	4200 1500 4200 2950
+Wire Wire Line
+	3800 1700 4300 1700
+Connection ~ 4300 1700
+Wire Wire Line
+	4300 1700 4300 2950
+Wire Wire Line
+	3800 1900 4400 1900
+Connection ~ 4400 1900
+Wire Wire Line
+	4400 1900 4400 2950
+Wire Wire Line
+	3800 2100 4500 2100
+Connection ~ 4500 2100
+Wire Wire Line
+	4500 2100 4500 2950
+Wire Wire Line
+	3800 2300 4600 2300
+Connection ~ 4600 2300
+Wire Wire Line
+	4600 2300 4600 2950
+Wire Wire Line
+	3800 2500 4700 2500
+Connection ~ 4700 2500
+Wire Wire Line
+	4700 2500 4700 2950
+Wire Wire Line
+	4800 1900 4800 2550
+Wire Wire Line
+	3100 2500 3100 2650
+Wire Wire Line
+	3100 2650 3800 2650
+Wire Wire Line
+	3800 2650 3800 2950
+Wire Wire Line
+	2000 2500 3100 2500
+Wire Wire Line
+	3300 2900 4800 2900
+Connection ~ 4800 2900
+Wire Wire Line
+	4800 2900 4800 2950
+Wire Wire Line
+	2700 2900 2700 3650
+Wire Wire Line
+	2700 2900 3100 2900
+Connection ~ 2700 3650
+Wire Wire Line
+	4800 1700 4800 900 
+Wire Wire Line
+	4700 900  4800 900 
+Connection ~ 4700 900 
+$Comp
+L Womo-rescue:Ferrite_Bead_Small-Device FB?
+U 1 1 6060EB6E
+P 4800 1800
+AR Path="/5C8BBC97/6060EB6E" Ref="FB?"  Part="1" 
+AR Path="/5CC9A992/6060EB6E" Ref="FB?"  Part="1" 
+AR Path="/5C8BBC94/6060EB6E" Ref="FB2"  Part="1" 
+F 0 "FB2" V 4750 1600 50  0000 C CNN
+F 1 "100R" V 4850 1600 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 4730 1800 50  0001 C CNN
+F 3 "~" H 4800 1800 50  0001 C CNN
+	1    4800 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 2750 4800 2750
+Connection ~ 4800 2750
+Wire Wire Line
+	4800 2750 4800 2900
+Wire Wire Line
+	5250 2550 4800 2550
+Connection ~ 4800 2550
+Wire Wire Line
+	4800 2550 4800 2750
+Wire Wire Line
+	4900 2950 4900 1950
+Wire Wire Line
+	4900 900  4800 900 
+Connection ~ 4800 900 
+Wire Wire Line
+	5000 2950 5000 2150
+Wire Wire Line
+	5000 900  4900 900 
+Connection ~ 4900 900 
+Wire Wire Line
+	5100 2950 5100 2350
+Wire Wire Line
+	5100 900  5000 900 
+Connection ~ 5000 900 
+Wire Wire Line
+	5250 1950 4900 1950
+Connection ~ 4900 1950
+Wire Wire Line
+	4900 1950 4900 900 
+Wire Wire Line
+	5250 2150 5000 2150
+Connection ~ 5000 2150
+Wire Wire Line
+	5000 2150 5000 900 
+Wire Wire Line
+	5250 2350 5100 2350
+Connection ~ 5100 2350
+Wire Wire Line
+	5100 2350 5100 900 
+Connection ~ 5100 900 
+Wire Wire Line
+	5650 900  6050 900 
+Wire Wire Line
+	5650 900  5250 900 
+Connection ~ 5650 900 
+$Comp
+L Womo-rescue:GND-power #PWR0355
+U 1 1 609F47DE
+P 5250 1200
+F 0 "#PWR0355" H 5250 950 50  0001 C CNN
+F 1 "GND" H 5255 1027 50  0000 C CNN
+F 2 "" H 5250 1200 50  0001 C CNN
+F 3 "" H 5250 1200 50  0001 C CNN
+	1    5250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0356
+U 1 1 60A14720
+P 5650 1200
+F 0 "#PWR0356" H 5650 950 50  0001 C CNN
+F 1 "GND" H 5655 1027 50  0000 C CNN
+F 2 "" H 5650 1200 50  0001 C CNN
+F 3 "" H 5650 1200 50  0001 C CNN
+	1    5650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0357
+U 1 1 60A34662
+P 6050 1200
+F 0 "#PWR0357" H 6050 950 50  0001 C CNN
+F 1 "GND" H 6055 1027 50  0000 C CNN
+F 2 "" H 6050 1200 50  0001 C CNN
+F 3 "" H 6050 1200 50  0001 C CNN
+	1    6050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0358
+U 1 1 60A7420F
+P 1600 2800
+F 0 "#PWR0358" H 1600 2550 50  0001 C CNN
+F 1 "GND" H 1800 2700 50  0000 C CNN
+F 2 "" H 1600 2800 50  0001 C CNN
+F 3 "" H 1600 2800 50  0001 C CNN
+	1    1600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0359
+U 1 1 60A93D52
+P 2000 2800
+F 0 "#PWR0359" H 2000 2550 50  0001 C CNN
+F 1 "GND" H 2005 2627 50  0000 C CNN
+F 2 "" H 2000 2800 50  0001 C CNN
+F 3 "" H 2000 2800 50  0001 C CNN
+	1    2000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0360
+U 1 1 60AF2F11
+P 1400 2200
+F 0 "#PWR0360" H 1400 1950 50  0001 C CNN
+F 1 "GND" H 1405 2027 50  0000 C CNN
+F 2 "" H 1400 2200 50  0001 C CNN
+F 3 "" H 1400 2200 50  0001 C CNN
+	1    1400 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:M25PX32-VMW-Memory_Flash U2
+U 1 1 60B7225F
+P 11300 1750
+F 0 "U2" H 11941 1796 50  0000 L CNN
+F 1 "M25Q128A" H 11941 1705 50  0000 L CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 11950 1800 50  0001 C CNN
+F 3 "https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf" H 11450 1650 50  0001 C CNN
+	1    11300 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 10600 1550 0    50   BiDi ~ 0
+QSPI_D0
+Text GLabel 12000 1550 2    50   BiDi ~ 0
+QSPI_D1
+Text GLabel 10600 1850 0    50   BiDi ~ 0
+QSPI_D2
+Text GLabel 10600 1950 0    50   BiDi ~ 0
+QSPI_D3
+Text GLabel 10600 1650 0    50   Input ~ 0
+QSPI_CLK
+Text GLabel 10600 1750 0    50   Input ~ 0
+QSPI_NCS
+Wire Wire Line
+	10700 1550 10600 1550
+Wire Wire Line
+	10700 1650 10600 1650
+Wire Wire Line
+	10700 1750 10600 1750
+Wire Wire Line
+	10700 1850 10600 1850
+Wire Wire Line
+	10700 1950 10600 1950
+Wire Wire Line
+	12000 1550 11900 1550
+Wire Wire Line
+	11300 850  11300 900 
+Wire Wire Line
+	11950 950  11950 900 
+Wire Wire Line
+	11950 900  11300 900 
+Connection ~ 11300 900 
+Wire Wire Line
+	11300 900  11300 1250
+$Comp
+L Womo-rescue:GND-power #PWR0362
+U 1 1 60CF86C0
+P 11300 2250
+F 0 "#PWR0362" H 11300 2000 50  0001 C CNN
+F 1 "GND" H 11305 2077 50  0000 C CNN
+F 2 "" H 11300 2250 50  0001 C CNN
+F 3 "" H 11300 2250 50  0001 C CNN
+	1    11300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0363
+U 1 1 60D19ABE
+P 13850 4750
+F 0 "#PWR0363" H 13850 4500 50  0001 C CNN
+F 1 "GND" H 13855 4577 50  0000 C CNN
+F 2 "" H 13850 4750 50  0001 C CNN
+F 3 "" H 13850 4750 50  0001 C CNN
+	1    13850 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0364
+U 1 1 60D3AE7F
+P 11950 1250
+F 0 "#PWR0364" H 11950 1000 50  0001 C CNN
+F 1 "GND" H 11955 1077 50  0000 C CNN
+F 2 "" H 11950 1250 50  0001 C CNN
+F 3 "" H 11950 1250 50  0001 C CNN
+	1    11950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:+3.3VA-power #PWR?
+U 1 1 60E6A090
+P 8100 2450
+AR Path="/5C8BBC9A/60E6A090" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/60E6A090" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/60E6A090" Ref="#PWR0365"  Part="1" 
+F 0 "#PWR0365" H 8100 2300 50  0001 C CNN
+F 1 "+3.3VA" H 8115 2623 50  0000 C CNN
+F 2 "" H 8100 2450 50  0001 C CNN
+F 3 "" H 8100 2450 50  0001 C CNN
+	1    8100 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2450 8100 2700
+$Comp
+L Womo-rescue:+3.3VA-power #PWR?
+U 1 1 60EA7682
+P 11950 7300
+AR Path="/5C8BBC9A/60EA7682" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/60EA7682" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/60EA7682" Ref="#PWR0366"  Part="1" 
+F 0 "#PWR0366" H 11950 7150 50  0001 C CNN
+F 1 "+3.3VA" H 11965 7473 50  0000 C CNN
+F 2 "" H 11950 7300 50  0001 C CNN
+F 3 "" H 11950 7300 50  0001 C CNN
+	1    11950 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 7300 11950 7600
+Wire Wire Line
+	14950 7800 14950 7650
+$Comp
+L Womo-rescue:+3.3V-power #PWR0367
+U 1 1 5E442A81
+P 14950 7650
+F 0 "#PWR0367" H 14950 7500 50  0001 C CNN
+F 1 "+3.3V" H 14965 7823 50  0000 C CNN
+F 2 "" H 14950 7650 50  0001 C CNN
+F 3 "" H 14950 7650 50  0001 C CNN
+	1    14950 7650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 5450 0    50   Output ~ 0
+SLP-LIN2
+Text GLabel 3050 5350 0    50   Output ~ 0
+SLP-LIN1
+Text GLabel 3050 5650 0    50   Output ~ 0
+SLP-LIN4
+Text GLabel 3050 5550 0    50   Output ~ 0
+SLP-LIN3
+Wire Wire Line
+	5750 6450 5600 6450
+Wire Wire Line
+	5750 8850 5600 8850
+Wire Wire Line
+	5750 8950 5600 8950
+Wire Wire Line
+	5750 6850 5600 6850
+Wire Wire Line
+	5750 6950 5600 6950
+Text GLabel 3050 8650 0    50   Input ~ 0
+INt_2_XL
+Text GLabel 3050 8850 0    50   Input ~ 0
+INT_1_XL
+Text GLabel 3050 8750 0    50   Input ~ 0
+INT_MAG_DRDY
+$Comp
+L Womo-rescue:24AA02-OT-Memory_EEPROM U3
+U 1 1 5F5C0D2C
+P 13550 1700
+F 0 "U3" H 13220 1746 50  0000 R CNN
+F 1 "24AA02UID" H 13220 1655 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 13550 1700 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21709J.pdf" H 13550 1700 50  0001 C CNN
+	1    13550 1700
+	1    0    0    -1  
+$EndComp
+Text Notes 13250 2450 0    50   ~ 0
+I2C ADR: 1010XXX
+$Comp
+L Womo-rescue:C-Device C28
+U 1 1 5F60020A
+P 12950 1250
+F 0 "C28" H 13100 1200 50  0000 L CNN
+F 1 "100nF" H 13000 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12988 1100 50  0001 C CNN
+F 3 "~" H 12950 1250 50  0001 C CNN
+	1    12950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0368
+U 1 1 5F600211
+P 12950 1400
+F 0 "#PWR0368" H 12950 1150 50  0001 C CNN
+F 1 "GND" H 12955 1227 50  0000 C CNN
+F 2 "" H 12950 1400 50  0001 C CNN
+F 3 "" H 12950 1400 50  0001 C CNN
+	1    12950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0369
+U 1 1 5F61EC35
+P 13550 2000
+F 0 "#PWR0369" H 13550 1750 50  0001 C CNN
+F 1 "GND" H 13555 1827 50  0000 C CNN
+F 2 "" H 13550 2000 50  0001 C CNN
+F 3 "" H 13550 2000 50  0001 C CNN
+	1    13550 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 14050 1700 2    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 14050 1600 2    50   Input ~ 0
+I2C2_SCL
+Wire Wire Line
+	12950 1100 13550 1100
+Wire Wire Line
+	13550 1100 13550 1000
+Wire Wire Line
+	13550 1400 13550 1100
+Connection ~ 13550 1100
+Wire Wire Line
+	13950 1600 14050 1600
+Wire Wire Line
+	13950 1700 14050 1700
+Text GLabel 5750 6450 2    50   Output ~ 0
+RE_RS485
+$Comp
+L Womo-rescue:+3.3V-power #PWR0443
+U 1 1 61DD8F2A
+P 11300 850
+F 0 "#PWR0443" H 11300 700 50  0001 C CNN
+F 1 "+3.3V" H 11315 1023 50  0000 C CNN
+F 2 "" H 11300 850 50  0001 C CNN
+F 3 "" H 11300 850 50  0001 C CNN
+	1    11300 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-Lin:SPSGRFC-868 IC1
+U 1 1 5E1B788A
+P 8900 1300
+F 0 "IC1" H 9650 1565 50  0000 C CNN
+F 1 "SPSGRFC-868" H 9650 1474 50  0000 C CNN
+F 2 "Womo-Lin:SPSGRFC868" H 10250 1400 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/spsgrfc.pdf" H 10250 1300 50  0001 L CNN
+F 4 "STMICROELECTRONICS - SPSGRFC-868 - RF TRANSCEIVERS, 500KBPS, 868MHZ" H 10250 1200 50  0001 L CNN "Description"
+F 5 "2.2" H 10250 1100 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 10250 1000 50  0001 L CNN "Manufacturer_Name"
+F 7 "SPSGRFC-868" H 10250 900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-SPSGRFC-868" H 10250 800 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-SPSGRFC-868" H 10250 700 50  0001 L CNN "Mouser Price/Stock"
+	1    8900 1300
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7300 1500 0    50   Input ~ 0
+SPI1_NSS
+Text GLabel 9000 1900 2    50   Input ~ 0
+SPI1_SCK
+Text GLabel 7300 1300 0    50   Output ~ 0
+SPI1_MISO
+Text GLabel 7300 1400 0    50   Input ~ 0
+SPI1_MOSI
+$Comp
+L Womo-rescue:GND-power #PWR0444
+U 1 1 5E2388A1
+P 8700 3100
+F 0 "#PWR0444" H 8700 2850 50  0001 C CNN
+F 1 "GND" H 8705 2927 50  0000 C CNN
+F 2 "" H 8700 3100 50  0001 C CNN
+F 3 "" H 8700 3100 50  0001 C CNN
+	1    8700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:C-Device C?
+U 1 1 5E258051
+P 9600 1900
+AR Path="/5C8BC88B/5E258051" Ref="C?"  Part="1" 
+AR Path="/5C8BBC94/5E258051" Ref="C25"  Part="1" 
+F 0 "C25" H 9715 1946 50  0000 L CNN
+F 1 "10u" H 9715 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 9638 1750 50  0001 C CNN
+F 3 "~" H 9600 1900 50  0001 C CNN
+	1    9600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0445
+U 1 1 5E258058
+P 9600 2050
+F 0 "#PWR0445" H 9600 1800 50  0001 C CNN
+F 1 "GND" H 9605 1877 50  0000 C CNN
+F 2 "" H 9600 2050 50  0001 C CNN
+F 3 "" H 9600 2050 50  0001 C CNN
+	1    9600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:+3.3VA-power #PWR?
+U 1 1 5E277A23
+P 9600 1650
+AR Path="/5C8BBC9A/5E277A23" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E277A23" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/5E277A23" Ref="#PWR0446"  Part="1" 
+F 0 "#PWR0446" H 9600 1500 50  0001 C CNN
+F 1 "+3.3VA" H 9615 1823 50  0000 C CNN
+F 2 "" H 9600 1650 50  0001 C CNN
+F 3 "" H 9600 1650 50  0001 C CNN
+	1    9600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1700 9600 1700
+Wire Wire Line
+	9600 1700 9600 1750
+Wire Wire Line
+	9600 1650 9600 1700
+Connection ~ 9600 1700
+Wire Wire Line
+	9000 1900 8900 1900
+Wire Wire Line
+	7400 1300 7300 1300
+Wire Wire Line
+	7400 1400 7300 1400
+Wire Wire Line
+	7400 1500 7300 1500
+NoConn ~ 7400 1700
+NoConn ~ 7400 1800
+NoConn ~ 7400 1900
+NoConn ~ 8900 1600
+NoConn ~ 8900 1500
+NoConn ~ 8900 1400
+NoConn ~ 8900 1300
+$Comp
+L Womo-rescue:GND-power #PWR0447
+U 1 1 5E43A7AA
+P 8900 1800
+F 0 "#PWR0447" H 8900 1550 50  0001 C CNN
+F 1 "GND" V 8900 1600 50  0000 C CNN
+F 2 "" H 8900 1800 50  0001 C CNN
+F 3 "" H 8900 1800 50  0001 C CNN
+	1    8900 1800
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7300 1600 0    50   Input ~ 0
+868_SDN
+Text GLabel 5750 7350 2    50   Output ~ 0
+868_SDN
+Wire Wire Line
+	7300 1600 7400 1600
+Text GLabel 3050 4950 0    50   Input ~ 0
+K1_STATUS
+Text GLabel 3050 5050 0    50   Input ~ 0
+K2_STATUS
+Text GLabel 3050 5150 0    50   Input ~ 0
+K3_STATUS
+Text GLabel 3050 5250 0    50   Input ~ 0
+K4_STATUS
+Wire Wire Line
+	5600 7450 5750 7450
+Wire Wire Line
+	5600 7550 5750 7550
+Wire Wire Line
+	5600 7650 5750 7650
+Wire Wire Line
+	5600 7750 5750 7750
+Wire Wire Line
+	5600 7850 5750 7850
+Wire Wire Line
+	5600 7950 5750 7950
+Wire Wire Line
+	5750 7250 5600 7250
+Wire Wire Line
+	5750 7350 5600 7350
+Wire Wire Line
+	5750 4550 5600 4550
+Wire Wire Line
+	5750 5050 5600 5050
+Wire Wire Line
+	5750 5150 5600 5150
+Wire Wire Line
+	5750 5450 5600 5450
+Wire Wire Line
+	3050 8650 3200 8650
+Wire Wire Line
+	3050 8750 3200 8750
+Wire Wire Line
+	3050 8850 3200 8850
+Wire Wire Line
+	3050 8950 3200 8950
+Wire Wire Line
+	3050 9050 3200 9050
+Wire Wire Line
+	3050 9150 3200 9150
+Wire Wire Line
+	3050 9250 3200 9250
+Wire Wire Line
+	3050 9350 3200 9350
+Wire Wire Line
+	3050 9450 3200 9450
+Wire Wire Line
+	3050 9550 3200 9550
+Wire Wire Line
+	3050 9650 3200 9650
+Wire Wire Line
+	3050 9750 3200 9750
+Wire Wire Line
+	3050 9850 3200 9850
+Wire Wire Line
+	3050 4950 3200 4950
+Wire Wire Line
+	3050 5050 3200 5050
+Wire Wire Line
+	3050 5150 3200 5150
+Wire Wire Line
+	3050 5250 3200 5250
+Wire Wire Line
+	3050 5350 3200 5350
+Wire Wire Line
+	3050 5450 3200 5450
+Wire Wire Line
+	3050 5550 3200 5550
+Wire Wire Line
+	3050 5650 3200 5650
+Text GLabel 3050 5750 0    50   Output ~ 0
+REL1_RESET
+Text GLabel 3050 6450 0    50   Output ~ 0
+REL2_RESET
+Wire Wire Line
+	3200 5750 3050 5750
+Wire Wire Line
+	3200 6450 3050 6450
+Text GLabel 3050 6650 0    50   BiDi ~ 0
+PF0
+Text GLabel 3050 6750 0    50   BiDi ~ 0
+PF1
+Text GLabel 3050 6950 0    50   BiDi ~ 0
+PF3
+Text GLabel 3050 6850 0    50   BiDi ~ 0
+PF2
+Text GLabel 3050 7050 0    50   BiDi ~ 0
+PF4
+Text GLabel 3050 7150 0    50   BiDi ~ 0
+PF5
+Text GLabel 3050 7250 0    50   BiDi ~ 0
+PF6
+Text GLabel 3050 7350 0    50   BiDi ~ 0
+PF7
+Text GLabel 3050 7450 0    50   BiDi ~ 0
+PF8
+Text GLabel 3050 7550 0    50   BiDi ~ 0
+PF9
+Text GLabel 3050 7650 0    50   BiDi ~ 0
+PF10
+Text GLabel 3050 7750 0    50   BiDi ~ 0
+PF11
+Text GLabel 3050 7850 0    50   BiDi ~ 0
+PF12
+Text GLabel 3050 7950 0    50   BiDi ~ 0
+PF13
+Wire Wire Line
+	3050 6650 3200 6650
+Wire Wire Line
+	3050 6750 3200 6750
+Wire Wire Line
+	3050 6850 3200 6850
+Wire Wire Line
+	3050 6950 3200 6950
+Wire Wire Line
+	3050 7050 3200 7050
+Wire Wire Line
+	3050 7150 3200 7150
+Wire Wire Line
+	3050 7250 3200 7250
+Wire Wire Line
+	3050 7350 3200 7350
+Wire Wire Line
+	3050 7450 3200 7450
+Wire Wire Line
+	3050 7550 3200 7550
+Wire Wire Line
+	3050 7650 3200 7650
+Wire Wire Line
+	3050 7750 3200 7750
+Wire Wire Line
+	3050 7850 3200 7850
+Wire Wire Line
+	3050 7950 3200 7950
+Wire Wire Line
+	3050 8050 3200 8050
+Wire Wire Line
+	3050 8150 3200 8150
+Text GLabel 3050 8550 0    50   Input ~ 0
+IO_INT
+Wire Wire Line
+	3050 8550 3200 8550
+$Comp
+L Womo-rescue:+3.3VA-power #PWR?
+U 1 1 631265D5
+P 13550 1000
+AR Path="/5C8BBC97/631265D5" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC94/631265D5" Ref="#PWR0448"  Part="1" 
+F 0 "#PWR0448" H 13550 850 50  0001 C CNN
+F 1 "+3.3VA" H 13565 1173 50  0000 C CNN
+F 2 "" H 13550 1000 50  0001 C CNN
+F 3 "" H 13550 1000 50  0001 C CNN
+	1    13550 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 8050 0    50   Output ~ 0
+HSS_1_EN
+Text GLabel 3050 8150 0    50   Output ~ 0
+HSS_2_EN
+Text GLabel 3050 8350 0    50   Output ~ 0
+HSS_3_EN
+Text GLabel 3050 8450 0    50   Output ~ 0
+HSS_4_EN
+Wire Wire Line
+	3200 8450 3050 8450
+Wire Wire Line
+	3200 8350 3050 8350
+NoConn ~ 13850 3050
+Text GLabel 1350 2800 0    50   Input ~ 0
+PWR_Reset
+$Comp
+L Womo-rescue:R-Device R2
+U 1 1 5E0C9C7B
+P 1400 3050
+F 0 "R2" H 1470 3096 50  0000 L CNN
+F 1 "1k" H 1470 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1330 3050 50  0001 C CNN
+F 3 "~" H 1400 3050 50  0001 C CNN
+	1    1400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2800 1400 2800
+Wire Wire Line
+	1400 2800 1400 2900
+Wire Wire Line
+	1400 3200 1400 3250
+$Comp
+L Womo-rescue:GND-power #PWR0254
+U 1 1 5DDCB31C
+P 2900 4600
+F 0 "#PWR0254" H 2900 4350 50  0001 C CNN
+F 1 "GND" V 2800 4550 50  0000 C CNN
+F 2 "" H 2900 4600 50  0001 C CNN
+F 3 "" H 2900 4600 50  0001 C CNN
+	1    2900 4600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2700 4450
+Wire Wire Line
+	2700 4450 3050 4450
+Connection ~ 2700 4750
+Wire Wire Line
+	2700 4750 3200 4750
+Wire Wire Line
+	2400 4450 2700 4450
+Wire Wire Line
+	2400 4750 2700 4750
+$Comp
+L Womo-rescue:GND-power #PWR0372
+U 1 1 5DDF9DA0
+P 2500 4600
+F 0 "#PWR0372" H 2500 4350 50  0001 C CNN
+F 1 "GND" V 2500 4400 50  0000 C CNN
+F 2 "" H 2500 4600 50  0001 C CNN
+F 3 "" H 2500 4600 50  0001 C CNN
+	1    2500 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0374
+U 1 1 5DE8A4BD
+P 5700 2750
+F 0 "#PWR0374" H 5700 2500 50  0001 C CNN
+F 1 "GND" H 5705 2577 50  0000 C CNN
+F 2 "" H 5700 2750 50  0001 C CNN
+F 3 "" H 5700 2750 50  0001 C CNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:GND-power #PWR0375
+U 1 1 5DEBAE1D
+P 3000 1750
+F 0 "#PWR0375" H 3000 1500 50  0001 C CNN
+F 1 "GND" H 3005 1577 50  0000 C CNN
+F 2 "" H 3000 1750 50  0001 C CNN
+F 3 "" H 3000 1750 50  0001 C CNN
+	1    3000 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1700 3000 1700
+Wire Wire Line
+	3000 1700 3000 1750
+Wire Wire Line
+	9600 1850 9600 1950
+$EndSCHEMATC
