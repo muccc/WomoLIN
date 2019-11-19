@@ -79,7 +79,7 @@ Wire Wire Line
 	4100 900  4000 900 
 Connection ~ 4000 900 
 Text GLabel 5750 6050 2    50   Input ~ 0
-LPUART_RS_RX485
+LPUART_RX_RS485
 Text GLabel 5750 5950 2    50   Output ~ 0
 LPUART_TX_RS485
 Text GLabel 5750 6750 2    50   BiDi ~ 0

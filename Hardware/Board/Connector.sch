@@ -5355,7 +5355,7 @@ PF13
 Text GLabel 8300 3800 2    50   BiDi ~ 0
 I2C1_SDA
 Text GLabel 8300 3900 2    50   Input ~ 0
-I2C1SCL
+I2C1_SCL
 Wire Wire Line
 	4050 3800 4400 3800
 Connection ~ 4400 3800
@@ -5507,23 +5507,9 @@ F 3 "" H 5000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 6100 4900 6100
-Wire Wire Line
-	6200 6200 5000 6200
-Wire Wire Line
 	6150 6300 5100 6300
 Wire Wire Line
 	6100 6400 5200 6400
-Wire Wire Line
-	4900 6600 4900 6100
-Connection ~ 4900 6100
-Wire Wire Line
-	4900 6100 6250 6100
-Wire Wire Line
-	5000 6600 5000 6200
-Connection ~ 5000 6200
-Wire Wire Line
-	5000 6200 4750 6200
 Wire Wire Line
 	5100 6600 5100 6300
 Connection ~ 5100 6300
@@ -5903,10 +5889,7 @@ Connection ~ 16700 9350
 Wire Wire Line
 	16700 9350 16900 9350
 Wire Wire Line
-	4750 6500 5450 6500
-Wire Wire Line
 	5450 6600 5450 6500
-Connection ~ 5450 6500
 Wire Wire Line
 	5450 6500 6050 6500
 Connection ~ 15250 3050
@@ -5931,4 +5914,21 @@ F 3 "" H 13500 2400 50  0001 C CNN
 	1    13500 2400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 6100 5000 6100
+Wire Wire Line
+	4750 6200 4900 6200
+Wire Wire Line
+	5000 6600 5000 6100
+Connection ~ 5000 6100
+Wire Wire Line
+	5000 6100 6250 6100
+Wire Wire Line
+	4900 6600 4900 6200
+Connection ~ 4900 6200
+Wire Wire Line
+	4900 6200 6200 6200
+Wire Wire Line
+	5450 6500 4750 6500
+Connection ~ 5450 6500
 $EndSCHEMATC
