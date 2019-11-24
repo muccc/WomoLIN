@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Womo-Lin)(type KiCad)(uri ${KIPRJMOD}/../Biblotheken/Womo-Lin/Womo-Lin.pretty)(options "")(descr ""))
+  (lib (name WAGO)(type KiCad)(uri ${KIPRJMOD}/../Biblotheken/WAGO/WAGO.pretty)(options "")(descr ""))
+)
