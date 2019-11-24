@@ -5931,4 +5931,17 @@ Wire Wire Line
 Wire Wire Line
 	5450 6500 4750 6500
 Connection ~ 5450 6500
+$Comp
+L Womo-rescue:GND-power #PWR?
+U 1 1 5DEDA37C
+P 15000 7450
+AR Path="/5C8BBC97/5DEDA37C" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/5DEDA37C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 15000 7200 50  0001 C CNN
+F 1 "GND" H 15005 7277 50  0000 C CNN
+F 2 "" H 15000 7450 50  0001 C CNN
+F 3 "" H 15000 7450 50  0001 C CNN
+	1    15000 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
