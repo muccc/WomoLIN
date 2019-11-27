@@ -3,4 +3,5 @@
   (lib (name WAGO)(type Legacy)(uri ${KIPRJMOD}/../Biblotheken/WAGO/WAGO.lib)(options "")(descr ""))
   (lib (name RS_Bauteile)(type Legacy)(uri ${KIPRJMOD}/../Biblotheken/)(options "")(descr "")(disabled))
   (lib (name opendous)(type Legacy)(uri ${KIPRJMOD}/../Biblotheken/Opendous/opendous.lib)(options "")(descr ""))
+  (lib (name Displayunit-rescue)(type Legacy)(uri ${KIPRJMOD}/Displayunit-rescue.lib)(options "")(descr ""))
 )

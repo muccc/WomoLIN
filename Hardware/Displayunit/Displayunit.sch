@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Displayunit-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Switching:MAX17572 U?
+L Displayunit-rescue:MAX17572-Regulator_Switching U?
 U 1 1 5E258B00
 P 19500 1850
 AR Path="/5C8BBC9A/5E258B00" Ref="U?"  Part="1" 
@@ -31,7 +31,7 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX17572.pdf" H 18150 2900 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Switching:MAX17572 U?
+L Displayunit-rescue:MAX17572-Regulator_Switching U?
 U 1 1 5E258B06
 P 19550 3850
 AR Path="/5C8BBC9A/5E258B06" Ref="U?"  Part="1" 
@@ -47,7 +47,7 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX17572.pdf" H 18200 4900 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E258B0C
 P 21000 1450
 AR Path="/5C8BBC9A/5E258B0C" Ref="#PWR?"  Part="1" 
@@ -63,7 +63,7 @@ F 3 "" H 21000 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258B12
 P 20700 1700
 AR Path="/5C8BBC9A/5E258B12" Ref="C?"  Part="1" 
@@ -79,7 +79,7 @@ F 3 "~" H 20700 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Displayunit-rescue:L-Device L?
 U 1 1 5E258B18
 P 20550 1550
 AR Path="/5C8BBC9A/5E258B18" Ref="L?"  Part="1" 
@@ -95,7 +95,7 @@ F 3 "~" H 20550 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B1E
 P 20700 1850
 AR Path="/5C8BBC9A/5E258B1E" Ref="#PWR?"  Part="1" 
@@ -111,7 +111,7 @@ F 3 "" H 20700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258B24
 P 21000 1700
 AR Path="/5C8BBC9A/5E258B24" Ref="R?"  Part="1" 
@@ -127,7 +127,7 @@ F 3 "~" H 21000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258B2A
 P 21000 2150
 AR Path="/5C8BBC9A/5E258B2A" Ref="R?"  Part="1" 
@@ -143,7 +143,7 @@ F 3 "~" H 21000 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B30
 P 21000 2350
 AR Path="/5C8BBC9A/5E258B30" Ref="#PWR?"  Part="1" 
@@ -159,7 +159,7 @@ F 3 "" H 21000 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258B36
 P 20250 1550
 AR Path="/5C8BBC9A/5E258B36" Ref="C?"  Part="1" 
@@ -192,7 +192,7 @@ Connection ~ 21000 2000
 Wire Wire Line
 	20700 1550 21000 1550
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B46
 P 20150 2350
 AR Path="/5C8BBC9A/5E258B46" Ref="#PWR?"  Part="1" 
@@ -212,7 +212,7 @@ Wire Wire Line
 Wire Wire Line
 	20150 2150 20150 2350
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258B4E
 P 20750 3700
 AR Path="/5C8BBC9A/5E258B4E" Ref="C?"  Part="1" 
@@ -228,7 +228,7 @@ F 3 "~" H 20750 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Displayunit-rescue:L-Device L?
 U 1 1 5E258B54
 P 20600 3550
 AR Path="/5C8BBC9A/5E258B54" Ref="L?"  Part="1" 
@@ -244,7 +244,7 @@ F 3 "~" H 20600 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B5A
 P 20750 3850
 AR Path="/5C8BBC9A/5E258B5A" Ref="#PWR?"  Part="1" 
@@ -260,7 +260,7 @@ F 3 "" H 20750 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258B60
 P 21050 3700
 AR Path="/5C8BBC9A/5E258B60" Ref="R?"  Part="1" 
@@ -276,7 +276,7 @@ F 3 "~" H 21050 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258B66
 P 21050 4150
 AR Path="/5C8BBC9A/5E258B66" Ref="R?"  Part="1" 
@@ -292,7 +292,7 @@ F 3 "~" H 21050 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B6C
 P 21050 4350
 AR Path="/5C8BBC9A/5E258B6C" Ref="#PWR?"  Part="1" 
@@ -308,7 +308,7 @@ F 3 "" H 21050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258B72
 P 20300 3550
 AR Path="/5C8BBC9A/5E258B72" Ref="C?"  Part="1" 
@@ -341,7 +341,7 @@ Connection ~ 21050 4000
 Wire Wire Line
 	20750 3550 21050 3550
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B82
 P 20200 4350
 AR Path="/5C8BBC9A/5E258B82" Ref="#PWR?"  Part="1" 
@@ -364,7 +364,7 @@ Wire Wire Line
 	21050 3400 21050 3550
 Connection ~ 21050 3550
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258B8C
 P 18800 2200
 AR Path="/5C8BBC9A/5E258B8C" Ref="C?"  Part="1" 
@@ -380,7 +380,7 @@ F 3 "~" H 18800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L Displayunit-rescue:+BATT-power #PWR?
 U 1 1 5E258B92
 P 17600 1300
 AR Path="/5C8BBC9A/5E258B92" Ref="#PWR?"  Part="1" 
@@ -396,7 +396,7 @@ F 3 "" H 17600 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258B98
 P 17600 1700
 AR Path="/5C8BBC9A/5E258B98" Ref="C?"  Part="1" 
@@ -412,7 +412,7 @@ F 3 "~" H 17600 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B9E
 P 17600 1850
 AR Path="/5C8BBC9A/5E258B9E" Ref="#PWR?"  Part="1" 
@@ -430,7 +430,7 @@ $EndComp
 Wire Wire Line
 	17600 1300 17600 1550
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258BA5
 P 18800 2350
 AR Path="/5C8BBC9A/5E258BA5" Ref="#PWR?"  Part="1" 
@@ -448,7 +448,7 @@ $EndComp
 Wire Wire Line
 	18900 2050 18800 2050
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258BAC
 P 18650 2200
 AR Path="/5C8BBC9A/5E258BAC" Ref="R?"  Part="1" 
@@ -464,7 +464,7 @@ F 3 "~" H 18650 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258BB2
 P 18650 2350
 AR Path="/5C8BBC9A/5E258BB2" Ref="#PWR?"  Part="1" 
@@ -484,7 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	18650 1950 18650 2050
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258BBA
 P 18850 4200
 AR Path="/5C8BBC9A/5E258BBA" Ref="C?"  Part="1" 
@@ -500,7 +500,7 @@ F 3 "~" H 18850 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L Displayunit-rescue:+BATT-power #PWR?
 U 1 1 5E258BC0
 P 17650 3300
 AR Path="/5C8BBC9A/5E258BC0" Ref="#PWR?"  Part="1" 
@@ -516,7 +516,7 @@ F 3 "" H 17650 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258BC6
 P 17650 3700
 AR Path="/5C8BBC9A/5E258BC6" Ref="C?"  Part="1" 
@@ -532,7 +532,7 @@ F 3 "~" H 17650 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258BCC
 P 17650 3850
 AR Path="/5C8BBC9A/5E258BCC" Ref="#PWR?"  Part="1" 
@@ -551,7 +551,7 @@ Wire Wire Line
 	17650 3300 17650 3550
 Connection ~ 17650 3550
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258BD5
 P 18850 4350
 AR Path="/5C8BBC9A/5E258BD5" Ref="#PWR?"  Part="1" 
@@ -569,7 +569,7 @@ $EndComp
 Wire Wire Line
 	18950 4050 18850 4050
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258BDC
 P 18700 4200
 AR Path="/5C8BBC9A/5E258BDC" Ref="R?"  Part="1" 
@@ -585,7 +585,7 @@ F 3 "~" H 18700 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258BE2
 P 18700 4350
 AR Path="/5C8BBC9A/5E258BE2" Ref="#PWR?"  Part="1" 
@@ -608,19 +608,19 @@ Wire Wire Line
 	21000 1450 21000 1550
 Connection ~ 21000 1550
 $Comp
-L power:+3.3VA #PWR?
+L Displayunit-rescue:+3.3VA-power #PWR?
 U 1 1 5E258BEC
-P 21050 3400
+P 21000 3200
 AR Path="/5C8BBC9A/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5E258BEC" Ref="#PWR091"  Part="1" 
-F 0 "#PWR091" H 21050 3250 50  0001 C CNN
-F 1 "+3.3VA" H 21065 3573 50  0000 C CNN
-F 2 "" H 21050 3400 50  0001 C CNN
-F 3 "" H 21050 3400 50  0001 C CNN
-	1    21050 3400
+F 0 "#PWR091" H 21000 3050 50  0001 C CNN
+F 1 "+3.3VA" H 21015 3373 50  0000 C CNN
+F 2 "" H 21000 3200 50  0001 C CNN
+F 3 "" H 21000 3200 50  0001 C CNN
+	1    21000 3200
 	1    0    0    -1  
 $EndComp
 Text GLabel 20300 2100 2    50   Output ~ 0
@@ -632,7 +632,7 @@ Wire Wire Line
 Wire Wire Line
 	20200 2100 20300 2100
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258BF6
 P 18200 2200
 AR Path="/5C8BBC9A/5E258BF6" Ref="R?"  Part="1" 
@@ -648,7 +648,7 @@ F 3 "~" H 18200 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258BFC
 P 18200 2350
 AR Path="/5C8BBC9A/5E258BFC" Ref="#PWR?"  Part="1" 
@@ -664,7 +664,7 @@ F 3 "" H 18200 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258C02
 P 18200 1700
 AR Path="/5C8BBC9A/5E258C02" Ref="R?"  Part="1" 
@@ -693,7 +693,7 @@ Connection ~ 18200 1950
 Wire Wire Line
 	18200 1550 18900 1550
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C0F
 P 19400 2350
 AR Path="/5C8BBC9A/5E258C0F" Ref="#PWR?"  Part="1" 
@@ -709,7 +709,7 @@ F 3 "" H 19400 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C15
 P 19500 2350
 AR Path="/5C8BBC9A/5E258C15" Ref="#PWR?"  Part="1" 
@@ -725,7 +725,7 @@ F 3 "" H 19500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C1B
 P 19600 2350
 AR Path="/5C8BBC9A/5E258C1B" Ref="#PWR?"  Part="1" 
@@ -741,7 +741,7 @@ F 3 "" H 19600 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C21
 P 19450 4350
 AR Path="/5C8BBC9A/5E258C21" Ref="#PWR?"  Part="1" 
@@ -757,7 +757,7 @@ F 3 "" H 19450 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C27
 P 19550 4350
 AR Path="/5C8BBC9A/5E258C27" Ref="#PWR?"  Part="1" 
@@ -773,7 +773,7 @@ F 3 "" H 19550 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C2D
 P 19650 4350
 AR Path="/5C8BBC9A/5E258C2D" Ref="#PWR?"  Part="1" 
@@ -793,7 +793,7 @@ Wire Wire Line
 Wire Wire Line
 	21050 4300 21050 4350
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C35
 P 18250 4350
 AR Path="/5C8BBC9A/5E258C35" Ref="#PWR?"  Part="1" 
@@ -809,7 +809,7 @@ F 3 "" H 18250 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258C3B
 P 17800 4150
 AR Path="/5C8BBC9A/5E258C3B" Ref="R?"  Part="1" 
@@ -825,7 +825,7 @@ F 3 "~" H 17800 4150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258C41
 P 18100 4000
 AR Path="/5C8BBC9A/5E258C41" Ref="R?"  Part="1" 
@@ -852,7 +852,7 @@ Wire Wire Line
 	18250 3850 18250 3900
 Connection ~ 18250 3900
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C4F
 P 19700 1150
 AR Path="/5C8BBC9A/5E258C4F" Ref="#PWR?"  Part="1" 
@@ -868,7 +868,7 @@ F 3 "" H 19700 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C55
 P 19750 3150
 AR Path="/5C8BBC9A/5E258C55" Ref="#PWR?"  Part="1" 
@@ -915,7 +915,7 @@ F 3 "" H 19300 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258C6A
 P 19250 6500
 AR Path="/5C8BBC9A/5E258C6A" Ref="#PWR?"  Part="1" 
@@ -939,7 +939,7 @@ Wire Wire Line
 Wire Wire Line
 	17950 5350 17950 5850
 $Comp
-L Device:L L?
+L Displayunit-rescue:L-Device L?
 U 1 1 5E258C74
 P 19300 4850
 AR Path="/5C8BBC9A/5E258C74" Ref="L?"  Part="1" 
@@ -955,7 +955,7 @@ F 3 "~" H 19300 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Displayunit-rescue:Ferrite_Bead_Small-Device FB?
 U 1 1 5E258C7A
 P 16850 5750
 AR Path="/5C8BBC97/5E258C7A" Ref="FB?"  Part="1" 
@@ -972,7 +972,7 @@ F 3 "~" H 16850 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258C80
 P 21000 6000
 AR Path="/5C8BBC9A/5E258C80" Ref="C?"  Part="1" 
@@ -988,7 +988,7 @@ F 3 "~" H 21000 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258C86
 P 20700 6000
 AR Path="/5C8BBC9A/5E258C86" Ref="C?"  Part="1" 
@@ -1004,7 +1004,7 @@ F 3 "~" H 20700 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258C8C
 P 17100 6000
 AR Path="/5C8BBC9A/5E258C8C" Ref="C?"  Part="1" 
@@ -1022,7 +1022,7 @@ $EndComp
 Wire Wire Line
 	17950 6150 17950 6200
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258C93
 P 17950 6000
 AR Path="/5C8BBC9A/5E258C93" Ref="R?"  Part="1" 
@@ -1040,7 +1040,7 @@ $EndComp
 Wire Wire Line
 	18250 6150 18250 6200
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258C9A
 P 18250 6000
 AR Path="/5C8BBC9A/5E258C9A" Ref="R?"  Part="1" 
@@ -1113,7 +1113,7 @@ Wire Wire Line
 	20700 6150 20700 6200
 Connection ~ 20700 6200
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Displayunit-rescue:Ferrite_Bead_Small-Device FB?
 U 1 1 5E258CC2
 P 19250 6350
 AR Path="/5C8BBC97/5E258CC2" Ref="FB?"  Part="1" 
@@ -1140,7 +1140,7 @@ Wire Wire Line
 Wire Wire Line
 	20050 4850 19450 4850
 $Comp
-L pspice:DIODE D?
+L Displayunit-rescue:DIODE-pspice D?
 U 1 1 5E258CCD
 P 20300 4850
 AR Path="/5C8BBC9A/5E258CCD" Ref="D?"  Part="1" 
@@ -1168,7 +1168,7 @@ Wire Wire Line
 Wire Wire Line
 	20700 4850 20700 5450
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258CDA
 P 17700 6000
 AR Path="/5C8BBC9A/5E258CDA" Ref="C?"  Part="1" 
@@ -1184,7 +1184,7 @@ F 3 "~" H 17700 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E258CE0
 P 17400 6000
 AR Path="/5C8BBC9A/5E258CE0" Ref="C?"  Part="1" 
@@ -1200,7 +1200,7 @@ F 3 "~" H 17400 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+VSW #PWR?
+L Displayunit-rescue:+VSW-power #PWR?
 U 1 1 5E258CEC
 P 20250 5700
 AR Path="/5C8BBC9A/5E258CEC" Ref="#PWR?"  Part="1" 
@@ -1226,7 +1226,7 @@ Wire Wire Line
 	21150 6200 21000 6200
 Connection ~ 21000 6200
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E258CFA
 P 20250 5950
 AR Path="/5C8BBC9A/5E258CFA" Ref="R?"  Part="1" 
@@ -1264,7 +1264,7 @@ Wire Wire Line
 	20150 6600 20150 6100
 Connection ~ 20150 6100
 $Comp
-L Transistor_FET:2N7002 Q?
+L Displayunit-rescue:2N7002-Transistor_FET Q?
 U 1 1 5E258D0C
 P 18150 4150
 AR Path="/5D80E6E8/5E258D0C" Ref="Q?"  Part="1" 
@@ -1277,7 +1277,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 18150 4150 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Core_Ferrite L?
+L Displayunit-rescue:L_Core_Ferrite-Device L?
 U 1 1 5E26853A
 P 20250 7200
 AR Path="/5C8BBC9A/5E26853A" Ref="L?"  Part="1" 
@@ -1293,23 +1293,23 @@ F 3 "~" H 20250 7200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Fuse F?
+L Displayunit-rescue:Fuse-Device F?
 U 1 1 5E268540
-P 19050 7200
+P 19150 7200
 AR Path="/5C8BBC9A/5E268540" Ref="F?"  Part="1" 
 AR Path="/5E0C5EEA/5E268540" Ref="F?"  Part="1" 
 AR Path="/5D80EC74/5E268540" Ref="F?"  Part="1" 
 AR Path="/5D80E6E8/5E268540" Ref="F?"  Part="1" 
 AR Path="/5E268540" Ref="F1"  Part="1" 
-F 0 "F1" V 18853 7200 50  0000 C CNN
-F 1 "KFZ 5A" V 18944 7200 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" V 18980 7200 50  0001 C CNN
-F 3 "~" H 19050 7200 50  0001 C CNN
-	1    19050 7200
+F 0 "F1" V 18953 7200 50  0000 C CNN
+F 1 "KFZ 5A" V 19044 7200 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" V 19080 7200 50  0001 C CNN
+F 3 "~" H 19150 7200 50  0001 C CNN
+	1    19150 7200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E268546
 P 20950 7350
 AR Path="/5C8BBC9A/5E268546" Ref="C?"  Part="1" 
@@ -1325,7 +1325,7 @@ F 3 "~" H 20950 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E26854C
 P 21200 7350
 AR Path="/5C8BBC9A/5E26854C" Ref="C?"  Part="1" 
@@ -1341,71 +1341,71 @@ F 3 "~" H 21200 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E268552
-P 18650 7350
+P 19850 7350
 AR Path="/5C8BBC9A/5E268552" Ref="C?"  Part="1" 
 AR Path="/5E0C5EEA/5E268552" Ref="C?"  Part="1" 
 AR Path="/5D80EC74/5E268552" Ref="C?"  Part="1" 
 AR Path="/5D80E6E8/5E268552" Ref="C?"  Part="1" 
 AR Path="/5E268552" Ref="C37"  Part="1" 
-F 0 "C37" H 18765 7396 50  0000 L CNN
-F 1 "1u" H 18765 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 18688 7200 50  0001 C CNN
-F 3 "~" H 18650 7350 50  0001 C CNN
-	1    18650 7350
+F 0 "C37" H 19965 7396 50  0000 L CNN
+F 1 "1u" H 19965 7305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19888 7200 50  0001 C CNN
+F 3 "~" H 19850 7350 50  0001 C CNN
+	1    19850 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E268558
-P 18350 7350
+P 19550 7350
 AR Path="/5C8BBC9A/5E268558" Ref="C?"  Part="1" 
 AR Path="/5E0C5EEA/5E268558" Ref="C?"  Part="1" 
 AR Path="/5D80EC74/5E268558" Ref="C?"  Part="1" 
 AR Path="/5D80E6E8/5E268558" Ref="C?"  Part="1" 
 AR Path="/5E268558" Ref="C36"  Part="1" 
-F 0 "C36" H 18000 7400 50  0000 L CNN
-F 1 "100n" H 18000 7300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 18388 7200 50  0001 C CNN
-F 3 "~" H 18350 7350 50  0001 C CNN
-	1    18350 7350
+F 0 "C36" H 19200 7400 50  0000 L CNN
+F 1 "100n" H 19200 7300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 19588 7200 50  0001 C CNN
+F 3 "~" H 19550 7350 50  0001 C CNN
+	1    19550 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E26855E
-P 18350 7500
+P 19550 7500
 AR Path="/5C8BBC9A/5E26855E" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E26855E" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E26855E" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E26855E" Ref="#PWR?"  Part="1" 
 AR Path="/5E26855E" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 18350 7250 50  0001 C CNN
-F 1 "GND" H 18355 7327 50  0000 C CNN
-F 2 "" H 18350 7500 50  0001 C CNN
-F 3 "" H 18350 7500 50  0001 C CNN
-	1    18350 7500
+F 0 "#PWR060" H 19550 7250 50  0001 C CNN
+F 1 "GND" H 19555 7327 50  0000 C CNN
+F 2 "" H 19550 7500 50  0001 C CNN
+F 3 "" H 19550 7500 50  0001 C CNN
+	1    19550 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E268564
-P 18650 7500
+P 19850 7500
 AR Path="/5C8BBC9A/5E268564" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E268564" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E268564" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E268564" Ref="#PWR?"  Part="1" 
 AR Path="/5E268564" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 18650 7250 50  0001 C CNN
-F 1 "GND" H 18655 7327 50  0000 C CNN
-F 2 "" H 18650 7500 50  0001 C CNN
-F 3 "" H 18650 7500 50  0001 C CNN
-	1    18650 7500
+F 0 "#PWR062" H 19850 7250 50  0001 C CNN
+F 1 "GND" H 19855 7327 50  0000 C CNN
+F 2 "" H 19850 7500 50  0001 C CNN
+F 3 "" H 19850 7500 50  0001 C CNN
+	1    19850 7500
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E26856A
 P 20950 7500
 AR Path="/5C8BBC9A/5E26856A" Ref="#PWR?"  Part="1" 
@@ -1421,7 +1421,7 @@ F 3 "" H 20950 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E268570
 P 21200 7500
 AR Path="/5C8BBC9A/5E268570" Ref="#PWR?"  Part="1" 
@@ -1437,7 +1437,7 @@ F 3 "" H 21200 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR?
+L Displayunit-rescue:+BATT-power #PWR?
 U 1 1 5E268576
 P 21200 7100
 AR Path="/5C8BBC9A/5E268576" Ref="#PWR?"  Part="1" 
@@ -1459,84 +1459,76 @@ Wire Wire Line
 	21200 7100 21200 7200
 Connection ~ 21200 7200
 $Comp
-L pspice:DIODE D?
+L Displayunit-rescue:DIODE-pspice D?
 U 1 1 5E268583
-P 19500 7400
+P 18650 7200
 AR Path="/5C8BBC9A/5E268583" Ref="D?"  Part="1" 
 AR Path="/5E0C5EEA/5E268583" Ref="D?"  Part="1" 
 AR Path="/5D80EC74/5E268583" Ref="D?"  Part="1" 
 AR Path="/5D80E6E8/5E268583" Ref="D?"  Part="1" 
 AR Path="/5E268583" Ref="D2"  Part="1" 
-F 0 "D2" V 20000 7750 50  0000 C CNN
-F 1 "B345BE-13" V 19900 7650 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 19500 7400 50  0001 C CNN
-F 3 "~" H 19500 7400 50  0001 C CNN
-	1    19500 7400
-	0    -1   -1   0   
+F 0 "D2" H 18550 7500 50  0000 C CNN
+F 1 "B345BE-13" H 18600 7400 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 18650 7200 50  0001 C CNN
+F 3 "~" H 18650 7200 50  0001 C CNN
+	1    18650 7200
+	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:DIODE D?
+L Displayunit-rescue:DIODE-pspice D?
 U 1 1 5E268589
-P 19800 7400
+P 18650 7500
 AR Path="/5C8BBC9A/5E268589" Ref="D?"  Part="1" 
 AR Path="/5E0C5EEA/5E268589" Ref="D?"  Part="1" 
 AR Path="/5D80EC74/5E268589" Ref="D?"  Part="1" 
 AR Path="/5D80E6E8/5E268589" Ref="D?"  Part="1" 
 AR Path="/5E268589" Ref="D3"  Part="1" 
-F 0 "D3" V 20300 7550 50  0000 C CNN
-F 1 "B345BE-13" V 20200 7450 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 19800 7400 50  0001 C CNN
-F 3 "~" H 19800 7400 50  0001 C CNN
-	1    19800 7400
-	0    -1   -1   0   
+F 0 "D3" H 18500 7350 50  0000 C CNN
+F 1 "B345BE-13" H 18600 7250 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 18650 7500 50  0001 C CNN
+F 3 "~" H 18650 7500 50  0001 C CNN
+	1    18650 7500
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E26858F
-P 19500 7600
+P 21000 7900
 AR Path="/5C8BBC9A/5E26858F" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E26858F" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E26858F" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E26858F" Ref="#PWR?"  Part="1" 
 AR Path="/5E26858F" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 19500 7350 50  0001 C CNN
-F 1 "GND" H 19505 7427 50  0000 C CNN
-F 2 "" H 19500 7600 50  0001 C CNN
-F 3 "" H 19500 7600 50  0001 C CNN
-	1    19500 7600
+F 0 "#PWR072" H 21000 7650 50  0001 C CNN
+F 1 "GND" H 21005 7727 50  0000 C CNN
+F 2 "" H 21000 7900 50  0001 C CNN
+F 3 "" H 21000 7900 50  0001 C CNN
+	1    21000 7900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E268595
-P 19800 7600
+P 21300 7900
 AR Path="/5C8BBC9A/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5E268595" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 19800 7350 50  0001 C CNN
-F 1 "GND" H 19805 7427 50  0000 C CNN
-F 2 "" H 19800 7600 50  0001 C CNN
-F 3 "" H 19800 7600 50  0001 C CNN
-	1    19800 7600
+F 0 "#PWR078" H 21300 7650 50  0001 C CNN
+F 1 "GND" H 21305 7727 50  0000 C CNN
+F 2 "" H 21300 7900 50  0001 C CNN
+F 3 "" H 21300 7900 50  0001 C CNN
+	1    21300 7900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	20100 7200 19800 7200
-Wire Wire Line
-	19800 7200 19500 7200
-Connection ~ 19800 7200
-Wire Wire Line
 	20400 7200 20950 7200
 Wire Wire Line
-	19200 7200 19500 7200
-Connection ~ 19500 7200
-Wire Wire Line
-	18900 7200 18650 7200
-Connection ~ 18650 7200
+	20100 7200 19850 7200
+Connection ~ 19850 7200
 $Comp
-L Connector:USB_B_Micro J?
+L Displayunit-rescue:USB_B_Micro-Connector J?
 U 1 1 5E312421
 P 10400 5000
 AR Path="/5D80E2A0/5E312421" Ref="J?"  Part="1" 
@@ -1549,7 +1541,7 @@ F 3 "~" H 10550 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_ARM_JTAG_SWD_20 J?
+L Displayunit-rescue:Conn_ARM_JTAG_SWD_20-Connector J?
 U 1 1 5E312427
 P 15100 2450
 AR Path="/5D80E2A0/5E312427" Ref="J?"  Part="1" 
@@ -1586,7 +1578,7 @@ Wire Wire Line
 Wire Wire Line
 	15700 2650 15850 2650
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31243F
 P 11550 2050
 AR Path="/5D80E2A0/5E31243F" Ref="C?"  Part="1" 
@@ -1601,7 +1593,7 @@ $EndComp
 Text Notes 9900 1450 0    50   ~ 0
 Touchdisplay RGB TFT
 $Comp
-L Power_Protection:USBLC6-2SC6 U?
+L Displayunit-rescue:USBLC6-2SC6-Power_Protection U?
 U 1 1 5E312514
 P 11850 5650
 AR Path="/5D80E2A0/5E312514" Ref="U?"  Part="1" 
@@ -1766,7 +1758,7 @@ I2C3_SCL
 Text GLabel 19100 9350 2    50   Input ~ 0
 TOUCH_RESET
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31258F
 P 17450 9300
 AR Path="/5D80E2A0/5E31258F" Ref="C?"  Part="1" 
@@ -1899,7 +1891,7 @@ Wire Wire Line
 Wire Wire Line
 	20300 11350 20450 11350
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312619
 P 21250 12500
 AR Path="/5D80E2A0/5E312619" Ref="C?"  Part="1" 
@@ -1912,7 +1904,7 @@ F 3 "~" H 21250 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31261F
 P 21000 12500
 AR Path="/5D80E2A0/5E31261F" Ref="C?"  Part="1" 
@@ -1925,7 +1917,7 @@ F 3 "~" H 21000 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312625
 P 20750 12500
 AR Path="/5D80E2A0/5E312625" Ref="C?"  Part="1" 
@@ -1974,7 +1966,7 @@ Wire Wire Line
 Wire Wire Line
 	17650 12350 17400 12350
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31263D
 P 17650 12500
 AR Path="/5D80E2A0/5E31263D" Ref="C?"  Part="1" 
@@ -1987,7 +1979,7 @@ F 3 "~" H 17650 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312643
 P 17400 12500
 AR Path="/5D80E2A0/5E312643" Ref="C?"  Part="1" 
@@ -2000,7 +1992,7 @@ F 3 "~" H 17400 12500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312649
 P 17150 12500
 AR Path="/5D80E2A0/5E312649" Ref="C?"  Part="1" 
@@ -2064,7 +2056,7 @@ I2C3_SDA
 Text GLabel 14100 5250 0    50   Input ~ 0
 I2C3_SCL
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E31269E
 P 14600 4950
 AR Path="/5D80E2A0/5E31269E" Ref="R?"  Part="1" 
@@ -2077,7 +2069,7 @@ F 3 "~" H 14600 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E3126A4
 P 14300 4950
 AR Path="/5D80E2A0/5E3126A4" Ref="R?"  Part="1" 
@@ -2158,7 +2150,7 @@ LCD_39
 Text GLabel 20400 9150 0    50   BiDi ~ 0
 LCD_37
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J?
+L Displayunit-rescue:Conn_02x06_Odd_Even-Connector_Generic J?
 U 1 1 5E3126CD
 P 20700 9150
 AR Path="/5D80E2A0/5E3126CD" Ref="J?"  Part="1" 
@@ -2195,7 +2187,7 @@ Wire Wire Line
 Wire Wire Line
 	20400 9450 20500 9450
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3126DF
 P 15500 4800
 AR Path="/5D80E2A0/5E3126DF" Ref="C?"  Part="1" 
@@ -2307,20 +2299,7 @@ NoConn ~ 19000 12350
 NoConn ~ 15400 11650
 NoConn ~ 19000 11750
 $Comp
-L power:VCC #PWR?
-U 1 1 5E3127AF
-P 11550 1650
-AR Path="/5D80E2A0/5E3127AF" Ref="#PWR?"  Part="1" 
-AR Path="/5E3127AF" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 11550 1500 50  0001 C CNN
-F 1 "VCC" H 11567 1823 50  0000 C CNN
-F 2 "" H 11550 1650 50  0001 C CNN
-F 3 "" H 11550 1650 50  0001 C CNN
-	1    11550 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
+L Displayunit-rescue:VCC-power #PWR?
 U 1 1 5E3127B5
 P 14300 4700
 AR Path="/5D80E2A0/5E3127B5" Ref="#PWR?"  Part="1" 
@@ -2333,7 +2312,7 @@ F 3 "" H 14300 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Displayunit-rescue:VCC-power #PWR?
 U 1 1 5E3127BB
 P 14600 4700
 AR Path="/5D80E2A0/5E3127BB" Ref="#PWR?"  Part="1" 
@@ -2346,7 +2325,7 @@ F 3 "" H 14600 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L Displayunit-rescue:VCC-power #PWR?
 U 1 1 5E3127C1
 P 15150 4700
 AR Path="/5D80E2A0/5E3127C1" Ref="#PWR?"  Part="1" 
@@ -2361,7 +2340,7 @@ $EndComp
 Wire Wire Line
 	14600 4700 14600 4800
 $Comp
-L power:VCC #PWR?
+L Displayunit-rescue:VCC-power #PWR?
 U 1 1 5E3127C8
 P 17450 8950
 AR Path="/5D80E2A0/5E3127C8" Ref="#PWR?"  Part="1" 
@@ -2374,7 +2353,7 @@ F 3 "" H 17450 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3127F1
 P 16800 12700
 AR Path="/5C8BBC9A/5E3127F1" Ref="#PWR?"  Part="1" 
@@ -2391,7 +2370,7 @@ F 3 "" H 16800 12700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3127F7
 P 17150 12700
 AR Path="/5C8BBC9A/5E3127F7" Ref="#PWR?"  Part="1" 
@@ -2408,7 +2387,7 @@ F 3 "" H 17150 12700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3127FD
 P 17400 12700
 AR Path="/5C8BBC9A/5E3127FD" Ref="#PWR?"  Part="1" 
@@ -2425,7 +2404,7 @@ F 3 "" H 17400 12700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312803
 P 17650 12700
 AR Path="/5C8BBC9A/5E312803" Ref="#PWR?"  Part="1" 
@@ -2442,7 +2421,7 @@ F 3 "" H 17650 12700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312809
 P 18050 12700
 AR Path="/5C8BBC9A/5E312809" Ref="#PWR?"  Part="1" 
@@ -2459,7 +2438,7 @@ F 3 "" H 18050 12700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31280F
 P 20400 12750
 AR Path="/5C8BBC9A/5E31280F" Ref="#PWR?"  Part="1" 
@@ -2476,7 +2455,7 @@ F 3 "" H 20400 12750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312815
 P 20750 12750
 AR Path="/5C8BBC9A/5E312815" Ref="#PWR?"  Part="1" 
@@ -2493,7 +2472,7 @@ F 3 "" H 20750 12750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31281B
 P 21000 12750
 AR Path="/5C8BBC9A/5E31281B" Ref="#PWR?"  Part="1" 
@@ -2510,7 +2489,7 @@ F 3 "" H 21000 12750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312821
 P 21250 12750
 AR Path="/5C8BBC9A/5E312821" Ref="#PWR?"  Part="1" 
@@ -2527,7 +2506,7 @@ F 3 "" H 21250 12750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312827
 P 14550 6350
 AR Path="/5C8BBC9A/5E312827" Ref="#PWR?"  Part="1" 
@@ -2544,7 +2523,7 @@ F 3 "" H 14550 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31282D
 P 15150 6350
 AR Path="/5C8BBC9A/5E31282D" Ref="#PWR?"  Part="1" 
@@ -2561,7 +2540,7 @@ F 3 "" H 15150 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312833
 P 15700 5000
 AR Path="/5C8BBC9A/5E312833" Ref="#PWR?"  Part="1" 
@@ -2578,7 +2557,7 @@ F 3 "" H 15700 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312839
 P 15000 3350
 AR Path="/5C8BBC9A/5E312839" Ref="#PWR?"  Part="1" 
@@ -2595,7 +2574,7 @@ F 3 "" H 15000 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312881
 P 17450 9500
 AR Path="/5C8BBC9A/5E312881" Ref="#PWR?"  Part="1" 
@@ -2630,24 +2609,24 @@ F 8 "52271-0679" H 18850 8550 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312892
-P 16550 6350
+P 17200 7650
 AR Path="/5C8BBC9A/5E312892" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E312892" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E312892" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E312892" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5E312892" Ref="#PWR?"  Part="1" 
 AR Path="/5E312892" Ref="#PWR044"  Part="1" 
-F 0 "#PWR044" H 16550 6100 50  0001 C CNN
-F 1 "GND" V 16550 6150 50  0000 C CNN
-F 2 "" H 16550 6350 50  0001 C CNN
-F 3 "" H 16550 6350 50  0001 C CNN
-	1    16550 6350
-	0    -1   -1   0   
+F 0 "#PWR044" H 17200 7400 50  0001 C CNN
+F 1 "GND" H 17200 7450 50  0000 C CNN
+F 2 "" H 17200 7650 50  0001 C CNN
+F 3 "" H 17200 7650 50  0001 C CNN
+	1    17200 7650
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312898
 P 12600 8850
 AR Path="/5C8BBC9A/5E312898" Ref="#PWR?"  Part="1" 
@@ -2664,7 +2643,7 @@ F 3 "" H 12600 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128AA
 P 11550 2300
 AR Path="/5C8BBC9A/5E3128AA" Ref="#PWR?"  Part="1" 
@@ -2681,7 +2660,7 @@ F 3 "" H 11550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128B6
 P 18850 11950
 AR Path="/5C8BBC9A/5E3128B6" Ref="#PWR?"  Part="1" 
@@ -2698,7 +2677,7 @@ F 3 "" H 18850 11950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128BC
 P 15250 12250
 AR Path="/5C8BBC9A/5E3128BC" Ref="#PWR?"  Part="1" 
@@ -2715,7 +2694,7 @@ F 3 "" H 15250 12250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128DA
 P 10300 5450
 AR Path="/5C8BBC9A/5E3128DA" Ref="#PWR?"  Part="1" 
@@ -2732,7 +2711,7 @@ F 3 "" H 10300 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128E0
 P 10400 5450
 AR Path="/5C8BBC9A/5E3128E0" Ref="#PWR?"  Part="1" 
@@ -2749,7 +2728,7 @@ F 3 "" H 10400 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128E6
 P 11850 6250
 AR Path="/5C8BBC9A/5E3128E6" Ref="#PWR?"  Part="1" 
@@ -2766,7 +2745,7 @@ F 3 "" H 11850 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128EC
 P 10900 3500
 AR Path="/5C8BBC9A/5E3128EC" Ref="#PWR?"  Part="1" 
@@ -2783,7 +2762,7 @@ F 3 "" H 10900 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128F2
 P 9700 3200
 AR Path="/5C8BBC9A/5E3128F2" Ref="#PWR?"  Part="1" 
@@ -2800,7 +2779,7 @@ F 3 "" H 9700 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128F8
 P 9700 3500
 AR Path="/5C8BBC9A/5E3128F8" Ref="#PWR?"  Part="1" 
@@ -2817,7 +2796,7 @@ F 3 "" H 9700 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128FE
 P 9750 1900
 AR Path="/5C8BBC9A/5E3128FE" Ref="#PWR?"  Part="1" 
@@ -2834,7 +2813,7 @@ F 3 "" H 9750 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E312904
 P 15100 1550
 AR Path="/5D80E2A0/5E312904" Ref="#PWR?"  Part="1" 
@@ -2847,7 +2826,7 @@ F 3 "" H 15100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E31290A
 P 21250 12350
 AR Path="/5D80E2A0/5E31290A" Ref="#PWR?"  Part="1" 
@@ -2861,7 +2840,7 @@ F 3 "" H 21250 12350 50  0001 C CNN
 $EndComp
 Connection ~ 21250 12350
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E312911
 P 17650 12350
 AR Path="/5D80E2A0/5E312911" Ref="#PWR?"  Part="1" 
@@ -2880,20 +2859,20 @@ Wire Wire Line
 Connection ~ 17100 5750
 Connection ~ 8150 10800
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E312929
-P 7050 3750
+P 6750 3750
 AR Path="/5D80E2A0/5E312929" Ref="#PWR?"  Part="1" 
 AR Path="/5E312929" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 7050 3600 50  0001 C CNN
-F 1 "+3.3V" H 7065 3923 50  0000 C CNN
-F 2 "" H 7050 3750 50  0001 C CNN
-F 3 "" H 7050 3750 50  0001 C CNN
-	1    7050 3750
+F 0 "#PWR018" H 6750 3600 50  0001 C CNN
+F 1 "+3.3V" H 6765 3923 50  0000 C CNN
+F 2 "" H 6750 3750 50  0001 C CNN
+F 3 "" H 6750 3750 50  0001 C CNN
+	1    6750 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E312923
 P 3900 6350
 AR Path="/5D80E2A0/5E312923" Ref="#PWR?"  Part="1" 
@@ -2906,7 +2885,7 @@ F 3 "" H 3900 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E31291D
 P 3900 4050
 AR Path="/5D80E2A0/5E31291D" Ref="#PWR?"  Part="1" 
@@ -2919,7 +2898,7 @@ F 3 "" H 3900 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E312917
 P 2950 4050
 AR Path="/5D80E2A0/5E312917" Ref="#PWR?"  Part="1" 
@@ -2932,7 +2911,7 @@ F 3 "" H 2950 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128D4
 P 6400 4150
 AR Path="/5C8BBC9A/5E3128D4" Ref="#PWR?"  Part="1" 
@@ -2949,7 +2928,7 @@ F 3 "" H 6400 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128CE
 P 7050 4150
 AR Path="/5C8BBC9A/5E3128CE" Ref="#PWR?"  Part="1" 
@@ -2966,7 +2945,7 @@ F 3 "" H 7050 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128C8
 P 7400 4150
 AR Path="/5C8BBC9A/5E3128C8" Ref="#PWR?"  Part="1" 
@@ -2983,7 +2962,7 @@ F 3 "" H 7400 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128B0
 P 9000 11300
 AR Path="/5C8BBC9A/5E3128B0" Ref="#PWR?"  Part="1" 
@@ -3000,7 +2979,7 @@ F 3 "" H 9000 11300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128A4
 P 3700 7650
 AR Path="/5C8BBC9A/5E3128A4" Ref="#PWR?"  Part="1" 
@@ -3017,7 +2996,7 @@ F 3 "" H 3700 7650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31289E
 P 4100 7650
 AR Path="/5C8BBC9A/5E31289E" Ref="#PWR?"  Part="1" 
@@ -3034,7 +3013,7 @@ F 3 "" H 4100 7650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31287B
 P 5450 13100
 AR Path="/5C8BBC9A/5E31287B" Ref="#PWR?"  Part="1" 
@@ -3051,7 +3030,7 @@ F 3 "" H 5450 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312875
 P 3150 8000
 AR Path="/5C8BBC9A/5E312875" Ref="#PWR?"  Part="1" 
@@ -3068,7 +3047,7 @@ F 3 "" H 3150 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31286F
 P 2450 7600
 AR Path="/5C8BBC9A/5E31286F" Ref="#PWR?"  Part="1" 
@@ -3085,7 +3064,7 @@ F 3 "" H 2450 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312869
 P 3900 6850
 AR Path="/5C8BBC9A/5E312869" Ref="#PWR?"  Part="1" 
@@ -3102,7 +3081,7 @@ F 3 "" H 3900 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312863
 P 3150 6550
 AR Path="/5C8BBC9A/5E312863" Ref="#PWR?"  Part="1" 
@@ -3119,7 +3098,7 @@ F 3 "" H 3150 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31285D
 P 2950 6550
 AR Path="/5C8BBC9A/5E31285D" Ref="#PWR?"  Part="1" 
@@ -3136,7 +3115,7 @@ F 3 "" H 2950 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312857
 P 3550 5750
 AR Path="/5C8BBC9A/5E312857" Ref="#PWR?"  Part="1" 
@@ -3153,7 +3132,7 @@ F 3 "" H 3550 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312851
 P 3150 5750
 AR Path="/5C8BBC9A/5E312851" Ref="#PWR?"  Part="1" 
@@ -3170,7 +3149,7 @@ F 3 "" H 3150 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31284B
 P 4350 5100
 AR Path="/5C8BBC9A/5E31284B" Ref="#PWR?"  Part="1" 
@@ -3187,7 +3166,7 @@ F 3 "" H 4350 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E312845
 P 3900 5050
 AR Path="/5C8BBC9A/5E312845" Ref="#PWR?"  Part="1" 
@@ -3204,7 +3183,7 @@ F 3 "" H 3900 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31283F
 P 2950 5050
 AR Path="/5C8BBC9A/5E31283F" Ref="#PWR?"  Part="1" 
@@ -3241,7 +3220,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 7800 3900 7800
 $Comp
-L Device:Crystal_GND24 Y?
+L Displayunit-rescue:Crystal_GND24-Device Y?
 U 1 1 5E3127A3
 P 3900 7650
 AR Path="/5D80E2A0/5E3127A3" Ref="Y?"  Part="1" 
@@ -3262,7 +3241,7 @@ Wire Wire Line
 Text GLabel 2550 7150 2    50   Input ~ 0
 Signal_LED
 $Comp
-L Device:LED D?
+L Displayunit-rescue:LED-Device D?
 U 1 1 5E312799
 P 2450 7400
 AR Path="/5D80E2A0/5E312799" Ref="D?"  Part="1" 
@@ -3290,7 +3269,7 @@ Wire Wire Line
 Text GLabel 4000 4500 2    50   Output ~ 0
 Wakeup
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E31278B
 P 3900 4300
 AR Path="/5D80E2A0/5E31278B" Ref="R?"  Part="1" 
@@ -3305,7 +3284,7 @@ $EndComp
 Wire Wire Line
 	3900 4050 3900 4150
 $Comp
-L Switch:SW_Push SW?
+L Displayunit-rescue:SW_Push-Switch SW?
 U 1 1 5E312784
 P 3900 4750
 AR Path="/5D80E2A0/5E312784" Ref="SW?"  Part="1" 
@@ -3408,7 +3387,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4950 2950 5050
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E31273B
 P 2950 4800
 AR Path="/5D80E2A0/5E31273B" Ref="R?"  Part="1" 
@@ -3421,7 +3400,7 @@ F 3 "~" H 2950 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW?
+L Displayunit-rescue:SW_Push-Switch SW?
 U 1 1 5E312735
 P 2950 4350
 AR Path="/5D80E2A0/5E312735" Ref="SW?"  Part="1" 
@@ -3443,7 +3422,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 6750 3900 6850
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312725
 P 3900 6600
 AR Path="/5D80E2A0/5E312725" Ref="C?"  Part="1" 
@@ -3510,7 +3489,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 10300 7250 10300
 $Comp
-L Device:Crystal Y?
+L Displayunit-rescue:Crystal-Device Y?
 U 1 1 5E312678
 P 8150 10950
 AR Path="/5D80E2A0/5E312678" Ref="Y?"  Part="1" 
@@ -3532,7 +3511,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 11100 8150 11100
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31266C
 P 8700 10800
 AR Path="/5D80E2A0/5E31266C" Ref="C?"  Part="1" 
@@ -3545,7 +3524,7 @@ F 3 "~" H 8700 10800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312666
 P 8700 11100
 AR Path="/5D80E2A0/5E312666" Ref="C?"  Part="1" 
@@ -3733,7 +3712,7 @@ Wire Wire Line
 Text GLabel 7400 11600 2    50   Output ~ 0
 LCD_EN
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31250E
 P 7100 4800
 AR Path="/5D80E2A0/5E31250E" Ref="C?"  Part="1" 
@@ -3764,7 +3743,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 5800 6350 5600
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3124FE
 P 7100 5600
 AR Path="/5D80E2A0/5E3124FE" Ref="C?"  Part="1" 
@@ -3777,7 +3756,7 @@ F 3 "~" H 7100 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3124F8
 P 7100 5000
 AR Path="/5D80E2A0/5E3124F8" Ref="C?"  Part="1" 
@@ -3790,7 +3769,7 @@ F 3 "~" H 7100 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3124F2
 P 7100 5200
 AR Path="/5D80E2A0/5E3124F2" Ref="C?"  Part="1" 
@@ -3803,7 +3782,7 @@ F 3 "~" H 7100 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3124EC
 P 7100 5400
 AR Path="/5D80E2A0/5E3124EC" Ref="C?"  Part="1" 
@@ -3839,7 +3818,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 5800 5350 5700
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3124D9
 P 3150 5500
 AR Path="/5D80E2A0/5E3124D9" Ref="C?"  Part="1" 
@@ -3852,7 +3831,7 @@ F 3 "~" H 3150 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell BT?
+L Displayunit-rescue:Battery_Cell-Device BT?
 U 1 1 5E3124D3
 P 3550 5550
 AR Path="/5D80E2A0/5E3124D3" Ref="BT?"  Part="1" 
@@ -3932,7 +3911,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 4850 4550 4850
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3124A5
 P 4950 5450
 AR Path="/5D80E2A0/5E3124A5" Ref="C?"  Part="1" 
@@ -3945,7 +3924,7 @@ F 3 "~" H 4950 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31249F
 P 4950 5250
 AR Path="/5D80E2A0/5E31249F" Ref="C?"  Part="1" 
@@ -3958,7 +3937,7 @@ F 3 "~" H 4950 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312499
 P 4950 5050
 AR Path="/5D80E2A0/5E312499" Ref="C?"  Part="1" 
@@ -3971,7 +3950,7 @@ F 3 "~" H 4950 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312493
 P 4950 4850
 AR Path="/5D80E2A0/5E312493" Ref="C?"  Part="1" 
@@ -4111,7 +4090,7 @@ SPI1_SCK
 Text GLabel 4300 8500 0    50   Output ~ 0
 SPI1_MOSI
 $Comp
-L Switch:SW_Push SW?
+L Displayunit-rescue:SW_Push-Switch SW?
 U 1 1 5E312439
 P 2950 6300
 AR Path="/5D80E2A0/5E312439" Ref="SW?"  Part="1" 
@@ -4126,7 +4105,7 @@ $EndComp
 Wire Wire Line
 	3150 6100 3150 6150
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31241A
 P 3150 6300
 AR Path="/5D80E2A0/5E31241A" Ref="C?"  Part="1" 
@@ -4150,7 +4129,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 7700 4300 7700
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31240E
 P 3500 7500
 AR Path="/5D80E2A0/5E31240E" Ref="C?"  Part="1" 
@@ -4163,7 +4142,7 @@ F 3 "~" H 3500 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E312408
 P 3500 7800
 AR Path="/5D80E2A0/5E312408" Ref="C?"  Part="1" 
@@ -4209,7 +4188,7 @@ Connection ~ 7050 3750
 Wire Wire Line
 	7400 3750 7050 3750
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3123EF
 P 6400 3900
 AR Path="/5D80E2A0/5E3123EF" Ref="C?"  Part="1" 
@@ -4222,7 +4201,7 @@ F 3 "~" H 6400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3123E9
 P 7400 3900
 AR Path="/5D80E2A0/5E3123E9" Ref="C?"  Part="1" 
@@ -4235,7 +4214,7 @@ F 3 "~" H 7400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3123E3
 P 7050 3900
 AR Path="/5D80E2A0/5E3123E3" Ref="C?"  Part="1" 
@@ -4313,7 +4292,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 3750 5450 3750
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3123B3
 P 4950 3850
 AR Path="/5D80E2A0/5E3123B3" Ref="C?"  Part="1" 
@@ -4326,7 +4305,7 @@ F 3 "~" H 4950 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3123AD
 P 4950 4050
 AR Path="/5D80E2A0/5E3123AD" Ref="C?"  Part="1" 
@@ -4339,7 +4318,7 @@ F 3 "~" H 4950 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3123A7
 P 4950 4250
 AR Path="/5D80E2A0/5E3123A7" Ref="C?"  Part="1" 
@@ -4352,7 +4331,7 @@ F 3 "~" H 4950 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3123A1
 P 4950 4450
 AR Path="/5D80E2A0/5E3123A1" Ref="C?"  Part="1" 
@@ -4365,7 +4344,7 @@ F 3 "~" H 4950 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E31239B
 P 4950 4650
 AR Path="/5D80E2A0/5E31239B" Ref="C?"  Part="1" 
@@ -4380,7 +4359,7 @@ $EndComp
 Text GLabel 7400 11400 2    50   Output ~ 0
 LCD_CLK
 $Comp
-L MCU_ST_STM32L4+:STM32L4R9ZITx U?
+L Displayunit-rescue:STM32L4R9ZITx-MCU_ST_STM32L4+ U?
 U 1 1 5E31244D
 P 5850 9300
 AR Path="/5D80E2A0/5E31244D" Ref="U?"  Part="1" 
@@ -4393,21 +4372,10 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 $Comp
-L Interface_CAN_LIN:TJA1049T-3 U?
-U 1 1 5DE39807
-P 12600 8450
-F 0 "U?" H 12850 9000 50  0000 C CNN
-F 1 "TJA1049T-3" H 12900 8900 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12600 7950 50  0001 C CIN
-F 3 "http://www.nxp.com/documents/data_sheet/TJA1049.pdf" H 12600 8450 50  0001 C CNN
-	1    12600 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_TVS_x2_AAC D?
+L Displayunit-rescue:D_TVS_x2_AAC-Device D5
 U 1 1 5DE3CE76
 P 14500 8500
-F 0 "D?" V 15050 8600 50  0000 L CNN
+F 0 "D5" V 15050 8600 50  0000 L CNN
 F 1 "NUP2105L" V 14950 8400 50  0000 L CNN
 F 2 "" H 14350 8500 50  0001 C CNN
 F 3 "~" H 14350 8500 50  0001 C CNN
@@ -4415,15 +4383,15 @@ F 3 "~" H 14350 8500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L Displayunit-rescue:+3.3VA-power #PWR?
 U 1 1 5DE9CBAF
 P 16550 5600
 AR Path="/5C8BBC9A/5DE9CBAF" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5DE9CBAF" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5DE9CBAF" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5DE9CBAF" Ref="#PWR?"  Part="1" 
-AR Path="/5DE9CBAF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16550 5450 50  0001 C CNN
+AR Path="/5DE9CBAF" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 16550 5450 50  0001 C CNN
 F 1 "+3.3VA" H 16565 5773 50  0000 C CNN
 F 2 "" H 16550 5600 50  0001 C CNN
 F 3 "" H 16550 5600 50  0001 C CNN
@@ -4443,7 +4411,7 @@ X+
 Text GLabel 15700 5550 2    50   Output ~ 0
 Y-
 $Comp
-L Connector:8P8C_Shielded J2
+L Displayunit-rescue:8P8C_Shielded-Connector J2
 U 1 1 5F96FCE3
 P 15900 8450
 F 0 "J2" H 15957 9117 50  0000 C CNN
@@ -4454,15 +4422,15 @@ F 3 "~" V 15900 8475 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E2C30E1
 P 13700 8300
 AR Path="/5C8BBC9A/5E2C30E1" Ref="R?"  Part="1" 
 AR Path="/5E0C5EEA/5E2C30E1" Ref="R?"  Part="1" 
 AR Path="/5D80EC74/5E2C30E1" Ref="R?"  Part="1" 
 AR Path="/5D80E6E8/5E2C30E1" Ref="R?"  Part="1" 
-AR Path="/5E2C30E1" Ref="R?"  Part="1" 
-F 0 "R?" H 13450 8350 50  0000 L CNN
+AR Path="/5E2C30E1" Ref="R18"  Part="1" 
+F 0 "R18" H 13450 8350 50  0000 L CNN
 F 1 "60R" H 13450 8250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13630 8300 50  0001 C CNN
 F 3 "~" H 13700 8300 50  0001 C CNN
@@ -4472,33 +4440,31 @@ $EndComp
 Wire Wire Line
 	17650 3550 18950 3550
 $Comp
-L Device:R R?
+L Displayunit-rescue:R-Device R?
 U 1 1 5E320BA8
 P 13700 8700
 AR Path="/5C8BBC9A/5E320BA8" Ref="R?"  Part="1" 
 AR Path="/5E0C5EEA/5E320BA8" Ref="R?"  Part="1" 
 AR Path="/5D80EC74/5E320BA8" Ref="R?"  Part="1" 
 AR Path="/5D80E6E8/5E320BA8" Ref="R?"  Part="1" 
-AR Path="/5E320BA8" Ref="R?"  Part="1" 
-F 0 "R?" H 13450 8750 50  0000 L CNN
+AR Path="/5E320BA8" Ref="R19"  Part="1" 
+F 0 "R19" H 13450 8750 50  0000 L CNN
 F 1 "60R" H 13450 8650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13630 8700 50  0001 C CNN
 F 3 "~" H 13700 8700 50  0001 C CNN
 	1    13700 8700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	18250 7200 18350 7200
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E3E14BA
 P 12350 7650
 AR Path="/5C8BBC9A/5E3E14BA" Ref="C?"  Part="1" 
 AR Path="/5E0C5EEA/5E3E14BA" Ref="C?"  Part="1" 
 AR Path="/5D80EC74/5E3E14BA" Ref="C?"  Part="1" 
 AR Path="/5D80E6E8/5E3E14BA" Ref="C?"  Part="1" 
-AR Path="/5E3E14BA" Ref="C?"  Part="1" 
-F 0 "C?" H 12000 7700 50  0000 L CNN
+AR Path="/5E3E14BA" Ref="C51"  Part="1" 
+F 0 "C51" H 12000 7700 50  0000 L CNN
 F 1 "100n" H 12000 7600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 12388 7500 50  0001 C CNN
 F 3 "~" H 12350 7650 50  0001 C CNN
@@ -4506,15 +4472,15 @@ F 3 "~" H 12350 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3E14C0
 P 14050 8500
 AR Path="/5C8BBC9A/5E3E14C0" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E3E14C0" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E3E14C0" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E3E14C0" Ref="#PWR?"  Part="1" 
-AR Path="/5E3E14C0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14050 8250 50  0001 C CNN
+AR Path="/5E3E14C0" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 14050 8250 50  0001 C CNN
 F 1 "GND" V 14200 8450 50  0000 C CNN
 F 2 "" H 14050 8500 50  0001 C CNN
 F 3 "" H 14050 8500 50  0001 C CNN
@@ -4522,15 +4488,15 @@ F 3 "" H 14050 8500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Displayunit-rescue:C-Device C?
 U 1 1 5E43EDE3
 P 13900 8500
 AR Path="/5C8BBC9A/5E43EDE3" Ref="C?"  Part="1" 
 AR Path="/5E0C5EEA/5E43EDE3" Ref="C?"  Part="1" 
 AR Path="/5D80EC74/5E43EDE3" Ref="C?"  Part="1" 
 AR Path="/5D80E6E8/5E43EDE3" Ref="C?"  Part="1" 
-AR Path="/5E43EDE3" Ref="C?"  Part="1" 
-F 0 "C?" V 14150 8500 50  0000 L CNN
+AR Path="/5E43EDE3" Ref="C52"  Part="1" 
+F 0 "C52" V 14150 8500 50  0000 L CNN
 F 1 "5n6" V 14050 8450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 13938 8350 50  0001 C CNN
 F 3 "~" H 13900 8500 50  0001 C CNN
@@ -4538,15 +4504,15 @@ F 3 "~" H 13900 8500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E49C665
 P 14650 8500
 AR Path="/5C8BBC9A/5E49C665" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E49C665" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E49C665" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E49C665" Ref="#PWR?"  Part="1" 
-AR Path="/5E49C665" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14650 8250 50  0001 C CNN
+AR Path="/5E49C665" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 14650 8250 50  0001 C CNN
 F 1 "GND" V 14750 8400 50  0000 C CNN
 F 2 "" H 14650 8500 50  0001 C CNN
 F 3 "" H 14650 8500 50  0001 C CNN
@@ -4566,20 +4532,14 @@ Wire Wire Line
 	13700 8850 14500 8850
 Wire Wire Line
 	13700 8150 13250 8150
-Wire Wire Line
-	13250 8150 13250 8350
-Wire Wire Line
-	13250 8350 13100 8350
 Connection ~ 13700 8150
-Wire Wire Line
-	13100 8550 13250 8550
 Wire Wire Line
 	13250 8550 13250 8850
 Wire Wire Line
 	13250 8850 13700 8850
 Connection ~ 13700 8850
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Displayunit-rescue:Ferrite_Bead_Small-Device FB?
 U 1 1 5EA2EB19
 P 14800 8150
 AR Path="/5C8BBC97/5EA2EB19" Ref="FB?"  Part="1" 
@@ -4587,8 +4547,8 @@ AR Path="/5C8BBC9A/5EA2EB19" Ref="FB?"  Part="1"
 AR Path="/5E0C5EEA/5EA2EB19" Ref="FB?"  Part="1" 
 AR Path="/5D80EC74/5EA2EB19" Ref="FB?"  Part="1" 
 AR Path="/5D80E6E8/5EA2EB19" Ref="FB?"  Part="1" 
-AR Path="/5EA2EB19" Ref="FB?"  Part="1" 
-F 0 "FB?" V 14563 8150 50  0000 C CNN
+AR Path="/5EA2EB19" Ref="FB3"  Part="1" 
+F 0 "FB3" V 14563 8150 50  0000 C CNN
 F 1 "100R" V 14654 8150 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 14730 8150 50  0001 C CNN
 F 3 "~" H 14800 8150 50  0001 C CNN
@@ -4596,7 +4556,7 @@ F 3 "~" H 14800 8150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5EA2EB1F
 P 15900 7950
 AR Path="/5C8BBC9A/5EA2EB1F" Ref="#PWR?"  Part="1" 
@@ -4604,8 +4564,8 @@ AR Path="/5E0C5EEA/5EA2EB1F" Ref="#PWR?"  Part="1"
 AR Path="/5D80EC74/5EA2EB1F" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5EA2EB1F" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5EA2EB1F" Ref="#PWR?"  Part="1" 
-AR Path="/5EA2EB1F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15900 7700 50  0001 C CNN
+AR Path="/5EA2EB1F" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 15900 7700 50  0001 C CNN
 F 1 "GND" H 15900 7750 50  0000 C CNN
 F 2 "" H 15900 7950 50  0001 C CNN
 F 3 "" H 15900 7950 50  0001 C CNN
@@ -4613,7 +4573,7 @@ F 3 "" H 15900 7950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB?
+L Displayunit-rescue:Ferrite_Bead_Small-Device FB?
 U 1 1 5EA91CC4
 P 14800 8850
 AR Path="/5C8BBC97/5EA91CC4" Ref="FB?"  Part="1" 
@@ -4621,8 +4581,8 @@ AR Path="/5C8BBC9A/5EA91CC4" Ref="FB?"  Part="1"
 AR Path="/5E0C5EEA/5EA91CC4" Ref="FB?"  Part="1" 
 AR Path="/5D80EC74/5EA91CC4" Ref="FB?"  Part="1" 
 AR Path="/5D80E6E8/5EA91CC4" Ref="FB?"  Part="1" 
-AR Path="/5EA91CC4" Ref="FB?"  Part="1" 
-F 0 "FB?" V 14563 8850 50  0000 C CNN
+AR Path="/5EA91CC4" Ref="FB4"  Part="1" 
+F 0 "FB4" V 14563 8850 50  0000 C CNN
 F 1 "100R" V 14654 8850 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 14730 8850 50  0001 C CNN
 F 3 "~" H 14800 8850 50  0001 C CNN
@@ -4648,7 +4608,7 @@ Wire Wire Line
 Wire Wire Line
 	15050 8850 14900 8850
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5EC7E64E
 P 12350 7800
 AR Path="/5C8BBC9A/5EC7E64E" Ref="#PWR?"  Part="1" 
@@ -4656,8 +4616,8 @@ AR Path="/5E0C5EEA/5EC7E64E" Ref="#PWR?"  Part="1"
 AR Path="/5D80EC74/5EC7E64E" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5EC7E64E" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5EC7E64E" Ref="#PWR?"  Part="1" 
-AR Path="/5EC7E64E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12350 7550 50  0001 C CNN
+AR Path="/5EC7E64E" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 12350 7550 50  0001 C CNN
 F 1 "GND" H 12350 7600 50  0000 C CNN
 F 2 "" H 12350 7800 50  0001 C CNN
 F 3 "" H 12350 7800 50  0001 C CNN
@@ -4666,21 +4626,19 @@ F 3 "" H 12350 7800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12350 7500 12600 7500
+Connection ~ 19550 7200
 Wire Wire Line
-	12600 7500 12600 8050
-Connection ~ 18350 7200
-Wire Wire Line
-	18350 7200 18650 7200
+	19550 7200 19850 7200
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5EDB15E9
 P 15300 12050
 AR Path="/5C8BBC9A/5EDB15E9" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5EDB15E9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5EDB15E9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5EDB15E9" Ref="#PWR?"  Part="1" 
-AR Path="/5EDB15E9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15300 11900 50  0001 C CNN
+AR Path="/5EDB15E9" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 15300 11900 50  0001 C CNN
 F 1 "+3.3V" V 15300 12300 50  0000 C CNN
 F 2 "" H 15300 12050 50  0001 C CNN
 F 3 "" H 15300 12050 50  0001 C CNN
@@ -4688,7 +4646,7 @@ F 3 "" H 15300 12050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3128C2
 P 15250 11950
 AR Path="/5C8BBC9A/5E3128C2" Ref="#PWR?"  Part="1" 
@@ -4705,15 +4663,15 @@ F 3 "" H 15250 11950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5F06D14C
 P 18900 12050
 AR Path="/5C8BBC9A/5F06D14C" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5F06D14C" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5F06D14C" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5F06D14C" Ref="#PWR?"  Part="1" 
-AR Path="/5F06D14C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 18900 11900 50  0001 C CNN
+AR Path="/5F06D14C" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 18900 11900 50  0001 C CNN
 F 1 "+3.3V" V 18900 12300 50  0000 C CNN
 F 2 "" H 18900 12050 50  0001 C CNN
 F 3 "" H 18900 12050 50  0001 C CNN
@@ -4723,15 +4681,15 @@ $EndComp
 Text GLabel 16850 11350 2    50   BiDi ~ 0
 OctoSPI_P1_IO2
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5F25FE0E
 P 16800 11550
 AR Path="/5C8BBC9A/5F25FE0E" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5F25FE0E" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5F25FE0E" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5F25FE0E" Ref="#PWR?"  Part="1" 
-AR Path="/5F25FE0E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 16800 11400 50  0001 C CNN
+AR Path="/5F25FE0E" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 16800 11400 50  0001 C CNN
 F 1 "+3.3V" V 16750 11800 50  0000 C CNN
 F 2 "" H 16800 11550 50  0001 C CNN
 F 3 "" H 16800 11550 50  0001 C CNN
@@ -4739,19 +4697,245 @@ F 3 "" H 16800 11550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5F327533
 P 20400 11550
 AR Path="/5C8BBC9A/5F327533" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5F327533" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5F327533" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5F327533" Ref="#PWR?"  Part="1" 
-AR Path="/5F327533" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 20400 11400 50  0001 C CNN
+AR Path="/5F327533" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 20400 11400 50  0001 C CNN
 F 1 "+3.3V" V 20350 11750 50  0000 C CNN
 F 2 "" H 20400 11550 50  0001 C CNN
 F 3 "" H 20400 11550 50  0001 C CNN
 	1    20400 11550
 	0    1    1    0   
 $EndComp
+$Comp
+L Interface_CAN_LIN:SN65HVD231 U6
+U 1 1 5DE4CA55
+P 12600 8450
+F 0 "U6" H 12750 8900 50  0000 C CNN
+F 1 "SN65HVD231" H 12900 8800 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12600 7950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 12500 8850 50  0001 C CNN
+	1    12600 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13000 8550 13250 8550
+Wire Wire Line
+	13000 8450 13250 8450
+Wire Wire Line
+	13250 8150 13250 8450
+Wire Wire Line
+	12600 7500 12600 8150
+Text GLabel 13650 8500 0    50   Input ~ 0
+VrefCAN
+Text GLabel 12100 8550 0    50   Output ~ 0
+VrefCAN
+Wire Wire Line
+	12100 8550 12200 8550
+Wire Wire Line
+	13650 8500 13700 8500
+Text GLabel 12100 8350 0    50   Input ~ 0
+USART1_TX
+Text GLabel 12100 8450 0    50   Output ~ 0
+USART1_RX
+Text GLabel 12100 8650 0    50   Input ~ 0
+CAN_STB
+Wire Wire Line
+	12100 8350 12200 8350
+Wire Wire Line
+	12100 8450 12200 8450
+Wire Wire Line
+	12100 8650 12200 8650
+$Comp
+L Displayunit-rescue:+3.3V-power #PWR?
+U 1 1 5E2AAD58
+P 12600 7500
+AR Path="/5D80E2A0/5E2AAD58" Ref="#PWR?"  Part="1" 
+AR Path="/5E2AAD58" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 12600 7350 50  0001 C CNN
+F 1 "+3.3V" H 12615 7673 50  0000 C CNN
+F 2 "" H 12600 7500 50  0001 C CNN
+F 3 "" H 12600 7500 50  0001 C CNN
+	1    12600 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:+3.3VA-power #PWR?
+U 1 1 5E375A89
+P 11550 1650
+AR Path="/5C8BBC9A/5E375A89" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E375A89" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E375A89" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E375A89" Ref="#PWR?"  Part="1" 
+AR Path="/5E375A89" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 11550 1500 50  0001 C CNN
+F 1 "+3.3VA" H 11565 1823 50  0000 C CNN
+F 2 "" H 11550 1650 50  0001 C CNN
+F 3 "" H 11550 1650 50  0001 C CNN
+	1    11550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L WAGO:734-264 J7
+U 1 1 5E4409BD
+P 17100 7200
+F 0 "J7" H 17392 7465 50  0000 C CNN
+F 1 "734-264" H 17392 7374 50  0000 C CNN
+F 2 "SHDR4W120P0X381_1X4_1640X1030X850P" H 17750 7300 50  0001 L CNN
+F 3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" H 17750 7200 50  0001 L CNN
+F 4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" H 17750 7100 50  0001 L CNN "Description"
+F 5 "8.5" H 17750 7000 50  0001 L CNN "Height"
+F 6 "Wago" H 17750 6900 50  0001 L CNN "Manufacturer_Name"
+F 7 "734-264" H 17750 6800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 17750 6700 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 17750 6600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 17750 6500 50  0001 L CNN "RS Part Number"
+F 11 "" H 17750 6400 50  0001 L CNN "RS Price/Stock"
+	1    17100 7200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	19300 7200 19550 7200
+Wire Wire Line
+	18850 7500 18950 7500
+Wire Wire Line
+	18950 7500 18950 7200
+Wire Wire Line
+	18950 7200 19000 7200
+Wire Wire Line
+	18850 7200 18950 7200
+Connection ~ 18950 7200
+$Comp
+L Displayunit-rescue:C-Device C?
+U 1 1 5E7D490B
+P 17400 7500
+AR Path="/5C8BBC9A/5E7D490B" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E7D490B" Ref="C?"  Part="1" 
+AR Path="/5D80EC74/5E7D490B" Ref="C?"  Part="1" 
+AR Path="/5D80E6E8/5E7D490B" Ref="C?"  Part="1" 
+AR Path="/5E7D490B" Ref="C53"  Part="1" 
+F 0 "C53" H 17450 7700 50  0000 L CNN
+F 1 "100n" H 17450 7600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17438 7350 50  0001 C CNN
+F 3 "~" H 17400 7500 50  0001 C CNN
+	1    17400 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5E7D4911
+P 17400 7650
+AR Path="/5C8BBC9A/5E7D4911" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E7D4911" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E7D4911" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E7D4911" Ref="#PWR?"  Part="1" 
+AR Path="/5E7D4911" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 17400 7400 50  0001 C CNN
+F 1 "GND" H 17405 7477 50  0000 C CNN
+F 2 "" H 17400 7650 50  0001 C CNN
+F 3 "" H 17400 7650 50  0001 C CNN
+	1    17400 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:C-Device C?
+U 1 1 5E839AFF
+P 18300 7650
+AR Path="/5C8BBC9A/5E839AFF" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E839AFF" Ref="C?"  Part="1" 
+AR Path="/5D80EC74/5E839AFF" Ref="C?"  Part="1" 
+AR Path="/5D80E6E8/5E839AFF" Ref="C?"  Part="1" 
+AR Path="/5E839AFF" Ref="C54"  Part="1" 
+F 0 "C54" H 18050 7600 50  0000 L CNN
+F 1 "100n" H 18000 7500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 18338 7500 50  0001 C CNN
+F 3 "~" H 18300 7650 50  0001 C CNN
+	1    18300 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5E839B05
+P 18300 7800
+AR Path="/5C8BBC9A/5E839B05" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E839B05" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E839B05" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E839B05" Ref="#PWR?"  Part="1" 
+AR Path="/5E839B05" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 18300 7550 50  0001 C CNN
+F 1 "GND" H 18305 7627 50  0000 C CNN
+F 2 "" H 18300 7800 50  0001 C CNN
+F 3 "" H 18300 7800 50  0001 C CNN
+	1    18300 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17100 7400 17200 7400
+Wire Wire Line
+	17200 7400 17200 7500
+Wire Wire Line
+	17100 7500 17200 7500
+Connection ~ 17200 7500
+Wire Wire Line
+	17200 7500 17200 7650
+Wire Wire Line
+	17100 7300 17400 7300
+Wire Wire Line
+	17400 7300 17400 7350
+Wire Wire Line
+	17100 7200 17400 7200
+Wire Wire Line
+	17400 7200 17400 7300
+Connection ~ 17400 7300
+Connection ~ 17400 7200
+Wire Wire Line
+	18450 7500 18300 7500
+Wire Wire Line
+	17400 7200 18450 7200
+Text GLabel 18200 7500 0    50   Input ~ 0
+Control+
+Text GLabel 15250 7800 2    50   Output ~ 0
+Control+
+Wire Wire Line
+	15500 8250 15150 8250
+Wire Wire Line
+	15150 8250 15150 8150
+Wire Wire Line
+	15150 7800 15250 7800
+Wire Wire Line
+	15500 8150 15150 8150
+Connection ~ 15150 8150
+Wire Wire Line
+	15150 8150 15150 7800
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5ECB14B9
+P 15250 9000
+AR Path="/5C8BBC9A/5ECB14B9" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5ECB14B9" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5ECB14B9" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5ECB14B9" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E2A0/5ECB14B9" Ref="#PWR?"  Part="1" 
+AR Path="/5ECB14B9" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 15250 8750 50  0001 C CNN
+F 1 "GND" H 15250 8800 50  0000 C CNN
+F 2 "" H 15250 9000 50  0001 C CNN
+F 3 "" H 15250 9000 50  0001 C CNN
+	1    15250 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 8750 15250 8750
+Wire Wire Line
+	15250 8750 15250 8850
+Wire Wire Line
+	15500 8850 15250 8850
+Connection ~ 15250 8850
+Wire Wire Line
+	15250 8850 15250 9000
 $EndSCHEMATC

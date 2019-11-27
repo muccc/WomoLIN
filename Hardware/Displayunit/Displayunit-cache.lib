@@ -1,14 +1,107 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_8P8C_Shielded
+# Displayunit-rescue_+3.3V-power
 #
-DEF Connector_8P8C_Shielded J 0 40 Y Y 1 F N
+DEF Displayunit-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Displayunit-rescue_+3.3V-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_+3.3VA-power
+#
+DEF Displayunit-rescue_+3.3VA-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Displayunit-rescue_+3.3VA-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3.3VA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_+BATT-power
+#
+DEF Displayunit-rescue_+BATT-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Displayunit-rescue_+BATT-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +BATT 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_+VSW-power
+#
+DEF Displayunit-rescue_+VSW-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Displayunit-rescue_+VSW-power" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +VSW 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_2N7002-Transistor_FET
+#
+DEF Displayunit-rescue_2N7002-Transistor_FET Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Displayunit-rescue_2N7002-Transistor_FET" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_8P8C_Shielded-Connector
+#
+DEF Displayunit-rescue_8P8C_Shielded-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 550 50 H V R CNN
-F1 "Connector_8P8C_Shielded" 100 550 50 H V L CNN
+F1 "Displayunit-rescue_8P8C_Shielded-Connector" 100 550 50 H V L CNN
 F2 "" 0 25 50 V I C CNN
 F3 "" 0 25 50 V I C CNN
-ALIAS RJ31_Shielded RJ32_Shielded RJ33_Shielded RJ34_Shielded RJ35_Shielded RJ41_Shielded RJ45_Shielded RJ49_Shielded RJ61_Shielded
 $FPLIST
  8P8C*
  RJ31*
@@ -44,11 +137,87 @@ X ~ SH 0 -500 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_ARM_JTAG_SWD_20
+# Displayunit-rescue_Battery_Cell-Device
 #
-DEF Connector_Conn_ARM_JTAG_SWD_20 J 0 40 Y Y 1 F N
+DEF Displayunit-rescue_Battery_Cell-Device BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Displayunit-rescue_Battery_Cell-Device" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X + 1 0 200 100 D 50 50 1 1 P
+X - 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_C-Device
+#
+DEF Displayunit-rescue_C-Device C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Displayunit-rescue_C-Device" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_Conn_02x06_Odd_Even-Connector_Generic
+#
+DEF Displayunit-rescue_Conn_02x06_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "Displayunit-rescue_Conn_02x06_Odd_Even-Connector_Generic" 50 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -350 1 1 10 f
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_11 11 -200 -300 150 R 50 50 1 1 P
+X Pin_12 12 300 -300 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_Conn_ARM_JTAG_SWD_20-Connector
+#
+DEF Displayunit-rescue_Conn_ARM_JTAG_SWD_20-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 850 50 H V R CNN
-F1 "Connector_Conn_ARM_JTAG_SWD_20" -200 750 50 H V R BNN
+F1 "Displayunit-rescue_Conn_ARM_JTAG_SWD_20-Connector" -200 750 50 H V R BNN
 F2 "" 450 -1050 50 H I L TNN
 F3 "" -350 -1250 50 V I C CNN
 $FPLIST
@@ -92,123 +261,11 @@ X TCK/SWDCLK 9 600 100 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x06_Odd_Even
+# Displayunit-rescue_Crystal-Device
 #
-DEF Connector_Generic_Conn_02x06_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 300 50 H V C CNN
-F1 "Connector_Generic_Conn_02x06_Odd_Even" 50 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 150 -350 1 1 10 f
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_10 10 300 -200 150 L 50 50 1 1 P
-X Pin_11 11 -200 -300 150 R 50 50 1 1 P
-X Pin_12 12 300 -300 150 L 50 50 1 1 P
-X Pin_2 2 300 200 150 L 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 300 100 150 L 50 50 1 1 P
-X Pin_5 5 -200 0 150 R 50 50 1 1 P
-X Pin_6 6 300 0 150 L 50 50 1 1 P
-X Pin_7 7 -200 -100 150 R 50 50 1 1 P
-X Pin_8 8 300 -100 150 L 50 50 1 1 P
-X Pin_9 9 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_USB_B_Micro
-#
-DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
-F0 "J" -200 450 50 H V L CNN
-F1 "Connector_USB_B_Micro" -200 350 50 H V L CNN
-F2 "" 150 -50 50 H I C CNN
-F3 "" 150 -50 50 H I C CNN
-ALIAS USB_B_Mini
-$FPLIST
- USB*
-$ENDFPLIST
-DRAW
-C -150 85 25 0 1 10 F
-C -25 135 15 0 1 10 F
-S -200 -300 200 300 0 1 10 f
-S -5 -300 5 -270 0 1 0 N
-S 10 50 -20 20 0 1 10 F
-S 200 -205 170 -195 0 1 0 N
-S 200 -105 170 -95 0 1 0 N
-S 200 -5 170 5 0 1 0 N
-S 200 195 170 205 0 1 0 N
-P 2 0 1 10 -75 85 25 85 N
-P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
-P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
-P 4 0 1 10 25 110 25 60 75 85 25 110 F
-P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
-P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
-X VBUS 1 300 200 100 L 50 50 1 1 w
-X D- 2 300 -100 100 L 50 50 1 1 P
-X D+ 3 300 0 100 L 50 50 1 1 P
-X ID 4 300 -200 100 L 50 50 1 1 P
-X GND 5 0 -400 100 U 50 50 1 1 w
-X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Battery_Cell
-#
-DEF Device_Battery_Cell BT 0 0 N N 1 F N
-F0 "BT" 100 100 50 H V L CNN
-F1 "Device_Battery_Cell" 100 0 50 H V L CNN
-F2 "" 0 60 50 V I C CNN
-F3 "" 0 60 50 V I C CNN
-DRAW
-S -90 70 90 60 0 1 0 F
-S -62 47 58 27 0 1 0 F
-P 2 0 1 0 0 30 0 0 N
-P 2 0 1 0 0 70 0 100 N
-P 2 0 1 10 20 135 60 135 N
-P 2 0 1 10 40 155 40 115 N
-X + 1 0 200 100 D 50 50 1 1 P
-X - 2 0 -100 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_C
-#
-DEF Device_C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Crystal
-#
-DEF Device_Crystal Y 0 40 N N 1 F N
+DEF Displayunit-rescue_Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Device_Crystal" 0 -150 50 H V C CNN
+F1 "Displayunit-rescue_Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -225,11 +282,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Crystal_GND24
+# Displayunit-rescue_Crystal_GND24-Device
 #
-DEF Device_Crystal_GND24 Y 0 40 Y N 1 F N
+DEF Displayunit-rescue_Crystal_GND24-Device Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "Device_Crystal_GND24" 125 125 50 H V L CNN
+F1 "Displayunit-rescue_Crystal_GND24-Device" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -252,11 +309,26 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_TVS_x2_AAC
+# Displayunit-rescue_DIODE-pspice
 #
-DEF Device_D_TVS_x2_AAC D 0 40 Y N 1 F N
+DEF Displayunit-rescue_DIODE-pspice D 0 40 Y N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "Displayunit-rescue_DIODE-pspice" 0 -175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 75 100 75 -100 N
+P 3 0 1 0 -75 100 -75 -100 75 0 F
+X K 1 -200 0 150 R 50 50 1 1 I
+X A 2 200 0 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_D_TVS_x2_AAC-Device
+#
+DEF Displayunit-rescue_D_TVS_x2_AAC-Device D 0 40 Y N 1 F N
 F0 "D" 0 175 50 H V C CNN
-F1 "Device_D_TVS_x2_AAC" 0 100 50 H V C CNN
+F1 "Displayunit-rescue_D_TVS_x2_AAC-Device" 0 100 50 H V C CNN
 F2 "" -150 0 50 H I C CNN
 F3 "" -150 0 50 H I C CNN
 DRAW
@@ -273,11 +345,11 @@ X common 3 0 -150 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Device_Ferrite_Bead_Small
+# Displayunit-rescue_Ferrite_Bead_Small-Device
 #
-DEF Device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
+DEF Displayunit-rescue_Ferrite_Bead_Small-Device FB 0 0 N Y 1 F N
 F0 "FB" 75 50 50 H V L CNN
-F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "Displayunit-rescue_Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -294,11 +366,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Fuse
+# Displayunit-rescue_Fuse-Device
 #
-DEF Device_Fuse F 0 0 N Y 1 F N
+DEF Displayunit-rescue_Fuse-Device F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "Device_Fuse" -75 0 50 V V C CNN
+F1 "Displayunit-rescue_Fuse-Device" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -312,11 +384,24 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_L
+# Displayunit-rescue_GND-power
 #
-DEF Device_L L 0 40 N N 1 F N
+DEF Displayunit-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Displayunit-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_L-Device
+#
+DEF Displayunit-rescue_L-Device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Device_L" 75 0 50 V V C CNN
+F1 "Displayunit-rescue_L-Device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -335,11 +420,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# Displayunit-rescue_LED-Device
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF Displayunit-rescue_LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "Displayunit-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -358,11 +443,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_L_Core_Ferrite
+# Displayunit-rescue_L_Core_Ferrite-Device
 #
-DEF Device_L_Core_Ferrite L 0 40 N N 1 F N
+DEF Displayunit-rescue_L_Core_Ferrite-Device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "Device_L_Core_Ferrite" 110 0 50 V V C CNN
+F1 "Displayunit-rescue_L_Core_Ferrite-Device" 110 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -393,11 +478,39 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Displayunit-rescue_MAX17572-Regulator_Switching
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Displayunit-rescue_MAX17572-Regulator_Switching U 0 20 Y Y 1 F N
+F0 "U" -450 450 50 H V C CNN
+F1 "Displayunit-rescue_MAX17572-Regulator_Switching" 180 450 50 H V L CNN
+F2 "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm" 0 -600 50 H I C CNN
+F3 "" -1350 1050 50 H I C CNN
+$FPLIST
+ DFN*1EP*3x3mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -500 400 500 -400 0 1 10 f
+X VIN 1 -600 300 100 R 50 50 1 1 W
+X BST 10 600 300 100 L 50 50 1 1 P
+X LX 11 600 100 100 L 50 50 1 1 w
+X PGND 12 0 -500 100 U 50 50 1 1 W
+X EP 13 100 -500 100 U 50 50 1 1 W
+X EN/UVLO 2 -600 200 100 R 50 50 1 1 I
+X ~RESET 3 600 -200 100 L 50 50 1 1 C
+X SS 4 -600 -200 100 R 50 50 1 1 P
+X VCC 5 600 -300 100 L 50 50 1 1 w
+X RT/SYNC 6 -600 -100 100 R 50 50 1 1 I
+X FB 7 600 -100 100 L 50 50 1 1 I
+X GND 8 -100 -500 100 U 50 50 1 1 W
+X EXTVCC 9 0 500 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_R-Device
+#
+DEF Displayunit-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Displayunit-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -410,38 +523,13 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Interface_CAN_LIN_TJA1049T-3
+# Displayunit-rescue_STM32L4R9ZITx-MCU_ST_STM32L4+
 #
-DEF Interface_CAN_LIN_TJA1049T-3 U 0 40 Y Y 1 F N
-F0 "U" -400 350 50 H V L CNN
-F1 "Interface_CAN_LIN_TJA1049T-3" 50 350 50 H V L CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
-ALIAS TJA1042T-3
-$FPLIST
- SOIC*3.9x4.9mm*P1.27mm*
-$ENDFPLIST
-DRAW
-S -400 300 400 -300 0 1 10 f
-X TXD 1 -500 200 100 R 50 50 1 1 I
-X GND 2 0 -400 100 U 50 50 1 1 W
-X VCC 3 0 400 100 D 50 50 1 1 W
-X RXD 4 -500 100 100 R 50 50 1 1 O
-X VIO 5 -500 -100 100 R 50 50 1 1 W
-X CANL 6 500 -100 100 L 50 50 1 1 B
-X CANH 7 500 100 100 L 50 50 1 1 B
-X STB 8 -500 -200 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# MCU_ST_STM32L4+_STM32L4R9ZITx
-#
-DEF MCU_ST_STM32L4+_STM32L4R9ZITx U 0 20 Y Y 1 F N
+DEF Displayunit-rescue_STM32L4R9ZITx-MCU_ST_STM32L4+ U 0 20 Y Y 1 F N
 F0 "U" -1200 3350 50 H V L CNN
-F1 "MCU_ST_STM32L4+_STM32L4R9ZITx" 1000 3350 50 H V L CNN
+F1 "Displayunit-rescue_STM32L4R9ZITx-MCU_ST_STM32L4+" 1000 3350 50 H V L CNN
 F2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" -1200 -3400 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS STM32L4R9ZITx
 $FPLIST
  LQFP*20x20mm*P0.5mm*
 $ENDFPLIST
@@ -594,11 +682,28 @@ X PC7 99 1400 -800 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Power_Protection_USBLC6-2SC6
+# Displayunit-rescue_SW_Push-Switch
 #
-DEF Power_Protection_USBLC6-2SC6 U 0 0 Y Y 1 F N
+DEF Displayunit-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Displayunit-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Displayunit-rescue_USBLC6-2SC6-Power_Protection
+#
+DEF Displayunit-rescue_USBLC6-2SC6-Power_Protection U 0 0 Y Y 1 F N
 F0 "U" 200 350 50 H V C CNN
-F1 "Power_Protection_USBLC6-2SC6" 400 -400 50 H V C CNN
+F1 "Displayunit-rescue_USBLC6-2SC6-Power_Protection" 400 -400 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" -750 400 50 H I C CNN
 F3 "" 200 350 50 H I C CNN
 $FPLIST
@@ -644,83 +749,96 @@ X IO1 6 -500 100 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Regulator_Switching_MAX17572
+# Displayunit-rescue_USB_B_Micro-Connector
 #
-DEF Regulator_Switching_MAX17572 U 0 20 Y Y 1 F N
-F0 "U" -450 450 50 H V C CNN
-F1 "Regulator_Switching_MAX17572" 180 450 50 H V L CNN
-F2 "Package_DFN_QFN:DFN-12-1EP_3x3mm_P0.5mm_EP2.05x2.86mm" 0 -600 50 H I C CNN
-F3 "" -1350 1050 50 H I C CNN
+DEF Displayunit-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "Displayunit-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
 $FPLIST
- DFN*1EP*3x3mm*P0.5mm*
+ USB*
 $ENDFPLIST
 DRAW
-S -500 400 500 -400 0 1 10 f
-X VIN 1 -600 300 100 R 50 50 1 1 W
-X BST 10 600 300 100 L 50 50 1 1 P
-X LX 11 600 100 100 L 50 50 1 1 w
-X PGND 12 0 -500 100 U 50 50 1 1 W
-X EP 13 100 -500 100 U 50 50 1 1 W
-X EN/UVLO 2 -600 200 100 R 50 50 1 1 I
-X ~RESET 3 600 -200 100 L 50 50 1 1 C
-X SS 4 -600 -200 100 R 50 50 1 1 P
-X VCC 5 600 -300 100 L 50 50 1 1 w
-X RT/SYNC 6 -600 -100 100 R 50 50 1 1 I
-X FB 7 600 -100 100 L 50 50 1 1 I
-X GND 8 -100 -500 100 U 50 50 1 1 W
-X EXTVCC 9 0 500 100 D 50 50 1 1 W
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -205 170 -195 0 1 0 N
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# Displayunit-rescue_VCC-power
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
+DEF Displayunit-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Displayunit-rescue_VCC-power" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_2N7002
+# Interface_CAN_LIN_SN65HVD231
 #
-DEF Transistor_FET_2N7002 Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_2N7002" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-ALIAS 2N7002 2N7002E 2N7002H 2N7002K BS170F BS870 BSN20 BSS123 BSS127S DMG2302U DMG3402L DMG3404L DMG3406L DMG3414U DMG3418L DMN10H220L DMN10H700S DMN13H750S DMN2041L DMN2050L DMN2056U DMN2058U DMN2075U DMN2230U DMN24H11DS DMN24H3D5L DMN3042L DMN3051L DMN30H4D0L DMN3110S DMN3150L DMN3300U DMN3404L DMN6075S DMN6140L DMN67D7L DMN67D8L MMBF170 VN10LF ZVN3306F ZVN3310F ZVN3320F ZVN4106F ZXM61N02F ZXM61N03F ZXMN10A07F ZXMN2A01F ZXMN2A14F ZXMN2B01F ZXMN2B14FH ZXMN2F30FH ZXMN2F34FH ZXMN3A01F ZXMN3A14F ZXMN3B01F ZXMN3B14F ZXMN3F30FH ZXMN6A07F IRLML2060
+DEF Interface_CAN_LIN_SN65HVD231 U 0 40 Y Y 1 F N
+F0 "U" -100 400 50 H V R CNN
+F1 "Interface_CAN_LIN_SN65HVD231" -100 300 50 H V R CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 0 -500 50 H I C CNN
+F3 "" -100 400 50 H I C CNN
+ALIAS SN65HVD231
 $FPLIST
- SOT?23*
+ SOIC*3.9x4.9mm*P1.27mm*
 $ENDFPLIST
 DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 40 0 80 15 80 -15 40 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 20 115 15 145 15 150 10 N
-P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
-X G 1 -200 0 210 R 50 50 1 1 I
-X S 2 100 -200 100 U 50 50 1 1 P
-X D 3 100 200 100 D 50 50 1 1 P
+S -300 200 300 -300 0 1 10 f
+X D 1 -400 100 100 R 50 50 1 1 I
+X GND 2 0 -400 100 U 50 50 1 1 W
+X VCC 3 0 300 100 D 50 50 1 1 W
+X R 4 -400 0 100 R 50 50 1 1 O
+X Vref 5 -400 -100 100 R 50 50 1 1 O
+X CANL 6 400 -100 100 L 50 50 1 1 B
+X CANH 7 400 0 100 L 50 50 1 1 B
+X Rs 8 -400 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# WAGO_734-264
+#
+DEF WAGO_734-264 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "WAGO_734-264" 650 200 50 H V L CNN
+F2 "SHDR4W120P0X381_1X4_1640X1030X850P" 650 100 50 H I L CNN
+F3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" 650 0 50 H I L CNN
+F4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "Wago" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "734-264" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 B
+X 4 4 0 -300 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
@@ -951,109 +1069,6 @@ X GND 6 0 -600 150 U 40 40 1 1 W
 X NC 7 450 -300 150 L 40 40 1 1 P
 X NC 8 450 -400 150 L 40 40 1 1 P
 X NC 9 -450 -50 150 R 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+3.3VA
-#
-DEF power_+3.3VA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3.3VA" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3.3VA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+BATT
-#
-DEF power_+BATT #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+BATT" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +BATT 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+VSW
-#
-DEF power_+VSW #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+VSW" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +VSW 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# pspice_DIODE
-#
-DEF pspice_DIODE D 0 40 Y N 1 F N
-F0 "D" 0 150 50 H V C CNN
-F1 "pspice_DIODE" 0 -175 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 75 100 75 -100 N
-P 3 0 1 0 -75 100 -75 -100 75 0 F
-X K 1 -200 0 150 R 50 50 1 1 I
-X A 2 200 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
