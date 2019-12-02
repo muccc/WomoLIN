@@ -610,17 +610,17 @@ Connection ~ 21000 1550
 $Comp
 L Displayunit-rescue:+3.3VA-power #PWR?
 U 1 1 5E258BEC
-P 21000 3200
+P 21050 3400
 AR Path="/5C8BBC9A/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E258BEC" Ref="#PWR?"  Part="1" 
 AR Path="/5E258BEC" Ref="#PWR091"  Part="1" 
-F 0 "#PWR091" H 21000 3050 50  0001 C CNN
-F 1 "+3.3VA" H 21015 3373 50  0000 C CNN
-F 2 "" H 21000 3200 50  0001 C CNN
-F 3 "" H 21000 3200 50  0001 C CNN
-	1    21000 3200
+F 0 "#PWR091" H 21050 3250 50  0001 C CNN
+F 1 "+3.3VA" H 21065 3573 50  0000 C CNN
+F 2 "" H 21050 3400 50  0001 C CNN
+F 3 "" H 21050 3400 50  0001 C CNN
+	1    21050 3400
 	1    0    0    -1  
 $EndComp
 Text GLabel 20300 2100 2    50   Output ~ 0
@@ -827,17 +827,17 @@ $EndComp
 $Comp
 L Displayunit-rescue:R-Device R?
 U 1 1 5E258C41
-P 18100 4000
+P 18250 3700
 AR Path="/5C8BBC9A/5E258C41" Ref="R?"  Part="1" 
 AR Path="/5E0C5EEA/5E258C41" Ref="R?"  Part="1" 
 AR Path="/5D80EC74/5E258C41" Ref="R?"  Part="1" 
 AR Path="/5D80E6E8/5E258C41" Ref="R?"  Part="1" 
 AR Path="/5E258C41" Ref="R9"  Part="1" 
-F 0 "R9" H 17800 3900 50  0000 L CNN
-F 1 "40k2" H 17800 3800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 18030 4000 50  0001 C CNN
-F 3 "~" H 18100 4000 50  0001 C CNN
-	1    18100 4000
+F 0 "R9" H 17950 3600 50  0000 L CNN
+F 1 "40k2" H 17950 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 18180 3700 50  0001 C CNN
+F 3 "~" H 18250 3700 50  0001 C CNN
+	1    18250 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -891,7 +891,7 @@ Wire Wire Line
 	19750 3150 19550 3150
 Wire Wire Line
 	19550 3150 19550 3350
-Text GLabel 17650 4150 0    50   Input ~ 0
+Text GLabel 17400 4150 0    50   Input ~ 0
 3VA_EN
 NoConn ~ 20150 4050
 Wire Wire Line
@@ -1139,24 +1139,6 @@ Wire Wire Line
 	20050 5750 20050 4850
 Wire Wire Line
 	20050 4850 19450 4850
-$Comp
-L Displayunit-rescue:DIODE-pspice D?
-U 1 1 5E258CCD
-P 20300 4850
-AR Path="/5C8BBC9A/5E258CCD" Ref="D?"  Part="1" 
-AR Path="/5E0C5EEA/5E258CCD" Ref="D?"  Part="1" 
-AR Path="/5D80EC74/5E258CCD" Ref="D?"  Part="1" 
-AR Path="/5D80E6E8/5E258CCD" Ref="D?"  Part="1" 
-AR Path="/5E258CCD" Ref="D4"  Part="1" 
-F 0 "D4" H 20300 5115 50  0000 C CNN
-F 1 "B345BE-13" H 20300 5024 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 20300 4850 50  0001 C CNN
-F 3 "~" H 20300 4850 50  0001 C CNN
-	1    20300 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20100 4850 20050 4850
 Connection ~ 20050 4850
 Wire Wire Line
 	21000 5450 21000 5850
@@ -1197,22 +1179,6 @@ F 1 "10n" H 17450 5900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 17438 5850 50  0001 C CNN
 F 3 "~" H 17400 6000 50  0001 C CNN
 	1    17400 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:+VSW-power #PWR?
-U 1 1 5E258CEC
-P 20250 5700
-AR Path="/5C8BBC9A/5E258CEC" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E258CEC" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5E258CEC" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5E258CEC" Ref="#PWR?"  Part="1" 
-AR Path="/5E258CEC" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 20250 5550 50  0001 C CNN
-F 1 "+VSW" H 20265 5873 50  0000 C CNN
-F 2 "" H 20250 5700 50  0001 C CNN
-F 3 "" H 20250 5700 50  0001 C CNN
-	1    20250 5700
 	1    0    0    -1  
 $EndComp
 Text GLabel 21150 6200 2    50   Output ~ 0
@@ -1301,9 +1267,9 @@ AR Path="/5E0C5EEA/5E268540" Ref="F?"  Part="1"
 AR Path="/5D80EC74/5E268540" Ref="F?"  Part="1" 
 AR Path="/5D80E6E8/5E268540" Ref="F?"  Part="1" 
 AR Path="/5E268540" Ref="F1"  Part="1" 
-F 0 "F1" V 18953 7200 50  0000 C CNN
-F 1 "KFZ 5A" V 19044 7200 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" V 19080 7200 50  0001 C CNN
+F 0 "F1" V 18900 7250 50  0000 C CNN
+F 1 "PFUF.150.2  30V 1.5A" V 19000 7400 50  0000 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric" V 19080 7200 50  0001 C CNN
 F 3 "~" H 19150 7200 50  0001 C CNN
 	1    19150 7200
 	0    1    1    0   
@@ -1351,7 +1317,7 @@ AR Path="/5D80E6E8/5E268552" Ref="C?"  Part="1"
 AR Path="/5E268552" Ref="C37"  Part="1" 
 F 0 "C37" H 19965 7396 50  0000 L CNN
 F 1 "1u" H 19965 7305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 19888 7200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 19888 7200 50  0001 C CNN
 F 3 "~" H 19850 7350 50  0001 C CNN
 	1    19850 7350
 	1    0    0    -1  
@@ -1459,38 +1425,6 @@ Wire Wire Line
 	21200 7100 21200 7200
 Connection ~ 21200 7200
 $Comp
-L Displayunit-rescue:DIODE-pspice D?
-U 1 1 5E268583
-P 18650 7200
-AR Path="/5C8BBC9A/5E268583" Ref="D?"  Part="1" 
-AR Path="/5E0C5EEA/5E268583" Ref="D?"  Part="1" 
-AR Path="/5D80EC74/5E268583" Ref="D?"  Part="1" 
-AR Path="/5D80E6E8/5E268583" Ref="D?"  Part="1" 
-AR Path="/5E268583" Ref="D2"  Part="1" 
-F 0 "D2" H 18550 7500 50  0000 C CNN
-F 1 "B345BE-13" H 18600 7400 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 18650 7200 50  0001 C CNN
-F 3 "~" H 18650 7200 50  0001 C CNN
-	1    18650 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:DIODE-pspice D?
-U 1 1 5E268589
-P 18650 7500
-AR Path="/5C8BBC9A/5E268589" Ref="D?"  Part="1" 
-AR Path="/5E0C5EEA/5E268589" Ref="D?"  Part="1" 
-AR Path="/5D80EC74/5E268589" Ref="D?"  Part="1" 
-AR Path="/5D80E6E8/5E268589" Ref="D?"  Part="1" 
-AR Path="/5E268589" Ref="D3"  Part="1" 
-F 0 "D3" H 18500 7350 50  0000 C CNN
-F 1 "B345BE-13" H 18600 7250 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 18650 7500 50  0001 C CNN
-F 3 "~" H 18650 7500 50  0001 C CNN
-	1    18650 7500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E26858F
 P 21000 7900
@@ -1509,17 +1443,17 @@ $EndComp
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E268595
-P 21300 7900
+P 7400 5700
 AR Path="/5C8BBC9A/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E268595" Ref="#PWR?"  Part="1" 
 AR Path="/5E268595" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 21300 7650 50  0001 C CNN
-F 1 "GND" H 21305 7727 50  0000 C CNN
-F 2 "" H 21300 7900 50  0001 C CNN
-F 3 "" H 21300 7900 50  0001 C CNN
-	1    21300 7900
+F 0 "#PWR078" H 7400 5450 50  0001 C CNN
+F 1 "GND" H 7405 5527 50  0000 C CNN
+F 2 "" H 7400 5700 50  0001 C CNN
+F 3 "" H 7400 5700 50  0001 C CNN
+	1    7400 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1585,7 +1519,7 @@ AR Path="/5D80E2A0/5E31243F" Ref="C?"  Part="1"
 AR Path="/5E31243F" Ref="C26"  Part="1" 
 F 0 "C26" H 11665 2096 50  0000 L CNN
 F 1 "1uF" H 11665 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11588 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 11588 1900 50  0001 C CNN
 F 3 "~" H 11550 2050 50  0001 C CNN
 	1    11550 2050
 	1    0    0    -1  
@@ -1765,7 +1699,7 @@ AR Path="/5D80E2A0/5E31258F" Ref="C?"  Part="1"
 AR Path="/5E31258F" Ref="C31"  Part="1" 
 F 0 "C31" H 17200 9350 50  0000 L CNN
 F 1 "1uF" H 17150 9250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 17488 9150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 17488 9150 50  0001 C CNN
 F 3 "~" H 17450 9300 50  0001 C CNN
 	1    17450 9300
 	1    0    0    -1  
@@ -2097,14 +2031,6 @@ Connection ~ 14600 5350
 Wire Wire Line
 	14700 5250 14300 5250
 Connection ~ 14300 5250
-Text GLabel 17100 1400 2    50   Input ~ 0
-X-
-Text GLabel 17100 1500 2    50   Input ~ 0
-Y+
-Text GLabel 17100 1600 2    50   Input ~ 0
-X+
-Text GLabel 17100 1700 2    50   Input ~ 0
-Y-
 Text GLabel 21100 9150 2    50   Output ~ 0
 X-
 Text GLabel 21100 9250 2    50   Output ~ 0
@@ -2298,60 +2224,8 @@ NoConn ~ 20300 11450
 NoConn ~ 19000 12350
 NoConn ~ 15400 11650
 NoConn ~ 19000 11750
-$Comp
-L Displayunit-rescue:VCC-power #PWR?
-U 1 1 5E3127B5
-P 14300 4700
-AR Path="/5D80E2A0/5E3127B5" Ref="#PWR?"  Part="1" 
-AR Path="/5E3127B5" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 14300 4550 50  0001 C CNN
-F 1 "VCC" H 14317 4873 50  0000 C CNN
-F 2 "" H 14300 4700 50  0001 C CNN
-F 3 "" H 14300 4700 50  0001 C CNN
-	1    14300 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:VCC-power #PWR?
-U 1 1 5E3127BB
-P 14600 4700
-AR Path="/5D80E2A0/5E3127BB" Ref="#PWR?"  Part="1" 
-AR Path="/5E3127BB" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 14600 4550 50  0001 C CNN
-F 1 "VCC" H 14617 4873 50  0000 C CNN
-F 2 "" H 14600 4700 50  0001 C CNN
-F 3 "" H 14600 4700 50  0001 C CNN
-	1    14600 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:VCC-power #PWR?
-U 1 1 5E3127C1
-P 15150 4700
-AR Path="/5D80E2A0/5E3127C1" Ref="#PWR?"  Part="1" 
-AR Path="/5E3127C1" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 15150 4550 50  0001 C CNN
-F 1 "VCC" H 15167 4873 50  0000 C CNN
-F 2 "" H 15150 4700 50  0001 C CNN
-F 3 "" H 15150 4700 50  0001 C CNN
-	1    15150 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14600 4700 14600 4800
-$Comp
-L Displayunit-rescue:VCC-power #PWR?
-U 1 1 5E3127C8
-P 17450 8950
-AR Path="/5D80E2A0/5E3127C8" Ref="#PWR?"  Part="1" 
-AR Path="/5E3127C8" Ref="#PWR049"  Part="1" 
-F 0 "#PWR049" H 17450 8800 50  0001 C CNN
-F 1 "VCC" H 17467 9123 50  0000 C CNN
-F 2 "" H 17450 8950 50  0001 C CNN
-F 3 "" H 17450 8950 50  0001 C CNN
-	1    17450 8950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E3127F1
@@ -2550,7 +2424,7 @@ AR Path="/5D80E6E8/5E312833" Ref="#PWR?"  Part="1"
 AR Path="/5D80E2A0/5E312833" Ref="#PWR?"  Part="1" 
 AR Path="/5E312833" Ref="#PWR041"  Part="1" 
 F 0 "#PWR041" H 15700 4750 50  0001 C CNN
-F 1 "GND" H 15700 4800 50  0000 C CNN
+F 1 "GND" H 15850 4900 50  0000 C CNN
 F 2 "" H 15700 5000 50  0001 C CNN
 F 3 "" H 15700 5000 50  0001 C CNN
 	1    15700 5000
@@ -3462,21 +3336,6 @@ Wire Wire Line
 	7050 4050 7050 4150
 Wire Wire Line
 	4350 4850 4350 5100
-$Comp
-L opendous:GND1 #PWR021
-U 1 1 5E31270A
-P 7400 5700
-AR Path="/5E31270A" Ref="#PWR021"  Part="1" 
-AR Path="/5C8BBC94/5E31270A" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E833/5E31270A" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E2A0/5E31270A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR021" H 7400 5700 30  0001 C CNN
-F 1 "GND1" H 7400 5600 30  0000 C CNN
-F 2 "" H 7400 5700 50  0001 C CNN
-F 3 "" H 7400 5700 50  0001 C CNN
-	1    7400 5700
-	1    0    0    -1  
-$EndComp
 Connection ~ 9000 11100
 Wire Wire Line
 	9000 10800 9000 11100
@@ -3825,7 +3684,7 @@ AR Path="/5D80E2A0/5E3124D9" Ref="C?"  Part="1"
 AR Path="/5E3124D9" Ref="C1"  Part="1" 
 F 0 "C1" H 3265 5546 50  0000 L CNN
 F 1 "1uF" H 3265 5455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3188 5350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 3188 5350 50  0001 C CNN
 F 3 "~" H 3150 5500 50  0001 C CNN
 	1    3150 5500
 	1    0    0    -1  
@@ -4208,7 +4067,7 @@ AR Path="/5D80E2A0/5E3123E9" Ref="C?"  Part="1"
 AR Path="/5E3123E9" Ref="C22"  Part="1" 
 F 0 "C22" H 7515 3946 50  0000 L CNN
 F 1 "1uF" H 7515 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 7438 3750 50  0001 C CNN
 F 3 "~" H 7400 3900 50  0001 C CNN
 	1    7400 3900
 	1    0    0    -1  
@@ -4377,7 +4236,7 @@ U 1 1 5DE3CE76
 P 14500 8500
 F 0 "D5" V 15050 8600 50  0000 L CNN
 F 1 "NUP2105L" V 14950 8400 50  0000 L CNN
-F 2 "" H 14350 8500 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14350 8500 50  0001 C CNN
 F 3 "~" H 14350 8500 50  0001 C CNN
 	1    14500 8500
 	0    -1   -1   0   
@@ -4416,7 +4275,7 @@ U 1 1 5F96FCE3
 P 15900 8450
 F 0 "J2" H 15957 9117 50  0000 C CNN
 F 1 "8P8C_Shielded" H 15957 9026 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Hanrun_HR911105A" V 15900 8475 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15900 8475 50  0001 C CNN
 F 3 "~" V 15900 8475 50  0001 C CNN
 	1    15900 8450
 	-1   0    0    1   
@@ -4438,7 +4297,7 @@ F 3 "~" H 13700 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17650 3550 18950 3550
+	17650 3550 18250 3550
 $Comp
 L Displayunit-rescue:R-Device R?
 U 1 1 5E320BA8
@@ -4786,7 +4645,7 @@ U 1 1 5E4409BD
 P 17100 7200
 F 0 "J7" H 17392 7465 50  0000 C CNN
 F 1 "734-264" H 17392 7374 50  0000 C CNN
-F 2 "SHDR4W120P0X381_1X4_1640X1030X850P" H 17750 7300 50  0001 L CNN
+F 2 "WAGO:SHDR4W120P0X381_1X4_1640X1030X850P" H 17750 7300 50  0001 L CNN
 F 3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" H 17750 7200 50  0001 L CNN
 F 4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" H 17750 7100 50  0001 L CNN "Description"
 F 5 "8.5" H 17750 7000 50  0001 L CNN "Height"
@@ -4802,13 +4661,9 @@ $EndComp
 Wire Wire Line
 	19300 7200 19550 7200
 Wire Wire Line
-	18850 7500 18950 7500
-Wire Wire Line
 	18950 7500 18950 7200
 Wire Wire Line
 	18950 7200 19000 7200
-Wire Wire Line
-	18850 7200 18950 7200
 Connection ~ 18950 7200
 $Comp
 L Displayunit-rescue:C-Device C?
@@ -4938,4 +4793,186 @@ Wire Wire Line
 Connection ~ 15250 8850
 Wire Wire Line
 	15250 8850 15250 9000
+$Comp
+L Displayunit-rescue:+3.3VA-power #PWR?
+U 1 1 5DF28711
+P 17450 8950
+AR Path="/5C8BBC9A/5DF28711" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DF28711" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5DF28711" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5DF28711" Ref="#PWR?"  Part="1" 
+AR Path="/5DF28711" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 17450 8800 50  0001 C CNN
+F 1 "+3.3VA" H 17465 9123 50  0000 C CNN
+F 2 "" H 17450 8950 50  0001 C CNN
+F 3 "" H 17450 8950 50  0001 C CNN
+	1    17450 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18200 7500 18300 7500
+Connection ~ 18300 7500
+$Comp
+L Displayunit-rescue:+3.3VA-power #PWR?
+U 1 1 5E068C7D
+P 14300 4700
+AR Path="/5C8BBC9A/5E068C7D" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E068C7D" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E068C7D" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E068C7D" Ref="#PWR?"  Part="1" 
+AR Path="/5E068C7D" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 14300 4550 50  0001 C CNN
+F 1 "+3.3VA" H 14315 4873 50  0000 C CNN
+F 2 "" H 14300 4700 50  0001 C CNN
+F 3 "" H 14300 4700 50  0001 C CNN
+	1    14300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:+3.3VA-power #PWR?
+U 1 1 5E0D336C
+P 14600 4700
+AR Path="/5C8BBC9A/5E0D336C" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E0D336C" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E0D336C" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E0D336C" Ref="#PWR?"  Part="1" 
+AR Path="/5E0D336C" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 14600 4550 50  0001 C CNN
+F 1 "+3.3VA" H 14615 4873 50  0000 C CNN
+F 2 "" H 14600 4700 50  0001 C CNN
+F 3 "" H 14600 4700 50  0001 C CNN
+	1    14600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:+3.3VA-power #PWR?
+U 1 1 5E13DAB6
+P 15150 4700
+AR Path="/5C8BBC9A/5E13DAB6" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E13DAB6" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E13DAB6" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E13DAB6" Ref="#PWR?"  Part="1" 
+AR Path="/5E13DAB6" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 15150 4550 50  0001 C CNN
+F 1 "+3.3VA" H 15165 4873 50  0000 C CNN
+F 2 "" H 15150 4700 50  0001 C CNN
+F 3 "" H 15150 4700 50  0001 C CNN
+	1    15150 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 18250 3550
+Wire Wire Line
+	18250 3550 18950 3550
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5E2541CD
+P 19150 9150
+AR Path="/5C8BBC9A/5E2541CD" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E2541CD" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E2541CD" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E2541CD" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E2A0/5E2541CD" Ref="#PWR?"  Part="1" 
+AR Path="/5E2541CD" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 19150 8900 50  0001 C CNN
+F 1 "GND" V 19200 8950 50  0000 C CNN
+F 2 "" H 19150 9150 50  0001 C CNN
+F 3 "" H 19150 9150 50  0001 C CNN
+	1    19150 9150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12600 7500
+$Comp
+L Diode:B250 D2
+U 1 1 5DEECF9E
+P 18600 7200
+F 0 "D2" H 18600 6984 50  0000 C CNN
+F 1 "B250" H 18600 7075 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 18600 7025 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 18600 7200 50  0001 C CNN
+	1    18600 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18750 7200 18950 7200
+$Comp
+L Diode:B250 D3
+U 1 1 5DFCCB84
+P 18600 7500
+F 0 "D3" H 18600 7284 50  0000 C CNN
+F 1 "B250" H 18600 7375 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 18600 7325 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 18600 7500 50  0001 C CNN
+	1    18600 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	18750 7500 18950 7500
+$Comp
+L Displayunit-rescue:+3.3VA-power #PWR?
+U 1 1 5E13B456
+P 20250 5700
+AR Path="/5C8BBC9A/5E13B456" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E13B456" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E13B456" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E13B456" Ref="#PWR?"  Part="1" 
+AR Path="/5E13B456" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 20250 5550 50  0001 C CNN
+F 1 "+3.3VA" H 20265 5873 50  0000 C CNN
+F 2 "" H 20250 5700 50  0001 C CNN
+F 3 "" H 20250 5700 50  0001 C CNN
+	1    20250 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:B250 D4
+U 1 1 5E1A7905
+P 20350 4850
+F 0 "D4" H 20350 4634 50  0000 C CNN
+F 1 "B250" H 20350 4725 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 20350 4675 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 20350 4850 50  0001 C CNN
+	1    20350 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	20050 4850 20200 4850
+$Comp
+L Displayunit-rescue:R-Device R?
+U 1 1 5E24E47E
+P 17500 4350
+AR Path="/5C8BBC9A/5E24E47E" Ref="R?"  Part="1" 
+AR Path="/5E0C5EEA/5E24E47E" Ref="R?"  Part="1" 
+AR Path="/5D80EC74/5E24E47E" Ref="R?"  Part="1" 
+AR Path="/5D80E6E8/5E24E47E" Ref="R?"  Part="1" 
+AR Path="/5E24E47E" Ref="R20"  Part="1" 
+F 0 "R20" H 17200 4250 50  0000 L CNN
+F 1 "100k" H 17200 4150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17430 4350 50  0001 C CNN
+F 3 "~" H 17500 4350 50  0001 C CNN
+	1    17500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5E24E484
+P 17500 4500
+AR Path="/5C8BBC9A/5E24E484" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E24E484" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E24E484" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E24E484" Ref="#PWR?"  Part="1" 
+AR Path="/5E24E484" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 17500 4250 50  0001 C CNN
+F 1 "GND" H 17500 4300 50  0000 C CNN
+F 2 "" H 17500 4500 50  0001 C CNN
+F 3 "" H 17500 4500 50  0001 C CNN
+	1    17500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17650 4150 17500 4150
+Wire Wire Line
+	17500 4200 17500 4150
+Connection ~ 17500 4150
+Wire Wire Line
+	17500 4150 17400 4150
 $EndSCHEMATC
