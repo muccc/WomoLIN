@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Displayunit-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -1466,8 +1466,8 @@ L Displayunit-rescue:USB_B_Micro-Connector J?
 U 1 1 5E312421
 P 10400 5000
 AR Path="/5D80E2A0/5E312421" Ref="J?"  Part="1" 
-AR Path="/5E312421" Ref="J1"  Part="1" 
-F 0 "J1" H 10455 5467 50  0000 C CNN
+AR Path="/5E312421" Ref="J8"  Part="1" 
+F 0 "J8" H 10455 5467 50  0000 C CNN
 F 1 "USB_B_Micro" H 10455 5376 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 10550 4950 50  0001 C CNN
 F 3 "~" H 10550 4950 50  0001 C CNN
@@ -4270,10 +4270,10 @@ X+
 Text GLabel 15700 5550 2    50   Output ~ 0
 Y-
 $Comp
-L Displayunit-rescue:8P8C_Shielded-Connector J2
+L Displayunit-rescue:8P8C_Shielded-Connector J1
 U 1 1 5F96FCE3
 P 15900 8450
-F 0 "J2" H 15957 9117 50  0000 C CNN
+F 0 "J1" H 15957 9117 50  0000 C CNN
 F 1 "8P8C_Shielded" H 15957 9026 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15900 8475 50  0001 C CNN
 F 3 "~" V 15900 8475 50  0001 C CNN
@@ -4459,7 +4459,7 @@ Wire Wire Line
 Wire Wire Line
 	15050 8150 15050 8450
 Wire Wire Line
-	15050 8450 15500 8450
+	15050 8450 15150 8450
 Wire Wire Line
 	15500 8550 15050 8550
 Wire Wire Line
@@ -4757,7 +4757,7 @@ Control+
 Text GLabel 15250 7800 2    50   Output ~ 0
 Control+
 Wire Wire Line
-	15500 8250 15150 8250
+	15500 8250 15250 8250
 Wire Wire Line
 	15150 8250 15150 8150
 Wire Wire Line
@@ -4770,29 +4770,20 @@ Wire Wire Line
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5ECB14B9
-P 15250 9000
+P 15350 9000
 AR Path="/5C8BBC9A/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5ECB14B9" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 15250 8750 50  0001 C CNN
-F 1 "GND" H 15250 8800 50  0000 C CNN
-F 2 "" H 15250 9000 50  0001 C CNN
-F 3 "" H 15250 9000 50  0001 C CNN
-	1    15250 9000
+F 0 "#PWR0114" H 15350 8750 50  0001 C CNN
+F 1 "GND" H 15350 8800 50  0000 C CNN
+F 2 "" H 15350 9000 50  0001 C CNN
+F 3 "" H 15350 9000 50  0001 C CNN
+	1    15350 9000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15500 8750 15250 8750
-Wire Wire Line
-	15250 8750 15250 8850
-Wire Wire Line
-	15500 8850 15250 8850
-Connection ~ 15250 8850
-Wire Wire Line
-	15250 8850 15250 9000
 $Comp
 L Displayunit-rescue:+3.3VA-power #PWR?
 U 1 1 5DF28711
@@ -4975,4 +4966,95 @@ Wire Wire Line
 Connection ~ 17500 4150
 Wire Wire Line
 	17500 4150 17400 4150
+$Comp
+L Displayunit-rescue:8P8C_Shielded-Connector J2
+U 1 1 5DED998B
+P 15900 9850
+F 0 "J2" H 15957 10517 50  0000 C CNN
+F 1 "8P8C_Shielded" H 15957 10426 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15900 9875 50  0001 C CNN
+F 3 "~" V 15900 9875 50  0001 C CNN
+	1    15900 9850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5DEDCC16
+P 15250 10400
+AR Path="/5C8BBC9A/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E2A0/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5DEDCC16" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 15250 10150 50  0001 C CNN
+F 1 "GND" H 15250 10200 50  0000 C CNN
+F 2 "" H 15250 10400 50  0001 C CNN
+F 3 "" H 15250 10400 50  0001 C CNN
+	1    15250 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 10150 15250 10150
+Wire Wire Line
+	15250 10150 15250 10250
+Wire Wire Line
+	15500 10250 15250 10250
+Connection ~ 15250 10250
+Wire Wire Line
+	15250 10250 15250 10400
+Wire Wire Line
+	15500 9950 15050 9950
+Wire Wire Line
+	15050 9950 15050 8850
+Connection ~ 15050 8850
+Wire Wire Line
+	15500 9850 15150 9850
+Wire Wire Line
+	15150 9850 15150 8450
+Connection ~ 15150 8450
+Wire Wire Line
+	15150 8450 15500 8450
+Wire Wire Line
+	15350 8750 15350 8850
+Wire Wire Line
+	15500 8750 15350 8750
+Wire Wire Line
+	15500 8850 15350 8850
+Connection ~ 15350 8850
+Wire Wire Line
+	15350 8850 15350 9000
+Wire Wire Line
+	15500 9650 15250 9650
+Wire Wire Line
+	15250 9650 15250 9550
+Connection ~ 15250 8250
+Wire Wire Line
+	15250 8250 15150 8250
+Wire Wire Line
+	15500 9550 15250 9550
+Connection ~ 15250 9550
+Wire Wire Line
+	15250 9550 15250 8250
+NoConn ~ 15500 8350
+NoConn ~ 15500 8650
+NoConn ~ 15500 9750
+NoConn ~ 15500 10050
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5E47C766
+P 15900 9350
+AR Path="/5C8BBC9A/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E2A0/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5E47C766" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 15900 9100 50  0001 C CNN
+F 1 "GND" H 15700 9350 50  0000 C CNN
+F 2 "" H 15900 9350 50  0001 C CNN
+F 3 "" H 15900 9350 50  0001 C CNN
+	1    15900 9350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
