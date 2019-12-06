@@ -1,6 +1,41 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Generic_Conn_02x05_Odd_Even
+#
+DEF Connector_Generic_Conn_02x05_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x05_Odd_Even" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -200 150 L 50 50 1 1 P
+X Pin_2 2 300 200 150 L 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 300 100 150 L 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 300 0 150 L 50 50 1 1 P
+X Pin_7 7 -200 -100 150 R 50 50 1 1 P
+X Pin_8 8 300 -100 150 L 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Diode_B250
 #
 DEF Diode_B250 D 0 40 N N 1 F N
@@ -798,23 +833,22 @@ X Rs 8 -400 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# WAGO_734-264
+# WAGO_WAGO_Klemmleiste_2-pol
 #
-DEF WAGO_734-264 J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "WAGO_734-264" 650 200 50 H V L CNN
-F2 "SHDR4W120P0X381_1X4_1640X1030X850P" 650 100 50 H I L CNN
-F3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" 650 0 50 H I L CNN
-F4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" 650 -100 50 H I L CNN "Description"
-F5 "8.5" 650 -200 50 H I L CNN "Height"
-F6 "Wago" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "734-264" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+DEF WAGO_WAGO_Klemmleiste_2-pol J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "WAGO_WAGO_Klemmleiste_2-pol" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ WAGO_Klemmleiste_*_2-pol
+$ENDFPLIST
 DRAW
-P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 B
-X 2 2 0 -100 200 R 50 50 0 0 B
-X 3 3 0 -200 200 R 50 50 0 0 B
-X 4 4 0 -300 200 R 50 50 0 0 B
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

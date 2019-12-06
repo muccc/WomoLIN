@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Displayunit-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -2760,19 +2760,6 @@ F 3 "" H 3900 6350 50  0001 C CNN
 $EndComp
 $Comp
 L Displayunit-rescue:+3.3V-power #PWR?
-U 1 1 5E31291D
-P 3900 4050
-AR Path="/5D80E2A0/5E31291D" Ref="#PWR?"  Part="1" 
-AR Path="/5E31291D" Ref="#PWR010"  Part="1" 
-F 0 "#PWR010" H 3900 3900 50  0001 C CNN
-F 1 "+3.3V" H 3915 4223 50  0000 C CNN
-F 2 "" H 3900 4050 50  0001 C CNN
-F 3 "" H 3900 4050 50  0001 C CNN
-	1    3900 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:+3.3V-power #PWR?
 U 1 1 5E312917
 P 2950 4050
 AR Path="/5D80E2A0/5E312917" Ref="#PWR?"  Part="1" 
@@ -3041,23 +3028,6 @@ F 3 "" H 4350 5100 50  0001 C CNN
 $EndComp
 $Comp
 L Displayunit-rescue:GND-power #PWR?
-U 1 1 5E312845
-P 3900 5050
-AR Path="/5C8BBC9A/5E312845" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E312845" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5E312845" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5E312845" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E2A0/5E312845" Ref="#PWR?"  Part="1" 
-AR Path="/5E312845" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 3900 4800 50  0001 C CNN
-F 1 "GND" H 3900 4850 50  0000 C CNN
-F 2 "" H 3900 5050 50  0001 C CNN
-F 3 "" H 3900 5050 50  0001 C CNN
-	1    3900 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E31283F
 P 2950 5050
 AR Path="/5C8BBC9A/5E31283F" Ref="#PWR?"  Part="1" 
@@ -3131,45 +3101,6 @@ Wire Wire Line
 	7250 10700 7400 10700
 Text GLabel 7400 10700 2    50   Output ~ 0
 Signal_LED
-Wire Wire Line
-	3900 5050 3900 4950
-Connection ~ 3900 4500
-Wire Wire Line
-	3900 4550 3900 4500
-Wire Wire Line
-	3900 4500 3900 4450
-Wire Wire Line
-	4000 4500 3900 4500
-Text GLabel 4000 4500 2    50   Output ~ 0
-Wakeup
-$Comp
-L Displayunit-rescue:R-Device R?
-U 1 1 5E31278B
-P 3900 4300
-AR Path="/5D80E2A0/5E31278B" Ref="R?"  Part="1" 
-AR Path="/5E31278B" Ref="R2"  Part="1" 
-F 0 "R2" H 3970 4346 50  0000 L CNN
-F 1 "10K" H 3970 4255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4300 50  0001 C CNN
-F 3 "~" H 3900 4300 50  0001 C CNN
-	1    3900 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 4050 3900 4150
-$Comp
-L Displayunit-rescue:SW_Push-Switch SW?
-U 1 1 5E312784
-P 3900 4750
-AR Path="/5D80E2A0/5E312784" Ref="SW?"  Part="1" 
-AR Path="/5E312784" Ref="SW3"  Part="1" 
-F 0 "SW3" V 3900 5035 50  0000 C CNN
-F 1 "Wakeup" V 3800 5000 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H8.5mm" H 3900 4950 50  0001 C CNN
-F 3 "" H 3900 4950 50  0001 C CNN
-	1    3900 4750
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7400 8300 7250 8300
 Text GLabel 7400 8300 2    50   Input ~ 0
@@ -4639,25 +4570,6 @@ F 3 "" H 11550 1650 50  0001 C CNN
 	1    11550 1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L WAGO:734-264 J7
-U 1 1 5E4409BD
-P 17100 7200
-F 0 "J7" H 17392 7465 50  0000 C CNN
-F 1 "734-264" H 17392 7374 50  0000 C CNN
-F 2 "WAGO:SHDR4W120P0X381_1X4_1640X1030X850P" H 17750 7300 50  0001 L CNN
-F 3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" H 17750 7200 50  0001 L CNN
-F 4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" H 17750 7100 50  0001 L CNN "Description"
-F 5 "8.5" H 17750 7000 50  0001 L CNN "Height"
-F 6 "Wago" H 17750 6900 50  0001 L CNN "Manufacturer_Name"
-F 7 "734-264" H 17750 6800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 17750 6700 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 17750 6600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 17750 6500 50  0001 L CNN "RS Part Number"
-F 11 "" H 17750 6400 50  0001 L CNN "RS Price/Stock"
-	1    17100 7200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	19300 7200 19550 7200
 Wire Wire Line
@@ -4730,23 +4642,7 @@ F 3 "" H 18300 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17100 7400 17200 7400
-Wire Wire Line
-	17200 7400 17200 7500
-Wire Wire Line
-	17100 7500 17200 7500
-Connection ~ 17200 7500
-Wire Wire Line
-	17200 7500 17200 7650
-Wire Wire Line
-	17100 7300 17400 7300
-Wire Wire Line
-	17400 7300 17400 7350
-Wire Wire Line
 	17100 7200 17400 7200
-Wire Wire Line
-	17400 7200 17400 7300
-Connection ~ 17400 7300
 Connection ~ 17400 7200
 Wire Wire Line
 	18450 7500 18300 7500
@@ -4986,8 +4882,8 @@ AR Path="/5E0C5EEA/5DEDCC16" Ref="#PWR?"  Part="1"
 AR Path="/5D80EC74/5DEDCC16" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5DEDCC16" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5DEDCC16" Ref="#PWR?"  Part="1" 
-AR Path="/5DEDCC16" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15250 10150 50  0001 C CNN
+AR Path="/5DEDCC16" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 15250 10150 50  0001 C CNN
 F 1 "GND" H 15250 10200 50  0000 C CNN
 F 2 "" H 15250 10400 50  0001 C CNN
 F 3 "" H 15250 10400 50  0001 C CNN
@@ -5049,12 +4945,40 @@ AR Path="/5E0C5EEA/5E47C766" Ref="#PWR?"  Part="1"
 AR Path="/5D80EC74/5E47C766" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E47C766" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5E47C766" Ref="#PWR?"  Part="1" 
-AR Path="/5E47C766" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 15900 9100 50  0001 C CNN
+AR Path="/5E47C766" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 15900 9100 50  0001 C CNN
 F 1 "GND" H 15700 9350 50  0000 C CNN
 F 2 "" H 15900 9350 50  0001 C CNN
 F 3 "" H 15900 9350 50  0001 C CNN
 	1    15900 9350
 	-1   0    0    1   
+$EndComp
+$Comp
+L WAGO:WAGO_Klemmleiste_2-pol J7
+U 1 1 5DF16CB3
+P 16900 7200
+F 0 "J7" H 16818 7417 50  0000 C CNN
+F 1 "WAGO_Klemmleiste_2-pol" H 16818 7326 50  0000 C CNN
+F 2 "WAGO:WAGO_Klemmleiste_Hebel4mm²Horizontal_RM5mm_2-pol" H 16900 7200 50  0001 C CNN
+F 3 "~" H 16900 7200 50  0001 C CNN
+	1    16900 7200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	17400 7200 17400 7350
+Wire Wire Line
+	17100 7300 17200 7300
+Wire Wire Line
+	17200 7300 17200 7650
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J9
+U 1 1 5E0F2A56
+P 13050 2400
+F 0 "J9" H 13100 2817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 13100 2726 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 13050 2400 50  0001 C CNN
+F 3 "~" H 13050 2400 50  0001 C CNN
+	1    13050 2400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

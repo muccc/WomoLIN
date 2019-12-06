@@ -1466,8 +1466,8 @@ L Displayunit-rescue:USB_B_Micro-Connector J?
 U 1 1 5E312421
 P 10400 5000
 AR Path="/5D80E2A0/5E312421" Ref="J?"  Part="1" 
-AR Path="/5E312421" Ref="J1"  Part="1" 
-F 0 "J1" H 10455 5467 50  0000 C CNN
+AR Path="/5E312421" Ref="J8"  Part="1" 
+F 0 "J8" H 10455 5467 50  0000 C CNN
 F 1 "USB_B_Micro" H 10455 5376 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 10550 4950 50  0001 C CNN
 F 3 "~" H 10550 4950 50  0001 C CNN
@@ -1519,7 +1519,7 @@ AR Path="/5D80E2A0/5E31243F" Ref="C?"  Part="1"
 AR Path="/5E31243F" Ref="C26"  Part="1" 
 F 0 "C26" H 11665 2096 50  0000 L CNN
 F 1 "1uF" H 11665 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 11588 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 11588 1900 50  0001 C CNN
 F 3 "~" H 11550 2050 50  0001 C CNN
 	1    11550 2050
 	1    0    0    -1  
@@ -4067,7 +4067,7 @@ AR Path="/5D80E2A0/5E3123E9" Ref="C?"  Part="1"
 AR Path="/5E3123E9" Ref="C22"  Part="1" 
 F 0 "C22" H 7515 3946 50  0000 L CNN
 F 1 "1uF" H 7515 3855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 3750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 7438 3750 50  0001 C CNN
 F 3 "~" H 7400 3900 50  0001 C CNN
 	1    7400 3900
 	1    0    0    -1  
@@ -4270,10 +4270,10 @@ X+
 Text GLabel 15700 5550 2    50   Output ~ 0
 Y-
 $Comp
-L Displayunit-rescue:8P8C_Shielded-Connector J2
+L Displayunit-rescue:8P8C_Shielded-Connector J1
 U 1 1 5F96FCE3
 P 15900 8450
-F 0 "J2" H 15957 9117 50  0000 C CNN
+F 0 "J1" H 15957 9117 50  0000 C CNN
 F 1 "8P8C_Shielded" H 15957 9026 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15900 8475 50  0001 C CNN
 F 3 "~" V 15900 8475 50  0001 C CNN
@@ -4459,7 +4459,7 @@ Wire Wire Line
 Wire Wire Line
 	15050 8150 15050 8450
 Wire Wire Line
-	15050 8450 15500 8450
+	15050 8450 15150 8450
 Wire Wire Line
 	15500 8550 15050 8550
 Wire Wire Line
@@ -4639,25 +4639,6 @@ F 3 "" H 11550 1650 50  0001 C CNN
 	1    11550 1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L WAGO:734-264 J7
-U 1 1 5E4409BD
-P 17100 7200
-F 0 "J7" H 17392 7465 50  0000 C CNN
-F 1 "734-264" H 17392 7374 50  0000 C CNN
-F 2 "WAGO:SHDR4W120P0X381_1X4_1640X1030X850P" H 17750 7300 50  0001 L CNN
-F 3 "https://www.wago.com/global/pluggable-connectors/tht-male-header/p/734-264" H 17750 7200 50  0001 L CNN
-F 4 "WAGO - 734-264 - Terminal Block, Header, 3.81 mm, 4 Ways, 10 A, 300 V, Through Hole Right Angle" H 17750 7100 50  0001 L CNN "Description"
-F 5 "8.5" H 17750 7000 50  0001 L CNN "Height"
-F 6 "Wago" H 17750 6900 50  0001 L CNN "Manufacturer_Name"
-F 7 "734-264" H 17750 6800 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 17750 6700 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 17750 6600 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 17750 6500 50  0001 L CNN "RS Part Number"
-F 11 "" H 17750 6400 50  0001 L CNN "RS Price/Stock"
-	1    17100 7200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	19300 7200 19550 7200
 Wire Wire Line
@@ -4730,23 +4711,7 @@ F 3 "" H 18300 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17100 7400 17200 7400
-Wire Wire Line
-	17200 7400 17200 7500
-Wire Wire Line
-	17100 7500 17200 7500
-Connection ~ 17200 7500
-Wire Wire Line
-	17200 7500 17200 7650
-Wire Wire Line
-	17100 7300 17400 7300
-Wire Wire Line
-	17400 7300 17400 7350
-Wire Wire Line
 	17100 7200 17400 7200
-Wire Wire Line
-	17400 7200 17400 7300
-Connection ~ 17400 7300
 Connection ~ 17400 7200
 Wire Wire Line
 	18450 7500 18300 7500
@@ -4757,7 +4722,7 @@ Control+
 Text GLabel 15250 7800 2    50   Output ~ 0
 Control+
 Wire Wire Line
-	15500 8250 15150 8250
+	15500 8250 15250 8250
 Wire Wire Line
 	15150 8250 15150 8150
 Wire Wire Line
@@ -4770,29 +4735,20 @@ Wire Wire Line
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5ECB14B9
-P 15250 9000
+P 15350 9000
 AR Path="/5C8BBC9A/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5ECB14B9" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 15250 8750 50  0001 C CNN
-F 1 "GND" H 15250 8800 50  0000 C CNN
-F 2 "" H 15250 9000 50  0001 C CNN
-F 3 "" H 15250 9000 50  0001 C CNN
-	1    15250 9000
+F 0 "#PWR0114" H 15350 8750 50  0001 C CNN
+F 1 "GND" H 15350 8800 50  0000 C CNN
+F 2 "" H 15350 9000 50  0001 C CNN
+F 3 "" H 15350 9000 50  0001 C CNN
+	1    15350 9000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15500 8750 15250 8750
-Wire Wire Line
-	15250 8750 15250 8850
-Wire Wire Line
-	15500 8850 15250 8850
-Connection ~ 15250 8850
-Wire Wire Line
-	15250 8850 15250 9000
 $Comp
 L Displayunit-rescue:+3.3VA-power #PWR?
 U 1 1 5DF28711
@@ -4975,4 +4931,123 @@ Wire Wire Line
 Connection ~ 17500 4150
 Wire Wire Line
 	17500 4150 17400 4150
+$Comp
+L Displayunit-rescue:8P8C_Shielded-Connector J2
+U 1 1 5DED998B
+P 15900 9850
+F 0 "J2" H 15957 10517 50  0000 C CNN
+F 1 "8P8C_Shielded" H 15957 10426 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15900 9875 50  0001 C CNN
+F 3 "~" V 15900 9875 50  0001 C CNN
+	1    15900 9850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5DEDCC16
+P 15250 10400
+AR Path="/5C8BBC9A/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E2A0/5DEDCC16" Ref="#PWR?"  Part="1" 
+AR Path="/5DEDCC16" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 15250 10150 50  0001 C CNN
+F 1 "GND" H 15250 10200 50  0000 C CNN
+F 2 "" H 15250 10400 50  0001 C CNN
+F 3 "" H 15250 10400 50  0001 C CNN
+	1    15250 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 10150 15250 10150
+Wire Wire Line
+	15250 10150 15250 10250
+Wire Wire Line
+	15500 10250 15250 10250
+Connection ~ 15250 10250
+Wire Wire Line
+	15250 10250 15250 10400
+Wire Wire Line
+	15500 9950 15050 9950
+Wire Wire Line
+	15050 9950 15050 8850
+Connection ~ 15050 8850
+Wire Wire Line
+	15500 9850 15150 9850
+Wire Wire Line
+	15150 9850 15150 8450
+Connection ~ 15150 8450
+Wire Wire Line
+	15150 8450 15500 8450
+Wire Wire Line
+	15350 8750 15350 8850
+Wire Wire Line
+	15500 8750 15350 8750
+Wire Wire Line
+	15500 8850 15350 8850
+Connection ~ 15350 8850
+Wire Wire Line
+	15350 8850 15350 9000
+Wire Wire Line
+	15500 9650 15250 9650
+Wire Wire Line
+	15250 9650 15250 9550
+Connection ~ 15250 8250
+Wire Wire Line
+	15250 8250 15150 8250
+Wire Wire Line
+	15500 9550 15250 9550
+Connection ~ 15250 9550
+Wire Wire Line
+	15250 9550 15250 8250
+NoConn ~ 15500 8350
+NoConn ~ 15500 8650
+NoConn ~ 15500 9750
+NoConn ~ 15500 10050
+$Comp
+L Displayunit-rescue:GND-power #PWR?
+U 1 1 5E47C766
+P 15900 9350
+AR Path="/5C8BBC9A/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5D80EC74/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E6E8/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5D80E2A0/5E47C766" Ref="#PWR?"  Part="1" 
+AR Path="/5E47C766" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 15900 9100 50  0001 C CNN
+F 1 "GND" H 15700 9350 50  0000 C CNN
+F 2 "" H 15900 9350 50  0001 C CNN
+F 3 "" H 15900 9350 50  0001 C CNN
+	1    15900 9350
+	-1   0    0    1   
+$EndComp
+$Comp
+L WAGO:WAGO_Klemmleiste_2-pol J7
+U 1 1 5DF16CB3
+P 16900 7200
+F 0 "J7" H 16818 7417 50  0000 C CNN
+F 1 "WAGO_Klemmleiste_2-pol" H 16818 7326 50  0000 C CNN
+F 2 "WAGO:WAGO_Klemmleiste_Hebel4mm²Horizontal_RM5mm_2-pol" H 16900 7200 50  0001 C CNN
+F 3 "~" H 16900 7200 50  0001 C CNN
+	1    16900 7200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	17400 7200 17400 7350
+Wire Wire Line
+	17100 7300 17200 7300
+Wire Wire Line
+	17200 7300 17200 7650
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J9
+U 1 1 5E0F2A56
+P 13050 2400
+F 0 "J9" H 13100 2817 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 13100 2726 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 13050 2400 50  0001 C CNN
+F 3 "~" H 13050 2400 50  0001 C CNN
+	1    13050 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
