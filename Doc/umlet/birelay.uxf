@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
-  <zoom_level>5</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1005</x>
-      <y>255</y>
-      <w>295</w>
-      <h>160</h>
+      <x>1930</x>
+      <y>520</y>
+      <w>590</w>
+      <h>270</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 I_RelaySet
@@ -21,10 +21,10 @@ bg=white
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>430</x>
-      <y>255</y>
-      <w>405</w>
-      <h>25</h>
+      <x>1710</x>
+      <y>410</y>
+      <w>810</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>Unit_Output
 --
@@ -34,10 +34,10 @@ bg=white
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>450</x>
-      <y>335</y>
-      <w>345</w>
-      <h>35</h>
+      <x>820</x>
+      <y>630</y>
+      <w>690</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 I_Signal_OnOff
@@ -48,10 +48,10 @@ I_Signal_OnOff
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>475</x>
-      <y>375</y>
-      <w>295</w>
-      <h>35</h>
+      <x>870</x>
+      <y>720</y>
+      <w>590</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 I_Signal_CloseOpen
@@ -62,10 +62,10 @@ I_Signal_CloseOpen
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>430</x>
-      <y>290</y>
-      <w>385</w>
-      <h>35</h>
+      <x>780</x>
+      <y>530</y>
+      <w>770</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 I_Signal_SetReset
@@ -76,10 +76,10 @@ I_Signal_SetReset
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
-      <y>345</y>
-      <w>225</w>
-      <h>15</h>
+      <x>1500</x>
+      <y>650</y>
+      <w>450</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;430.0;10.0</additional_attributes>
@@ -87,10 +87,10 @@ I_Signal_SetReset
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>810</x>
-      <y>300</y>
-      <w>205</w>
-      <h>15</h>
+      <x>1540</x>
+      <y>550</y>
+      <w>410</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;390.0;10.0</additional_attributes>
@@ -98,10 +98,10 @@ I_Signal_SetReset
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>765</x>
-      <y>385</y>
-      <w>250</w>
-      <h>15</h>
+      <x>1450</x>
+      <y>740</y>
+      <w>500</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;480.0;10.0</additional_attributes>
@@ -109,10 +109,10 @@ I_Signal_SetReset
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>945</x>
-      <y>600</y>
-      <w>15</w>
-      <h>230</h>
+      <x>1810</x>
+      <y>1110</y>
+      <w>30</w>
+      <h>460</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 layer=0</panel_attributes>
@@ -121,10 +121,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
-      <y>825</y>
-      <w>1255</w>
-      <h>45</h>
+      <x>0</x>
+      <y>1560</y>
+      <w>2510</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>BiRelaySet
 --
@@ -137,10 +137,10 @@ bg=light_gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>115</x>
-      <y>540</y>
-      <w>330</w>
-      <h>45</h>
+      <x>150</x>
+      <y>990</y>
+      <w>660</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Signal_SetReset
 --
@@ -152,10 +152,10 @@ bg=light_gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>270</x>
-      <y>460</y>
-      <w>320</w>
-      <h>50</h>
+      <x>460</x>
+      <y>830</y>
+      <w>640</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Template&gt;&gt;
 Signal_Add_Unit&lt;T&gt;
@@ -169,10 +169,10 @@ bg=white
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>395</y>
-      <w>250</w>
-      <h>45</h>
+      <x>190</x>
+      <y>700</y>
+      <w>500</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 I_Signal
@@ -184,22 +184,22 @@ bg=light_gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>365</y>
-      <w>15</w>
-      <h>105</h>
+      <x>830</x>
+      <y>690</y>
+      <w>30</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1</panel_attributes>
-    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>345</x>
-      <y>505</y>
-      <w>105</w>
-      <h>45</h>
+      <x>610</x>
+      <y>920</y>
+      <w>210</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 &lt;&lt;bind&gt;&gt;
@@ -209,10 +209,10 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>435</y>
-      <w>15</w>
-      <h>115</h>
+      <x>380</x>
+      <y>780</y>
+      <w>30</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 layer=0</panel_attributes>
@@ -221,10 +221,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>920</x>
-      <y>545</y>
-      <w>380</w>
-      <h>60</h>
+      <x>1760</x>
+      <y>1000</y>
+      <w>760</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 I_BiRelaySet
@@ -239,21 +239,21 @@ bg=white
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1135</x>
-      <y>410</y>
-      <w>15</w>
-      <h>145</h>
+      <x>2190</x>
+      <y>780</y>
+      <w>30</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;270.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>95</x>
-      <y>605</y>
-      <w>425</w>
-      <h>45</h>
+      <x>110</x>
+      <y>1120</y>
+      <w>850</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Signal_OnOff
 --
@@ -264,22 +264,22 @@ bg=light_gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>480</x>
-      <y>405</y>
-      <w>15</w>
-      <h>65</h>
+      <x>880</x>
+      <y>780</y>
+      <w>30</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>475</x>
-      <y>505</y>
-      <w>95</w>
-      <h>110</h>
+      <x>870</x>
+      <y>920</y>
+      <w>190</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 &lt;&lt;bind&gt;&gt;
@@ -289,10 +289,10 @@ m1=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>180</x>
-      <y>435</y>
-      <w>15</w>
-      <h>180</h>
+      <x>280</x>
+      <y>780</y>
+      <w>30</w>
+      <h>360</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 layer=0</panel_attributes>
@@ -301,10 +301,10 @@ layer=0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>75</x>
-      <y>665</y>
-      <w>550</w>
-      <h>45</h>
+      <x>70</x>
+      <y>1240</y>
+      <w>1100</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Signal_CloseOpen
 --
@@ -315,10 +315,10 @@ bg=light_gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>145</x>
-      <y>435</y>
-      <w>15</w>
-      <h>240</h>
+      <x>210</x>
+      <y>780</y>
+      <w>30</w>
+      <h>480</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 layer=-2</panel_attributes>
@@ -327,10 +327,10 @@ layer=-2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>565</x>
-      <y>505</y>
-      <w>110</w>
-      <h>170</h>
+      <x>1050</x>
+      <y>920</y>
+      <w>220</w>
+      <h>340</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 &lt;&lt;bind&gt;&gt;
@@ -340,22 +340,22 @@ layer=-2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>435</x>
-      <y>320</y>
-      <w>15</w>
-      <h>150</h>
+      <x>790</x>
+      <y>590</y>
+      <w>30</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1</panel_attributes>
-    <additional_attributes>10.0;280.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;240.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>45</y>
-      <w>335</w>
-      <h>110</h>
+      <x>20</x>
+      <y>0</y>
+      <w>670</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>Example SignalUnitManger
 --
@@ -376,10 +376,10 @@ bg=green</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
-      <y>150</y>
-      <w>25</w>
-      <h>255</h>
+      <x>420</x>
+      <y>210</y>
+      <w>50</w>
+      <h>510</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=0..n</panel_attributes>
@@ -388,10 +388,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>965</x>
-      <y>755</y>
-      <w>330</w>
-      <h>45</h>
+      <x>1850</x>
+      <y>1420</y>
+      <w>660</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>BiRelaySet_Mock
 --
@@ -403,10 +403,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1175</x>
-      <y>600</y>
-      <w>15</w>
-      <h>150</h>
+      <x>2270</x>
+      <y>1110</y>
+      <w>30</w>
+      <h>300</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.
 layer=0</panel_attributes>
@@ -415,10 +415,10 @@ layer=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>55</x>
-      <y>150</y>
-      <w>25</w>
-      <h>685</h>
+      <x>30</x>
+      <y>210</y>
+      <w>50</w>
+      <h>1370</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=0..n</panel_attributes>
@@ -427,10 +427,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>115</x>
-      <y>150</y>
-      <w>25</w>
-      <h>400</h>
+      <x>150</x>
+      <y>210</y>
+      <w>50</w>
+      <h>800</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=0..n</panel_attributes>
@@ -439,10 +439,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>95</x>
-      <y>150</y>
-      <w>25</w>
-      <h>465</h>
+      <x>110</x>
+      <y>210</y>
+      <w>50</w>
+      <h>930</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=0..n</panel_attributes>
@@ -451,10 +451,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>75</x>
-      <y>150</y>
-      <w>25</w>
-      <h>525</h>
+      <x>70</x>
+      <y>210</y>
+      <w>50</w>
+      <h>1050</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=0..n</panel_attributes>
@@ -463,21 +463,21 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
-      <y>260</y>
-      <w>185</w>
-      <h>15</h>
+      <x>2210</x>
+      <y>450</y>
+      <w>30</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;350.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>890</x>
-      <y>220</y>
-      <w>425</w>
-      <h>505</h>
+      <x>1700</x>
+      <y>350</y>
+      <w>850</w>
+      <h>1010</h>
     </coordinates>
     <panel_attributes>Units
 --
@@ -487,10 +487,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>40</x>
-      <y>730</y>
-      <w>1275</w>
-      <h>165</h>
+      <x>0</x>
+      <y>1370</y>
+      <w>2550</w>
+      <h>330</h>
     </coordinates>
     <panel_attributes>Hardware Abstraktion (HAL)
 --
@@ -500,10 +500,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>40</x>
-      <y>220</y>
-      <w>825</w>
-      <h>505</h>
+      <x>0</x>
+      <y>350</y>
+      <w>1650</w>
+      <h>1010</h>
     </coordinates>
     <panel_attributes>Signals
 --
@@ -513,12 +513,12 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>105</y>
-      <w>250</w>
-      <h>25</h>
+      <x>1280</x>
+      <y>120</y>
+      <w>500</w>
+      <h>50</h>
     </coordinates>
-    <panel_attributes>birelay Design version 1.0</panel_attributes>
+    <panel_attributes>birelay Design version 1.1</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
