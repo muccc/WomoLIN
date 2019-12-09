@@ -4,15 +4,15 @@
 
 namespace womolin::protocol
 {
-   class Protocol : public womolin::lib::common::interface::IProtocol
+   class Protocol 
    {
       public:
          Protocol() = default;
-         virtual ~Protocol() = default;
+         ~Protocol() = default;
 
          void getKeyValue(const std::string & input, 
-                                std::string & key, 
-                                std::string & value) override final;
+                          std::string & key, 
+                          std::string & value);
          
    };
 

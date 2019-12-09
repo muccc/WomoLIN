@@ -1,14 +1,14 @@
 #pragma once
 
-#include "../../../lib/include/manager.h"
-#include "../../../lib/include/signal.h"
+#include "../../lib/include/managerbase.h"
+#include "../../lib/include/signal.h"
 
 namespace womolin::board::simulation
 {
    class Manager : public womolin::manager::ManagerBase 
    {
       public:
-         Manager( womolin::lib::common::interface::ISerial & serial, womolin::lib::common::interface::IProtocol & protocol );
+         Manager( womolin::lib::common::interface::ISerial & serial );
          ~Manager() = default;
 
       private:

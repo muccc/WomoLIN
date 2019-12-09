@@ -3,8 +3,9 @@ rm -f simulation
 g++-8 -std=c++17 -Wall -Wpedantic -Werror -Os -o simulation \
 ../../lib/signal.cpp \
 ../../lib/protocol.cpp \
-../../lib/manager.cpp \
+../../lib/managerbase.cpp \
 ../../lib/unit.cpp \
+./hal/serial.cpp \
+./hal/unit.cpp \
 manager.cpp \
-serial.cpp \
 main.cpp

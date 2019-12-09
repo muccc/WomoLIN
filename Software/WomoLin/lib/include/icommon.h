@@ -5,15 +5,6 @@
 namespace womolin::lib::common::interface
 {
 
-   class IProtocol
-   {
-      public:
-         virtual ~IProtocol() = default;
-
-         virtual void 
-         getKeyValue(const std::string & input, std::string & key, std::string & value) = 0;
-   };
-
    class ISerial
    {
       public:

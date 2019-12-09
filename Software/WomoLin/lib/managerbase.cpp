@@ -1,12 +1,11 @@
-#include "include/manager.h"
+#include "include/managerbase.h"
 
 namespace womolin::manager
 {
    ManagerBase::ManagerBase( 
-      womolin::lib::common::interface::ISerial & serial, 
-      womolin::lib::common::interface::IProtocol & protocol )
-      : serial(serial)
-      , protocol(protocol)
+      womolin::lib::common::interface::ISerial & serial )
+      : serial( serial )
+      , protocol ( womolin::protocol::Protocol() )
    {
 
    }

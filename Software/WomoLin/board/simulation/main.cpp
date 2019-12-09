@@ -1,7 +1,5 @@
-#include "include/manager.h"
-#include "include/serial.h"
-
-#include "../../lib/include/protocol.h"
+#include "hal/include/serial.h"
+#include "manager.h"
 
 #include <iostream>
 #include <thread>
@@ -12,8 +10,7 @@ int main(int argc, char *argv[]) {
    std::cout << "Wilkommen Board Simulation" << std::endl;
 
    auto serial = womolin::board::simulation::Serial();
-   auto protocol = womolin::protocol::Protocol();
-   auto manager = womolin::board::simulation::Manager( serial, protocol );
+   auto manager = womolin::board::simulation::Manager( serial );
 
    while( true ) {
       manager.doWork();
