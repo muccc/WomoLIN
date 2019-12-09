@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../../common/include/iserial.h"
+#include "../../../lib/include/icommon.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,13 +12,13 @@
 
 namespace womolin::board::simulation
 {
-   class Serial : public womolin::interface::ISerial
+   class Serial : public womolin::lib::common::interface::ISerial
    {
       public:
          Serial();
          virtual ~Serial();
-         bool readData( std::string & message ) override final;
-         bool writeData( std::string & message ) override final;
+         void readData( std::string & message ) override final;
+         void writeData( std::string & message ) override final;
 
       private:
          int sockfd, newsockfd, portno;

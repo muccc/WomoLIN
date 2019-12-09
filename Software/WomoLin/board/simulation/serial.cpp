@@ -40,28 +40,17 @@ namespace womolin::board::simulation
       close(sockfd);
    }
 
-   bool Serial::readData( std::string & message )
+   void Serial::readData( std::string & message )
    {
+      message = "";
       if ( read(newsockfd,buffer,255) > 0 ) {
          message = buffer; 
-         return true; 
       } 
-      else
-      {
-         return false;
-      }
    }
 
-   bool Serial::writeData( std::string & message )
+   void Serial::writeData( std::string & message )
    {
       n = write(newsockfd, message.c_str(), message.length() );
-      if (n < 0) 
-      {
-         return false;
-      }
-      else 
-      {
-         return true;
-      }
+      (void)(n);
    }
 }

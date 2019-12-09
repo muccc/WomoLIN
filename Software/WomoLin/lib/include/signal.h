@@ -1,6 +1,6 @@
 #pragma once
 
-#include "isignal.h"
+#include "icommon.h"
 #include <vector>
 
 namespace womolin::signal
@@ -27,15 +27,13 @@ namespace womolin::signal
    }
 
 
-   class SignalOnOff final 
-      : public SignalAddUnit<womolin::interface::ISignalOnOff>
-      , public womolin::interface::ISignal
+   class SignalSetReset final 
+      : public SignalAddUnit<womolin::lib::common::interface::ISignalSetReset>
+      , public womolin::lib::common::interface::ISignal
    {
       public:
-         SignalOnOff() = default;
-         ~SignalOnOff() = default;
-         bool UpdateUnit( std::string & key, std::string & value ) override final;
+         SignalSetReset() = default;
+         ~SignalSetReset() = default;
+         void UpdateUnit( std::string & key, std::string & value ) override final;
    };
-
-
 }

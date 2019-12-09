@@ -3,10 +3,9 @@
 namespace womolin::protocol
 {
 
-   bool Protocol::getKeyValue(const std::string & input, 
+   void Protocol::getKeyValue(const std::string & input, 
                                     std::string & key, 
                                     std::string & value)
    {
-      return false;
    }
 }
