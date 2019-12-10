@@ -2,6 +2,7 @@
 
 #include "icommon.h"
 #include <vector>
+#include <iostream>
 
 namespace womolin::signal
 {
@@ -32,7 +33,7 @@ namespace womolin::signal
       , public womolin::lib::common::interface::ISignal
    {
       public:
-         SignalSetReset() = default;
+         SignalSetReset() { std::cout << "Konstruktor SignalSetReset" << std::endl; };
          ~SignalSetReset() = default;
          void UpdateUnit( std::string & key, std::string & value ) override final;
    };

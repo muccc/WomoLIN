@@ -27,17 +27,5 @@ namespace womolin::lib::common::interface
          virtual void UpdateUnitSignalSetReset( std::string & key, std::string & value ) = 0;
    };
 
-
-
-   class IRelay : public ISignalSetReset
-
-   {
-      public:
-         virtual ~IRelay() = default;
-
-         void UpdateUnitSignalSetReset( std::string & key, std::string & value ) override = 0;
-   };
-
-
 }
 

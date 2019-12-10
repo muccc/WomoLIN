@@ -1,8 +1,6 @@
 #include "include/serial.h"
 #include <iostream>
 
-
-
 namespace womolin::board::simulation
 {
 
@@ -14,6 +12,7 @@ namespace womolin::board::simulation
 
    Serial::Serial()
    {
+      std::cout << "Konstruktor Serial" << std::endl;
 	   sockfd = socket(AF_INET, SOCK_STREAM, 0);	
 	   if (sockfd < 0) 	
 	      perror("ERROR opening socket");	

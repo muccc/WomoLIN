@@ -8,7 +8,7 @@
 int main(int argc, char *argv[]) {
 
    std::cout << "Wilkommen Board Simulation" << std::endl;
-
+   
    auto serial = womolin::board::simulation::Serial();
    auto manager = womolin::board::simulation::Manager( serial );
 

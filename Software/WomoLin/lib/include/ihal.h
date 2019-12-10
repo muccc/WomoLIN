@@ -3,10 +3,10 @@
 namespace womolin::lib::hal::interface
 {
 
-   class IRelay
+   class IHalRelay
    {
       public:
-         virtual ~IRelay() = default;
+         virtual ~IHalRelay() = default;
 
          virtual void relaySet() = 0;
          virtual void relayReset() = 0;

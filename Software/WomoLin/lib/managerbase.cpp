@@ -1,13 +1,12 @@
 #include "include/managerbase.h"
+#include <iostream>
 
 namespace womolin::manager
 {
-   ManagerBase::ManagerBase( 
-      womolin::lib::common::interface::ISerial & serial )
+   ManagerBase::ManagerBase( womolin::lib::common::interface::ISerial & serial )
       : serial( serial )
-      , protocol ( womolin::protocol::Protocol() )
    {
-
+      std::cout << "Konstruktor ManagerBase::ManagerBase" << std::endl;
    }
 
    void ManagerBase::doWork()
