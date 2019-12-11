@@ -5,8 +5,8 @@
 #include <thread>
 #include <chrono>
 
-int main(int argc, char *argv[]) {
-
+int main() {
+   
    std::cout << "Wilkommen Board Simulation" << std::endl;
    
    auto serial = womolin::board::simulation::Serial();

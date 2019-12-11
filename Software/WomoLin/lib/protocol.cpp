@@ -7,5 +7,8 @@ namespace womolin::protocol
                                     std::string & key, 
                                     std::string & value)
    {
+      (void)(input); //TODO
+      (void)(key);   //TODO
+      (void)(value); //TODO
    }
 }

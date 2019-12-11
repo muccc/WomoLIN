@@ -11,8 +11,10 @@ namespace womolin::unit
 
    void Relay::UpdateUnitSignalSetReset( std::string & key, std::string & value )
    {
+      (void)(key);//TODO
+      (void)(value);//TODO
       std::cout << "Funktion Relay::UpdateUnitSignalSetReset"  << std::endl;
-      halRelay.relaySet();
+      halRelay.relaySet( womolin::lib::enums::EUnitId::FIRST );
    }
 
 }
