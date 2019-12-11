@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
 	git \
 	sudo \
 	vim \
+	netcat \
 	wget 
 
 # Replace 1001 with your user / group id

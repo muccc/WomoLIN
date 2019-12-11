@@ -39,17 +39,34 @@ namespace womolin::board::simulation
       close(sockfd);
    }
 
-   void Serial::readData( std::string & message )
+   womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE Serial::readData( std::string & message )
    {
-      message = "";
-      if ( read(newsockfd,buffer,255) > 0 ) {
-         message = buffer; 
+      char buffer[ womolin::lib::common::interface::SERIAL_BUFFERSIZE_MAX ];    
+  
+      auto readcount = 
+         read(newsockfd, &buffer, womolin::lib::common::interface::SERIAL_BUFFERSIZE_MAX ); 
+
+      if ( readcount  > 0 ) {
+         message = buffer;
+         return true; 
       } 
+      else {
+         message.clear();
+         return false;
+      } 
+      
    }
 
-   void Serial::writeData( std::string & message )
+   womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE Serial::writeData( std::string & message )
    {
-      n = write(newsockfd, message.c_str(), message.length() );
-      (void)(n);
+      auto writeData =  write(newsockfd, message.c_str(), message.length() );
+
+      if ( static_cast<long unsigned int>(writeData)  == message.length() ) {
+         return true; 
+      } 
+      else {
+         return false;
+      } 
+ 
    }
 }

@@ -1,16 +1,23 @@
 #pragma once
 
+#include <cinttypes>
 #include <string>
+
 
 namespace womolin::lib::common::interface
 {
+
+   using SERIAL_BUFFERSIZE_TYPE = uint8_t;
+   static constexpr SERIAL_BUFFERSIZE_TYPE SERIAL_BUFFERSIZE_MAX { 32 };
 
    class ISerial
    {
       public:
          virtual ~ISerial() = default;
-         virtual void readData( std::string & message ) = 0;
-         virtual void writeData( std::string & message ) = 0;
+
+         virtual SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) = 0;
+         virtual SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) = 0;
+         
    };
 
    class ISignal

@@ -22,7 +22,7 @@ namespace womolin::manager
 
       private:
          womolin::lib::common::interface::ISerial &    serial;
-         womolin::protocol::Protocol                   protocol;
+         womolin::protocol::Protocol                   protocol { serial };
 
    };
 }

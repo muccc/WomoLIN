@@ -4,16 +4,17 @@
 
 namespace womolin::protocol
 {
-   class Protocol 
+   class Protocol final
    {
       public:
-         Protocol() = default;
+         Protocol( womolin::lib::common::interface::ISerial & serial );
          ~Protocol() = default;
 
-         void getKeyValue(const std::string & input, 
-                          std::string & key, 
-                          std::string & value);
-         
+         bool getKeyValue( std::string & key, std::string & value);
+
+      private:
+         womolin::lib::common::interface::ISerial & serial; 
+         std::string messageBuffer;
    };
 
 }

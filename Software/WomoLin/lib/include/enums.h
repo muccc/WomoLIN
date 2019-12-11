@@ -1,11 +1,13 @@
 #pragma once
 
+#include <cinttypes>
+
 namespace womolin::lib::enums
 {
 
-   enum class EPortId
+   enum class EPortId : uint8_t
    {
-      FIRST,
+      FIRST = 0,
       SECOND,
       THIRD,
       FOURTH,
@@ -16,9 +18,9 @@ namespace womolin::lib::enums
    };
 
 
-   enum class EUnitId
+   enum class EUnitId : uint8_t
    {
-      FIRST,
+      FIRST = 0,
       SECOND,
       THIRD,
       FOURTH,
@@ -28,9 +30,9 @@ namespace womolin::lib::enums
       EIGHTH
    };
 
-   enum class ERelayStatus
+   enum class ERelayStatus : uint8_t
    {
-      SET,
+      SET = 0,
       RESET,
       UNKNOWN
    };

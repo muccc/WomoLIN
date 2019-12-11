@@ -7,6 +7,7 @@
 ./build_openjre11.sh
 ./build_eclipse.sh
 ./build_gcc8.sh #includes eclipse
+./build_gcc9.sh #includes eclipse
 
 # Tools
 ./build_dia.sh

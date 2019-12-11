@@ -17,8 +17,8 @@ namespace womolin::board::simulation
       public:
          Serial();
          virtual ~Serial();
-         void readData( std::string & message ) override final;
-         void writeData( std::string & message ) override final;
+         womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) override final;
+         womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) override final;
 
       private:
          int sockfd, newsockfd, portno;

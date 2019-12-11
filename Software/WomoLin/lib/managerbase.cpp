@@ -11,6 +11,18 @@ namespace womolin::manager
 
    void ManagerBase::doWork()
    {
+      std::string key;
+      std::string value;      
+
+      while( true ==  protocol.getKeyValue( key, value ) ) 
+      {
+           
+         std::cout << key << std::endl;
+         std::cout << value << std::endl;
+
+      }
+
+      /*
       message = "";
       serial.readData( message ); 
       auto key = message.substr(0, message.find(","));
@@ -21,6 +33,7 @@ namespace womolin::manager
          signalVector.at(key)->UpdateUnit(key, value);
       }
 
-      serial.writeData( key );
+      //serial.writeData( key );
+      */
    }
 }
