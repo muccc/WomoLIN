@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../../../lib/include/icommon.h"
+#include "../../../../lib/include/ihal.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,13 +12,13 @@
 
 namespace womolin::board::simulation
 {
-   class Serial : public womolin::lib::common::interface::ISerial
+   class Serial : public womolin::lib::interface::hal::ISerial
    {
       public:
          Serial();
          virtual ~Serial();
-         womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) override final;
-         womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) override final;
+         womolin::lib::interface::hal::SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) override final;
+         womolin::lib::interface::hal::SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) override final;
 
       private:
          int sockfd, newsockfd, portno;

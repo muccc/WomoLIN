@@ -1,6 +1,6 @@
 #pragma once
 
-#include "icommon.h"
+#include "isignal.h"
 #include <vector>
 #include <iostream>
 
@@ -29,8 +29,8 @@ namespace womolin::signal
 
 
    class SignalSetReset final 
-      : public SignalAddUnit<womolin::lib::common::interface::ISignalSetReset>
-      , public womolin::lib::common::interface::ISignal
+      : public SignalAddUnit<womolin::lib::interface::signal::ISignalSetReset>
+      , public womolin::lib::interface::signal::ISignal
    {
       public:
          SignalSetReset() { std::cout << "Konstruktor SignalSetReset" << std::endl; };

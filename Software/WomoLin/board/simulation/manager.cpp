@@ -3,7 +3,7 @@
 
 namespace womolin::board::simulation
 {
-   Manager::Manager( womolin::lib::common::interface::ISerial & serial )
+   Manager::Manager( womolin::lib::interface::hal::ISerial & serial )
       : ManagerBase( serial )
 
    {

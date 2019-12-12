@@ -4,7 +4,7 @@
 namespace womolin::protocol
 {
 
-   Protocol::Protocol( womolin::lib::common::interface::ISerial & serial )
+   Protocol::Protocol( womolin::lib::interface::hal::ISerial & serial )
       : serial( serial )
    {
       std::cout << "Konstruktor Protocol::Protocol" << std::endl;

@@ -3,7 +3,7 @@
 
 namespace womolin::manager
 {
-   ManagerBase::ManagerBase( womolin::lib::common::interface::ISerial & serial )
+   ManagerBase::ManagerBase( womolin::lib::interface::hal::ISerial & serial )
       : serial( serial )
    {
       std::cout << "Konstruktor ManagerBase::ManagerBase" << std::endl;
@@ -26,6 +26,10 @@ namespace womolin::manager
       {
          std::cout << "found key at signal vector" << std::endl;
          signalVector.at(key)->UpdateUnit(key, value);
+         
+         std::cout << "new values" << key << ":" << value << std::endl;
+
+         // protocol send new value
       }
  
    }

@@ -39,12 +39,12 @@ namespace womolin::board::simulation
       close(sockfd);
    }
 
-   womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE Serial::readData( std::string & message )
+   womolin::lib::interface::hal::SERIAL_BUFFERSIZE_TYPE Serial::readData( std::string & message )
    {
-      char buffer[ womolin::lib::common::interface::SERIAL_BUFFERSIZE_MAX ];    
+      char buffer[ womolin::lib::interface::hal::SERIAL_BUFFERSIZE_MAX ];    
   
       auto readcount = 
-         read(newsockfd, &buffer, womolin::lib::common::interface::SERIAL_BUFFERSIZE_MAX ); 
+         read(newsockfd, &buffer, womolin::lib::interface::hal::SERIAL_BUFFERSIZE_MAX ); 
 
       if ( readcount  > 0 ) {
          message = buffer;
@@ -57,7 +57,7 @@ namespace womolin::board::simulation
       
    }
 
-   womolin::lib::common::interface::SERIAL_BUFFERSIZE_TYPE Serial::writeData( std::string & message )
+   womolin::lib::interface::hal::SERIAL_BUFFERSIZE_TYPE Serial::writeData( std::string & message )
    {
       auto writeData =  write(newsockfd, message.c_str(), message.length() );
 

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "icommon.h"
+#include "isignal.h"
 #include "signal.h"
 #include "protocol.h"
 
@@ -11,18 +11,18 @@ namespace womolin::manager
    class ManagerBase
    {
       public:
-         ManagerBase( womolin::lib::common::interface::ISerial & serial );
+         ManagerBase( womolin::lib::interface::hal::ISerial & serial );
          ~ManagerBase() = default;
 
          void doWork();
 
       protected:
-         std::string                                                          message;
-         std::map<std::string, womolin::lib::common::interface::ISignal*>     signalVector;
+         std::string                                                               message;
+         std::map<std::string_view, womolin::lib::interface::signal::ISignal*>     signalVector;
 
       private:
-         womolin::lib::common::interface::ISerial &    serial;
-         womolin::protocol::Protocol                   protocol { serial };
+         womolin::lib::interface::hal::ISerial &      serial;
+         womolin::protocol::Protocol                  protocol { serial };
 
    };
 }
