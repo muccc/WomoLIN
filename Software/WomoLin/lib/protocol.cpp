@@ -1,15 +1,10 @@
 #include "include/protocol.h"
 #include <iostream>
 
-namespace womolin::protocol
+namespace womolin::lib::protocol
 {
 
-   Protocol::Protocol( womolin::lib::interface::hal::ISerial & serial )
-      : serial( serial )
-   {
-      std::cout << "Konstruktor Protocol::Protocol" << std::endl;
-
-   }
+   Protocol::Protocol( ISerial & serial ) : serial( serial ) {}
 
    bool Protocol::getKeyValue( std::string & key, std::string & value)
    {

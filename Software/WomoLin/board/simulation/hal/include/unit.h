@@ -2,26 +2,37 @@
 
 #include "../../../../lib/include/ihal.h"
 
-namespace womolin::board::simulation::hal::unit
+namespace womolin::board::simulation::hal
 {
 
-   class HalInputOutput final : public womolin::lib::interface::hal::IHalInputOutput
+   using namespace womolin::lib::interface::hal;
+   using namespace womolin::lib::enums;
+
+   class HalOutput final : public IHalOutput
    {
       public:
-         HalInputOutput( );
-         ~HalInputOutput() = default;
+         HalOutput( ID id );
+         ~HalOutput() = default;
 
-         void setOutput( womolin::lib::enums::EUnitId id ) override final;
-         void resetOutput( womolin::lib::enums::EUnitId id ) override final;
-         void getStatus( womolin::lib::enums::ESetReset & status ) override final;
+         void setOutput() override final;
+         void resetOutput() override final;
 
-         void setResetOutput( womolin::lib::enums::EUnitId id, 
-                              womolin::lib::enums::ESetReset status );
+         void setResetOutput( ESetReset setReset );
+
       private:
-         // simulation 
-         // relay 1 : normal relay without readout status
-         // relay 2 : relay with readout status
-         womolin::lib::enums::ESetReset   status { womolin::lib::enums::ESetReset::UNKNOWN }; 
+         ID id; 
+   };
+
+   class HalInput final : public IHalInput
+   {
+      public:
+         HalInput( ID id );
+         ~HalInput() = default;
+
+         void getInput( ESetReset & status ) override final;
+
+      private:
+         ID id; 
    };
 
 }

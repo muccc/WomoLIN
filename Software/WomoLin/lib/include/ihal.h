@@ -5,8 +5,11 @@
 
 namespace womolin::lib::interface::hal
 {
+   using namespace womolin::lib::enums;
 
+   using ID = uint8_t;
    using SERIAL_BUFFERSIZE_TYPE = uint8_t;
+
    static constexpr SERIAL_BUFFERSIZE_TYPE SERIAL_BUFFERSIZE_MAX { 32 };
 
    class ISerial
@@ -20,14 +23,21 @@ namespace womolin::lib::interface::hal
    };
 
 
-   class IHalInputOutput
+   class IHalOutput
    {
       public:
-         virtual ~IHalInputOutput() = default;
+         virtual ~IHalOutput() = default;
 
-         virtual void setOutput( womolin::lib::enums::EUnitId id ) = 0;
-         virtual void resetOutput( womolin::lib::enums::EUnitId id ) = 0;
-         virtual void getStatus( womolin::lib::enums::ESetReset & status ) = 0;
+         virtual void setOutput() = 0;
+         virtual void resetOutput() = 0;
+   };
+
+   class IHalInput
+   {
+      public:
+         virtual ~IHalInput() = default;
+
+         virtual void getInput( ESetReset & status ) = 0;
    };
 
 }

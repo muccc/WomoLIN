@@ -9,7 +9,7 @@ int main() {
    
    std::cout << "Willkommen Board Simulation" << std::endl;
    
-   auto serial = womolin::board::simulation::Serial();
+   auto serial = womolin::board::simulation::hal::HalSerial();
    auto manager = womolin::board::simulation::Manager( serial );
 
    while( true ) {

@@ -2,18 +2,20 @@
 
 #include "ihal.h"
 
-namespace womolin::protocol
+namespace womolin::lib::protocol
 {
+   using namespace womolin::lib::interface::hal;
+
    class Protocol final
    {
       public:
-         Protocol( womolin::lib::interface::hal::ISerial & serial );
+         Protocol( ISerial & serial );
          ~Protocol() = default;
 
          bool getKeyValue( std::string & key, std::string & value);
 
       private:
-         womolin::lib::interface::hal::ISerial & serial; 
+         ISerial &   serial; 
          std::string messageBuffer;
    };
 

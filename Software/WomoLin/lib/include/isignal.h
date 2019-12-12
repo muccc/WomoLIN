@@ -7,6 +7,8 @@
 namespace womolin::lib::interface::signal
 {
 
+   using namespace womolin::lib::enums;
+
    class ISignal
    {
       public:
@@ -18,8 +20,7 @@ namespace womolin::lib::interface::signal
    {
       public:
 	      virtual ~ISignalSetReset() = default;
-         virtual void UpdateUnitSignalSetReset( std::string & key, 
-                                                womolin::lib::enums::ESetReset & value ) = 0;
+         virtual void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) = 0;
    };
 
 }

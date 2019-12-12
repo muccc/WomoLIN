@@ -6,23 +6,28 @@
 
 #include <map>
 
-namespace womolin::manager
+namespace womolin::lib::manager
 {
+
+   using namespace womolin::lib::interface::hal;
+   using namespace womolin::lib::interface::signal;
+   using namespace womolin::lib::protocol;
+
    class ManagerBase
    {
       public:
-         ManagerBase( womolin::lib::interface::hal::ISerial & serial );
+         ManagerBase( ISerial & serial );
          ~ManagerBase() = default;
 
          void doWork();
 
       protected:
-         std::string                                                               message;
-         std::map<std::string_view, womolin::lib::interface::signal::ISignal*>     signalVector;
+         std::string                              message;
+         std::map<std::string_view, ISignal*>     signalVector;
 
       private:
-         womolin::lib::interface::hal::ISerial &      serial;
-         womolin::protocol::Protocol                  protocol { serial };
+         ISerial &                     serial;
+         Protocol   protocol { serial };
 
    };
 }

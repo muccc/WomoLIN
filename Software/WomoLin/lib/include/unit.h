@@ -5,19 +5,33 @@
 
 namespace womolin::unit
 {
+   using namespace womolin::lib::interface::hal;
+   using namespace womolin::lib::interface::signal;
+   using namespace womolin::lib::enums;
 
-
-   class InputOutput : public womolin::lib::interface::signal::ISignalSetReset
+   class Output : public ISignalSetReset
    {
       public:
-         InputOutput( womolin::lib::interface::hal::IHalInputOutput & halInputOutput) ;
-         ~InputOutput() = default;
+         Output( IHalOutput & halOutput) ;
+         ~Output() = default;
 
-         void UpdateUnitSignalSetReset( std::string & key, 
-                                        womolin::lib::enums::ESetReset & value ) override final;
+         void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) override final;
 
       private:
-         womolin::lib::interface::hal::IHalInputOutput & halInputOutput; 
+         IHalOutput & halOutput; 
    };
+
+   class Input : public ISignalSetReset
+   {
+      public:
+         Input( IHalInput & halInput) ;
+         ~Input() = default;
+
+         void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) override final;
+
+      private:
+         IHalInput & halInput; 
+   };
+
 
 }

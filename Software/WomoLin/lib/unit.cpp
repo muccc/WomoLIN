@@ -3,19 +3,34 @@
 
 namespace womolin::unit
 {
-   InputOutput::InputOutput( womolin::lib::interface::hal::IHalInputOutput & halInputOutput) 
-      : halInputOutput( halInputOutput ) 
-   {
-      std::cout << "Konstruktor InputOutput::InputOutput"  << std::endl;
-   }   
 
-   void InputOutput::UpdateUnitSignalSetReset( std::string & key, 
-                                               womolin::lib::enums::ESetReset & value )
+   // Output
+
+   Output::Output( IHalOutput & halOutput ) : halOutput( halOutput ) {}   
+
+   void Output::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
    {
-      (void)(key);//TODO
-      (void)(value);//TODO
-      std::cout << "Funktion InputOutput::UpdateUnitSignalSetReset"  << std::endl;
-      halInputOutput.setOutput( womolin::lib::enums::EUnitId::FIRST );
+      switch( value ) {
+         case ESetReset::SET:
+            halOutput.setOutput(); break;
+         case ESetReset::RESET:
+            halOutput.resetOutput(); break;
+         default: break;
+      } 
+
+      (void)(key); 
    }
+
+   // Input
+
+   Input::Input( IHalInput & halInput ) : halInput( halInput ) {}   
+
+   void Input::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
+   {
+      halInput.getInput( value ); 
+
+      (void)(key); 
+   }
+
 
 }

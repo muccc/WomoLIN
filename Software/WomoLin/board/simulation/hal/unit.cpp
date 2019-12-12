@@ -1,45 +1,46 @@
 #include "include/unit.h"
 #include <iostream>
 
-namespace womolin::board::simulation::hal::unit
+namespace womolin::board::simulation::hal
 {
-   HalInputOutput::HalInputOutput( ) 
-   {
-      std::cout << "Konstruktor HalInputOutput::HalInputOutput"  << std::endl;
-   }
 
-   void HalInputOutput::setResetOutput( womolin::lib::enums::EUnitId id, 
-                                        womolin::lib::enums::ESetReset status )
+   // output
+
+   HalOutput::HalOutput( ID id ) : id( id ) {} 
+
+   void HalOutput::setResetOutput( ESetReset setReset )
    {
-      switch( id )
-      {
-      case womolin::lib::enums::EUnitId::FIRST:
+      (void)(setReset); // avoid compile error
+
+      switch( id ) {
+      case 0:
          // simulation no status available
          break;
-      case womolin::lib::enums::EUnitId::SECOND:
+      case 1:
          // simulation : stored in private variable "status"
-         this->status = status;  
          break;
       default:
          break;
       }
    }
 
-   void HalInputOutput::setOutput( womolin::lib::enums::EUnitId id )
+   void HalOutput::setOutput()
    {
-      std::cout << "Funktion HalInputOutput::setOutput" << std::endl;
-      setResetOutput( id, womolin::lib::enums::ESetReset::SET );
-   } 
-   void HalInputOutput::resetOutput( womolin::lib::enums::EUnitId id )
-   {
-      std::cout << "Funktion HalInputOutput::resetOutput" << std::endl;
-      setResetOutput( id, womolin::lib::enums::ESetReset::RESET );
+      setResetOutput( ESetReset::SET );
    } 
 
-   void HalInputOutput::getStatus( womolin::lib::enums::ESetReset & status )
+   void HalOutput::resetOutput()
    {
-      std::cout << "Funktion HalInputOutput::getStatus" << std::endl;
-      status = this->status;
+      setResetOutput( ESetReset::RESET );
+   } 
+
+   // input  
+
+   HalInput::HalInput( ID id ) : id( id ) {}
+
+   void HalInput::getInput( ESetReset & status)
+   {
+      status = ESetReset::UNKNOWN; 
    } 
  
 }

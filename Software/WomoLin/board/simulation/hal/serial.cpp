@@ -1,7 +1,7 @@
 #include "include/serial.h"
 #include <iostream>
 
-namespace womolin::board::simulation
+namespace womolin::board::simulation::hal
 {
 
    void error(const char *msg)
@@ -10,14 +10,13 @@ namespace womolin::board::simulation
       exit(1);
    }
 
-   Serial::Serial()
+   HalSerial::HalSerial()
    {
-      std::cout << "Konstruktor Serial" << std::endl;
 	   sockfd = socket(AF_INET, SOCK_STREAM, 0);	
 	   if (sockfd < 0) 	
 	      perror("ERROR opening socket");	
 	   bzero((char *) &serv_addr, sizeof(serv_addr));	
-	   portno = 20191;	
+	   portno = 2019;	
 	   serv_addr.sin_family = AF_INET;	
 	   serv_addr.sin_addr.s_addr = INADDR_ANY;	
 	   serv_addr.sin_port = htons(portno);	
@@ -33,18 +32,18 @@ namespace womolin::board::simulation
 	        error("ERROR on accept");	
    }
 
-   Serial::~Serial()
+   HalSerial::~HalSerial()
    {
       close(newsockfd);
       close(sockfd);
    }
 
-   womolin::lib::interface::hal::SERIAL_BUFFERSIZE_TYPE Serial::readData( std::string & message )
+   SERIAL_BUFFERSIZE_TYPE HalSerial::readData( std::string & message )
    {
-      char buffer[ womolin::lib::interface::hal::SERIAL_BUFFERSIZE_MAX ];    
+      char buffer[ SERIAL_BUFFERSIZE_MAX ];    
   
       auto readcount = 
-         read(newsockfd, &buffer, womolin::lib::interface::hal::SERIAL_BUFFERSIZE_MAX ); 
+         read(newsockfd, &buffer, SERIAL_BUFFERSIZE_MAX ); 
 
       if ( readcount  > 0 ) {
          message = buffer;
@@ -57,7 +56,7 @@ namespace womolin::board::simulation
       
    }
 
-   womolin::lib::interface::hal::SERIAL_BUFFERSIZE_TYPE Serial::writeData( std::string & message )
+   SERIAL_BUFFERSIZE_TYPE HalSerial::writeData( std::string & message )
    {
       auto writeData =  write(newsockfd, message.c_str(), message.length() );
 

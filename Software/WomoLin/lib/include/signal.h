@@ -7,6 +7,9 @@
 namespace womolin::signal
 {
 
+   using namespace womolin::lib::interface::signal;
+   using namespace womolin::lib::enums;
+
    template<class T>
    class SignalAddUnit
    {
@@ -29,11 +32,11 @@ namespace womolin::signal
 
 
    class SignalSetReset final 
-      : public SignalAddUnit<womolin::lib::interface::signal::ISignalSetReset>
-      , public womolin::lib::interface::signal::ISignal
+      : public SignalAddUnit<ISignalSetReset>
+      , public ISignal
    {
       public:
-         SignalSetReset() { std::cout << "Konstruktor SignalSetReset" << std::endl; };
+         SignalSetReset() {};
          ~SignalSetReset() = default;
          void UpdateUnit( std::string & key, std::string & value ) override final;
    };
