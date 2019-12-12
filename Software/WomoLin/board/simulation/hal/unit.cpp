@@ -3,12 +3,12 @@
 
 namespace womolin::board::simulation::hal::unit
 {
-   HalRelay::HalRelay( ) 
+   HalInputOutput::HalInputOutput( ) 
    {
-      std::cout << "Konstruktor HalRelay::HalRelay"  << std::endl;
+      std::cout << "Konstruktor HalInputOutput::HalInputOutput"  << std::endl;
    }
 
-   void HalRelay::relaySetReset( womolin::lib::enums::EUnitId id, womolin::lib::enums::ERelayStatus status )
+   void HalInputOutput::setResetOutput( womolin::lib::enums::EUnitId id, womolin::lib::enums::EInputOutputStatus status )
    {
       switch( id )
       {
@@ -24,20 +24,20 @@ namespace womolin::board::simulation::hal::unit
       }
    }
 
-   void HalRelay::relaySet( womolin::lib::enums::EUnitId id )
+   void HalInputOutput::setOutput( womolin::lib::enums::EUnitId id )
    {
-      std::cout << "Funktion HalRelay::relaySet" << std::endl;
-      relaySetReset( id, womolin::lib::enums::ERelayStatus::SET );
+      std::cout << "Funktion HalInputOutput::setOutput" << std::endl;
+      setResetOutput( id, womolin::lib::enums::EInputOutputStatus::SET );
    } 
-   void HalRelay::relayReset( womolin::lib::enums::EUnitId id )
+   void HalInputOutput::resetOutput( womolin::lib::enums::EUnitId id )
    {
-      std::cout << "Funktion HalRelay::relayReset" << std::endl;
-      relaySetReset( id, womolin::lib::enums::ERelayStatus::RESET );
+      std::cout << "Funktion HalInputOutput::resetOutput" << std::endl;
+      setResetOutput( id, womolin::lib::enums::EInputOutputStatus::RESET );
    } 
 
-   void HalRelay::relayGetStatus( womolin::lib::enums::ERelayStatus & status )
+   void HalInputOutput::getStatus( womolin::lib::enums::EInputOutputStatus & status )
    {
-      std::cout << "Funktion HalRelay::relayGetStatus" << std::endl;
+      std::cout << "Funktion HalInputOutput::getStatus" << std::endl;
       status = this->status;
    } 
  

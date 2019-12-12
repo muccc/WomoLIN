@@ -30,7 +30,7 @@ namespace womolin::lib::enums
       EIGHTH
    };
 
-   enum class ERelayStatus : uint8_t
+   enum class EInputOutputStatus : uint8_t
    {
       SET = 0,
       RESET,

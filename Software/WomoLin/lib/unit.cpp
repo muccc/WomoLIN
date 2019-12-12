@@ -3,18 +3,18 @@
 
 namespace womolin::unit
 {
-   Relay::Relay( womolin::lib::hal::interface::IHalRelay & halRelay) 
-      : halRelay( halRelay ) 
+   InputOutput::InputOutput( womolin::lib::hal::interface::IHalInputOutput & halInputOutput) 
+      : halInputOutput( halInputOutput ) 
    {
-      std::cout << "Konstruktor Relay::Relay"  << std::endl;
+      std::cout << "Konstruktor InputOutput::InputOutput"  << std::endl;
    }   
 
-   void Relay::UpdateUnitSignalSetReset( std::string & key, std::string & value )
+   void InputOutput::UpdateUnitSignalSetReset( std::string & key, std::string & value )
    {
       (void)(key);//TODO
       (void)(value);//TODO
-      std::cout << "Funktion Relay::UpdateUnitSignalSetReset"  << std::endl;
-      halRelay.relaySet( womolin::lib::enums::EUnitId::FIRST );
+      std::cout << "Funktion InputOutput::UpdateUnitSignalSetReset"  << std::endl;
+      halInputOutput.setOutput( womolin::lib::enums::EUnitId::FIRST );
    }
 
 }

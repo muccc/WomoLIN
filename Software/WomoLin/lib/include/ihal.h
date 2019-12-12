@@ -5,14 +5,14 @@
 namespace womolin::lib::hal::interface
 {
 
-   class IHalRelay
+   class IHalInputOutput
    {
       public:
-         virtual ~IHalRelay() = default;
+         virtual ~IHalInputOutput() = default;
 
-         virtual void relaySet( womolin::lib::enums::EUnitId id ) = 0;
-         virtual void relayReset( womolin::lib::enums::EUnitId id ) = 0;
-         virtual void relayGetStatus( womolin::lib::enums::ERelayStatus & status ) = 0;
+         virtual void setOutput( womolin::lib::enums::EUnitId id ) = 0;
+         virtual void resetOutput( womolin::lib::enums::EUnitId id ) = 0;
+         virtual void getStatus( womolin::lib::enums::EInputOutputStatus & status ) = 0;
    };
 
 }

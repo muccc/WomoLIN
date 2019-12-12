@@ -5,16 +5,16 @@
 
 namespace womolin::unit
 {
-   class Relay : public womolin::lib::common::interface::ISignalSetReset
+   class InputOutput : public womolin::lib::common::interface::ISignalSetReset
    {
       public:
-         Relay( womolin::lib::hal::interface::IHalRelay & halRelay) ;
-         ~Relay() = default;
+         InputOutput( womolin::lib::hal::interface::IHalInputOutput & halInputOutput) ;
+         ~InputOutput() = default;
 
          void UpdateUnitSignalSetReset( std::string & key, std::string & value ) override final;
 
       private:
-         womolin::lib::hal::interface::IHalRelay & halRelay; 
+         womolin::lib::hal::interface::IHalInputOutput & halInputOutput; 
    };
 
 }

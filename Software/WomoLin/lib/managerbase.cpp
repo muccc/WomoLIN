@@ -11,29 +11,22 @@ namespace womolin::manager
 
    void ManagerBase::doWork()
    {
-      std::string key;
-      std::string value;      
+      static std::string key;
+      static std::string value;      
 
-      while( true ==  protocol.getKeyValue( key, value ) ) 
+      if ( true ==  protocol.getKeyValue( key, value ) ) 
       {
            
-         std::cout << key << std::endl;
-         std::cout << value << std::endl;
+         std::cout << "found key: " << key << std::endl;
+         std::cout << "found value: " << value << std::endl;
 
       }
-
-      /*
-      message = "";
-      serial.readData( message ); 
-      auto key = message.substr(0, message.find(","));
-      auto value = message.substr(message.find(",") + 1);
 
       if (signalVector.count(key))
       {
+         std::cout << "found key at signal vector" << std::endl;
          signalVector.at(key)->UpdateUnit(key, value);
       }
-
-      //serial.writeData( key );
-      */
+ 
    }
 }

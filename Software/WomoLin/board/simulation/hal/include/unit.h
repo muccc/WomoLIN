@@ -5,22 +5,22 @@
 namespace womolin::board::simulation::hal::unit
 {
 
-   class HalRelay final : public womolin::lib::hal::interface::IHalRelay
+   class HalInputOutput final : public womolin::lib::hal::interface::IHalInputOutput
    {
       public:
-         HalRelay( );
-         ~HalRelay() = default;
+         HalInputOutput( );
+         ~HalInputOutput() = default;
 
-         void relaySet( womolin::lib::enums::EUnitId id ) override final;
-         void relayReset( womolin::lib::enums::EUnitId id ) override final;
-         void relayGetStatus( womolin::lib::enums::ERelayStatus & status ) override final;
+         void setOutput( womolin::lib::enums::EUnitId id ) override final;
+         void resetOutput( womolin::lib::enums::EUnitId id ) override final;
+         void getStatus( womolin::lib::enums::EInputOutputStatus & status ) override final;
 
-         void relaySetReset( womolin::lib::enums::EUnitId id, womolin::lib::enums::ERelayStatus status );
+         void setResetOutput( womolin::lib::enums::EUnitId id, womolin::lib::enums::EInputOutputStatus status );
       private:
          // simulation 
          // relay 1 : normal relay without readout status
          // relay 2 : relay with readout status
-         womolin::lib::enums::ERelayStatus   status { womolin::lib::enums::ERelayStatus::UNKNOWN }; 
+         womolin::lib::enums::EInputOutputStatus   status { womolin::lib::enums::EInputOutputStatus::UNKNOWN }; 
    };
 
 }
