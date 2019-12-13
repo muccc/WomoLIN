@@ -9,17 +9,17 @@ namespace womolin::lib::interface::signal
 
    using namespace womolin::lib::enums;
 
-   class ISignal
+   class ILibSignal
    {
       public:
-         virtual ~ISignal() = default;
+         virtual ~ILibSignal() = default;
          virtual void UpdateUnit( std::string & key, std::string & value ) = 0;
    };
 
-   class ISignalSetReset
+   class ILibSignalSetReset
    {
       public:
-	      virtual ~ISignalSetReset() = default;
+	      virtual ~ILibSignalSetReset() = default;
          virtual void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) = 0;
    };
 

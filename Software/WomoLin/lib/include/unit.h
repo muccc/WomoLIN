@@ -3,34 +3,34 @@
 #include "isignal.h"
 #include "ihal.h"
 
-namespace womolin::unit
+namespace womolin::lib::unit
 {
    using namespace womolin::lib::interface::hal;
    using namespace womolin::lib::interface::signal;
    using namespace womolin::lib::enums;
 
-   class Output : public ISignalSetReset
+   class LibOutput : public ILibSignalSetReset
    {
       public:
-         Output( IHalOutput & halOutput) ;
-         ~Output() = default;
+         LibOutput( ILibHalOutput & halOutput) ;
+         ~LibOutput() = default;
 
          void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) override final;
 
       private:
-         IHalOutput & halOutput; 
+         ILibHalOutput & halOutput; 
    };
 
-   class Input : public ISignalSetReset
+   class LibInput : public ILibSignalSetReset
    {
       public:
-         Input( IHalInput & halInput) ;
-         ~Input() = default;
+         LibInput( ILibHalInput & halInput) ;
+         ~LibInput() = default;
 
          void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) override final;
 
       private:
-         IHalInput & halInput; 
+         ILibHalInput & halInput; 
    };
 
 

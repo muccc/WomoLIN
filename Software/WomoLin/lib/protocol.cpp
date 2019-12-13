@@ -4,9 +4,9 @@
 namespace womolin::lib::protocol
 {
 
-   Protocol::Protocol( ISerial & serial ) : serial( serial ) {}
+   LibProtocol::LibProtocol( ILibSerial & serial ) : serial( serial ) {}
 
-   bool Protocol::getKeyValue( std::string & key, std::string & value)
+   bool LibProtocol::getKeyValue( std::string & key, std::string & value)
    {
       // if no key or value found, then send empty strings
       key.clear(); 
@@ -49,7 +49,7 @@ namespace womolin::lib::protocol
       return true;
    }
 
-   void Protocol::sendKeyValue( std::string & key, std::string & value )
+   void LibProtocol::sendKeyValue( std::string & key, std::string & value )
    {
       std::string message;
       message = STARTBYTE + key + SEPARATOR + value + ENDBYTE + LINEBREAK;

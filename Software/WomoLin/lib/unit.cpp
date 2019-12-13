@@ -1,14 +1,14 @@
 #include "include/unit.h"
 #include <iostream>
 
-namespace womolin::unit
+namespace womolin::lib::unit
 {
 
-   // Output
+   // LibOutput
 
-   Output::Output( IHalOutput & halOutput ) : halOutput( halOutput ) {}   
+   LibOutput::LibOutput( ILibHalOutput & halOutput ) : halOutput( halOutput ) {}   
 
-   void Output::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
+   void LibOutput::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
    {
       switch( value ) {
          case ESetReset::SET:
@@ -21,16 +21,14 @@ namespace womolin::unit
       (void)(key); 
    }
 
-   // Input
+   // LibInput
 
-   Input::Input( IHalInput & halInput ) : halInput( halInput ) {}   
+   LibInput::LibInput( ILibHalInput & halInput ) : halInput( halInput ) {}   
 
-   void Input::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
+   void LibInput::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
    {
       halInput.getInput( value ); 
 
       (void)(key); 
    }
-
-
 }

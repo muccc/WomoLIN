@@ -4,18 +4,18 @@
 #include <vector>
 #include <iostream>
 
-namespace womolin::signal
+namespace womolin::lib::signal
 {
 
    using namespace womolin::lib::interface::signal;
    using namespace womolin::lib::enums;
 
    template<class T>
-   class SignalAddUnit
+   class LibSignalAddUnit
    {
       public:
-	      SignalAddUnit() = default;
-	      ~SignalAddUnit() = default;
+	      LibSignalAddUnit() = default;
+	      ~LibSignalAddUnit() = default;
 
 	      void AddUnit(T* unit);
 
@@ -25,19 +25,19 @@ namespace womolin::signal
 
 
    template<class T>
-   void SignalAddUnit<T>::AddUnit( T* unit )
+   void LibSignalAddUnit<T>::AddUnit( T* unit )
    {
 	   units.push_back(unit);
    }
 
 
-   class SignalSetReset final 
-      : public SignalAddUnit<ISignalSetReset>
-      , public ISignal
+   class LibSignalSetReset final 
+      : public LibSignalAddUnit<ILibSignalSetReset>
+      , public ILibSignal
    {
       public:
-         SignalSetReset() {};
-         ~SignalSetReset() = default;
+         LibSignalSetReset() {};
+         ~LibSignalSetReset() = default;
          void UpdateUnit( std::string & key, std::string & value ) override final;
    };
 }

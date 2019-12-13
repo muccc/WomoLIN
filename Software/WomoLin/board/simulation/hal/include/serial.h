@@ -14,7 +14,7 @@ namespace womolin::board::simulation::hal
 {
    using namespace womolin::lib::interface::hal;
 
-   class HalSerial : public womolin::lib::interface::hal::ISerial
+   class HalSerial : public womolin::lib::interface::hal::ILibSerial
    {
       public:
          HalSerial();

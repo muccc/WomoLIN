@@ -1,10 +1,10 @@
 #include "include/signal.h"
 #include <iostream>
 
-namespace womolin::signal
+namespace womolin::lib::signal
 {
 
-   void SignalSetReset::UpdateUnit( std::string & key, std::string & value )
+   void LibSignalSetReset::UpdateUnit( std::string & key, std::string & value )
    {
 
       auto valueEnum = StringToESetReset( value );

@@ -14,10 +14,10 @@ namespace womolin::lib::interface::hal
 
    // serial
 
-   class ISerial
+   class ILibSerial
    {
       public:
-         virtual ~ISerial() = default;
+         virtual ~ILibSerial() = default;
 
          virtual SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) = 0;
          virtual SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) = 0;
@@ -26,10 +26,10 @@ namespace womolin::lib::interface::hal
 
    // hal output
 
-   class IHalOutput
+   class ILibHalOutput
    {
       public:
-         virtual ~IHalOutput() = default;
+         virtual ~ILibHalOutput() = default;
 
          virtual void setOutput() = 0;
          virtual void resetOutput() = 0;
@@ -37,10 +37,10 @@ namespace womolin::lib::interface::hal
 
    // hal input
 
-   class IHalInput
+   class ILibHalInput
    {
       public:
-         virtual ~IHalInput() = default;
+         virtual ~ILibHalInput() = default;
 
          virtual void getInput( ESetReset & status ) = 0;
    };

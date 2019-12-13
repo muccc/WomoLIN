@@ -6,17 +6,17 @@ namespace womolin::lib::protocol
 {
    using namespace womolin::lib::interface::hal;
 
-   class Protocol final
+   class LibProtocol final
    {
       public:
-         Protocol( ISerial & serial );
-         ~Protocol() = default;
+         LibProtocol( ILibSerial & serial );
+         ~LibProtocol() = default;
 
          bool getKeyValue( std::string & key, std::string & value);
          void sendKeyValue( std::string & key, std::string & value);
 
       private:
-         ISerial &   serial; 
+         ILibSerial &   serial; 
          std::string messageBuffer;
 
 

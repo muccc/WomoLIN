@@ -13,21 +13,21 @@ namespace womolin::lib::manager
    using namespace womolin::lib::interface::signal;
    using namespace womolin::lib::protocol;
 
-   class ManagerBase
+   class LibManagerBase
    {
       public:
-         ManagerBase( ISerial & serial );
-         ~ManagerBase() = default;
+         LibManagerBase( ILibSerial & serial );
+         ~LibManagerBase() = default;
 
          void doWork();
 
       protected:
          std::string                              message;
-         std::map<std::string_view, ISignal*>     signalVector;
+         std::map<std::string_view, ILibSignal*>     signalVector;
 
       private:
-         ISerial &                     serial;
-         Protocol   protocol { serial };
+         ILibSerial &      serial;
+         LibProtocol       protocol { serial };
 
    };
 }

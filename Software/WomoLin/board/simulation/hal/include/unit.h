@@ -19,7 +19,7 @@ namespace womolin::board::simulation::hal
 
    // output
 
-   class HalOutput final : public IHalOutput
+   class HalOutput final : public ILibHalOutput
    {
       public:
          HalOutput( ID id );
@@ -36,7 +36,7 @@ namespace womolin::board::simulation::hal
 
    // input
 
-   class HalInput final : public IHalInput
+   class HalInput final : public ILibHalInput
    {
       public:
          HalInput( ID id );

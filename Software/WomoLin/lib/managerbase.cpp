@@ -4,9 +4,9 @@
 namespace womolin::lib::manager
 {
 
-   ManagerBase::ManagerBase( ISerial & serial ) : serial( serial ) {}
+   LibManagerBase::LibManagerBase( ILibSerial & serial ) : serial( serial ) {}
 
-   void ManagerBase::doWork()
+   void LibManagerBase::doWork()
    {
       static std::string key;
       static std::string valueCur;      
