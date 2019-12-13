@@ -16,6 +16,6 @@ namespace womolin::lib::enums
    
    std::string ESetResetToString( const ESetReset enumValue );
 
-   ESetReset StringToESetReset( const std::string stringValue );
+   ESetReset StringToESetReset( const std::string & stringValue );
 
  }

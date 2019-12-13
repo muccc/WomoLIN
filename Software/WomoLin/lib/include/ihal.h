@@ -7,7 +7,7 @@ namespace womolin::lib::interface::hal
 {
    using namespace womolin::lib::enums;
 
-   using ID = uint8_t;
+   using ID = uint16_t;
    using SERIAL_BUFFERSIZE_TYPE = uint8_t;
 
    static constexpr SERIAL_BUFFERSIZE_TYPE SERIAL_BUFFERSIZE_MAX { 32 };

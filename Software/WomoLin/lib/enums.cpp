@@ -1,4 +1,5 @@
 #include "include/enums.h"
+#include <iostream>
 
 namespace womolin::lib::enums
 {
@@ -26,7 +27,7 @@ namespace womolin::lib::enums
    }
 
 
-   ESetReset StringToESetReset( const std::string stringValue )
+   ESetReset StringToESetReset( const std::string & stringValue )
    {
       auto enumValue { ESetReset::UNKNOWN };
 

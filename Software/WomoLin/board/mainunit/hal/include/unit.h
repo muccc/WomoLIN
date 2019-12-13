@@ -1,8 +1,11 @@
 #pragma once
 
 #include "../../../../lib/include/ihal.h"
+#ifdef SIMULATION
+#include <array>
+#endif
 
-namespace womolin::board::simulation::hal
+namespace womolin::board::hal
 {
 
    using namespace womolin::lib::interface::hal;
@@ -11,10 +14,10 @@ namespace womolin::board::simulation::hal
    class DEV_ID
    {
       public:
-         static constexpr ID RELAY_0 { 0 };
-         static constexpr ID RELAY_1 { 1 };
-
-         static constexpr ID GPIO_LED_1 { 10 };
+         static constexpr ID BIRELAY_0 { 0 };
+         static constexpr ID BIRELAY_1 { 1 };
+         static constexpr ID BIRELAY_2 { 2 };
+         static constexpr ID BIRELAY_3 { 3 };
    };
 
    // output
@@ -32,6 +35,7 @@ namespace womolin::board::simulation::hal
 
       private:
          ID id; 
+      
    };
 
    // input

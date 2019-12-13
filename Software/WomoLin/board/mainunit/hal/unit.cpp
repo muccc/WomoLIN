@@ -1,12 +1,20 @@
 #include "include/unit.h"
 #include <iostream>
 
-namespace womolin::board::simulation::hal
+namespace womolin::board::hal
 {
+
+
+#ifdef SIMULATION
+   static std::array<ESetReset, 4> BIRELAY_STATUS { 
+      ESetReset::UNKNOWN, ESetReset::UNKNOWN, ESetReset::UNKNOWN, ESetReset::UNKNOWN};
+#endif
+
 
    // output
 
    HalOutput::HalOutput( ID id ) : id( id ) {} 
+   
 
    void HalOutput::setResetOutput( ESetReset setReset )
    {
@@ -15,20 +23,21 @@ namespace womolin::board::simulation::hal
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
 
-      std::cout << "output id : " << std::to_string(id) << std::endl;
-
       switch( id ) {
-      case 0 ... 9:
-         //std::cout << " id is relay " << std::endl;
+      case 0 ... 9: // relays
+#ifdef SIMULATION
+         std::cout << "output id" << std::to_string(id) << std::endl;
+         BIRELAY_STATUS[ id ] = setReset;
+#endif
          break;
-      case 10 ... 30:
-         //std::cout << " id is gpio " << std::endl;
+      case 10 ... 30: // gpios
          break;
       default:
          break;
       }
 #pragma GCC diagnostic pop
 
+      setReset = ESetReset::UNKNOWN;
    }
 
    void HalOutput::setOutput()
@@ -47,8 +56,9 @@ namespace womolin::board::simulation::hal
 
    void HalInput::getInput( ESetReset & status)
    {
-      std::cout << "input id : " << std::to_string(id) << std::endl;
-      status = ESetReset::UNKNOWN; 
+#ifdef SIMULATION
+      status = BIRELAY_STATUS[ id ];
+#endif
    } 
  
 }

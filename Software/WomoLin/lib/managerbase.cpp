@@ -9,18 +9,20 @@ namespace womolin::lib::manager
    void LibManagerBase::doWork()
    {
       static std::string key;
-      static std::string valueCur;      
-      static std::string valueNew;      
+      static std::string value;      
+      static std::string valueCopy;      
 
-      if( protocol.getKeyValue( key, valueCur ) )
+      if( protocol.getKeyValue( key, value ) )
       {
+         std::cout << key <<":" << value << std::endl;
          if ( signalVector.count(key) )
          {
-            signalVector.at(key)->UpdateUnit( key, valueNew );
+            valueCopy = value;
+            std::cout << "update mit " << key << ":" << value << std::endl;
+            signalVector.at(key)->UpdateUnit( key, value );
 
-            if( 0 == valueCur.compare( "GET" )) {
-               std::cout << "value is GET" << std::endl;
-               protocol.sendKeyValue( key, valueNew );
+            if( 0 == valueCopy.compare( "GET" )) {
+               protocol.sendKeyValue( key, value );
             }
          }
       }

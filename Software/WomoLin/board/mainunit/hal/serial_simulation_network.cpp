@@ -1,7 +1,7 @@
-#include "include/serial.h"
+#include "include/serial_simulation_network.h"
 #include <iostream>
 
-namespace womolin::board::simulation::hal
+namespace womolin::board::hal::simulation::network
 {
 
    void error(const char *msg)
@@ -16,7 +16,7 @@ namespace womolin::board::simulation::hal
 	   if (sockfd < 0) 	
 	      perror("ERROR opening socket");	
 	   bzero((char *) &serv_addr, sizeof(serv_addr));	
-	   portno = 2019;	
+	   portno = 20191;	
 	   serv_addr.sin_family = AF_INET;	
 	   serv_addr.sin_addr.s_addr = INADDR_ANY;	
 	   serv_addr.sin_port = htons(portno);	
