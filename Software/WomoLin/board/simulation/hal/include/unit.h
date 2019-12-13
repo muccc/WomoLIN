@@ -8,6 +8,17 @@ namespace womolin::board::simulation::hal
    using namespace womolin::lib::interface::hal;
    using namespace womolin::lib::enums;
 
+   class DEV_ID
+   {
+      public:
+         static constexpr ID RELAY_0 { 0 };
+         static constexpr ID RELAY_1 { 1 };
+
+         static constexpr ID GPIO_LED_1 { 10 };
+   };
+
+   // output
+
    class HalOutput final : public IHalOutput
    {
       public:
@@ -22,6 +33,8 @@ namespace womolin::board::simulation::hal
       private:
          ID id; 
    };
+
+   // input
 
    class HalInput final : public IHalInput
    {

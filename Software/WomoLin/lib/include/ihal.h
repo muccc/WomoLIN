@@ -12,6 +12,8 @@ namespace womolin::lib::interface::hal
 
    static constexpr SERIAL_BUFFERSIZE_TYPE SERIAL_BUFFERSIZE_MAX { 32 };
 
+   // serial
+
    class ISerial
    {
       public:
@@ -22,6 +24,7 @@ namespace womolin::lib::interface::hal
          
    };
 
+   // hal output
 
    class IHalOutput
    {
@@ -32,6 +35,8 @@ namespace womolin::lib::interface::hal
          virtual void resetOutput() = 0;
    };
 
+   // hal input
+
    class IHalInput
    {
       public:
@@ -39,5 +44,7 @@ namespace womolin::lib::interface::hal
 
          virtual void getInput( ESetReset & status ) = 0;
    };
+
+
 
 }

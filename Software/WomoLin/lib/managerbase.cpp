@@ -9,14 +9,19 @@ namespace womolin::lib::manager
    void ManagerBase::doWork()
    {
       static std::string key;
-      static std::string value;      
+      static std::string valueCur;      
+      static std::string valueNew;      
 
-      // TODO implement input signals / send status 
-      if( protocol.getKeyValue( key, value ) )
+      if( protocol.getKeyValue( key, valueCur ) )
       {
          if ( signalVector.count(key) )
          {
-            signalVector.at(key)->UpdateUnit(key, value);
+            signalVector.at(key)->UpdateUnit( key, valueNew );
+
+            if( 0 == valueCur.compare( "GET" )) {
+               std::cout << "value is GET" << std::endl;
+               protocol.sendKeyValue( key, valueNew );
+            }
          }
       }
    }

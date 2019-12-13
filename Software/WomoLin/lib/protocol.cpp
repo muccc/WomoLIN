@@ -23,10 +23,6 @@ namespace womolin::lib::protocol
       messageBuffer += buffer;
       buffer.clear(); // clearing for get key and value from protocol string
       
-      static const auto STARTBYTE = "^";
-      static const auto SEPARATOR = ";";
-      static const auto ENDBYTE = "$";
-
       auto pos = messageBuffer.find( STARTBYTE );
       if ( std::string::npos == pos ){
          messageBuffer.clear();
@@ -52,4 +48,13 @@ namespace womolin::lib::protocol
 
       return true;
    }
+
+   void Protocol::sendKeyValue( std::string & key, std::string & value )
+   {
+      std::string message;
+      message = STARTBYTE + key + SEPARATOR + value + ENDBYTE + LINEBREAK;
+      serial.writeData( message );
+   }
+
+
 }

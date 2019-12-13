@@ -12,16 +12,23 @@ namespace womolin::board::simulation::hal
    {
       (void)(setReset); // avoid compile error
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wpedantic"
+
+      std::cout << "output id : " << std::to_string(id) << std::endl;
+
       switch( id ) {
-      case 0:
-         // simulation no status available
+      case 0 ... 9:
+         //std::cout << " id is relay " << std::endl;
          break;
-      case 1:
-         // simulation : stored in private variable "status"
+      case 10 ... 30:
+         //std::cout << " id is gpio " << std::endl;
          break;
       default:
          break;
       }
+#pragma GCC diagnostic pop
+
    }
 
    void HalOutput::setOutput()
@@ -40,6 +47,7 @@ namespace womolin::board::simulation::hal
 
    void HalInput::getInput( ESetReset & status)
    {
+      std::cout << "input id : " << std::to_string(id) << std::endl;
       status = ESetReset::UNKNOWN; 
    } 
  
