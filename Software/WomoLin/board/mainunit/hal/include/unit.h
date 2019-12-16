@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../../../lib/include/ihal.h"
+#include "../../../../womolin/include/ihal.h"
 #ifdef SIMULATION
 #include <array>
 #endif

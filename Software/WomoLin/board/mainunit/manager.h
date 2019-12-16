@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../../lib/include/managerbase.h"
-#include "../../lib/include/unit.h"
+#include "../../womolin/include/managerbase.h"
+#include "../../womolin/include/unit.h"
 #include "./hal/include/unit.h"
 
 namespace womolin::board
