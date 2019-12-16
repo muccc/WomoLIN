@@ -15,17 +15,19 @@ namespace womolin::lib::manager
       static std::string value;      
       static std::string valueCopy;      
 
-      if( protocol.getKeyValue( key, value ) )
-      {
-         if ( signalVector.count(key) )
-         {
-            valueCopy = value;
-            signalVector.at(key)->UpdateUnit( key, value );
+      if( false == protocol.getKeyValue( key, value ) ) {
+         return; 
+      }
+   
+      if ( false == signalVector.count(key) ) {
+         return;
+      }
 
-            if( 0 == valueCopy.compare( "GET" )) {
-               protocol.sendKeyValue( key, value );
-            }
-         }
+      valueCopy = value;
+      signalVector.at(key)->UpdateUnit( key, value );
+
+      if( 0 == valueCopy.compare( "GET" ) ) {
+         protocol.sendKeyValue( key, value );
       }
    }
 }

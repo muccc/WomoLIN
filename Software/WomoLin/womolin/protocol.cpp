@@ -18,8 +18,7 @@ namespace womolin::lib::protocol
       std::string buffer; 
       buffer.clear();
 
-      if( 0 >=  serial.readData( buffer ) ) // no data read
-      {
+      if( 0 >=  serial.readData( buffer ) ) { // no data read
          return false;
       }
 
@@ -31,21 +30,25 @@ namespace womolin::lib::protocol
          messageBuffer.clear();
          return false;
       }
-      messageBuffer = messageBuffer.substr( pos + 1 );
+      // remove all bytes left from startbyte
+      messageBuffer = messageBuffer.substr( pos + 1 ); 
 
       pos = messageBuffer.find( ENDBYTE );
       if ( std::string::npos == pos ){
          return false;
       }
-
+      
+      // copy a full message and remove this message from buffer
       auto protocolString = messageBuffer.substr( 0, pos );
       messageBuffer = messageBuffer.substr( pos );
 
+      // separator present ?
       pos = protocolString.find( SEPARATOR );
-      if ( std::string::npos == pos ){
+      if ( std::string::npos == pos ) {
          return false;
       }
 
+      // extract key and value 
       key = protocolString.substr( 0, pos );
       value = protocolString.substr( pos + 1 );
 
