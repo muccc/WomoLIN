@@ -3,7 +3,6 @@
 /* Author Myron Franze <myronfranze@web.de> */
 
 #include "manager.h"
-#include <iostream>
 
 namespace womolin::board
 {

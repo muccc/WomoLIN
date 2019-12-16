@@ -6,7 +6,6 @@
 
 #include "isignal.h"
 #include <vector>
-#include <iostream>
 
 namespace womolin::lib::signal
 {

@@ -10,13 +10,10 @@
 
 #include "manager.h"
 
-#include <iostream>
 #include <thread>
 #include <chrono>
 
 int main() {
-   
-   std::cout << "Willkommen vom Main Unit" << std::endl;
    
 #ifdef SIMULATION
    auto serial = womolin::board::hal::simulation::network::HalSerial();

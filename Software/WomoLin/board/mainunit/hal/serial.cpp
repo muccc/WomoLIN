@@ -3,7 +3,6 @@
 /* Author Myron Franze <myronfranze@web.de> */
 
 #include "include/serial.h"
-#include <iostream>
 
 namespace womolin::board::hal
 {

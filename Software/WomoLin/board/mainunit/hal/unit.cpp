@@ -3,7 +3,6 @@
 /* Author Myron Franze <myronfranze@web.de> */
 
 #include "include/unit.h"
-#include <iostream>
 
 namespace womolin::board::hal
 {
@@ -30,7 +29,6 @@ namespace womolin::board::hal
       switch( id ) {
       case 0 ... 9: // relays
 #ifdef SIMULATION
-         std::cout << "output id" << std::to_string(id) << std::endl;
          BIRELAY_STATUS[ id ] = setReset;
 #endif
          break;

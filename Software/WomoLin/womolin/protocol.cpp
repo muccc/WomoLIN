@@ -3,7 +3,6 @@
 /* Author Myron Franze <myronfranze@web.de> */
 
 #include "include/protocol.h"
-#include <iostream>
 
 namespace womolin::lib::protocol
 {
