@@ -3,4 +3,4 @@
 mkdir -p out
 cd out
 cmake ../
-make all
+make

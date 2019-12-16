@@ -12,13 +12,15 @@ SET(CMAKE_CXX_FLAGS "-DSIMULATION -Wall -Wpedantic -Werror=pedantic -Wextra -Os 
 project(womolin)
 
 add_executable(mainunit
+
    womolin/enums.cpp
    womolin/signal.cpp
    womolin/unit.cpp
    womolin/protocol.cpp
    womolin/managerbase.cpp
-   board/mainunit/hal/serial.cpp
+
    board/mainunit/hal/serial_simulation_network.cpp
+   board/mainunit/hal/serial.cpp
    board/mainunit/hal/unit.cpp
    board/mainunit/manager.cpp
    board/mainunit/main.cpp

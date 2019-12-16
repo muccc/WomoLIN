@@ -1,3 +1,7 @@
+/* SPDX-License-Identifier: GPLv3-or-later */
+/* Copyright (c) 2019 Project WomoLIN */
+/* Author Myron Franze <myronfranze@web.de> */
+
 #ifdef SIMULATION
 #include "hal/include/serial_simulation_network.h"
 #else
