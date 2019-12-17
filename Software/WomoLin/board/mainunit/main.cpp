@@ -2,7 +2,7 @@
 /* Copyright (c) 2019 Project WomoLIN */
 /* Author Myron Franze <myronfranze@web.de> */
 
-#ifdef SIMULATION
+#ifdef PCNET
 #include "hal/include/serial_simulation_network.h"
 #else
 #include "hal/include/serial.h"
@@ -15,7 +15,7 @@
 
 int main() {
    
-#ifdef SIMULATION
+#ifdef PCNET
    auto serial = womolin::board::mainunit::hal::HalSerialSimulationNetwork();
 #else
    auto serial = womolin::board::mainunit::hal::HalSerial();

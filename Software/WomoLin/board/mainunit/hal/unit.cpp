@@ -7,12 +7,9 @@
 namespace womolin::board::mainunit::hal
 {
 
-
-#ifdef SIMULATION
-   static std::array<ESetReset, 4> BIRELAY_STATUS { 
+   // for simulation 
+   static std::array< ESetReset, 4 > Kx_STATUS { 
       ESetReset::UNKNOWN, ESetReset::UNKNOWN, ESetReset::UNKNOWN, ESetReset::UNKNOWN};
-#endif
-
 
    // output
 
@@ -27,12 +24,8 @@ namespace womolin::board::mainunit::hal
 #pragma GCC diagnostic ignored "-Wpedantic"
 
       switch( id ) {
-      case 0 ... 9: // relays
-#ifdef SIMULATION
-         BIRELAY_STATUS[ id ] = attSetReset;
-#endif
-         break;
-      case 10 ... 30: // gpios
+      case 0 ... 3: // birelays K1 to K4
+         Kx_STATUS[ id ] = attSetReset; // for simulation
          break;
       default:
          break;
@@ -60,9 +53,7 @@ namespace womolin::board::mainunit::hal
 
    void HalInput::getInput( ESetReset & attStatus)
    {
-#ifdef SIMULATION
-      attStatus = BIRELAY_STATUS[ id ];
-#endif
+      attStatus = BIRELAY_STATUS[ id ]; // for simulation
    } 
  
 }
