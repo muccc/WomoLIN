@@ -34,7 +34,7 @@ namespace womolin::board::mainunit::hal
          void setOutput() override final;
          void resetOutput() override final;
 
-         void setResetOutput( ESetReset attESetReset );
+         void setResetOutput( const ESetReset attESetReset );
 
       private:
          ID id; 

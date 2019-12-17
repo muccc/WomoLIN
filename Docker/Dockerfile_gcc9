@@ -3,5 +3,18 @@ MAINTAINER Norym
 
 RUN sudo apt-get update && sudo apt-get install -y software-properties-common 
 RUN sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+
 #RUN sudo apt-get update && sudo apt-get install -y g++-9 g++-9-arm-linux-gnueabi qemu-user
-RUN sudo apt-get update && sudo apt-get install -y gcc-9 g++-9 gdb cmake make
+
+RUN sudo apt-get update && \
+    sudo apt-get install -y gcc-9 g++-9 gdb cmake make libssl-dev && \
+    sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-9 
+
+RUN cd /tmp && \
+   wget https://github.com/Kitware/CMake/releases/download/v3.16.1/cmake-3.16.1.tar.gz && \
+   tar -zxf cmake-3.16.1.tar.gz && \
+   cd cmake-3.16.1 && \
+   sudo ./bootstrap && \
+   sudo make && \
+   sudo make install 
+ 

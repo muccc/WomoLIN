@@ -15,7 +15,7 @@ namespace womolin::board::mainunit::hal
    HalOutput::HalOutput( ID attId ) : id( attId ) {} 
    
 
-   void HalOutput::setResetOutput( ESetReset attSetReset )
+   void HalOutput::setResetOutput( const ESetReset attSetReset )
    {
       (void)(attSetReset); // avoid compile error
 
@@ -31,7 +31,6 @@ namespace womolin::board::mainunit::hal
       }
 #pragma GCC diagnostic pop
 
-      // TODO setReset = ESetReset::UNKNOWN;
    }
 
    void HalOutput::setOutput()

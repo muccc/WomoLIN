@@ -1,6 +1,6 @@
-cmake_minimum_required (VERSION 3.10)
+cmake_minimum_required (VERSION 3.16)
 
-SET(CMAKE_CXX_STANDARD 17)
+SET(CMAKE_CXX_STANDARD 20)
 SET(CMAKE_C_COMPILER "/usr/bin/gcc-9")
 SET(CMAKE_CXX_COMPILER "/usr/bin/g++-9")
 
