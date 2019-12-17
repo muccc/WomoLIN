@@ -5,7 +5,7 @@
 #pragma once
 
 #include "../../../../womolin/include/ihal.h"
-#include <array>
+#include <map>
 
 namespace womolin::board::mainunit::hal
 {
@@ -16,11 +16,13 @@ namespace womolin::board::mainunit::hal
    class DEV_ID
    {
       public:
-         static constexpr ID Kx_COUNT { 4 }; // birelay count
-         static constexpr ID K1 { 0 }; // birelay 1 on board
-         static constexpr ID K2 { 1 }; // birelay 2 on board
-         static constexpr ID K3 { 2 }; // birelay 3 on board
-         static constexpr ID K4 { 3 }; // birelay 4 on board
+         static constexpr ID SIMULATION { 0 }; 
+
+         static constexpr ID K1 { 10 }; 
+         static constexpr ID K2 { 11 }; 
+         static constexpr ID K3 { 12 }; 
+         static constexpr ID K4 { 13 }; 
+         static constexpr uint8_t KxCount { 4 }; 
    };
 
    // output
