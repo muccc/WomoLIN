@@ -7,8 +7,7 @@
 namespace womolin::board::mainunit::hal
 {
 
-   // for simulation 
-   static std::array< ESetReset, 4 > Kx_STATUS { 
+   static std::array< ESetReset, 4 > Simulation_Kx_Status { 
       ESetReset::UNKNOWN, ESetReset::UNKNOWN, ESetReset::UNKNOWN, ESetReset::UNKNOWN};
 
    // output
@@ -24,8 +23,8 @@ namespace womolin::board::mainunit::hal
 #pragma GCC diagnostic ignored "-Wpedantic"
 
       switch( id ) {
-      case 0 ... 3: // birelays K1 to K4
-         Kx_STATUS[ id ] = attSetReset; // for simulation
+      case DEV_ID::K1 ... DEV_ID::K4: 
+         Simulation_Kx_Status[ id ] = attSetReset; 
          break;
       default:
          break;
@@ -53,7 +52,7 @@ namespace womolin::board::mainunit::hal
 
    void HalInput::getInput( ESetReset & attStatus)
    {
-      attStatus = BIRELAY_STATUS[ id ]; // for simulation
+      attStatus = Simulation_Kx_Status[ id ]; 
    } 
  
 }
