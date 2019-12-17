@@ -10,28 +10,28 @@
 
 #include <map>
 
-namespace womolin::lib::manager
+namespace womolin::manager
 {
 
-   using namespace womolin::lib::interface::hal;
-   using namespace womolin::lib::interface::signal;
-   using namespace womolin::lib::protocol;
+   using namespace womolin::interface::hal;
+   using namespace womolin::interface::signal;
+   using namespace womolin::protocol;
 
-   class LibManagerBase
+   class WomolinManagerBase
    {
       public:
-         LibManagerBase( ILibSerial & serial );
-         ~LibManagerBase() = default;
+         WomolinManagerBase( IWomolinSerial & attSerial );
+         ~WomolinManagerBase() = default;
 
          void doWork();
 
       protected:
-         std::string                              message;
-         std::map<std::string_view, ILibSignal*>     signalVector;
+         std::string                                     message;
+         std::map<std::string_view, IWomolinSignal*>     signalVector;
 
       private:
-         ILibSerial &      serial;
-         LibProtocol       protocol { serial };
+         IWomolinSerial &      serial;
+         WomolinProtocol       protocol { serial };
 
    };
 }

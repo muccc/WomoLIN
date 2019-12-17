@@ -4,18 +4,18 @@
 
 #include "include/signal.h"
 
-namespace womolin::lib::signal
+namespace womolin::signal
 {
 
-   void LibSignalSetReset::UpdateUnit( std::string & key, std::string & value )
+   void WomolinSignalSetReset::UpdateUnit( std::string & attKey, std::string & attValue )
    {
 
-      auto valueEnum = StringToESetReset( value );
+      auto valueEnum = StringToESetReset( attValue );
       
 	   for (const auto & unit : units){
-		   unit->UpdateUnitSignalSetReset( key, valueEnum );
+		   unit->UpdateUnitSignalSetReset( attKey, valueEnum );
 	   }
 
-      value = ESetResetToString( valueEnum ); 
+      attValue = ESetResetToString( valueEnum ); 
   }
 }

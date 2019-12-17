@@ -7,34 +7,34 @@
 #include "isignal.h"
 #include "ihal.h"
 
-namespace womolin::lib::unit
+namespace womolin::unit
 {
-   using namespace womolin::lib::interface::hal;
-   using namespace womolin::lib::interface::signal;
-   using namespace womolin::lib::enums;
+   using namespace womolin::interface::hal;
+   using namespace womolin::interface::signal;
+   using namespace womolin::enums;
 
-   class LibOutput : public ILibSignalSetReset
+   class WomolinOutput : public IWomolinSignalSetReset
    {
       public:
-         LibOutput( ILibHalOutput & halOutput) ;
-         ~LibOutput() = default;
+         WomolinOutput( IWomolinHalOutput & attHalOutput) ;
+         ~WomolinOutput() = default;
 
-         void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) override final;
+         void UpdateUnitSignalSetReset( std::string & attKey, ESetReset & attValue ) override final;
 
       private:
-         ILibHalOutput & halOutput; 
+         IWomolinHalOutput & halOutput; 
    };
 
-   class LibInput : public ILibSignalSetReset
+   class WomolinInput : public IWomolinSignalSetReset
    {
       public:
-         LibInput( ILibHalInput & halInput) ;
-         ~LibInput() = default;
+         WomolinInput( IWomolinHalInput & attHalInput) ;
+         ~WomolinInput() = default;
 
-         void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) override final;
+         void UpdateUnitSignalSetReset( std::string & attKey, ESetReset & attValue ) override final;
 
       private:
-         ILibHalInput & halInput; 
+         IWomolinHalInput & halInput; 
    };
 
 

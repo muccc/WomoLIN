@@ -4,7 +4,7 @@
 
 #include "include/serial_simulation_network.h"
 
-namespace womolin::board::hal::simulation::network
+namespace womolin::board::mainunit::hal
 {
 
    void error(const char *msg)
@@ -13,7 +13,7 @@ namespace womolin::board::hal::simulation::network
       exit(1);
    }
 
-   HalSerial::HalSerial()
+   HalSerialSimulationNetwork::HalSerialSimulationNetwork()
    {
 	   sockfd = socket(AF_INET, SOCK_STREAM, 0);	
 	   if (sockfd < 0) 	
@@ -35,13 +35,13 @@ namespace womolin::board::hal::simulation::network
 	        error("ERROR on accept");	
    }
 
-   HalSerial::~HalSerial()
+   HalSerialSimulationNetwork::~HalSerialSimulationNetwork()
    {
       close(newsockfd);
       close(sockfd);
    }
 
-   SERIAL_BUFFERSIZE_TYPE HalSerial::readData( std::string & message )
+   SERIAL_BUFFERSIZE_TYPE HalSerialSimulationNetwork::readData( std::string & attMessage )
    {
       char buffer[ SERIAL_BUFFERSIZE_MAX ];    
   
@@ -49,21 +49,21 @@ namespace womolin::board::hal::simulation::network
          read(newsockfd, &buffer, SERIAL_BUFFERSIZE_MAX ); 
 
       if ( readcount  > 0 ) {
-         message = buffer;
+         attMessage = buffer;
          return true; 
       } 
       else {
-         message.clear();
+         attMessage.clear();
          return false;
       } 
       
    }
 
-   SERIAL_BUFFERSIZE_TYPE HalSerial::writeData( std::string & message )
+   SERIAL_BUFFERSIZE_TYPE HalSerialSimulationNetwork::writeData( std::string & attMessage )
    {
-      auto writeData =  write(newsockfd, message.c_str(), message.length() );
+      auto writeData =  write(newsockfd, attMessage.c_str(), attMessage.length() );
 
-      if ( static_cast<long unsigned int>(writeData)  == message.length() ) {
+      if ( static_cast<long unsigned int>(writeData)  == attMessage.length() ) {
          return true; 
       } 
       else {

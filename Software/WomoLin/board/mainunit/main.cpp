@@ -16,12 +16,12 @@
 int main() {
    
 #ifdef SIMULATION
-   auto serial = womolin::board::hal::simulation::network::HalSerial();
+   auto serial = womolin::board::mainunit::hal::HalSerialSimulationNetwork();
 #else
-   auto serial = womolin::board::hal::HalSerial();
+   auto serial = womolin::board::mainunit::hal::HalSerial();
 #endif
 
-   auto manager = womolin::board::HalManager( serial );
+   auto manager = womolin::board::mainunit::Manager( serial );
 
    while( true ) {
       manager.doWork();

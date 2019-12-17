@@ -4,12 +4,12 @@
 
 #include "include/managerbase.h"
 
-namespace womolin::lib::manager
+namespace womolin::manager
 {
 
-   LibManagerBase::LibManagerBase( ILibSerial & serial ) : serial( serial ) {}
+   WomolinManagerBase::WomolinManagerBase( IWomolinSerial & attSerial ) : serial( attSerial ) {}
 
-   void LibManagerBase::doWork()
+   void WomolinManagerBase::doWork()
    {
       static std::string key;
       static std::string value;      

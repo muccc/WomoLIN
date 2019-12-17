@@ -9,11 +9,11 @@
 #include <array>
 #endif
 
-namespace womolin::board::hal
+namespace womolin::board::mainunit::hal
 {
 
-   using namespace womolin::lib::interface::hal;
-   using namespace womolin::lib::enums;
+   using namespace womolin::interface::hal;
+   using namespace womolin::enums;
 
    class DEV_ID
    {
@@ -26,7 +26,7 @@ namespace womolin::board::hal
 
    // output
 
-   class HalOutput final : public ILibHalOutput
+   class HalOutput final : public IWomolinHalOutput
    {
       public:
          HalOutput( ID id );
@@ -35,7 +35,7 @@ namespace womolin::board::hal
          void setOutput() override final;
          void resetOutput() override final;
 
-         void setResetOutput( ESetReset setReset );
+         void setResetOutput( ESetReset attESetReset );
 
       private:
          ID id; 
@@ -44,13 +44,13 @@ namespace womolin::board::hal
 
    // input
 
-   class HalInput final : public ILibHalInput
+   class HalInput final : public IWomolinHalInput
    {
       public:
          HalInput( ID id );
          ~HalInput() = default;
 
-         void getInput( ESetReset & status ) override final;
+         void getInput( ESetReset & attESetReset) override final;
 
       private:
          ID id; 

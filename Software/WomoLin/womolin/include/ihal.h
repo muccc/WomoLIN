@@ -7,9 +7,9 @@
 #include "enums.h"
 #include <string>
 
-namespace womolin::lib::interface::hal
+namespace womolin::interface::hal
 {
-   using namespace womolin::lib::enums;
+   using namespace womolin::enums;
 
    using ID = uint16_t;
    using SERIAL_BUFFERSIZE_TYPE = uint8_t;
@@ -18,22 +18,22 @@ namespace womolin::lib::interface::hal
 
    // serial
 
-   class ILibSerial
+   class IWomolinSerial
    {
       public:
-         virtual ~ILibSerial() = default;
+         virtual ~IWomolinSerial() = default;
 
-         virtual SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) = 0;
-         virtual SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) = 0;
+         virtual SERIAL_BUFFERSIZE_TYPE readData( std::string & attMessage ) = 0;
+         virtual SERIAL_BUFFERSIZE_TYPE writeData( std::string & attMessage ) = 0;
          
    };
 
    // hal output
 
-   class ILibHalOutput
+   class IWomolinHalOutput
    {
       public:
-         virtual ~ILibHalOutput() = default;
+         virtual ~IWomolinHalOutput() = default;
 
          virtual void setOutput() = 0;
          virtual void resetOutput() = 0;
@@ -41,12 +41,12 @@ namespace womolin::lib::interface::hal
 
    // hal input
 
-   class ILibHalInput
+   class IWomolinHalInput
    {
       public:
-         virtual ~ILibHalInput() = default;
+         virtual ~IWomolinHalInput() = default;
 
-         virtual void getInput( ESetReset & status ) = 0;
+         virtual void getInput( ESetReset & attStatus ) = 0;
    };
 
 

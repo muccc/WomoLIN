@@ -4,16 +4,16 @@
 
 #include "include/protocol.h"
 
-namespace womolin::lib::protocol
+namespace womolin::protocol
 {
 
-   LibProtocol::LibProtocol( ILibSerial & serial ) : serial( serial ) {}
+   WomolinProtocol::WomolinProtocol( IWomolinSerial & attSerial ) : serial( attSerial ) {}
 
-   bool LibProtocol::getKeyValue( std::string & key, std::string & value)
+   bool WomolinProtocol::getKeyValue( std::string & attKey, std::string & attValue)
    {
       // if no key or value found, then send empty strings
-      key.clear(); 
-      value.clear();
+      attKey.clear(); 
+      attValue.clear();
 
       std::string buffer; 
       buffer.clear();
@@ -49,16 +49,16 @@ namespace womolin::lib::protocol
       }
 
       // extract key and value 
-      key = protocolString.substr( 0, pos );
-      value = protocolString.substr( pos + 1 );
+      attKey = protocolString.substr( 0, pos );
+      attValue = protocolString.substr( pos + 1 );
 
       return true;
    }
 
-   void LibProtocol::sendKeyValue( std::string & key, std::string & value )
+   void WomolinProtocol::sendKeyValue( std::string & attKey, std::string & attValue )
    {
       std::string message;
-      message = STARTBYTE + key + SEPARATOR + value + ENDBYTE + LINEBREAK;
+      message = STARTBYTE + attKey + SEPARATOR + attValue + ENDBYTE + LINEBREAK;
       serial.writeData( message );
    }
 

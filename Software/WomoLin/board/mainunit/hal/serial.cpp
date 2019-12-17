@@ -4,7 +4,7 @@
 
 #include "include/serial.h"
 
-namespace womolin::board::hal
+namespace womolin::board::mainunit::hal
 {
 
    HalSerial::HalSerial()
@@ -15,15 +15,15 @@ namespace womolin::board::hal
    {
    }
 
-   SERIAL_BUFFERSIZE_TYPE HalSerial::readData( std::string & message )
+   SERIAL_BUFFERSIZE_TYPE HalSerial::readData( std::string & attMessage )
    {
-      (void)(message);
+      (void)(attMessage);
       return false;
    }
 
-   SERIAL_BUFFERSIZE_TYPE HalSerial::writeData( std::string & message )
+   SERIAL_BUFFERSIZE_TYPE HalSerial::writeData( std::string & attMessage )
    {
-      (void)(message);
+      (void)(attMessage);
       return false;
    }
 }

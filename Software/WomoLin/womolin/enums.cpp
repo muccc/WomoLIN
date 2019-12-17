@@ -5,14 +5,14 @@
 #include "include/enums.h"
 #include <iostream>
 
-namespace womolin::lib::enums
+namespace womolin::enums
 {
 
-   std::string ESetResetToString( const ESetReset enumValue )
+   std::string ESetResetToString( const ESetReset attEnumValue )
    {
       auto strValue { "UNKNOWN" }; 
 
-      switch( enumValue ) {
+      switch( attEnumValue ) {
          case ESetReset::SET :
             strValue = "SET";
             break;
@@ -31,17 +31,17 @@ namespace womolin::lib::enums
    }
 
 
-   ESetReset StringToESetReset( const std::string & stringValue )
+   ESetReset StringToESetReset( const std::string & attStringValue )
    {
       auto enumValue { ESetReset::UNKNOWN };
 
-      if ( 0 == stringValue.compare("SET") ){
+      if ( 0 == attStringValue.compare("SET") ){
          enumValue = ESetReset::SET;
       }
-      else if ( 0 == stringValue.compare("RESET") ){
+      else if ( 0 == attStringValue.compare("RESET") ){
          enumValue = ESetReset::RESET;
       }
-      else if ( 0 == stringValue.compare("GET") ){
+      else if ( 0 == attStringValue.compare("GET") ){
          enumValue = ESetReset::GET;
       }
       else {

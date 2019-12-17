@@ -4,37 +4,37 @@
 
 #include "include/unit.h"
 
-namespace womolin::lib::unit
+namespace womolin::unit
 {
 
-   // LibOutput
+   // WomolinOutput
 
-   LibOutput::LibOutput( ILibHalOutput & halOutput ) : halOutput( halOutput ) {}   
+   WomolinOutput::WomolinOutput( IWomolinHalOutput & attHalOutput ) : halOutput( attHalOutput ) {}   
 
-   void LibOutput::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
+   void WomolinOutput::UpdateUnitSignalSetReset( std::string & attKey, ESetReset & attValue )
    {
       
-      switch( value ) {
+      switch( attValue ) {
          case ESetReset::SET:
             halOutput.setOutput(); break;
          case ESetReset::RESET:
             halOutput.resetOutput(); break;
          default: 
-            value = ESetReset::UNKNOWN;
+            attValue = ESetReset::UNKNOWN;
             break;
       } 
 
-      (void)(key); 
+      (void)(attKey); 
    }
 
-   // LibInput
+   // WomolinInput
 
-   LibInput::LibInput( ILibHalInput & halInput ) : halInput( halInput ) {}   
+   WomolinInput::WomolinInput( IWomolinHalInput & attHalInput ) : halInput( attHalInput ) {}   
 
-   void LibInput::UpdateUnitSignalSetReset( std::string & key, ESetReset & value )
+   void WomolinInput::UpdateUnitSignalSetReset( std::string & attKey, ESetReset & attValue )
    {
-      halInput.getInput( value ); 
+      halInput.getInput( attValue ); 
 
-      (void)(key); 
+      (void)(attKey); 
    }
 }

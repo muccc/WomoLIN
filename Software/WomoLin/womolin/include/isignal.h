@@ -8,23 +8,23 @@
 #include <cinttypes>
 #include <string>
 
-namespace womolin::lib::interface::signal
+namespace womolin::interface::signal
 {
 
-   using namespace womolin::lib::enums;
+   using namespace womolin::enums;
 
-   class ILibSignal
+   class IWomolinSignal
    {
       public:
-         virtual ~ILibSignal() = default;
-         virtual void UpdateUnit( std::string & key, std::string & value ) = 0;
+         virtual ~IWomolinSignal() = default;
+         virtual void UpdateUnit( std::string & attKey, std::string & attValue ) = 0;
    };
 
-   class ILibSignalSetReset
+   class IWomolinSignalSetReset
    {
       public:
-	      virtual ~ILibSignalSetReset() = default;
-         virtual void UpdateUnitSignalSetReset( std::string & key, ESetReset & value ) = 0;
+	      virtual ~IWomolinSignalSetReset() = default;
+         virtual void UpdateUnitSignalSetReset( std::string & attKey, ESetReset & attValue ) = 0;
    };
 
 }

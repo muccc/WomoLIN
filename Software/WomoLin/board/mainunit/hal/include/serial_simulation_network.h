@@ -14,17 +14,17 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-namespace womolin::board::hal::simulation::network
+namespace womolin::board::mainunit::hal
 {
-   using namespace womolin::lib::interface::hal;
+   using namespace womolin::interface::hal;
 
-   class HalSerial : public womolin::lib::interface::hal::ILibSerial
+   class HalSerialSimulationNetwork : public womolin::interface::hal::IWomolinSerial
    {
       public:
-         HalSerial();
-         virtual ~HalSerial();
-         SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) override final;
-         SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) override final;
+         HalSerialSimulationNetwork();
+         virtual ~HalSerialSimulationNetwork();
+         SERIAL_BUFFERSIZE_TYPE readData( std::string & attMessage ) override final;
+         SERIAL_BUFFERSIZE_TYPE writeData( std::string & attMessage ) override final;
 
       private:
          int sockfd, newsockfd, portno;

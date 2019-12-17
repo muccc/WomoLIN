@@ -7,7 +7,7 @@
 #include <cinttypes>
 #include <string>
 
-namespace womolin::lib::enums
+namespace womolin::enums
 {
 
    enum class ESetReset : uint8_t
@@ -18,8 +18,8 @@ namespace womolin::lib::enums
       UNKNOWN
    };
    
-   std::string ESetResetToString( const ESetReset enumValue );
+   std::string ESetResetToString( const ESetReset attEnumValue );
 
-   ESetReset StringToESetReset( const std::string & stringValue );
+   ESetReset StringToESetReset( const std::string & attStringValue );
 
  }

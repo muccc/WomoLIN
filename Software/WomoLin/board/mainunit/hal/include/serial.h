@@ -6,17 +6,17 @@
 
 #include "../../../../womolin/include/ihal.h"
 
-namespace womolin::board::hal
+namespace womolin::board::mainunit::hal
 {
-   using namespace womolin::lib::interface::hal;
+   using namespace womolin::interface::hal;
 
-   class HalSerial : public womolin::lib::interface::hal::ILibSerial
+   class HalSerial : public womolin::interface::hal::IWomolinSerial
    {
       public:
          HalSerial();
          virtual ~HalSerial();
-         SERIAL_BUFFERSIZE_TYPE readData( std::string & message ) override final;
-         SERIAL_BUFFERSIZE_TYPE writeData( std::string & message ) override final;
+         SERIAL_BUFFERSIZE_TYPE readData( std::string & attMessage ) override final;
+         SERIAL_BUFFERSIZE_TYPE writeData( std::string & attMessage ) override final;
 
       private:
    };

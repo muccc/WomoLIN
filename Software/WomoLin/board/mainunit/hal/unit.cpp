@@ -4,7 +4,7 @@
 
 #include "include/unit.h"
 
-namespace womolin::board::hal
+namespace womolin::board::mainunit::hal
 {
 
 
@@ -16,12 +16,12 @@ namespace womolin::board::hal
 
    // output
 
-   HalOutput::HalOutput( ID id ) : id( id ) {} 
+   HalOutput::HalOutput( ID attId ) : id( attId ) {} 
    
 
-   void HalOutput::setResetOutput( ESetReset setReset )
+   void HalOutput::setResetOutput( ESetReset attSetReset )
    {
-      (void)(setReset); // avoid compile error
+      (void)(attSetReset); // avoid compile error
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpedantic"
@@ -29,7 +29,7 @@ namespace womolin::board::hal
       switch( id ) {
       case 0 ... 9: // relays
 #ifdef SIMULATION
-         BIRELAY_STATUS[ id ] = setReset;
+         BIRELAY_STATUS[ id ] = attSetReset;
 #endif
          break;
       case 10 ... 30: // gpios
@@ -39,7 +39,7 @@ namespace womolin::board::hal
       }
 #pragma GCC diagnostic pop
 
-      setReset = ESetReset::UNKNOWN;
+      // TODO setReset = ESetReset::UNKNOWN;
    }
 
    void HalOutput::setOutput()
@@ -52,14 +52,16 @@ namespace womolin::board::hal
       setResetOutput( ESetReset::RESET );
    } 
 
+
+
    // input  
 
-   HalInput::HalInput( ID id ) : id( id ) {}
+   HalInput::HalInput( ID attId ) : id( attId ) {}
 
-   void HalInput::getInput( ESetReset & status)
+   void HalInput::getInput( ESetReset & attStatus)
    {
 #ifdef SIMULATION
-      status = BIRELAY_STATUS[ id ];
+      attStatus = BIRELAY_STATUS[ id ];
 #endif
    } 
  

@@ -6,21 +6,21 @@
 
 #include "ihal.h"
 
-namespace womolin::lib::protocol
+namespace womolin::protocol
 {
-   using namespace womolin::lib::interface::hal;
+   using namespace womolin::interface::hal;
 
-   class LibProtocol final
+   class WomolinProtocol final
    {
       public:
-         LibProtocol( ILibSerial & serial );
-         ~LibProtocol() = default;
+         WomolinProtocol( IWomolinSerial & attSerial );
+         ~WomolinProtocol() = default;
 
-         bool getKeyValue( std::string & key, std::string & value);
-         void sendKeyValue( std::string & key, std::string & value);
+         bool getKeyValue( std::string & attKey, std::string & attValue);
+         void sendKeyValue( std::string & attKey, std::string & attValue);
 
       private:
-         ILibSerial &   serial; 
+         IWomolinSerial &   serial; 
          std::string messageBuffer;
 
 
