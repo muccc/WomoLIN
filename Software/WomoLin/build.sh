@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mkdir -p out
-cd out
-cmake ../
+cd ..
+mkdir -p build
+cd build
+cmake ../WomoLin
 make

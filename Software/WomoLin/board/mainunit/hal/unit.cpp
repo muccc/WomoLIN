@@ -6,7 +6,21 @@
 
 namespace womolin::board::mainunit::hal
 {
-  
+
+   ////////////////////////////////////////////////////////////////////////////
+   // Version String 
+   ////////////////////////////////////////////////////////////////////////////
+
+   extern std::string GetFirmwareString( const std::string attHwVer );
+
+   static std::string GetHardwareVersion() {
+      return "UNKNOWN HW VERSION";
+   }
+ 
+   ////////////////////////////////////////////////////////////////////////////
+   // Relay Kx 
+   ////////////////////////////////////////////////////////////////////////////
+
    static ESetReset SimulationMode { ESetReset::RESET };
 
    static bool IsSimulationMode() { return ESetReset::SET == SimulationMode; }
@@ -18,6 +32,11 @@ namespace womolin::board::mainunit::hal
       , { DEV_ID::K3, ESetReset::UNKNOWN } 
       , { DEV_ID::K4, ESetReset::UNKNOWN }
    };
+
+   ////////////////////////////////////////////////////////////////////////////
+   // ADC Voltage
+   ////////////////////////////////////////////////////////////////////////////
+
 
    using T_VOLT = float;
    static std::map< const ID, T_VOLT > Simulation_Adc_Status {
@@ -34,6 +53,9 @@ namespace womolin::board::mainunit::hal
       auto posPoint = val.find(".") ; 
       return val.substr(0, posPoint ) + "," + val.substr( posPoint + 1, 1 );
    }
+
+
+
 
    ////////////////////////////////////////////////////////////////////////////
    // outputs
@@ -111,7 +133,7 @@ namespace womolin::board::mainunit::hal
 
       switch( id ) {
       case DEV_ID::FWVER:
-         attStatus = "TODO";
+         attStatus = GetFirmwareString( GetHardwareVersion() );
          break; 
       case DEV_ID::ADC1: 
          if ( IsSimulationMode() ) { 
@@ -124,6 +146,4 @@ namespace womolin::board::mainunit::hal
 #pragma GCC diagnostic pop
 
    } 
- 
- 
 }
