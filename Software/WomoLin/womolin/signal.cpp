@@ -18,4 +18,21 @@ namespace womolin::signal
 
       attValue = ESetResetToString( valueEnum ); 
   }
+
+   void WomolinSignalGetFwVer::UpdateUnit( std::string & attKey, std::string & attValue )
+   {
+	   for (const auto & unit : units){
+		   unit->UpdateUnitSignalGetFwVer( attKey, attValue );
+	   }
+  }
+
+   void WomolinSignalGetVoltage::UpdateUnit( std::string & attKey, std::string & attValue )
+   {
+	   for (const auto & unit : units){
+		   unit->UpdateUnitSignalGetVoltage( attKey, attValue );
+	   }
+  }
+
+
+
 }

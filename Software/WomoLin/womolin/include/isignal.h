@@ -27,5 +27,20 @@ namespace womolin::interface::signal
          virtual void UpdateUnitSignalSetReset( std::string & attKey, ESetReset & attValue ) = 0;
    };
 
+   class IWomolinSignalGetVoltage
+   {
+      public:
+	      virtual ~IWomolinSignalGetVoltage() = default;
+         virtual void UpdateUnitSignalGetVoltage( std::string & attKey, std::string & attGetVoltage ) = 0;
+   };
+
+   class IWomolinSignalGetFwVer
+   {
+      public:
+	      virtual ~IWomolinSignalGetFwVer() = default;
+         virtual void UpdateUnitSignalGetFwVer( std::string & attKey, std::string & attFwVer ) = 0;
+   };
+
+
 }
 

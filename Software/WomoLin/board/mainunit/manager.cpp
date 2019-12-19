@@ -14,6 +14,7 @@ namespace womolin::board::mainunit
       // predefined signals
       signalVector["simulation"] = &simulation;
       signalVector["simulation_stat"] = &simulation_stat;
+      signalVector["fwver"] = &fwver;
 
       // user signals 
       signalVector["k1"] = &k1;
@@ -28,11 +29,14 @@ namespace womolin::board::mainunit
       signalVector["k3_stat"] = &k3_stat;
       signalVector["k4_stat"] = &k4_stat;
 
+      signalVector["car_voltage"] = &car_voltage;
+
       // add units to the signals      
 
       // predefined signals and units
       simulation.AddUnit( &WOMOLIN_SIMULATION );
       simulation_stat.AddUnit( &WOMOLIN_SIMULATION_STAT );
+      fwver.AddUnit( &WOMOLIN_FWVER );
 
       // add user units to the user signals
       k1.AddUnit( &WOMOLIN_K1 );
@@ -50,7 +54,7 @@ namespace womolin::board::mainunit
       k3_stat.AddUnit( &WOMOLIN_K3_STAT );
       k4_stat.AddUnit( &WOMOLIN_K4_STAT );
 
-      k4_stat.AddUnit( &WOMOLIN_K1_STAT );
+      car_voltage.AddUnit( &WOMOLIN_CAR_VOLTAGE );
 
    }
 

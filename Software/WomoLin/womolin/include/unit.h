@@ -25,13 +25,18 @@ namespace womolin::unit
          IWomolinHalOutput & halOutput; 
    };
 
-   class WomolinInput : public IWomolinSignalSetReset
+   class WomolinInput 
+      : public IWomolinSignalSetReset
+      , public IWomolinSignalGetFwVer
+      , public IWomolinSignalGetVoltage
    {
       public:
          WomolinInput( IWomolinHalInput & attHalInput) ;
          ~WomolinInput() = default;
 
          void UpdateUnitSignalSetReset( std::string & attKey, ESetReset & attValue ) override final;
+         void UpdateUnitSignalGetFwVer( std::string & attKey, std::string & attValue ) override final;
+         void UpdateUnitSignalGetVoltage( std::string & attKey, std::string & attValue ) override final;
 
       private:
          IWomolinHalInput & halInput; 

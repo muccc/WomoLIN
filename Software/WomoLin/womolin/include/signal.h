@@ -43,4 +43,27 @@ namespace womolin::signal
          ~WomolinSignalSetReset() = default;
          void UpdateUnit( std::string & attKey, std::string & attValue ) override final;
    };
+
+   class WomolinSignalGetVoltage final 
+      : public WomolinSignalAddUnit<IWomolinSignalGetVoltage>
+      , public IWomolinSignal
+   {
+      public:
+         WomolinSignalGetVoltage() {};
+         ~WomolinSignalGetVoltage() = default;
+         void UpdateUnit( std::string & attKey, std::string & attValue ) override final;
+   };
+
+
+   class WomolinSignalGetFwVer final 
+      : public WomolinSignalAddUnit<IWomolinSignalGetFwVer>
+      , public IWomolinSignal
+   {
+      public:
+         WomolinSignalGetFwVer() {};
+         ~WomolinSignalGetFwVer() = default;
+         void UpdateUnit( std::string & attKey, std::string & attValue ) override final;
+   };
+
+
 }

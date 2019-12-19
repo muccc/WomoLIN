@@ -47,6 +47,7 @@ namespace womolin::interface::hal
          virtual ~IWomolinHalInput() = default;
 
          virtual void getInput( ESetReset & attStatus ) = 0;
+         virtual void getInput( std::string & attStatus ) = 0;
    };
 
 

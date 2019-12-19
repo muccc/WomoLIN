@@ -37,4 +37,22 @@ namespace womolin::unit
 
       (void)(attKey); 
    }
+
+   void WomolinInput::UpdateUnitSignalGetFwVer( std::string & attKey, std::string & attValue )
+   {
+      halInput.getInput( attValue ); 
+
+      (void)(attKey); 
+   }
+
+   void WomolinInput::UpdateUnitSignalGetVoltage( std::string & attKey, std::string & attValue )
+   {
+      halInput.getInput( attValue ); 
+
+      (void)(attKey); 
+   }
+
+
+
+
 }

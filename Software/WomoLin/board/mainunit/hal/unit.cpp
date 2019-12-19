@@ -13,13 +13,28 @@ namespace womolin::board::mainunit::hal
    static void SetResetSimulationMode( const ESetReset attSetReset ) { SimulationMode = attSetReset ; }
 
    static std::map< const ID, ESetReset > Simulation_Kx_Status { 
-      { DEV_ID::K1, ESetReset::UNKNOWN }, 
-      { DEV_ID::K2, ESetReset::UNKNOWN }, 
-      { DEV_ID::K3, ESetReset::UNKNOWN }, 
-      { DEV_ID::K4, ESetReset::UNKNOWN }
+        { DEV_ID::K1, ESetReset::UNKNOWN }
+      , { DEV_ID::K2, ESetReset::UNKNOWN } 
+      , { DEV_ID::K3, ESetReset::UNKNOWN } 
+      , { DEV_ID::K4, ESetReset::UNKNOWN }
    };
 
- 
+   using T_VOLT = float;
+   static std::map< const ID, T_VOLT > Simulation_Adc_Status {
+        { DEV_ID::ADC1, 10.7 }
+   };
+   static T_VOLT Simulation_Offset() { 
+      static T_VOLT offset = 0;
+      offset =  offset < 3.0 ? offset + 0.1 : 0;
+      return offset; 
+   }  
+
+   static std::string VoltageToString( T_VOLT attVolt ) { 
+      auto val = std::to_string( attVolt );  
+      auto posPoint = val.find(".") ; 
+      return val.substr(0, posPoint ) + "," + val.substr( posPoint + 1, 1 );
+   }
+
    ////////////////////////////////////////////////////////////////////////////
    // outputs
    ////////////////////////////////////////////////////////////////////////////
@@ -87,5 +102,28 @@ namespace womolin::board::mainunit::hal
 #pragma GCC diagnostic pop
 
    } 
+
+   void HalInput::getInput( std::string & attStatus)
+   {
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wpedantic"
+
+      switch( id ) {
+      case DEV_ID::FWVER:
+         attStatus = "TODO";
+         break; 
+      case DEV_ID::ADC1: 
+         if ( IsSimulationMode() ) { 
+            attStatus = VoltageToString( Simulation_Adc_Status[ id ] + Simulation_Offset() ); 
+         } 
+         break;
+      default:
+         break;
+      }
+#pragma GCC diagnostic pop
+
+   } 
+ 
  
 }
