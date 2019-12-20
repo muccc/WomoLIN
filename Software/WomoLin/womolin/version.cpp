@@ -12,6 +12,6 @@ namespace womolin
       const std::string GIT_HASH { "@GIT_HASH@" };
       const std::string DATE { "@DATE@" };
 
-	   return RELEASE + ":" + GIT_HASH + ":" + attHwVer + ":" + DATE ; 
+	   return RELEASE + "|" + DATE + "|" + GIT_HASH + "|" + attHwVer ; 
 	}
 }

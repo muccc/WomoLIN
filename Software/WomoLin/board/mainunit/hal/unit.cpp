@@ -13,7 +13,7 @@ namespace womolin::board::mainunit::hal
 
 
    static std::string GetHardwareVersion() {
-      return "UNKNOWN HW VERSION";
+      return "Main Unit [HWVER: 9.99]";
    }
  
    ////////////////////////////////////////////////////////////////////////////
