@@ -8,6 +8,10 @@ namespace womolin
 {
 	std::string GetFirmwareString( const std::string attHwVer ) 
 	{ 
-	   return "" + attHwVer; 
+      const std::string RELEASE { "@RELEASE@" };
+      const std::string GIT_HASH { "@GIT_HASH@" };
+      const std::string DATE { "@DATE@" };
+
+	   return RELEASE + ":" + GIT_HASH + ":" + attHwVer + ":" + DATE ; 
 	}
 }
