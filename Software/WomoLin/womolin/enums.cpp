@@ -4,51 +4,28 @@
 
 #include "include/enums.h"
 #include <iostream>
+#include <map>
 
 namespace womolin::enums
 {
 
    std::string ESetResetToString( const ESetReset attEnumValue )
    {
-      auto strValue { "UNKNOWN" }; 
-
-      switch( attEnumValue ) {
-         case ESetReset::SET :
-            strValue = "SET";
-            break;
-         case ESetReset::RESET :
-           strValue = "RESET";
-           break;
-         case ESetReset::GET :
-           strValue = "GET";
-           break;
-         case ESetReset::UNKNOWN :
-           strValue = "UNKNOWN";
-           break;
-      }
-
-      return strValue;
+      static const std::map< ESetReset, std::string > mapping {
+           {ESetReset::SET, "SET" } , {ESetReset::RESET, "RESET" }
+         , {ESetReset::GET, "GET" } , {ESetReset::UNKNOWN, "UNKNOWN" }
+      };
+      return mapping.at( attEnumValue );
    }
 
 
    ESetReset StringToESetReset( const std::string & attStringValue )
    {
-      auto enumValue { ESetReset::UNKNOWN };
-
-      if ( 0 == attStringValue.compare("SET") ){
-         enumValue = ESetReset::SET;
-      }
-      else if ( 0 == attStringValue.compare("RESET") ){
-         enumValue = ESetReset::RESET;
-      }
-      else if ( 0 == attStringValue.compare("GET") ){
-         enumValue = ESetReset::GET;
-      }
-      else {
-         enumValue = ESetReset::UNKNOWN;
-      }
-      
-      return enumValue;
+      static const std::map< std::string, ESetReset > mapping {
+           { "SET", ESetReset::SET } , { "RESET", ESetReset::RESET }
+         , { "GET", ESetReset::GET } , { "UNKNOWN", ESetReset::UNKNOWN }
+      };
+      return mapping.count( attStringValue ) ? mapping.at( attStringValue ) :
+                                               ESetReset::UNKNOWN;
    }
-
 }

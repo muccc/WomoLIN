@@ -5,6 +5,7 @@
 #pragma once
 
 #include "../../../../womolin/include/ihal.h"
+#include "../../../../womolin/include/version.h"
 #include <map>
 
 namespace womolin::board::mainunit::hal
@@ -12,6 +13,7 @@ namespace womolin::board::mainunit::hal
 
    using namespace womolin::interface::hal;
    using namespace womolin::enums;
+   using namespace womolin;
 
    class DEV_ID
    {

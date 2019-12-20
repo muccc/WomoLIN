@@ -14,11 +14,13 @@ project(womolin)
 
 SET(CMAKE_TARGET mainunit-pc-net)
 
-
 add_custom_command(
-    OUTPUT  version.cpp
-    COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/version.sh ${CMAKE_CURRENT_BINARY_DIR}/version.cpp
+   OUTPUT
+      ${CMAKE_CURRENT_BINARY_DIR}/__fakefile.cpp 
+      ${CMAKE_CURRENT_BINARY_DIR}/version.cpp 
+    COMMAND cp ${CMAKE_CURRENT_SOURCE_DIR}/womolin/version.cpp ${CMAKE_CURRENT_BINARY_DIR}/version.cpp
 )
+
 
 add_executable(${CMAKE_TARGET}
 
@@ -36,4 +38,3 @@ add_executable(${CMAKE_TARGET}
    board/mainunit/main.cpp
 )
 
-#target_compile_definitions( ${CMAKE_TARGET} PRIVATE GIT_HASH="GIT_HASH" CMAKE_TARGET"${CMAKE_TARGET}")

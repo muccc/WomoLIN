@@ -11,7 +11,6 @@ namespace womolin::board::mainunit::hal
    // Version String 
    ////////////////////////////////////////////////////////////////////////////
 
-   extern std::string GetFirmwareString( const std::string attHwVer );
 
    static std::string GetHardwareVersion() {
       return "UNKNOWN HW VERSION";
