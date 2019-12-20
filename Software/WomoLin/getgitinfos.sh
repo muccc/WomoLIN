@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ `git status --short` ]]; then
+if [[ `git status --short` || `git diff origin/master` ]]; then
    echo "git hat aenderungen"
    GIT_HASH="NO_HASH"
    RELEASE="LOCAL"
