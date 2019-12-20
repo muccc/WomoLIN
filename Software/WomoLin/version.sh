@@ -8,9 +8,9 @@ if [[ `git status --short` || `git diff origin/master` ]]; then
    #DATE=`TZ="Europe/Berlin" && date +%d-%m-%Y %H:%M:%S`
    DATE=`date`
 else
-   GIT_HASH=`git rev-parse HEAD`
+   GIT_HASH=`git rev-parse --short HEAD`
    RELEASE="RELEASE"
-   DATE=`git log -2 --pretty=tformat:%aD:%H ${GIT_HASH}` 
+   DATE=`git log -1 --pretty=%ad ${GIT_HASH}` 
 fi
 
 sed -i "s/@GIT_HASH@/${GIT_HASH}/g" $2/$3 
