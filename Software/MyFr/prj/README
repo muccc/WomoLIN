@@ -1,6 +1,0 @@
-Start Eclipse within Container at Shell Prompt
-/usr/local/bin/eclipse/eclipse &
-
-Eclipse Projektfile, call from build directory outside of source code
-cmake -G "Eclipse CDT4 - Unix Makefiles" ../../Womo_LIN/Software/MyFr/prj/
-
