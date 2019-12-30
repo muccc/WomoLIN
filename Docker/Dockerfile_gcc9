@@ -7,7 +7,7 @@ RUN sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
 #RUN sudo apt-get update && sudo apt-get install -y g++-9 g++-9-arm-linux-gnueabi qemu-user
 
 RUN sudo apt-get update && \
-    sudo apt-get install -y gcc-9 g++-9 gdb cmake make libssl-dev && \
+    sudo apt-get install -y gcc-9 g++-9 g++-8-arm-linux-gnueabi gcc-8-arm-linux-gnueabi qemu-user gdb cmake make libssl-dev && \
     sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-9 
 
 RUN cd /tmp && \
