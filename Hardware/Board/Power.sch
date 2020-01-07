@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Womo-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -803,14 +803,14 @@ Wire Wire Line
 $Comp
 L Womo-rescue:GND-power #PWR0185
 U 1 1 5CA770FA
-P 4250 2400
+P 4700 2400
 AR Path="/5C8BBC9A/5CA770FA" Ref="#PWR0185"  Part="1" 
 AR Path="/5E0C5EEA/5CA770FA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0185" H 4250 2150 50  0001 C CNN
-F 1 "GND" H 4250 2200 50  0000 C CNN
-F 2 "" H 4250 2400 50  0001 C CNN
-F 3 "" H 4250 2400 50  0001 C CNN
-	1    4250 2400
+F 0 "#PWR0185" H 4700 2150 50  0001 C CNN
+F 1 "GND" H 4700 2200 50  0000 C CNN
+F 2 "" H 4700 2400 50  0001 C CNN
+F 3 "" H 4700 2400 50  0001 C CNN
+	1    4700 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -925,19 +925,6 @@ Wire Wire Line
 Connection ~ 5100 8000
 Wire Wire Line
 	4800 7550 5100 7550
-$Comp
-L Womo-rescue:GND-power #PWR0188
-U 1 1 5CA78561
-P 4250 8350
-AR Path="/5C8BBC9A/5CA78561" Ref="#PWR0188"  Part="1" 
-AR Path="/5E0C5EEA/5CA78561" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0188" H 4250 8100 50  0001 C CNN
-F 1 "GND" H 4250 8150 50  0000 C CNN
-F 2 "" H 4250 8350 50  0001 C CNN
-F 3 "" H 4250 8350 50  0001 C CNN
-	1    4250 8350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 8150 4250 8150
 Wire Wire Line
@@ -2604,4 +2591,47 @@ Wire Wire Line
 	11150 1300 11050 1300
 Connection ~ 11200 4150
 Connection ~ 11150 1300
+$Comp
+L Womo-rescue:GND-power #PWR0188
+U 1 1 5CA78561
+P 4700 8350
+AR Path="/5C8BBC9A/5CA78561" Ref="#PWR0188"  Part="1" 
+AR Path="/5E0C5EEA/5CA78561" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0188" H 4700 8100 50  0001 C CNN
+F 1 "GND" H 4700 8150 50  0000 C CNN
+F 2 "" H 4700 8350 50  0001 C CNN
+F 3 "" H 4700 8350 50  0001 C CNN
+	1    4700 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:C-Device C?
+U 1 1 5E15C6EC
+P 4400 2400
+AR Path="/5C8BBC9A/5E15C6EC" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E15C6EC" Ref="C?"  Part="1" 
+F 0 "C?" V 4550 2300 50  0000 C CNN
+F 1 "4u7" V 4650 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 2250 50  0001 C CNN
+F 3 "~" H 4400 2400 50  0001 C CNN
+	1    4400 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Womo-rescue:C-Device C?
+U 1 1 5E19DC38
+P 4400 8350
+AR Path="/5C8BBC9A/5E19DC38" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E19DC38" Ref="C?"  Part="1" 
+F 0 "C?" V 4550 8250 50  0000 C CNN
+F 1 "4u7" V 4650 8300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 8200 50  0001 C CNN
+F 3 "~" H 4400 8350 50  0001 C CNN
+	1    4400 8350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 8350 4550 8350
+Wire Wire Line
+	4700 2400 4550 2400
 $EndSCHEMATC
