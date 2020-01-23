@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Displayunit-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -194,17 +194,17 @@ Wire Wire Line
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B46
-P 20150 2350
+P 20750 2400
 AR Path="/5C8BBC9A/5E258B46" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E258B46" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E258B46" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E258B46" Ref="#PWR?"  Part="1" 
 AR Path="/5E258B46" Ref="#PWR079"  Part="1" 
-F 0 "#PWR079" H 20150 2100 50  0001 C CNN
-F 1 "GND" H 20150 2150 50  0000 C CNN
-F 2 "" H 20150 2350 50  0001 C CNN
-F 3 "" H 20150 2350 50  0001 C CNN
-	1    20150 2350
+F 0 "#PWR079" H 20750 2150 50  0001 C CNN
+F 1 "GND" H 20750 2200 50  0000 C CNN
+F 2 "" H 20750 2400 50  0001 C CNN
+F 3 "" H 20750 2400 50  0001 C CNN
+	1    20750 2400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -343,17 +343,17 @@ Wire Wire Line
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E258B82
-P 20200 4350
+P 20800 4350
 AR Path="/5C8BBC9A/5E258B82" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E258B82" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E258B82" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E258B82" Ref="#PWR?"  Part="1" 
 AR Path="/5E258B82" Ref="#PWR080"  Part="1" 
-F 0 "#PWR080" H 20200 4100 50  0001 C CNN
-F 1 "GND" H 20200 4150 50  0000 C CNN
-F 2 "" H 20200 4350 50  0001 C CNN
-F 3 "" H 20200 4350 50  0001 C CNN
-	1    20200 4350
+F 0 "#PWR080" H 20800 4100 50  0001 C CNN
+F 1 "GND" H 20800 4150 50  0000 C CNN
+F 2 "" H 20800 4350 50  0001 C CNN
+F 3 "" H 20800 4350 50  0001 C CNN
+	1    20800 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -5331,4 +5331,42 @@ Wire Wire Line
 Connection ~ 11100 10150
 Wire Wire Line
 	11100 10150 11100 10250
+$Comp
+L Displayunit-rescue:C-Device C?
+U 1 1 5E2BD8A4
+P 20350 4350
+AR Path="/5C8BBC9A/5E2BD8A4" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E2BD8A4" Ref="C?"  Part="1" 
+AR Path="/5D80EC74/5E2BD8A4" Ref="C?"  Part="1" 
+AR Path="/5D80E6E8/5E2BD8A4" Ref="C?"  Part="1" 
+AR Path="/5E2BD8A4" Ref="C?"  Part="1" 
+F 0 "C?" V 20098 4350 50  0000 C CNN
+F 1 "4u7" V 20189 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 20388 4200 50  0001 C CNN
+F 3 "~" H 20350 4350 50  0001 C CNN
+	1    20350 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Displayunit-rescue:C-Device C?
+U 1 1 5E337A65
+P 20300 2350
+AR Path="/5C8BBC9A/5E337A65" Ref="C?"  Part="1" 
+AR Path="/5E0C5EEA/5E337A65" Ref="C?"  Part="1" 
+AR Path="/5D80EC74/5E337A65" Ref="C?"  Part="1" 
+AR Path="/5D80E6E8/5E337A65" Ref="C?"  Part="1" 
+AR Path="/5E337A65" Ref="C?"  Part="1" 
+F 0 "C?" V 20450 2350 50  0000 C CNN
+F 1 "4u7" V 20550 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 20338 2200 50  0001 C CNN
+F 3 "~" H 20300 2350 50  0001 C CNN
+	1    20300 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20450 2350 20750 2350
+Wire Wire Line
+	20750 2350 20750 2400
+Wire Wire Line
+	20500 4350 20800 4350
 $EndSCHEMATC
