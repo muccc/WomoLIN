@@ -2605,12 +2605,12 @@ F 3 "" H 4700 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Womo-rescue:C-Device C32
 U 1 1 5E15C6EC
 P 4400 2400
-AR Path="/5C8BBC9A/5E15C6EC" Ref="C?"  Part="1" 
+AR Path="/5C8BBC9A/5E15C6EC" Ref="C32"  Part="1" 
 AR Path="/5E0C5EEA/5E15C6EC" Ref="C?"  Part="1" 
-F 0 "C?" V 4550 2300 50  0000 C CNN
+F 0 "C32" V 4550 2300 50  0000 C CNN
 F 1 "4u7" V 4650 2350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 2250 50  0001 C CNN
 F 3 "~" H 4400 2400 50  0001 C CNN
@@ -2618,12 +2618,12 @@ F 3 "~" H 4400 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-rescue:C-Device C?
+L Womo-rescue:C-Device C33
 U 1 1 5E19DC38
 P 4400 8350
-AR Path="/5C8BBC9A/5E19DC38" Ref="C?"  Part="1" 
+AR Path="/5C8BBC9A/5E19DC38" Ref="C33"  Part="1" 
 AR Path="/5E0C5EEA/5E19DC38" Ref="C?"  Part="1" 
-F 0 "C?" V 4550 8250 50  0000 C CNN
+F 0 "C33" V 4550 8250 50  0000 C CNN
 F 1 "4u7" V 4650 8300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4438 8200 50  0001 C CNN
 F 3 "~" H 4400 8350 50  0001 C CNN
