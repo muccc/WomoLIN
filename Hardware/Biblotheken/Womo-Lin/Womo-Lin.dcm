@@ -72,4 +72,11 @@ K
 F https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022
 $ENDCMP
 #
+#
+$CMP 615008138221
+D Modular Connectors / Ethernet Connectors WR-MJ Feml Shielded 8P8C Vert Front Post
+K
+F https://componentsearchengine.com/Datasheets/1/615008138221.pdf
+$ENDCMP
+#
 #End Doc Library

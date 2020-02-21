@@ -1487,9 +1487,9 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_d
 	1    15100 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 11350 5750 0    50   Input ~ 0
-USB_D-
 Text GLabel 12350 5750 2    50   Input ~ 0
+USB_D-
+Text GLabel 11350 5750 0    50   Input ~ 0
 USB_D+
 Text GLabel 10800 5200 2    50   Input ~ 0
 USB_ID
@@ -1526,19 +1526,6 @@ F 3 "~" H 7200 1400 50  0001 C CNN
 $EndComp
 Text Notes 5550 800  0    50   ~ 0
 Touchdisplay RGB TFT
-$Comp
-L Displayunit-rescue:USBLC6-2SC6-Power_Protection U?
-U 1 1 5E312514
-P 11850 5650
-AR Path="/5D80E2A0/5E312514" Ref="U?"  Part="1" 
-AR Path="/5E312514" Ref="U2"  Part="1" 
-F 0 "U2" H 12150 5250 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 12350 5150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 11100 6050 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 12050 6000 50  0001 C CNN
-	1    11850 5650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Womo-Lin:54104-4031 J?
 U 1 1 5E31251F
@@ -1719,13 +1706,7 @@ Touchcontroller
 Wire Wire Line
 	11850 4800 11850 5150
 Wire Wire Line
-	11350 5100 11350 5550
-Wire Wire Line
-	10700 5100 11350 5100
-Wire Wire Line
-	10700 5000 12350 5000
-Wire Wire Line
-	12350 5000 12350 5550
+	10700 5000 11350 5000
 Wire Wire Line
 	10700 4800 11850 4800
 Wire Wire Line
@@ -3104,7 +3085,7 @@ Signal_LED
 Wire Wire Line
 	7400 8300 7250 8300
 Text GLabel 7400 8300 2    50   Input ~ 0
-Wakeup
+3VA_EN
 Connection ~ 2950 6100
 Wire Wire Line
 	2650 6100 2950 6100
@@ -3812,7 +3793,7 @@ Connection ~ 5850 13000
 Wire Wire Line
 	6350 12900 6350 13000
 Text GLabel 7400 6600 2    50   Output ~ 0
-LCD_BL_CTR
+LCD_BL_CTRL
 Text GLabel 7400 10200 2    50   Input ~ 0
 TOUCH_INT
 Text GLabel 4300 10700 0    50   Output ~ 0
@@ -4201,17 +4182,6 @@ X+
 Text GLabel 15700 5550 2    50   Output ~ 0
 Y-
 $Comp
-L Displayunit-rescue:8P8C_Shielded-Connector J1
-U 1 1 5F96FCE3
-P 15900 8450
-F 0 "J1" H 15957 9117 50  0000 C CNN
-F 1 "8P8C_Shielded" H 15957 9026 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15900 8475 50  0001 C CNN
-F 3 "~" V 15900 8475 50  0001 C CNN
-	1    15900 8450
-	-1   0    0    1   
-$EndComp
-$Comp
 L Displayunit-rescue:R-Device R?
 U 1 1 5E2C30E1
 P 13700 8300
@@ -4344,23 +4314,6 @@ F 2 "Inductor_SMD:L_0603_1608Metric" V 14730 8150 50  0001 C CNN
 F 3 "~" H 14800 8150 50  0001 C CNN
 	1    14800 8150
 	0    1    1    0   
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
-U 1 1 5EA2EB1F
-P 15900 7950
-AR Path="/5C8BBC9A/5EA2EB1F" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5EA2EB1F" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5EA2EB1F" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5EA2EB1F" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E2A0/5EA2EB1F" Ref="#PWR?"  Part="1" 
-AR Path="/5EA2EB1F" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 15900 7700 50  0001 C CNN
-F 1 "GND" H 15900 7750 50  0000 C CNN
-F 2 "" H 15900 7950 50  0001 C CNN
-F 3 "" H 15900 7950 50  0001 C CNN
-	1    15900 7950
-	-1   0    0    1   
 $EndComp
 $Comp
 L Displayunit-rescue:Ferrite_Bead_Small-Device FB?
@@ -4666,18 +4619,18 @@ Wire Wire Line
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5ECB14B9
-P 15350 9000
+P 16500 8700
 AR Path="/5C8BBC9A/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5ECB14B9" Ref="#PWR?"  Part="1" 
 AR Path="/5ECB14B9" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 15350 8750 50  0001 C CNN
-F 1 "GND" H 15350 8800 50  0000 C CNN
-F 2 "" H 15350 9000 50  0001 C CNN
-F 3 "" H 15350 9000 50  0001 C CNN
-	1    15350 9000
+F 0 "#PWR0114" H 16500 8450 50  0001 C CNN
+F 1 "GND" H 16500 8500 50  0000 C CNN
+F 2 "" H 16500 8700 50  0001 C CNN
+F 3 "" H 16500 8700 50  0001 C CNN
+	1    16500 8700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4862,43 +4815,6 @@ Wire Wire Line
 Connection ~ 17500 4150
 Wire Wire Line
 	17500 4150 17400 4150
-$Comp
-L Displayunit-rescue:8P8C_Shielded-Connector J2
-U 1 1 5DED998B
-P 15900 9850
-F 0 "J2" H 15957 10517 50  0000 C CNN
-F 1 "8P8C_Shielded" H 15957 10426 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 15900 9875 50  0001 C CNN
-F 3 "~" V 15900 9875 50  0001 C CNN
-	1    15900 9850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
-U 1 1 5DEDCC16
-P 15250 10400
-AR Path="/5C8BBC9A/5DEDCC16" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5DEDCC16" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5DEDCC16" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5DEDCC16" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E2A0/5DEDCC16" Ref="#PWR?"  Part="1" 
-AR Path="/5DEDCC16" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 15250 10150 50  0001 C CNN
-F 1 "GND" H 15250 10200 50  0000 C CNN
-F 2 "" H 15250 10400 50  0001 C CNN
-F 3 "" H 15250 10400 50  0001 C CNN
-	1    15250 10400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15500 10150 15250 10150
-Wire Wire Line
-	15250 10150 15250 10250
-Wire Wire Line
-	15500 10250 15250 10250
-Connection ~ 15250 10250
-Wire Wire Line
-	15250 10250 15250 10400
 Wire Wire Line
 	15500 9950 15050 9950
 Wire Wire Line
@@ -4912,15 +4828,6 @@ Connection ~ 15150 8450
 Wire Wire Line
 	15150 8450 15500 8450
 Wire Wire Line
-	15350 8750 15350 8850
-Wire Wire Line
-	15500 8750 15350 8750
-Wire Wire Line
-	15500 8850 15350 8850
-Connection ~ 15350 8850
-Wire Wire Line
-	15350 8850 15350 9000
-Wire Wire Line
 	15500 9650 15250 9650
 Wire Wire Line
 	15250 9650 15250 9550
@@ -4933,25 +4840,25 @@ Connection ~ 15250 9550
 Wire Wire Line
 	15250 9550 15250 8250
 NoConn ~ 15500 8350
-NoConn ~ 15500 8650
+NoConn ~ 16400 8150
 NoConn ~ 15500 9750
-NoConn ~ 15500 10050
+NoConn ~ 16400 9550
 $Comp
 L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E47C766
-P 15900 9350
+P 16500 10100
 AR Path="/5C8BBC9A/5E47C766" Ref="#PWR?"  Part="1" 
 AR Path="/5E0C5EEA/5E47C766" Ref="#PWR?"  Part="1" 
 AR Path="/5D80EC74/5E47C766" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E6E8/5E47C766" Ref="#PWR?"  Part="1" 
 AR Path="/5D80E2A0/5E47C766" Ref="#PWR?"  Part="1" 
 AR Path="/5E47C766" Ref="#PWR0123"  Part="1" 
-F 0 "#PWR0123" H 15900 9100 50  0001 C CNN
-F 1 "GND" H 15700 9350 50  0000 C CNN
-F 2 "" H 15900 9350 50  0001 C CNN
-F 3 "" H 15900 9350 50  0001 C CNN
-	1    15900 9350
-	-1   0    0    1   
+F 0 "#PWR0123" H 16500 9850 50  0001 C CNN
+F 1 "GND" H 16500 9900 50  0000 C CNN
+F 2 "" H 16500 10100 50  0001 C CNN
+F 3 "" H 16500 10100 50  0001 C CNN
+	1    16500 10100
+	1    0    0    -1  
 $EndComp
 $Comp
 L WAGO:WAGO_Klemmleiste_2-pol J7
@@ -5460,4 +5367,99 @@ Wire Wire Line
 	12450 11800 12300 11800
 Wire Wire Line
 	12450 11900 12300 11900
+$Comp
+L Womo-Lin:615008138221 J1
+U 1 1 5E552771
+P 15500 8150
+F 0 "J1" H 15950 8415 50  0000 C CNN
+F 1 "615008138221" H 15950 8324 50  0000 C CNN
+F 2 "Womo-Lin:615008138221" H 16250 8250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/615008138221.pdf" H 16250 8150 50  0001 L CNN
+F 4 "Modular Connectors / Ethernet Connectors WR-MJ Feml Shielded 8P8C Vert Front Post" H 16250 8050 50  0001 L CNN "Description"
+F 5 "16.85" H 16250 7950 50  0001 L CNN "Height"
+F 6 "710-615008138221" H 16250 7850 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-615008138221" H 16250 7750 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 16250 7650 50  0001 L CNN "Manufacturer_Name"
+F 9 "615008138221" H 16250 7550 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15500 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-Lin:615008138221 J2
+U 1 1 5E555A7A
+P 15500 9550
+F 0 "J2" H 15950 9815 50  0000 C CNN
+F 1 "615008138221" H 15950 9724 50  0000 C CNN
+F 2 "Womo-Lin:615008138221" H 16250 9650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/615008138221.pdf" H 16250 9550 50  0001 L CNN
+F 4 "Modular Connectors / Ethernet Connectors WR-MJ Feml Shielded 8P8C Vert Front Post" H 16250 9450 50  0001 L CNN "Description"
+F 5 "16.85" H 16250 9350 50  0001 L CNN "Height"
+F 6 "710-615008138221" H 16250 9250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-615008138221" H 16250 9150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 16250 9050 50  0001 L CNN "Manufacturer_Name"
+F 9 "615008138221" H 16250 8950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    15500 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16400 9650 16500 9650
+Wire Wire Line
+	16500 9650 16500 9750
+Wire Wire Line
+	16400 9750 16500 9750
+Connection ~ 16500 9750
+Wire Wire Line
+	16500 9750 16500 9850
+Wire Wire Line
+	16400 9850 16500 9850
+Connection ~ 16500 9850
+Wire Wire Line
+	16500 9850 16500 9950
+Wire Wire Line
+	16400 9950 16500 9950
+Connection ~ 16500 9950
+Wire Wire Line
+	16500 9950 16500 10100
+Wire Wire Line
+	16400 8250 16500 8250
+Wire Wire Line
+	16500 8250 16500 8350
+Wire Wire Line
+	16400 8350 16500 8350
+Connection ~ 16500 8350
+Wire Wire Line
+	16500 8350 16500 8450
+Wire Wire Line
+	16400 8450 16500 8450
+Connection ~ 16500 8450
+Wire Wire Line
+	16500 8450 16500 8550
+Wire Wire Line
+	16400 8550 16500 8550
+Connection ~ 16500 8550
+Wire Wire Line
+	16500 8550 16500 8700
+$Comp
+L Displayunit-rescue:USBLC6-2SC6-Power_Protection U?
+U 1 1 5E312514
+P 11850 5650
+AR Path="/5D80E2A0/5E312514" Ref="U?"  Part="1" 
+AR Path="/5E312514" Ref="U2"  Part="1" 
+F 0 "U2" H 12150 5250 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 12350 5150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 11100 6050 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 12050 6000 50  0001 C CNN
+	1    11850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 5000 11350 5550
+Wire Wire Line
+	10700 5100 12350 5100
+Wire Wire Line
+	12350 5100 12350 5550
+Text GLabel 7400 9500 2    50   Output ~ 0
+CAN_STB
+Wire Wire Line
+	7400 9500 7250 9500
 $EndSCHEMATC

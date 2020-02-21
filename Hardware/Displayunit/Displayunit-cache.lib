@@ -135,48 +135,6 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Displayunit-rescue_8P8C_Shielded-Connector
-#
-DEF Displayunit-rescue_8P8C_Shielded-Connector J 0 40 Y Y 1 F N
-F0 "J" -200 550 50 H V R CNN
-F1 "Displayunit-rescue_8P8C_Shielded-Connector" 100 550 50 H V L CNN
-F2 "" 0 25 50 V I C CNN
-F3 "" 0 25 50 V I C CNN
-$FPLIST
- 8P8C*
- RJ31*
- RJ32*
- RJ33*
- RJ34*
- RJ35*
- RJ41*
- RJ45*
- RJ49*
- RJ61*
-$ENDFPLIST
-DRAW
-S 300 500 -300 -400 0 1 10 f
-P 2 0 1 0 -200 175 -250 175 N
-P 2 0 1 0 -200 225 -250 225 N
-P 3 0 1 0 -250 -125 -200 -125 -200 -125 N
-P 3 0 1 0 -250 -75 -200 -75 -200 -75 N
-P 3 0 1 0 -250 -25 -200 -25 -200 -25 N
-P 3 0 1 0 -250 25 -200 25 -200 25 N
-P 3 0 1 0 -250 75 -200 75 -200 75 N
-P 3 0 1 0 -200 125 -250 125 -250 125 N
-P 14 0 1 0 -250 -175 -250 275 150 275 150 175 200 175 200 125 250 125 250 -25 200 -25 200 -75 150 -75 150 -175 -250 -175 -250 -175 N
-X ~ 1 400 -300 100 L 50 50 1 1 P
-X ~ 2 400 -200 100 L 50 50 1 1 P
-X ~ 3 400 -100 100 L 50 50 1 1 P
-X ~ 4 400 0 100 L 50 50 1 1 P
-X ~ 5 400 100 100 L 50 50 1 1 P
-X ~ 6 400 200 100 L 50 50 1 1 P
-X ~ 7 400 300 100 L 50 50 1 1 P
-X ~ 8 400 400 100 L 50 50 1 1 P
-X ~ SH 0 -500 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Displayunit-rescue_Battery_Cell-Device
 #
 DEF Displayunit-rescue_Battery_Cell-Device BT 0 0 N N 1 F N
@@ -975,6 +933,34 @@ X 6 6 900 -200 200 L 50 50 0 0 B
 X 7 7 0 -300 200 R 50 50 0 0 B
 X 8 8 900 -300 200 L 50 50 0 0 B
 X 9 9 0 -400 200 R 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Womo-Lin_615008138221
+#
+DEF Womo-Lin_615008138221 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "Womo-Lin_615008138221" 750 200 50 H V L CNN
+F2 "615008138221" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/615008138221.pdf" 750 0 50 H I L CNN
+F4 "Modular Connectors / Ethernet Connectors WR-MJ Feml Shielded 8P8C Vert Front Post" 750 -100 50 H I L CNN "Description"
+F5 "16.85" 750 -200 50 H I L CNN "Height"
+F6 "710-615008138221" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-615008138221" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "615008138221" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 U
+X 2 2 0 -100 200 R 50 50 0 0 U
+X 3 3 0 -200 200 R 50 50 0 0 U
+X 4 4 0 -300 200 R 50 50 0 0 U
+X 5 5 0 -400 200 R 50 50 0 0 U
+X 6 6 900 0 200 L 50 50 0 0 U
+X 7 7 900 -100 200 L 50 50 0 0 U
+X 8 8 900 -200 200 L 50 50 0 0 U
+X MH3 MH3 900 -300 200 L 50 50 0 0 U
+X MH4 MH4 900 -400 200 L 50 50 0 0 U
 ENDDRAW
 ENDDEF
 #
