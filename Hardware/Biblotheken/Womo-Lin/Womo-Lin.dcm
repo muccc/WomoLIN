@@ -79,4 +79,11 @@ K
 F https://componentsearchengine.com/Datasheets/1/615008138221.pdf
 $ENDCMP
 #
+#
+$CMP TPS54160DGQR
+D 3.5V to 60V Input, 1.5A Step-Down Converter with Eco-Mode
+K
+F http://www.ti.com/lit/gpn/tps54160
+$ENDCMP
+#
 #End Doc Library
