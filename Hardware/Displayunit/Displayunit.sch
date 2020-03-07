@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Displayunit-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -57,7 +57,7 @@ AR Path="/5D80E6E8/5E258B54" Ref="L?"  Part="1"
 AR Path="/5E258B54" Ref="L4"  Part="1" 
 F 0 "L4" V 21000 3650 50  0000 C CNN
 F 1 "10uH" V 20900 3600 50  0000 C CNN
-F 2 "Inductor_SMD:L_Coilcraft_XxL4040" H 20800 3750 50  0001 C CNN
+F 2 "Womo-Lin:MWSA0603" H 20800 3750 50  0001 C CNN
 F 3 "~" H 20800 3750 50  0001 C CNN
 	1    20800 3750
 	0    -1   -1   0   
@@ -587,7 +587,7 @@ AR Path="/5D80E6E8/5E258C74" Ref="L?"  Part="1"
 AR Path="/5E258C74" Ref="L1"  Part="1" 
 F 0 "L1" V 19840 6200 50  0000 C CNN
 F 1 "4uH7" V 19749 6200 50  0000 C CNN
-F 2 "Inductor_SMD:L_Coilcraft_XxL4030" H 19650 6200 50  0001 C CNN
+F 2 "Womo-Lin:MWSA0603" H 19650 6200 50  0001 C CNN
 F 3 "~" H 19650 6200 50  0001 C CNN
 	1    19650 6200
 	0    -1   -1   0   
@@ -891,7 +891,7 @@ AR Path="/5D80E6E8/5E26853A" Ref="L?"  Part="1"
 AR Path="/5E26853A" Ref="L2"  Part="1" 
 F 0 "L2" V 20400 8650 50  0000 C CNN
 F 1 "L_Core_Ferrite" V 20500 8650 50  0000 C CNN
-F 2 "Inductor_SMD:L_Coilcraft_XxL4020" H 20600 8550 50  0001 C CNN
+F 2 "Womo-Lin:MWSA0603" H 20600 8550 50  0001 C CNN
 F 3 "~" H 20600 8550 50  0001 C CNN
 	1    20600 8550
 	0    1    1    0   
@@ -2831,7 +2831,7 @@ AR Path="/5D80E2A0/5E312735" Ref="SW?"  Part="1"
 AR Path="/5E312735" Ref="SW1"  Part="1" 
 F 0 "SW1" V 2950 4635 50  0000 C CNN
 F 1 "Boot" V 2850 4600 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2950 4550 50  0001 C CNN
+F 2 "Womo-Lin:TS-1187A" H 2950 4550 50  0001 C CNN
 F 3 "" H 2950 4550 50  0001 C CNN
 	1    2950 4350
 	0    -1   -1   0   
@@ -3247,7 +3247,7 @@ AR Path="/5D80E2A0/5E3124D3" Ref="BT?"  Part="1"
 AR Path="/5E3124D3" Ref="BT1"  Part="1" 
 F 0 "BT1" H 3668 5646 50  0000 L CNN
 F 1 "Battery_Cell" H 3668 5555 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_1058_1x2032" V 3550 5610 50  0001 C CNN
+F 2 "Womo-Lin:QJ.BS-6" V 3550 5610 50  0001 C CNN
 F 3 "~" V 3550 5610 50  0001 C CNN
 	1    3550 5550
 	1    0    0    -1  
@@ -3506,7 +3506,7 @@ AR Path="/5D80E2A0/5E312439" Ref="SW?"  Part="1"
 AR Path="/5E312439" Ref="SW2"  Part="1" 
 F 0 "SW2" V 2950 6585 50  0000 C CNN
 F 1 "Reset" V 2850 6550 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2950 6500 50  0001 C CNN
+F 2 "Womo-Lin:TS-1187A" H 2950 6500 50  0001 C CNN
 F 3 "" H 2950 6500 50  0001 C CNN
 	1    2950 6300
 	0    -1   -1   0   
@@ -5181,7 +5181,7 @@ AR Path="/5D80E6E8/5E258B18" Ref="L?"  Part="1"
 AR Path="/5E258B18" Ref="L3"  Part="1" 
 F 0 "L3" V 21000 900 50  0000 C CNN
 F 1 "10uH" V 20900 900 50  0000 C CNN
-F 2 "Inductor_SMD:L_Coilcraft_XxL4040" H 20800 1050 50  0001 C CNN
+F 2 "Womo-Lin:MWSA0603" H 20800 1050 50  0001 C CNN
 F 3 "~" H 20800 1050 50  0001 C CNN
 	1    20800 1050
 	0    -1   -1   0   
