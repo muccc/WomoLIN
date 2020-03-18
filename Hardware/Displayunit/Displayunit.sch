@@ -3835,8 +3835,6 @@ F 3 "~" H 14050 9650 50  0001 C CNN
 	1    14050 9650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17000 4100 17350 4100
 $Comp
 L Displayunit-rescue:R-Device R?
 U 1 1 5E320BA8
@@ -5523,22 +5521,6 @@ Wire Wire Line
 	18550 4000 18750 4000
 $Comp
 L Displayunit-rescue:C-Device C?
-U 1 1 60BFC24B
-P 17350 4250
-AR Path="/5C8BBC9A/60BFC24B" Ref="C?"  Part="1" 
-AR Path="/5E0C5EEA/60BFC24B" Ref="C?"  Part="1" 
-AR Path="/5D80EC74/60BFC24B" Ref="C?"  Part="1" 
-AR Path="/5D80E6E8/60BFC24B" Ref="C?"  Part="1" 
-AR Path="/60BFC24B" Ref="C61"  Part="1" 
-F 0 "C61" H 17350 4650 50  0000 L CNN
-F 1 "2u2" H 17350 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 17388 4100 50  0001 C CNN
-F 3 "~" H 17350 4250 50  0001 C CNN
-	1    17350 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:C-Device C?
 U 1 1 60C7DAA7
 P 17700 4250
 AR Path="/5C8BBC9A/60C7DAA7" Ref="C?"  Part="1" 
@@ -5548,7 +5530,7 @@ AR Path="/5D80E6E8/60C7DAA7" Ref="C?"  Part="1"
 AR Path="/60C7DAA7" Ref="C63"  Part="1" 
 F 0 "C63" H 17650 4650 50  0000 L CNN
 F 1 "100n" H 17650 4550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 17738 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17738 4100 50  0001 C CNN
 F 3 "~" H 17700 4250 50  0001 C CNN
 	1    17700 4250
 	1    0    0    -1  
@@ -5564,39 +5546,15 @@ AR Path="/5D80E6E8/60E02A64" Ref="C?"  Part="1"
 AR Path="/60E02A64" Ref="C62"  Part="1" 
 F 0 "C62" H 17650 1900 50  0000 L CNN
 F 1 "100n" H 17650 1800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 17738 1400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 17738 1400 50  0001 C CNN
 F 3 "~" H 17700 1550 50  0001 C CNN
 	1    17700 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Displayunit-rescue:C-Device C?
-U 1 1 60D8104E
-P 17350 1550
-AR Path="/5C8BBC9A/60D8104E" Ref="C?"  Part="1" 
-AR Path="/5E0C5EEA/60D8104E" Ref="C?"  Part="1" 
-AR Path="/5D80EC74/60D8104E" Ref="C?"  Part="1" 
-AR Path="/5D80E6E8/60D8104E" Ref="C?"  Part="1" 
-AR Path="/60D8104E" Ref="C60"  Part="1" 
-F 0 "C60" H 17300 1900 50  0000 L CNN
-F 1 "2u2" H 17300 1800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 17388 1400 50  0001 C CNN
-F 3 "~" H 17350 1550 50  0001 C CNN
-	1    17350 1550
-	1    0    0    -1  
-$EndComp
-Connection ~ 17350 1400
-Wire Wire Line
-	17350 1400 17000 1400
-Connection ~ 17350 4100
 Wire Wire Line
 	18050 4100 17700 4100
 Connection ~ 18050 4100
-Wire Wire Line
-	17350 4100 17700 4100
 Connection ~ 17700 4100
-Wire Wire Line
-	17350 1400 17700 1400
 Wire Wire Line
 	17700 1400 18050 1400
 Connection ~ 17700 1400
@@ -5615,38 +5573,6 @@ F 1 "GND" H 17700 1500 50  0000 C CNN
 F 2 "" H 17700 1700 50  0001 C CNN
 F 3 "" H 17700 1700 50  0001 C CNN
 	1    17700 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
-U 1 1 61118551
-P 17350 1700
-AR Path="/5C8BBC9A/61118551" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/61118551" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/61118551" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/61118551" Ref="#PWR?"  Part="1" 
-AR Path="/61118551" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 17350 1450 50  0001 C CNN
-F 1 "GND" H 17350 1500 50  0000 C CNN
-F 2 "" H 17350 1700 50  0001 C CNN
-F 3 "" H 17350 1700 50  0001 C CNN
-	1    17350 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
-U 1 1 6119AFF7
-P 17350 4400
-AR Path="/5C8BBC9A/6119AFF7" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/6119AFF7" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/6119AFF7" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/6119AFF7" Ref="#PWR?"  Part="1" 
-AR Path="/6119AFF7" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 17350 4150 50  0001 C CNN
-F 1 "GND" H 17350 4200 50  0000 C CNN
-F 2 "" H 17350 4400 50  0001 C CNN
-F 3 "" H 17350 4400 50  0001 C CNN
-	1    17350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5707,4 +5633,8 @@ Wire Wire Line
 	10050 2200 10900 2200
 Wire Wire Line
 	10150 2300 10900 2300
+Wire Wire Line
+	17000 4100 17700 4100
+Wire Wire Line
+	17000 1400 17700 1400
 $EndSCHEMATC
