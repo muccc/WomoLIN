@@ -519,7 +519,7 @@ F 3 "~" H 11950 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13950 2950 13950 3050
+	13950 2950 13950 3000
 Text GLabel 5750 8850 2    50   Output ~ 0
 Rasp_Shutdown
 Text GLabel 5750 8950 2    50   Input ~ 0
@@ -2288,7 +2288,6 @@ Wire Wire Line
 	3200 8450 3050 8450
 Wire Wire Line
 	3200 8350 3050 8350
-NoConn ~ 13850 3050
 Text GLabel 1350 2800 0    50   Input ~ 0
 PWR_Reset
 $Comp
@@ -2368,4 +2367,11 @@ Wire Wire Line
 	3000 1700 3000 1750
 Wire Wire Line
 	9600 1850 9600 1950
+Wire Wire Line
+	13850 3050 13850 3000
+Wire Wire Line
+	13850 3000 13950 3000
+Connection ~ 13950 3000
+Wire Wire Line
+	13950 3000 13950 3050
 $EndSCHEMATC
