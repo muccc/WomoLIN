@@ -45,6 +45,16 @@ D Connector 0.5mm, FFC/FPC, SMT,r/a,40w,Au Molex FFC/FPC SMT Series 0.5mm Pitch 
 F https://componentsearchengine.com/Datasheets/1/54104-4031.pdf
 $ENDCMP
 #
+$CMP 615008138221
+D Modular Connectors / Ethernet Connectors WR-MJ Feml Shielded 8P8C Vert Front Post
+F https://componentsearchengine.com/Datasheets/1/615008138221.pdf
+$ENDCMP
+#
+$CMP BTS6143D
+D INFINEON - BTS6143D - IC, PROFET, P-TO252-5
+F https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022
+$ENDCMP
+#
 $CMP MX25LM51245GXDI00
 D S-NOR 512M
 F http://www.macronix.com/Lists/Datasheet/Attachments/7417/MX25LM51245G,%203V,%20512Mb,%20v1.0.pdf
@@ -60,30 +70,14 @@ D STMICROELECTRONICS - SPSGRFC-868 - RF TRANSCEIVERS, 500KBPS, 868MHZ
 F https://www.st.com/resource/en/datasheet/spsgrfc.pdf
 $ENDCMP
 #
+$CMP TPS54160DGQR
+D 3.5V to 60V Input, 1.5A Step-Down Converter with Eco-Mode
+F http://www.ti.com/lit/gpn/tps54160
+$ENDCMP
+#
 $CMP XAL8080-682MEB
 D Fixed Inductors XAL8080 High Current 20 %
 F http://www.coilcraft.com/pdfs/xal8080.pdf
-$ENDCMP
-#
-#
-$CMP BTS6143D
-D INFINEON - BTS6143D - IC, PROFET, P-TO252-5
-K
-F https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022
-$ENDCMP
-#
-#
-$CMP 615008138221
-D Modular Connectors / Ethernet Connectors WR-MJ Feml Shielded 8P8C Vert Front Post
-K
-F https://componentsearchengine.com/Datasheets/1/615008138221.pdf
-$ENDCMP
-#
-#
-$CMP TPS54160DGQR
-D 3.5V to 60V Input, 1.5A Step-Down Converter with Eco-Mode
-K
-F http://www.ti.com/lit/gpn/tps54160
 $ENDCMP
 #
 #End Doc Library
