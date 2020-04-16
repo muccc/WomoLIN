@@ -55,6 +55,10 @@ D INFINEON - BTS6143D - IC, PROFET, P-TO252-5
 F https://www.infineon.com/dgdl/Infineon-BTS6143D-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa3da10821022
 $ENDCMP
 #
+$CMP ER-CON10HT-1
+D Connector 0.5mm, FFC/FPC SMT Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector, ZIF Top Contact
+$ENDCMP
+#
 $CMP MX25LM51245GXDI00
 D S-NOR 512M
 F http://www.macronix.com/Lists/Datasheet/Attachments/7417/MX25LM51245G,%203V,%20512Mb,%20v1.0.pdf
