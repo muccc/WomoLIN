@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Womo-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -6025,10 +6024,10 @@ Wire Notes Line
 Wire Notes Line
 	6450 10500 8800 10500
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Womo-rescue:Ferrite_Bead_Small-Device FB344
 U 1 1 66777385
 P 3050 8500
-F 0 "FB?" V 3000 8750 50  0000 C CNN
+F 0 "FB344" V 3000 8700 50  0000 C CNN
 F 1 "100R" V 3000 8350 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 8500 50  0001 C CNN
 F 3 "~" H 3050 8500 50  0001 C CNN
@@ -6036,10 +6035,10 @@ F 3 "~" H 3050 8500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Womo-rescue:Ferrite_Bead_Small-Device FB345
 U 1 1 6695E89A
 P 3050 8900
-F 0 "FB?" V 3000 9150 50  0000 C CNN
+F 0 "FB345" V 3000 9100 50  0000 C CNN
 F 1 "100R" V 3000 8750 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 8900 50  0001 C CNN
 F 3 "~" H 3050 8900 50  0001 C CNN
@@ -6047,10 +6046,10 @@ F 3 "~" H 3050 8900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Womo-rescue:Ferrite_Bead_Small-Device FB346
 U 1 1 66A00C76
 P 3050 9600
-F 0 "FB?" V 3000 9850 50  0000 C CNN
+F 0 "FB346" V 3000 9800 50  0000 C CNN
 F 1 "100R" V 3000 9450 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 9600 50  0001 C CNN
 F 3 "~" H 3050 9600 50  0001 C CNN
@@ -6058,10 +6057,10 @@ F 3 "~" H 3050 9600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB?
+L Womo-rescue:Ferrite_Bead_Small-Device FB347
 U 1 1 66AA32F1
 P 3050 10000
-F 0 "FB?" V 3000 10250 50  0000 C CNN
+F 0 "FB347" V 3000 10200 50  0000 C CNN
 F 1 "100R" V 3000 9900 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 10000 50  0001 C CNN
 F 3 "~" H 3050 10000 50  0001 C CNN

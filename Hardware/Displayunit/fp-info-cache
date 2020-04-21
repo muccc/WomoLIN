@@ -1,4 +1,4 @@
-16878083993078227
+16879708542563227
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74943,7 +74943,7 @@ Integrated Circuit
 24
 Womo-Lin
 BGA24C100P5X5_600X800X120
-IS66WVH8M8BLL-100B1LI
+
 Integrated Circuit
 0
 24
@@ -74961,7 +74961,14 @@ ER-CON10HT-1
 
 0
 12
-10
+12
+Womo-Lin
+MWSA0503
+
+
+0
+2
+2
 Womo-Lin
 MWSA0603
 

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Womo-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -5902,41 +5901,33 @@ Wire Wire Line
 	1950 9500 1950 9900
 Connection ~ 1950 9900
 Wire Wire Line
-	1950 9900 2950 9900
-Wire Wire Line
 	2400 9500 2400 10300
 Connection ~ 2400 10300
-Wire Wire Line
-	2400 10300 2950 10300
 Wire Wire Line
 	1950 8450 1950 8800
 Wire Wire Line
 	1950 8800 1650 8800
-Wire Wire Line
-	1950 8800 2950 8800
 Connection ~ 1950 8800
 Wire Wire Line
 	2400 8450 2400 9200
 Wire Wire Line
-	2400 9200 2950 9200
-Wire Wire Line
 	1650 9200 2400 9200
 Connection ~ 2400 9200
-Text GLabel 2950 8500 2    50   Output ~ 0
+Text GLabel 3300 8500 2    50   Output ~ 0
 V+_TTY1
-Text GLabel 2950 8900 2    50   Output ~ 0
+Text GLabel 3300 8900 2    50   Output ~ 0
 V+_TTY2
-Text GLabel 2950 9600 2    50   Output ~ 0
+Text GLabel 3300 9600 2    50   Output ~ 0
 V+_TTY3
-Text GLabel 2950 10000 2    50   Output ~ 0
+Text GLabel 3300 10000 2    50   Output ~ 0
 V+_TTY4
-Text GLabel 2950 10300 2    50   UnSpc ~ 0
+Text GLabel 3300 10300 2    50   UnSpc ~ 0
 G4
-Text GLabel 2950 9900 2    50   UnSpc ~ 0
+Text GLabel 3300 9900 2    50   UnSpc ~ 0
 G3
-Text GLabel 2950 9200 2    50   UnSpc ~ 0
+Text GLabel 3300 9200 2    50   UnSpc ~ 0
 G2
-Text GLabel 2950 8800 2    50   UnSpc ~ 0
+Text GLabel 3300 8800 2    50   UnSpc ~ 0
 G1
 Wire Wire Line
 	1650 8500 2250 8500
@@ -5966,21 +5957,21 @@ Wire Wire Line
 Connection ~ 2700 10000
 Wire Wire Line
 	2700 10000 1650 10000
-Text GLabel 2950 10200 2    50   Output ~ 0
+Text GLabel 3300 10200 2    50   Output ~ 0
 TTY_RX_4
-Text GLabel 2950 10100 2    50   Input ~ 0
+Text GLabel 3300 10100 2    50   Input ~ 0
 TTY_TX_4
-Text GLabel 2950 9700 2    50   Input ~ 0
+Text GLabel 3300 9700 2    50   Input ~ 0
 TTY_TX_3
-Text GLabel 2950 9800 2    50   Output ~ 0
+Text GLabel 3300 9800 2    50   Output ~ 0
 TTY_RX_3
-Text GLabel 2950 9000 2    50   Input ~ 0
+Text GLabel 3300 9000 2    50   Input ~ 0
 TTY_TX_2
-Text GLabel 2950 9100 2    50   Output ~ 0
+Text GLabel 3300 9100 2    50   Output ~ 0
 TTY_RX_2
-Text GLabel 2950 8700 2    50   Output ~ 0
+Text GLabel 3300 8700 2    50   Output ~ 0
 TTY_RX_1
-Text GLabel 2950 8600 2    50   Input ~ 0
+Text GLabel 3300 8600 2    50   Input ~ 0
 TTY_TX_1
 Wire Wire Line
 	1650 8600 2150 8600
@@ -6002,42 +5993,26 @@ Wire Wire Line
 	2050 8450 2050 8700
 Connection ~ 2050 8700
 Wire Wire Line
-	2050 8700 2950 8700
-Wire Wire Line
 	2150 8450 2150 8600
 Connection ~ 2150 8600
-Wire Wire Line
-	2150 8600 2950 8600
 Wire Wire Line
 	2500 8450 2500 9100
 Connection ~ 2500 9100
 Wire Wire Line
-	2500 9100 2950 9100
-Wire Wire Line
 	2600 8450 2600 9000
 Connection ~ 2600 9000
-Wire Wire Line
-	2600 9000 2950 9000
 Wire Wire Line
 	2050 9500 2050 9800
 Connection ~ 2050 9800
 Wire Wire Line
-	2050 9800 2950 9800
-Wire Wire Line
 	2150 9500 2150 9700
 Connection ~ 2150 9700
-Wire Wire Line
-	2150 9700 2950 9700
 Wire Wire Line
 	2500 9500 2500 10200
 Connection ~ 2500 10200
 Wire Wire Line
-	2500 10200 2950 10200
-Wire Wire Line
 	2600 9500 2600 10100
 Connection ~ 2600 10100
-Wire Wire Line
-	2600 10100 2950 10100
 Text Notes 1500 8150 0    118  ~ 0
 UART Connection
 Wire Notes Line
@@ -6048,4 +6023,80 @@ Wire Notes Line
 	6450 7950 8800 7950
 Wire Notes Line
 	6450 10500 8800 10500
+$Comp
+L Womo-rescue:Ferrite_Bead_Small-Device FB344
+U 1 1 66777385
+P 3050 8500
+F 0 "FB344" V 3000 8700 50  0000 C CNN
+F 1 "100R" V 3000 8350 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 8500 50  0001 C CNN
+F 3 "~" H 3050 8500 50  0001 C CNN
+	1    3050 8500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Womo-rescue:Ferrite_Bead_Small-Device FB345
+U 1 1 6695E89A
+P 3050 8900
+F 0 "FB345" V 3000 9100 50  0000 C CNN
+F 1 "100R" V 3000 8750 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 8900 50  0001 C CNN
+F 3 "~" H 3050 8900 50  0001 C CNN
+	1    3050 8900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Womo-rescue:Ferrite_Bead_Small-Device FB346
+U 1 1 66A00C76
+P 3050 9600
+F 0 "FB346" V 3000 9800 50  0000 C CNN
+F 1 "100R" V 3000 9450 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 9600 50  0001 C CNN
+F 3 "~" H 3050 9600 50  0001 C CNN
+	1    3050 9600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Womo-rescue:Ferrite_Bead_Small-Device FB347
+U 1 1 66AA32F1
+P 3050 10000
+F 0 "FB347" V 3000 10200 50  0000 C CNN
+F 1 "100R" V 3000 9900 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V 2980 10000 50  0001 C CNN
+F 3 "~" H 3050 10000 50  0001 C CNN
+	1    3050 10000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3300 9600 3150 9600
+Wire Wire Line
+	2150 9700 3300 9700
+Wire Wire Line
+	2050 9800 3300 9800
+Wire Wire Line
+	1950 9900 3300 9900
+Wire Wire Line
+	2600 10100 3300 10100
+Wire Wire Line
+	3300 10000 3150 10000
+Wire Wire Line
+	2500 10200 3300 10200
+Wire Wire Line
+	2400 10300 3300 10300
+Wire Wire Line
+	2400 9200 3300 9200
+Wire Wire Line
+	2500 9100 3300 9100
+Wire Wire Line
+	2600 9000 3300 9000
+Wire Wire Line
+	3300 8900 3150 8900
+Wire Wire Line
+	1950 8800 3300 8800
+Wire Wire Line
+	2050 8700 3300 8700
+Wire Wire Line
+	2150 8600 3300 8600
+Wire Wire Line
+	3300 8500 3150 8500
 $EndSCHEMATC
