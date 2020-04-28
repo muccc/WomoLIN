@@ -2560,7 +2560,7 @@ P 11100 9050
 AR Path="/5C8BBC94/5EFA22F6" Ref="R?"  Part="1" 
 AR Path="/5CC9A992/5EFA22F6" Ref="R503"  Part="1" 
 F 0 "R503" H 11170 9096 50  0000 L CNN
-F 1 "10K" H 11170 9005 50  0000 L CNN
+F 1 "10k" H 11170 9005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 9050 50  0001 C CNN
 F 3 "~" H 11100 9050 50  0001 C CNN
 	1    11100 9050
@@ -2573,7 +2573,7 @@ P 10800 9050
 AR Path="/5C8BBC94/5EFA22FD" Ref="R?"  Part="1" 
 AR Path="/5CC9A992/5EFA22FD" Ref="R502"  Part="1" 
 F 0 "R502" H 10500 9150 50  0000 L CNN
-F 1 "10K" H 10550 9050 50  0000 L CNN
+F 1 "10k" H 10550 9050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10730 9050 50  0001 C CNN
 F 3 "~" H 10800 9050 50  0001 C CNN
 	1    10800 9050
@@ -4869,18 +4869,16 @@ Text GLabel 4050 3800 0    50   BiDi ~ 0
 PF6
 Text GLabel 4050 3900 0    50   BiDi ~ 0
 PF7
-Text GLabel 8300 3200 2    50   BiDi ~ 0
-PF8
 Text GLabel 8300 3300 2    50   BiDi ~ 0
-PF9
+PF8
 Text GLabel 8300 3400 2    50   BiDi ~ 0
-PF10
+PF9
 Text GLabel 8300 3500 2    50   BiDi ~ 0
-PF11
+PF10
 Text GLabel 8300 3600 2    50   BiDi ~ 0
-PF12
+PF11
 Text GLabel 8300 3700 2    50   BiDi ~ 0
-PF13
+PF12
 Text GLabel 8300 3800 2    50   BiDi ~ 0
 I2C1_SDA
 Text GLabel 8300 3900 2    50   Input ~ 0
@@ -4974,9 +4972,6 @@ Connection ~ 7500 3400
 Wire Wire Line
 	8300 3300 7400 3300
 Connection ~ 7400 3300
-Wire Wire Line
-	8300 3200 7300 3200
-Connection ~ 7300 3200
 $Comp
 L Womo-rescue:Ferrite_Bead_Small-Device FB309
 U 1 1 65F11DD5
@@ -6168,4 +6163,23 @@ F 3 "~" V 15000 6975 50  0001 C CNN
 	1    15000 6950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Womo-rescue:+5V-power #PWR?
+U 1 1 661D9CF5
+P 7650 2800
+AR Path="/5C8BBC9A/661D9CF5" Ref="#PWR?"  Part="1" 
+AR Path="/5E0C5EEA/661D9CF5" Ref="#PWR?"  Part="1" 
+AR Path="/5CC9A992/661D9CF5" Ref="#PWR0325"  Part="1" 
+F 0 "#PWR0325" H 7650 2650 50  0001 C CNN
+F 1 "+5V" H 7700 3000 50  0000 C CNN
+F 2 "" H 7650 2800 50  0001 C CNN
+F 3 "" H 7650 2800 50  0001 C CNN
+	1    7650 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3200 7650 3200
+Wire Wire Line
+	7650 3200 7650 2800
+Connection ~ 7300 3200
 $EndSCHEMATC
