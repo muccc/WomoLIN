@@ -2702,12 +2702,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/tps54340.pdf" H 9050 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L Womo-rescue:GND-power #PWR0122
 U 1 1 65D1D777
 P 5350 1650
-AR Path="/5C8BBC9A/65D1D777" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC9A/65D1D777" Ref="#PWR0122"  Part="1" 
 AR Path="/5E0C5EEA/65D1D777" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 1400 50  0001 C CNN
+F 0 "#PWR0122" H 5350 1400 50  0001 C CNN
 F 1 "GND" H 5450 1450 50  0000 C CNN
 F 2 "" H 5350 1650 50  0001 C CNN
 F 3 "" H 5350 1650 50  0001 C CNN
@@ -2715,12 +2715,12 @@ F 3 "" H 5350 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L Womo-rescue:GND-power #PWR0229
 U 1 1 65D286B4
 P 5350 4450
-AR Path="/5C8BBC9A/65D286B4" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC9A/65D286B4" Ref="#PWR0229"  Part="1" 
 AR Path="/5E0C5EEA/65D286B4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 4200 50  0001 C CNN
+F 0 "#PWR0229" H 5350 4200 50  0001 C CNN
 F 1 "GND" H 5450 4250 50  0000 C CNN
 F 2 "" H 5350 4450 50  0001 C CNN
 F 3 "" H 5350 4450 50  0001 C CNN
@@ -2728,12 +2728,12 @@ F 3 "" H 5350 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Womo-rescue:GND-power #PWR?
+L Womo-rescue:GND-power #PWR0253
 U 1 1 65D337CD
 P 5350 7250
-AR Path="/5C8BBC9A/65D337CD" Ref="#PWR?"  Part="1" 
+AR Path="/5C8BBC9A/65D337CD" Ref="#PWR0253"  Part="1" 
 AR Path="/5E0C5EEA/65D337CD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 7000 50  0001 C CNN
+F 0 "#PWR0253" H 5350 7000 50  0001 C CNN
 F 1 "GND" H 5450 7050 50  0000 C CNN
 F 2 "" H 5350 7250 50  0001 C CNN
 F 3 "" H 5350 7250 50  0001 C CNN

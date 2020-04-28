@@ -724,20 +724,16 @@ Wire Wire Line
 $Comp
 L Womo-rescue:LED-Device D1
 U 1 1 5D464432
-P 900 4550
-F 0 "D1" V 938 4433 50  0000 R CNN
-F 1 "LED" V 847 4433 50  0000 R CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 900 4550 50  0001 C CNN
-F 3 "~" H 900 4550 50  0001 C CNN
-	1    900  4550
+P 950 4450
+F 0 "D1" V 988 4333 50  0000 R CNN
+F 1 "LED" V 897 4333 50  0000 R CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 950 4450 50  0001 C CNN
+F 3 "~" H 950 4450 50  0001 C CNN
+	1    950  4450
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1000 4300 2    50   Input ~ 0
+Text GLabel 1000 4750 2    50   Input ~ 0
 Signal_LED
-Wire Wire Line
-	1000 4300 900  4300
-Wire Wire Line
-	900  4300 900  4400
 $Comp
 L Womo-rescue:Crystal_GND24-Device Y1
 U 1 1 5D1F17D8
@@ -1171,17 +1167,6 @@ F 1 "GND" H 1905 4727 50  0000 C CNN
 F 2 "" H 1900 4900 50  0001 C CNN
 F 3 "" H 1900 4900 50  0001 C CNN
 	1    1900 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Womo-rescue:GND-power #PWR0338
-U 1 1 5E7002E3
-P 900 4700
-F 0 "#PWR0338" H 900 4450 50  0001 C CNN
-F 1 "GND" H 905 4527 50  0000 C CNN
-F 2 "" H 900 4700 50  0001 C CNN
-F 3 "" H 900 4700 50  0001 C CNN
-	1    900  4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2353,4 +2338,30 @@ Wire Wire Line
 	9350 8600 9100 8600
 Wire Wire Line
 	9100 8600 9100 8850
+$Comp
+L Womo-rescue:R-Device R?
+U 1 1 65E207EA
+P 950 4150
+F 0 "R?" H 1020 4196 50  0000 L CNN
+F 1 "1k" H 1020 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 880 4150 50  0001 C CNN
+F 3 "~" H 950 4150 50  0001 C CNN
+	1    950  4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-rescue:+3.3V-power #PWR?
+U 1 1 65E4E132
+P 950 4000
+F 0 "#PWR?" H 950 3850 50  0001 C CNN
+F 1 "+3.3V" H 965 4173 50  0000 C CNN
+F 2 "" H 950 4000 50  0001 C CNN
+F 3 "" H 950 4000 50  0001 C CNN
+	1    950  4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4750 950  4750
+Wire Wire Line
+	950  4750 950  4600
 $EndSCHEMATC
