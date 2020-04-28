@@ -1,4 +1,4 @@
-FROM gcc9 
+FROM womolinux 
 MAINTAINER Norym
 
 RUN sudo apt-get update && sudo apt-get install -y software-properties-common 
