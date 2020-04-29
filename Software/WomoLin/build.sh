@@ -1,7 +1,30 @@
 #!/bin/bash
 
-cd ..
-mkdir -p build
-cd build
-cmake ../WomoLin
+FOLDER_PCNET_BUILD="build/pcnet"
+FOLDER_DEBUG="debug"
+FOLDER_RELEASE="release"
+FOLDER_SOFTWARE_WOMOLIN=${PWD}
+FOLDER_SOFTWARE=${FOLDER_SOFTWARE_WOMOLIN}/..
+
+# x86 pcnet debug version
+cd ${FOLDER_SOFTWARE}
+mkdir -p ${FOLDER_PCNET_BUILD}/${FOLDER_DEBUG}
+cd ${FOLDER_PCNET_BUILD}/${FOLDER_DEBUG}
+cmake -DCMAKE_TOOLCHAIN_FILE=${FOLDER_SOFTWARE_WOMOLIN}/toolchain.gcc \
+      -DCMAKE_BUILD_TYPE=DEBUG \
+      -DCMAKE_CXX_FLAGS=-DPCNET \
+      -G "Eclipse CDT4 - Unix Makefiles" \
+      ${FOLDER_SOFTWARE_WOMOLIN}
 make
+
+# x86 pcnet release version
+cd ${FOLDER_SOFTWARE}
+mkdir -p ${FOLDER_PCNET_BUILD}/${FOLDER_RELEASE}
+cd ${FOLDER_PCNET_BUILD}/${FOLDER_RELEASE}
+cmake -DCMAKE_TOOLCHAIN_FILE=${FOLDER_SOFTWARE_WOMOLIN}/toolchain.gcc \
+      -DCMAKE_BUILD_TYPE=RELEASE \
+      -DCMAKE_CXX_FLAGS=-DPCNET \
+      -G "Eclipse CDT4 - Unix Makefiles" \
+      ${FOLDER_SOFTWARE_WOMOLIN}
+make
+
