@@ -26,8 +26,8 @@ add_executable(${PROJECT_NAME}
    womolin/unit.cpp
    womolin/protocol.cpp
    womolin/managerbase.cpp
-
    board/mainunit/hal/serial_simulation_network.cpp
+   board/mainunit/hal/serial.cpp
    board/mainunit/hal/unit.cpp
    board/mainunit/manager.cpp
    board/mainunit/main.cpp
@@ -36,5 +36,5 @@ add_executable(${PROJECT_NAME}
 # Strip binary for release builds
 if (CMAKE_BUILD_TYPE STREQUAL RELEASE)
     add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-            COMMAND ${CMAKE_STRIP} ${PROJECT_NAME})
+            COMMAND ${CMAKE_STRIP_COMPILER} ${PROJECT_NAME})
 endif ()

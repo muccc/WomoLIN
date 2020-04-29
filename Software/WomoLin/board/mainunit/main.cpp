@@ -4,14 +4,15 @@
 
 #ifdef PCNET
 #include "hal/include/serial_simulation_network.h"
+#include <thread>
+#include <chrono>
 #else
 #include "hal/include/serial.h"
 #endif
 
 #include "manager.h"
 
-#include <thread>
-#include <chrono>
+extern "C" void __sync_synchronize() {}
 
 int main() {
    
@@ -25,7 +26,11 @@ int main() {
 
    while( true ) {
       manager.doWork();
+#ifdef PCNET
       std::this_thread::sleep_for(std::chrono::milliseconds(100));
+#else
+   //TODO
+#endif
    }
 
    return 0;
