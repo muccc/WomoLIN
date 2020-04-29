@@ -6,9 +6,8 @@ SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wpedantic -Werror=pedantic -Wextr
 #enable_testing()
 #include_directories("${CMAKE_CURRENT_SOURCE_DIR}/googletest/googletest/include")
 
-project(womolin)
-
-SET(CMAKE_TARGET mainunit-pc-net)
+SET(PROJECT_NAME "womolin")
+project(${PROJECT_NAME})
 
 add_custom_command(
    OUTPUT
@@ -18,7 +17,7 @@ add_custom_command(
 )
 
 
-add_executable(${CMAKE_TARGET}
+add_executable(${PROJECT_NAME}
 
    ${CMAKE_CURRENT_BINARY_DIR}/version.cpp 
 
@@ -34,3 +33,8 @@ add_executable(${CMAKE_TARGET}
    board/mainunit/main.cpp
 )
 
+# Strip binary for release builds
+if (CMAKE_BUILD_TYPE STREQUAL RELEASE)
+    add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+            COMMAND ${CMAKE_STRIP} ${PROJECT_NAME})
+endif ()
