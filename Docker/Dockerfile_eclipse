@@ -2,7 +2,9 @@ FROM womoopenjre11
 MAINTAINER Norym
 
 RUN sudo apt-get update && sudo apt-get install -y libeclipse-e4-ui-swt-gtk-java libcanberra-gtk3-0
-RUN cd /tmp
-RUN wget http://eclipse.bluemix.net/packages/2020-03/data/eclipse-cpp-2020-03-R-incubation-linux-gtk-x86_64.tar.gz
-RUN sudo tar -xf eclipse-cpp-2020-03-R-incubation-linux-gtk-x86_64.tar.gz -C /opt
+RUN cd /tmp && \
+    wget http://eclipse.bluemix.net/packages/2020-03/data/eclipse-cpp-2020-03-R-incubation-linux-gtk-x86_64.tar.gz && \
+    sudo tar -xf eclipse-cpp-2020-03-R-incubation-linux-gtk-x86_64.tar.gz -C /opt && \
+    sudo /opt/eclipse/eclipse -application org.eclipse.equinox.p2.director -repository http://gnu-mcu-eclipse.netlify.com/v4-neon-updates -installIU ilg.gnumcueclipse.packs  -destination /opt/eclipse
+
 ENV PATH="${PATH}:/opt/eclipse"
