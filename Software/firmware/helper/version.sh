@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-cp $1/womolin/$3 $2/$3
+cp $1/$3 $2/$3
 
 if [[ `git status --short` || `git diff origin/master` ]]; then
    GIT_HASH="NO_HASH"

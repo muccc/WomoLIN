@@ -2,9 +2,9 @@
 /* Copyright (c) 2019 Project WomoLIN */
 /* Author Myron Franze <myronfranze@web.de> */
 
-#include "manager.h"
+#include "include/manager.h"
 
-namespace womolin::board::mainunit
+namespace womolin::target
 {
 
    Manager::Manager( IWomolinSerial & attSerial ) : WomolinManagerBase( attSerial )

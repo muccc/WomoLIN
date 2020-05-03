@@ -4,21 +4,24 @@
 
 #pragma once
 
-#include "../../../../womolin/include/ihal.h"
+#include "../../../womolin/include/ihal.h"
 
-namespace womolin::board::mainunit::hal
+#include <string.h>
+
+namespace womolin::target
 {
    using namespace womolin::interface::hal;
 
-   class HalSerial : public womolin::interface::hal::IWomolinSerial
+   class Serial: public womolin::interface::hal::IWomolinSerial
    {
       public:
-         HalSerial();
-         virtual ~HalSerial();
+         Serial();
+         virtual ~Serial();
          SERIAL_BUFFERSIZE_TYPE readData( std::string & attMessage ) override final;
          SERIAL_BUFFERSIZE_TYPE writeData( std::string & attMessage ) override final;
 
       private:
+         char buffer[256];
    };
 
 

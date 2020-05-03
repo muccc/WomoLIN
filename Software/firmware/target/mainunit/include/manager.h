@@ -4,18 +4,17 @@
 
 #pragma once
 
-#include "../../womolin/include/managerbase.h"
-#include "../../womolin/include/unit.h"
-#include "./hal/include/unit.h"
+#include "unit.h"
+#include "../../../womolin/include/managerbase.h"
+#include "../../../womolin/include/unit.h"
 
-namespace womolin::board::mainunit
+namespace womolin::target
 {
    
    using namespace womolin::interface::hal;
    using namespace womolin::signal;
    using namespace womolin::unit;
    using namespace womolin::manager;
-   using namespace womolin::board::mainunit::hal;
 
    class Manager : public WomolinManagerBase 
    {

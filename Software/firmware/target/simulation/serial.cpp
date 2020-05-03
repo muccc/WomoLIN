@@ -2,11 +2,9 @@
 /* Copyright (c) 2019 Project WomoLIN */
 /* Author Myron Franze <myronfranze@web.de> */
 
-#ifdef PCNET
+#include "include/serial.h"
 
-#include "include/serial_simulation_network.h"
-
-namespace womolin::board::mainunit::hal
+namespace womolin::target
 {
 
    void error(const char *msg)
@@ -15,7 +13,7 @@ namespace womolin::board::mainunit::hal
       exit(1);
    }
 
-   HalSerialSimulationNetwork::HalSerialSimulationNetwork()
+   Serial::Serial()
    {
 	   sockfd = socket(AF_INET, SOCK_STREAM, 0);	
 	   if (sockfd < 0) 	
@@ -37,13 +35,13 @@ namespace womolin::board::mainunit::hal
 	        error("ERROR on accept");	
    }
 
-   HalSerialSimulationNetwork::~HalSerialSimulationNetwork()
+   Serial::~Serial()
    {
       close(newsockfd);
       close(sockfd);
    }
 
-   SERIAL_BUFFERSIZE_TYPE HalSerialSimulationNetwork::readData( std::string & attMessage )
+   SERIAL_BUFFERSIZE_TYPE Serial::readData( std::string & attMessage )
    {
       char buffer[ SERIAL_BUFFERSIZE_MAX ];    
   
@@ -61,7 +59,7 @@ namespace womolin::board::mainunit::hal
       
    }
 
-   SERIAL_BUFFERSIZE_TYPE HalSerialSimulationNetwork::writeData( std::string & attMessage )
+   SERIAL_BUFFERSIZE_TYPE Serial::writeData( std::string & attMessage )
    {
       auto writeData =  write(newsockfd, attMessage.c_str(), attMessage.length() );
 
@@ -74,4 +72,3 @@ namespace womolin::board::mainunit::hal
  
    }
 }
-#endif

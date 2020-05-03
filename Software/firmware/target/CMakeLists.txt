@@ -1,0 +1,5 @@
+IF( ${WOMOLIN_TARGET} STREQUAL "TARGET_SIMULATION" )
+add_subdirectory(simulation)
+ELSEIF( ${WOMOLIN_TARGET} STREQUAL "TARGET_MAINUNIT" )
+add_subdirectory(mainunit)
+ENDIF()

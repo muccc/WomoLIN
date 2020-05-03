@@ -1,5 +1,0 @@
-SET(CMAKE_C_COMPILER /opt/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc)
-SET(CMAKE_CXX_COMPILER /opt/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-g++)
-SET(CMAKE_STRIP_COMPILER /opt/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-strip)
-
-SET(CMAKE_EXE_LINKER_FLAGS "-specs=nosys.specs")

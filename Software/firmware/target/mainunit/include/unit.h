@@ -4,11 +4,10 @@
 
 #pragma once
 
-#include "../../../../womolin/include/ihal.h"
-#include "../../../../womolin/include/version.h"
-#include <map>
+#include "../../../womolin/include/ihal.h"
+#include "../../../womolin/include/version.h"
 
-namespace womolin::board::mainunit::hal
+namespace womolin::target
 {
 
    using namespace womolin::interface::hal;

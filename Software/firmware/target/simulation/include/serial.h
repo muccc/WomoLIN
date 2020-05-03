@@ -4,7 +4,7 @@
 
 #pragma once
 
-#include "../../../../womolin/include/ihal.h"
+#include "../../../womolin/include/ihal.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,15 +14,15 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-namespace womolin::board::mainunit::hal
+namespace womolin::target
 {
    using namespace womolin::interface::hal;
 
-   class HalSerialSimulationNetwork : public womolin::interface::hal::IWomolinSerial
+   class Serial: public womolin::interface::hal::IWomolinSerial
    {
       public:
-         HalSerialSimulationNetwork();
-         virtual ~HalSerialSimulationNetwork();
+         Serial();
+         virtual ~Serial();
          SERIAL_BUFFERSIZE_TYPE readData( std::string & attMessage ) override final;
          SERIAL_BUFFERSIZE_TYPE writeData( std::string & attMessage ) override final;
 

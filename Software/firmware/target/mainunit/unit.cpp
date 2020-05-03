@@ -4,7 +4,9 @@
 
 #include "include/unit.h"
 
-namespace womolin::board::mainunit::hal
+#include <map>
+
+namespace womolin::target
 {
 
    ////////////////////////////////////////////////////////////////////////////
@@ -65,10 +67,6 @@ namespace womolin::board::mainunit::hal
 
    void HalOutput::setResetOutput( const ESetReset attSetReset )
    {
-      (void)(attSetReset); // avoid compile error
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wpedantic"
 
       switch( id ) {
       case DEV_ID::SIMULATION:
@@ -82,7 +80,6 @@ namespace womolin::board::mainunit::hal
       default:
          break;
       }
-#pragma GCC diagnostic pop
 
    }
 
@@ -105,9 +102,6 @@ namespace womolin::board::mainunit::hal
    void HalInput::getInput( ESetReset & attStatus)
    {
 
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wpedantic"
-
       switch( id ) {
       case DEV_ID::SIMULATION:
          attStatus = SimulationMode;
@@ -120,15 +114,11 @@ namespace womolin::board::mainunit::hal
       default:
          break;
       }
-#pragma GCC diagnostic pop
 
    } 
 
    void HalInput::getInput( std::string & attStatus)
    {
-
-#pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wpedantic"
 
       switch( id ) {
       case DEV_ID::FWVER:
@@ -142,7 +132,6 @@ namespace womolin::board::mainunit::hal
       default:
          break;
       }
-#pragma GCC diagnostic pop
 
    } 
 }
