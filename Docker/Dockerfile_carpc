@@ -1,0 +1,139 @@
+FROM womolinux 
+MAINTAINER Norym
+
+RUN sudo apt-get update && \
+    sudo apt-get install -y cmake && \
+    sudo apt-get install -y libv4l-dev && \
+    sudo apt-get install -y libopusfile-dev && \
+    sudo apt-get install -y libavutil-dev && \
+    sudo apt-get install -y libavcodec-dev && \
+    sudo apt-get install -y libavformat-dev && \
+    sudo apt-get install -y libswscale-dev && \
+    sudo apt-get install -y libfluidsynth-dev && \
+    sudo apt-get install -y libmpg123-dev && \
+    sudo apt-get install -y libglobjects-dev && \
+    sudo apt-get install -y libsystemd-dev && \
+    sudo apt-get install -y libglfw3-dev && \
+    sudo apt-get install -y libprotobuf-dev && \
+    sudo apt-get install -y protobuf-compiler && \
+    sudo apt-get install -y libsamplerate0-dev && \
+    sudo apt-get install -y libflac-dev && \
+    sudo apt-get install -y libmodplug-dev && \
+    sudo apt-get install -y libvorbis-dev && \
+    sudo apt-get install -y libjpeg-dev && \
+    sudo apt-get install -y libwebp-dev && \
+    sudo apt-get install -y libtiff-dev && \
+    sudo apt-get install -y libtag1-dev && \
+    sudo apt-get install -y libudisks2-dev && \
+    sudo apt-get install -y libssl-dev && \
+    sudo apt-get install -y libsqlite3-dev && \
+    sudo apt-get install -y autoconf && \
+    sudo apt-get install -y libasound2-dev && \
+    sudo apt-get install -y libpulse-dev && \
+    sudo apt-get install -y libudev-dev && \
+    sudo apt-get install -y build-essential && \
+    sudo apt-get install -y libfreeimage-dev && \
+    sudo apt-get install -y libopenal-dev && \
+    sudo apt-get install -y libpango1.0-dev && \
+    sudo apt-get install -y libsndfile1-dev && \
+    sudo apt-get install -y libudev-dev && \
+    sudo apt-get install -y automake && \
+    sudo apt-get install -y libts-dev && \
+    sudo apt-get install -y libc6-dev && \
+    sudo apt-get install -y libmarisa-dev && \
+    sudo apt-get install -y libxml2-dev && \
+    sudo apt-get install -y qt5-default && \
+    sudo apt-get install -y qtmultimedia5-dev && \
+    sudo apt-get install -y qtpositioning5-dev && \
+    sudo apt-get install -y libqt5svg5-dev && \
+    sudo apt-get install -y doxygen && \
+    sudo apt-get install -y graphviz && \
+    sudo apt-get install -y qttools5-dev-tools && \
+    sudo apt-get install -y qttools5-dev && \
+    sudo apt-get install -y libdbus-1-dev && \
+    sudo apt-get install -y libgles2-mesa-dev && \
+    sudo apt-get install -y libdrm-dev && \
+    sudo apt-get install -y libgbm-dev && \
+    sudo apt-get install -y libudev-dev  
+
+#RUN sudo add-apt-repository --yes ppa:ubuntu-raspi2/ppa && \
+#    sudo apt-get update && \
+#    sudo apt-get install -y libraspberrypi0 && \
+#    sudo apt-get install -y libraspberrypi-bin && \
+#    sudo apt-get install -y libraspberrypi-dev 
+
+RUN cd /tmp && \
+	wget -N https://www.libsdl.org/release/SDL2-2.0.12.tar.gz && \
+   tar -xzf SDL2-2.0.12.tar.gz && \
+   cd SDL2-2.0.12 && \
+   ./autogen.sh && \
+   ./configure --disable-esd --disable-video-wayland --disable-video-opengl --host=arm-raspberry-linux-gnueabihf && \
+   make -j$(nproc) && \
+   sudo make install && \
+   sudo rm -fr /tmp/SDL2*
+   
+ 
+RUN cd /tmp && \ 
+   wget -N https://www.libsdl.org/projects/SDL_image/release/SDL2_image-2.0.5.tar.gz && \
+   tar -xzf SDL2_image-2.0.5.tar.gz && \
+   cd SDL2_image-2.0.5 && \
+   ./autogen.sh && \
+   ./configure && \ 
+   sudo make install && \
+   sudo rm -fr /tmp/SDL2*
+
+ 
+RUN cd /tmp && \ 
+   wget -N https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.tar.gz && \
+   tar -xzf SDL2_mixer-2.0.4.tar.gz && \
+   cd SDL2_mixer-2.0.4 && \
+   ./autogen.sh && \
+   ./configure && \ 
+   sudo make install && \
+   sudo rm -fr /tmp/SDL2*
+
+RUN cd /tmp && \ 
+   wget -N https://www.libsdl.org/projects/SDL_net/release/SDL2_net-2.0.1.tar.gz && \
+   tar -xzf SDL2_net-2.0.1.tar.gz && \
+   cd SDL2_net-2.0.1 && \
+   ./autogen.sh && \
+   ./configure && \ 
+   sudo make install && \
+   sudo rm -fr /tmp/SDL2*
+
+RUN cd /tmp && \ 
+   wget -N https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.15.tar.gz && \
+   tar -xzf SDL2_ttf-2.0.15.tar.gz && \
+   cd SDL2_ttf-2.0.15 && \
+   ./autogen.sh && \
+   ./configure && \ 
+   sudo make install && \
+   sudo rm -fr /tmp/SDL2*
+
+RUN cd /tmp && \ 
+	git clone https://github.com/Framstag/libosmscout.git && \
+   cd libosmscout && \
+	git checkout 2e2d6c6 && \
+   mkdir build && \
+   cd build && \
+   cmake .. -DCMAKE_BUILD_TYPE=Debug -DOSMSCOUT_ENABLE_SSE=ON && \
+   cmake --build . && \
+   sudo cmake --build . --target install 
+
+RUN cd /tmp/libosmscout && \ 
+   mkdir buildrelease && \
+   cd buildrelease && \
+   cmake .. -DCMAKE_BUILD_TYPE=Release -DOSMSCOUT_ENABLE_SSE=ON && \
+   cmake --build . && \
+   sudo cmake --build . --target install && \
+   cd /tmp && rm -fr /tmp/libosmscout
+  
+# build guitest inside of docker
+ 
+#RUN cd ~ && \ 
+#	git clone https://bitbucket.org/numberfive/sdl2guitests.git && \
+#   cd sdl2guitests && \
+#   cmake -DTARGET=Linux -DENABLE_CPPCHECK=OFF && \
+#   cmake --build .
+#
+
