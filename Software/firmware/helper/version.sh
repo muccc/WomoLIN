@@ -2,6 +2,8 @@
 
 cp $1/$3 $2/$3
 
+cd $1
+
 if [[ `git status --short` || `git diff origin/master` ]]; then
    GIT_HASH="NO_HASH"
    RELEASE="LOCAL"

@@ -8,4 +8,4 @@ else
    BASEDIR=${PWD}/`dirname "${0}"`
 fi
 
-rm -fr ${BASEDIR}/../../build
+rm -fr ${BASEDIR}/../../../../build_womolin

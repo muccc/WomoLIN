@@ -17,7 +17,7 @@ CMAKE_TOOLCHAIN_FILE_SIMULATION="${CMAKE_TOOLCHAIN_FILES_ROOT}/target.simulation
 CMAKE_TOOLCHAIN_FILE_MAINUNIT="${CMAKE_TOOLCHAIN_FILES_ROOT}/target.mainunit"
 
 #build stuff
-BUILD_ROOT="${SOFTWARE_ROOT}/build"
+BUILD_ROOT="${BASEDIR}/../../../../build_womolin" # out of repo build
 BUILD_SIMULATION_ROOT="${BUILD_ROOT}/simulation"
 BUILD_MAINUNIT_ROOT="${BUILD_ROOT}/mainunit"
 DEBUG="debug"
