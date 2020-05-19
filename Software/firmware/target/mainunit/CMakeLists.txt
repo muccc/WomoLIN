@@ -9,6 +9,8 @@ set(CMAKE_CXX_FLAGS "${DEFINITIONS}")
 
 include_directories(drv/system/cmsis/inc drv/system/hal/inc drv/inc)
 
+add_compile_options("-Tdrv/system/cmsis/STM32L476RGTx_FLASH.ld")
+
 add_subdirectory(drv/system/cmsis/src)
 add_subdirectory(drv/system/hal/src)
 add_subdirectory(drv/src)
