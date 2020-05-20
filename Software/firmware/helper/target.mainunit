@@ -2,5 +2,16 @@ SET(WOMOLIN_TARGET "TARGET_MAINUNIT")
 
 SET(CMAKE_C_COMPILER /opt/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc)
 SET(CMAKE_CXX_COMPILER "/opt/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-g++")
+SET(CMAKE_OBJCOPY "/opt/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-objcopy")
 SET(CMAKE_CXX_FLAGS -D${WOMOLIN_TARGET})
 SET(CMAKE_EXE_LINKER_FLAGS "-specs=nosys.specs")
+
+SET(CPU "cortex-m4")
+
+SET(COMMON_COMPILE_FLAGS "-mcpu=${CPU} -mthumb -DSTM32L476xx -DUSE_HAL_DRIVER")
+
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${COMMON_COMPILE_FLAGS}")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMMON_COMPILE_FLAGS}")
+
+ADD_COMPILE_OPTIONS("-Tdrv/system/cmsis/STM32L476RGTx_FLASH.ld")
+

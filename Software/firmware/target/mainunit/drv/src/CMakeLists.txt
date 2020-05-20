@@ -1,12 +1,6 @@
 SET(LIB_NAME "driver")
 project(${LIB_NAME})
 
-set(DEFINITIONS "${DEFINITIONS} -DSTM32L476xx")
-set(DEFINITIONS "${DEFINITIONS} -DUSE_HAL_DRIVER")
-
-set(CMAKE_C_FLAGS "${DEFINITIONS}")
-set(CMAKE_CXX_FLAGS "${DEFINITIONS}")
-
 include_directories(../inc ../system/cmsis/inc ../system/hal/inc)
 
 add_library(${LIB_NAME}

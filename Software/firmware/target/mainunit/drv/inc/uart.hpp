@@ -8,8 +8,8 @@
 #ifndef INC_UART_HPP_
 #define INC_UART_HPP_
 
-#include "stm32l476xx.h"
-#include "stm32l4xx_hal.h"
+#include "../system/cmsis/inc/stm32l476xx.h"
+#include "../system/hal/inc/stm32l4xx_hal.h"
 
 #include "circularbuffer.hpp"
 

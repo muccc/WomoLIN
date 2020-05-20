@@ -1,16 +1,6 @@
 SET(LIB_NAME "hal")
 project(${LIB_NAME})
 
-set(CPU "cortex-m4")
-
-set(COMMON_COMPILE_FLAGS "-mcpu=${CPU} -mthumb")
-
-set(DEFINITIONS "${DEFINITIONS} -DSTM32L476xx")
-set(DEFINITIONS "${DEFINITIONS} -DUSE_HAL_DRIVER")
-
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${COMMON_COMPILE_FLAGS} ${DEFINITIONS}")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMMON_COMPILE_FLAGS} ${DEFINITIONS}")
-
 include_directories(../inc ../../../inc ../../cmsis/inc)
 
 add_library(${LIB_NAME}
