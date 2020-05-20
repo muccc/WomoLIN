@@ -59,3 +59,20 @@ cmake -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} \
 make
 
 
+###########################
+# mainunit release version
+###########################
+WOMOLIN_TARGET="TARGET_MAINUNIT"
+TARGET_FOLDER="${BUILD_MAINUNIT_ROOT}/${RELEASE}"
+CMAKE_TOOLCHAIN_FILE="${CMAKE_TOOLCHAIN_FILE_MAINUNIT}"
+
+mkdir -p "${TARGET_FOLDER}"
+cd ${TARGET_FOLDER}
+
+cmake -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} \
+      -DCMAKE_BUILD_TYPE=${RELEASE} \
+      ${FIRMWARE_ROOT}
+
+make
+
+
