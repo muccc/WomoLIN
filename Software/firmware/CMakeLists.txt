@@ -15,6 +15,9 @@ add_executable(${PROJECT_NAME}
 
 target_link_libraries (${PROJECT_NAME} target womolin)
 
+
+if( ${WOMOLIN_TARGET} STREQUAL "TARGET_MAINUNIT")
+
 add_custom_target(${PROJECT_NAME}.hex ALL DEPENDS ${PROJECT_NAME})
 
 add_custom_command(TARGET ${PROJECT_NAME}.hex
@@ -30,4 +33,4 @@ add_custom_command(TARGET ${PROJECT_NAME}.bin
                    DEPENDS ${PROJECT_NAME} 
                    COMMENT "objcopying ${PROJECT_NAME} to ${PROJECT_NAME}.bin")
 
-
+endif()
