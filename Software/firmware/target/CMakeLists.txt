@@ -1,5 +1,5 @@
-IF( ${WOMOLIN_TARGET} STREQUAL "TARGET_SIMULATION" )
-add_subdirectory(simulation)
+IF( ${WOMOLIN_TARGET} STREQUAL "TARGET_X86" )
+add_subdirectory(x86)
 ELSEIF( ${WOMOLIN_TARGET} STREQUAL "TARGET_MAINUNIT" )
 add_subdirectory(mainunit)
 ENDIF()

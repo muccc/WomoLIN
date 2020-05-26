@@ -4,11 +4,11 @@
 
 #pragma once
 
-#ifdef TARGET_SIMULATION
+#ifdef TARGET_X86
 
-#include "simulation/include/serial.h"
-#include "simulation/include/manager.h"
-#include "simulation/include/hwinit.h"
+#include "x86/include/serial.h"
+#include "x86/include/manager.h"
+#include "x86/include/hwinit.h"
 
 #elif TARGET_MAINUNIT
 
