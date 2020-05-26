@@ -17,15 +17,15 @@ namespace womolin::target
    class DEV_ID
    {
       public:
-         static constexpr ID SIMULATION { 0 }; 
-         static constexpr ID FWVER      { 1 }; 
+         static constexpr int SIMULATION { 0 };
+         static constexpr int FWVER      { 1 };
 
-         static constexpr ID K1     { 10 }; 
-         static constexpr ID K2     { 11 }; 
-         static constexpr ID K3     { 12 }; 
-         static constexpr ID K4     { 13 }; 
+         static constexpr int K1     { 10 };
+         static constexpr int K2     { 11 };
+         static constexpr int K3     { 12 };
+         static constexpr int K4     { 13 };
 
-         static constexpr ID ADC1   { 20 }; 
+         static constexpr int ADC1   { 20 };
    };
 
    // output
@@ -33,7 +33,7 @@ namespace womolin::target
    class HalOutput final : public IWomolinHalOutput
    {
       public:
-         HalOutput( ID id );
+         HalOutput( int id );
          ~HalOutput() = default;
 
          void setOutput() override final;
@@ -42,7 +42,7 @@ namespace womolin::target
          void setResetOutput( const ESetReset attESetReset );
 
       private:
-         ID id; 
+         int id;
       
    };
 
@@ -51,14 +51,14 @@ namespace womolin::target
    class HalInput final : public IWomolinHalInput
    {
       public:
-         HalInput( ID id );
+         HalInput( int id );
          ~HalInput() = default;
 
          void getInput( ESetReset & attStatus) override final;
          void getInput( std::string & attStatus) override final;
 
       private:
-         ID id; 
+         int id;
    };
 
 }

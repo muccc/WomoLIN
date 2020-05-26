@@ -8,14 +8,13 @@ extern "C" void __sync_synchronize() {}
 
 int main() {
   
-   womolin::target::HwInit(); 
+	auto driver = womolin::target::Driver();
+	auto serial = womolin::target::Serial( driver );
+	auto manager = womolin::target::Manager( driver, serial );
 
-   auto serial = womolin::target::Serial();
-   auto manager = womolin::target::Manager( serial );
+	manager.doWork();
 
-   manager.doWork();
-
-   return 0;
+	return 0;
 }
 
 

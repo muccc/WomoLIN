@@ -1,13 +1,10 @@
 SET(LIB_NAME "target")
 project(${LIB_NAME})
 
-#TODO das muss raus 
-include_directories(drv/system/cmsis/inc drv/system/hal/inc drv/inc)
-
 add_subdirectory(drv)
 
 add_library(${LIB_NAME}
-   hwinit
+   driver
    serial
    manager
    unit

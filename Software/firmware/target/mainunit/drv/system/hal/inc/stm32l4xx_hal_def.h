@@ -27,7 +27,7 @@
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-#include "stm32l4xx.h"
+#include "../../cmsis/inc/stm32l4xx.h"
 #include "stm32_hal_legacy.h"  /* Aliases file for old names compatibility */
 #include <stddef.h>
 

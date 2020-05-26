@@ -22,6 +22,14 @@ Relay::Relay(const SPI &hspi,
 	m_transfer = 0;
 }
 
+#include <array>
+static const std::array<RelayNr,4> relayMapping { {RelayNr::RELAY_1, RelayNr::RELAY_2, RelayNr::RELAY_3, RelayNr::RELAY_4} };
+
+void Relay::set(const int rel)
+{
+	set( relayMapping.at(rel) );
+}
+
 void Relay::set(const RelayNr &rel)
 {
 	std::vector<uint8_t> data;
@@ -46,6 +54,11 @@ void Relay::set(const RelayNr &rel)
 	 data.push_back(m_transfer);
 
 	 m_pspi.write(data);
+}
+
+void Relay::reset(const int rel)
+{
+	set( relayMapping.at(rel) );
 }
 
 void Relay::reset(const RelayNr &rel)

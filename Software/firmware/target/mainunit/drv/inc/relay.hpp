@@ -29,12 +29,15 @@ public:
 			const GPIO &k4status,
 			const GPIO &rel1reset);
 
+	void set(const int rel);
 	void set(const RelayNr &rel);
+	void reset(const int rel);
 	void reset(const RelayNr &rel);
 	bool get(const RelayNr &rel);
 
 	Relay() = delete;
 	Relay(const Relay &) = delete;
+
 
 private:
 	SPI &m_pspi;

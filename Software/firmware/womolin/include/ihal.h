@@ -11,10 +11,8 @@ namespace womolin::interface::hal
 {
    using namespace womolin::enums;
 
-   using ID = uint16_t;
-   using SERIAL_BUFFERSIZE_TYPE = uint8_t;
 
-   static constexpr SERIAL_BUFFERSIZE_TYPE SERIAL_BUFFERSIZE_MAX { 32 };
+   static constexpr int SERIAL_BUFFERSIZE_MAX { 32 };
 
    // serial
 
@@ -23,8 +21,8 @@ namespace womolin::interface::hal
       public:
          virtual ~IWomolinSerial() = default;
 
-         virtual SERIAL_BUFFERSIZE_TYPE readData( std::string & attMessage ) = 0;
-         virtual SERIAL_BUFFERSIZE_TYPE writeData( std::string & attMessage ) = 0;
+         virtual int readData( std::string & attMessage ) = 0;
+         virtual void writeData( std::string & attMessage ) = 0;
          
    };
 

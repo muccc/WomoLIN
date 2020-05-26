@@ -27,7 +27,7 @@ namespace womolin::target
    static bool IsSimulationMode() { return ESetReset::SET == SimulationMode; }
    static void SetResetSimulationMode( const ESetReset attSetReset ) { SimulationMode = attSetReset ; }
 
-   static std::map< const ID, ESetReset > Simulation_Kx_Status { 
+   static std::map< const int, ESetReset > Simulation_Kx_Status {
         { DEV_ID::K1, ESetReset::UNKNOWN }
       , { DEV_ID::K2, ESetReset::UNKNOWN } 
       , { DEV_ID::K3, ESetReset::UNKNOWN } 
@@ -40,8 +40,8 @@ namespace womolin::target
 
 
    using T_VOLT = float;
-   static std::map< const ID, T_VOLT > Simulation_Adc_Status {
-        { DEV_ID::ADC1, 10.7 }
+   static std::map< const int, T_VOLT > Simulation_Adc_Status {
+        { DEV_ID::MAINUNIT_ADC1, 10.7 }
    };
    static T_VOLT Simulation_Offset() { 
       static T_VOLT offset = 0;
@@ -62,42 +62,69 @@ namespace womolin::target
    // outputs
    ////////////////////////////////////////////////////////////////////////////
 
-   HalOutput::HalOutput( ID attId ) : id( attId ) {} 
+   HalOutput::HalOutput( int attId, Driver & attDriver )
+   : id( attId )
+   , driver( attDriver )
+   {}
    
-
-   void HalOutput::setResetOutput( const ESetReset attSetReset )
-   {
-
-      switch( id ) {
-      case DEV_ID::SIMULATION:
-         SetResetSimulationMode( attSetReset );
-         break; 
-      case DEV_ID::K1 ... DEV_ID::K4: 
-         if ( IsSimulationMode() ) { 
-            Simulation_Kx_Status[ id ] = attSetReset; 
-         } 
-         break;
-      default:
-         break;
-      }
-
-   }
 
    void HalOutput::setOutput()
    {
-      setResetOutput( ESetReset::SET );
+	   switch( id )
+	   {
+	   case DEV_ID::SIMULATION:
+		   SetResetSimulationMode( ESetReset::SET );
+	       break;
+	   case DEV_ID::K1:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::SET; }
+		   driver.setRelay( 0 );
+		   break;
+	   case DEV_ID::K2:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::SET; }
+		   driver.setRelay( 1 );
+		   break;
+	   case DEV_ID::K3:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::SET; }
+		   driver.setRelay( 2 );
+		   break;
+	   case DEV_ID::K4:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::SET; }
+		   driver.setRelay( 3 );
+		   break;
+	   }
    } 
 
    void HalOutput::resetOutput()
    {
-      setResetOutput( ESetReset::RESET );
+	   switch( id )
+	   {
+	   case DEV_ID::SIMULATION:
+		   SetResetSimulationMode( ESetReset::RESET );
+	       break;
+	   case DEV_ID::K1:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::RESET; }
+		   driver.resetRelay( 0 );
+		   break;
+	   case DEV_ID::K2:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::RESET; }
+		   driver.resetRelay( 1 );
+		   break;
+	   case DEV_ID::K3:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::RESET; }
+		   driver.resetRelay( 2 );
+		   break;
+	   case DEV_ID::K4:
+		   if ( IsSimulationMode() ) { Simulation_Kx_Status[ id ] = ESetReset::RESET; }
+		   driver.resetRelay( 3 );
+		   break;
+	   }
    } 
 
    ////////////////////////////////////////////////////////////////////////////
    // inputs 
    ////////////////////////////////////////////////////////////////////////////
 
-   HalInput::HalInput( ID attId ) : id( attId ) {}
+   HalInput::HalInput( int attId ) : id( attId ) {}
 
    void HalInput::getInput( ESetReset & attStatus)
    {
@@ -124,7 +151,7 @@ namespace womolin::target
       case DEV_ID::FWVER:
          attStatus = GetFirmwareString( GetHardwareVersion() );
          break; 
-      case DEV_ID::ADC1: 
+      case DEV_ID::MAINUNIT_ADC1:
          if ( IsSimulationMode() ) { 
             attStatus = VoltageToString( Simulation_Adc_Status[ id ] + Simulation_Offset() ); 
          } 

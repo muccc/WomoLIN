@@ -7,21 +7,22 @@
 namespace womolin::target
 {
 
-   Serial::Serial()
+   Serial::Serial( Driver & attDriver ) : driver( attDriver )
    {
    }
 
    Serial::~Serial()
    {
+
    }
 
-   SERIAL_BUFFERSIZE_TYPE Serial::readData( std::string & attMessage )
+   int Serial::readData( std::string & attMessage )
    {
-      return false;      
+      return driver.readData( attMessage );
    }
 
-   SERIAL_BUFFERSIZE_TYPE Serial::writeData( std::string & attMessage )
+   void Serial::writeData( std::string & attMessage )
    {
-      return false;
+      driver.writeData( attMessage );
    }
 }

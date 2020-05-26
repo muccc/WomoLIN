@@ -12,8 +12,8 @@
 
 #include <stdint.h>
 
-#include "stm32l476xx.h"
-#include "stm32l4xx_hal.h"
+#include "../system/cmsis/inc/stm32l476xx.h"
+#include "../system/hal/inc/stm32l4xx_hal.h"
 
 class GPIO final : public IGPIO
 {

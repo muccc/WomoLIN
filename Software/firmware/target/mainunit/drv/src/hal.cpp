@@ -36,6 +36,10 @@ Uart uart1(&huart1, &uart1buffer);
 ControlBus control(uart1, stbctrl);
 
 
+UART_HandleTypeDef huart1;
+UART_HandleTypeDef huart2;
+SPI_HandleTypeDef hspi3;
+
 void Error_Handler(void)
 {
 	while(1);

@@ -1,7 +1,6 @@
 #ifndef INC_HAL_HPP_
 #define INC_HAL_HPP_
 
-//#include "stm32l4xx_hal.h"
 #include "controlbus.hpp"
 #include "relay.hpp"
 #include <memory>

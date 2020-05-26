@@ -27,20 +27,20 @@ RELEASE="release"
 ###############################
 # x86 debug version
 ###############################
-WOMOLIN_TARGET="TARGET_X86"
-TARGET_FOLDER="${BUILD_X86_ROOT}/${DEBUG}"
-CMAKE_TOOLCHAIN_FILE="${CMAKE_TOOLCHAIN_FILE_X86}"
-
-mkdir -p "${TARGET_FOLDER}"
-cd ${TARGET_FOLDER}
-
-cmake -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} \
-      -DCMAKE_BUILD_TYPE=${DEBUG} \
-      -G "Eclipse CDT4 - Unix Makefiles" \
-      ${FIRMWARE_ROOT}
-
-make
-
+#WOMOLIN_TARGET="TARGET_X86"
+#TARGET_FOLDER="${BUILD_X86_ROOT}/${DEBUG}"
+#CMAKE_TOOLCHAIN_FILE="${CMAKE_TOOLCHAIN_FILE_X86}"
+#
+#mkdir -p "${TARGET_FOLDER}"
+#cd ${TARGET_FOLDER}
+#
+#cmake -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} \
+#      -DCMAKE_BUILD_TYPE=${DEBUG} \
+#      -G "Eclipse CDT4 - Unix Makefiles" \
+#      ${FIRMWARE_ROOT}
+#
+#make
+#
 ###########################
 # mainunit debug version
 ###########################
@@ -66,13 +66,13 @@ WOMOLIN_TARGET="TARGET_MAINUNIT"
 TARGET_FOLDER="${BUILD_MAINUNIT_ROOT}/${RELEASE}"
 CMAKE_TOOLCHAIN_FILE="${CMAKE_TOOLCHAIN_FILE_MAINUNIT}"
 
-mkdir -p "${TARGET_FOLDER}"
-cd ${TARGET_FOLDER}
-
-cmake -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} \
-      -DCMAKE_BUILD_TYPE=${RELEASE} \
-      ${FIRMWARE_ROOT}
-
-make
-
+#mkdir -p "${TARGET_FOLDER}"
+#cd ${TARGET_FOLDER}
+#
+#cmake -DCMAKE_TOOLCHAIN_FILE=${CMAKE_TOOLCHAIN_FILE} \
+#      -DCMAKE_BUILD_TYPE=${RELEASE} \
+#      ${FIRMWARE_ROOT}
+#
+#make
+#
 

@@ -4,6 +4,7 @@
 
 #pragma once
 
+#include "driver.h"
 #include "../../../womolin/include/ihal.h"
 
 #include <string.h>
@@ -15,12 +16,13 @@ namespace womolin::target
    class Serial: public womolin::interface::hal::IWomolinSerial
    {
       public:
-         Serial();
+         Serial( Driver & attDriver );
          virtual ~Serial();
-         SERIAL_BUFFERSIZE_TYPE readData( std::string & attMessage ) override final;
-         SERIAL_BUFFERSIZE_TYPE writeData( std::string & attMessage ) override final;
+         int readData( std::string & attMessage ) override final;
+         void writeData( std::string & attMessage ) override final;
 
       private:
+         Driver & driver;
          char buffer[256];
    };
 
