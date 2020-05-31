@@ -1,3 +1,5 @@
+use: git clone --recurse-submodules https://github.com/muccc/WomoLIN.git
+
 # Womo LIN 
 
 Neue Wege in der konfigurierbaren Software Entwicklung eines Community Projektes
