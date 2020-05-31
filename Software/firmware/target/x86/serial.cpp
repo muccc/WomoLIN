@@ -13,7 +13,7 @@ namespace womolin::target
       exit(1);
    }
 
-   Serial::Serial()
+   Serial::Serial( Driver & attDriver ) : driver( attDriver )
    {
 	   sockfd = socket(AF_INET, SOCK_STREAM, 0);	
 	   if (sockfd < 0) 	
@@ -41,7 +41,7 @@ namespace womolin::target
       close(sockfd);
    }
 
-   SERIAL_BUFFERSIZE_TYPE Serial::readData( std::string & attMessage )
+   int Serial::readData( std::string & attMessage )
    {
       char buffer[ SERIAL_BUFFERSIZE_MAX ];    
   
@@ -59,16 +59,9 @@ namespace womolin::target
       
    }
 
-   SERIAL_BUFFERSIZE_TYPE Serial::writeData( std::string & attMessage )
+   void Serial::writeData( std::string & attMessage )
    {
       auto writeData =  write(newsockfd, attMessage.c_str(), attMessage.length() );
-
-      if ( static_cast<long unsigned int>(writeData)  == attMessage.length() ) {
-         return true; 
-      } 
-      else {
-         return false;
-      } 
  
    }
 }

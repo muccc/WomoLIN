@@ -27,7 +27,7 @@ namespace womolin::target
    static bool IsSimulationMode() { return ESetReset::SET == SimulationMode; }
    static void SetResetSimulationMode( const ESetReset attSetReset ) { SimulationMode = attSetReset ; }
 
-   static std::map< const ID, ESetReset > Simulation_Kx_Status { 
+   static std::map< const int, ESetReset > Simulation_Kx_Status {
         { DEV_ID::K1, ESetReset::UNKNOWN }
       , { DEV_ID::K2, ESetReset::UNKNOWN } 
       , { DEV_ID::K3, ESetReset::UNKNOWN } 
@@ -40,7 +40,7 @@ namespace womolin::target
 
 
    using T_VOLT = float;
-   static std::map< const ID, T_VOLT > Simulation_Adc_Status {
+   static std::map< const int, T_VOLT > Simulation_Adc_Status {
         { DEV_ID::ADC1, 10.7 }
    };
    static T_VOLT Simulation_Offset() { 
@@ -62,7 +62,7 @@ namespace womolin::target
    // outputs
    ////////////////////////////////////////////////////////////////////////////
 
-   HalOutput::HalOutput( ID attId ) : id( attId ) {} 
+   HalOutput::HalOutput( int attId ) : id( attId ) {}
    
 
    void HalOutput::setResetOutput( const ESetReset attSetReset )
@@ -97,7 +97,7 @@ namespace womolin::target
    // inputs 
    ////////////////////////////////////////////////////////////////////////////
 
-   HalInput::HalInput( ID attId ) : id( attId ) {}
+   HalInput::HalInput( int attId ) : id( attId ) {}
 
    void HalInput::getInput( ESetReset & attStatus)
    {

@@ -6,6 +6,8 @@
 
 #ifdef TARGET_X86
 
+#include "x86/include/driver.h"
+#include "x86/include/serial.h"
 #include "x86/include/manager.h"
 
 
