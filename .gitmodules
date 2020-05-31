@@ -1,4 +1,3 @@
 [submodule "Software/firmware/googletest"]
 	path = Software/firmware/googletest
 	url = https://github.com/google/googletest.git
-   brauch = tags/release-1.10.0
