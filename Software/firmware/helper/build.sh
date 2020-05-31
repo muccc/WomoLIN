@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 #check calling location and set basedir of this shell script 
 
