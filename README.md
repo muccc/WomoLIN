@@ -1,4 +1,4 @@
-use: git clone --recurse-submodules https://github.com/muccc/WomoLIN.git
+use: git clone https://github.com/muccc/WomoLIN.git
 
 # Womo LIN 
 
