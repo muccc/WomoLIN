@@ -1,6 +1,6 @@
 use: git clone https://github.com/muccc/WomoLIN.git
 
-# Womo LIN 
+# WomoLIN Hardware und sonstige Infos zum Projekt
 
 Neue Wege in der konfigurierbaren Software Entwicklung eines Community Projektes
 
@@ -8,4 +8,4 @@ Neue Wege in der konfigurierbaren Software Entwicklung eines Community Projektes
 
 Alle Infos findet Ihr in unserem Wiki hier auf Github. 
 
-https://github.com/muccc/Womo_LIN/wiki/Home
+https://github.com/muccc/WomoLIN/wiki/Home
