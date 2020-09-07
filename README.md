@@ -13,6 +13,17 @@ https://github.com/muccc/WomoLIN/wiki/Home
 # WomoLIN Meilensteine und Projektfortschritt
 
 **10.Aug 2020  :** Inbetriebnahme Controlboard 2.0.
+**10.Juli 2020  :** Controlboard 2.0.
+**10.Juni 2020  :** Beginn Einbau Controlboard in Womo von Jan.
+**15.Mai 2020  :** Erstes Displayboard Kleinserie.
+**11.Apr 2020  :** Erste Inbetriebnahme Display Unit mit Display.
+**19.Mrz 2020  :** Die ersten Hardware für die Display Unit ist angekommen.
+**16.Dez. bis 30.Dez.2019 :** 36th Chaos Communication Congress in Leipzig, Jan stellt die Hardware vor. 
+**10.Dez 2019  :** Die ersten Leiterplatten der Main Unit / Controlboard sind angekommen.
+**03.Dez 2019  :** Der Schaltplan der Main Unit ist fertig gestellt. 
+
+
+**10.Aug 2020  :** Inbetriebnahme Controlboard 2.0.
 ![Inbetriebnahme Controlboard 2.0](https://github.com/muccc/WomoLIN/blob/master/Doc/pics/controlboard_2.0_erste_inbetriebnahme.jpg)
 
 **10.Juli 2020  :** Controlboard 2.0.
