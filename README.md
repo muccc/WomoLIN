@@ -12,6 +12,7 @@ https://github.com/muccc/WomoLIN/wiki/Home
 
 # WomoLIN Meilensteine und Projektfortschritt
 
+**18.Okt 2020  :** 100. Mitglied in unserer Telegramgruppe <br/>
 **10.Aug 2020  :** Inbetriebnahme Controlboard 2.0.<br/>
 **10.Juli 2020  :** Controlboard 2.0.<br/>
 **10.Juni 2020  :** Beginn Einbau Controlboard in Womo von Jan.<br/>
