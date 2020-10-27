@@ -5575,21 +5575,21 @@ Wire Wire Line
 Connection ~ 2700 10000
 Wire Wire Line
 	2700 10000 1650 10000
-Text GLabel 3300 10200 2    50   Output ~ 0
+Text GLabel 3300 10100 2    50   Output ~ 0
 TTY_RX_4
-Text GLabel 3300 10100 2    50   Input ~ 0
+Text GLabel 3300 10200 2    50   Input ~ 0
 TTY_TX_4
-Text GLabel 3300 9700 2    50   Input ~ 0
+Text GLabel 3300 9800 2    50   Input ~ 0
 TTY_TX_3
-Text GLabel 3300 9800 2    50   Output ~ 0
+Text GLabel 3300 9700 2    50   Output ~ 0
 TTY_RX_3
-Text GLabel 3300 9000 2    50   Input ~ 0
+Text GLabel 3300 9100 2    50   Input ~ 0
 TTY_TX_2
-Text GLabel 3300 9100 2    50   Output ~ 0
+Text GLabel 3300 9000 2    50   Output ~ 0
 TTY_RX_2
-Text GLabel 3300 8700 2    50   Output ~ 0
+Text GLabel 3300 8600 2    50   Output ~ 0
 TTY_RX_1
-Text GLabel 3300 8600 2    50   Input ~ 0
+Text GLabel 3300 8700 2    50   Input ~ 0
 TTY_TX_1
 Wire Wire Line
 	1650 8600 2150 8600
