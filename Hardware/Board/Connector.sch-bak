@@ -5575,21 +5575,21 @@ Wire Wire Line
 Connection ~ 2700 10000
 Wire Wire Line
 	2700 10000 1650 10000
-Text GLabel 3300 10200 2    50   Output ~ 0
+Text GLabel 3300 10100 2    50   Output ~ 0
 TTY_RX_4
-Text GLabel 3300 10100 2    50   Input ~ 0
+Text GLabel 3300 10200 2    50   Input ~ 0
 TTY_TX_4
-Text GLabel 3300 9700 2    50   Input ~ 0
+Text GLabel 3300 9800 2    50   Input ~ 0
 TTY_TX_3
-Text GLabel 3300 9800 2    50   Output ~ 0
+Text GLabel 3300 9700 2    50   Output ~ 0
 TTY_RX_3
-Text GLabel 3300 9000 2    50   Input ~ 0
+Text GLabel 3300 9100 2    50   Input ~ 0
 TTY_TX_2
-Text GLabel 3300 9100 2    50   Output ~ 0
+Text GLabel 3300 9000 2    50   Output ~ 0
 TTY_RX_2
-Text GLabel 3300 8700 2    50   Output ~ 0
+Text GLabel 3300 8600 2    50   Output ~ 0
 TTY_RX_1
-Text GLabel 3300 8600 2    50   Input ~ 0
+Text GLabel 3300 8700 2    50   Input ~ 0
 TTY_TX_1
 Wire Wire Line
 	1650 8600 2150 8600
@@ -6182,4 +6182,37 @@ Wire Wire Line
 Wire Wire Line
 	7650 3200 7650 2800
 Connection ~ 7300 3200
+$Comp
+L RF_Module:ESP32-WROOM-32 U8
+U 1 1 6175766D
+P 19550 10350
+F 0 "U8" H 19550 11931 50  0000 C CNN
+F 1 "ESP32-WROOM-32" H 19550 11840 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 19550 8850 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 19250 10400 50  0001 C CNN
+	1    19550 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-Lin:KSZ8081 U7
+U 1 1 6197849E
+P 16800 12400
+F 0 "U7" H 16800 13599 60  0000 C CNN
+F 1 "KSZ8081" H 16800 13493 60  0000 C CNN
+F 2 "Womo-Lin:QFN-24-1EP_4x4mm_Pitch0.5mm" H 16800 13410 30  0000 C CNN
+F 3 "" H 16800 12400 60  0000 C CNN
+	1    16800 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Womo-Lin:HY951180A_RJ45 J4
+U 1 1 61981448
+P 20850 12900
+F 0 "J4" H 20805 13647 60  0000 C CNN
+F 1 "HY951180A_RJ45" H 20805 13541 60  0000 C CNN
+F 2 "" H 20850 12900 60  0001 C CNN
+F 3 "" H 20850 12900 60  0001 C CNN
+	1    20850 12900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
