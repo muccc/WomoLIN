@@ -77,9 +77,9 @@ Wire Wire Line
 Wire Wire Line
 	4100 900  4000 900 
 Connection ~ 4000 900 
-Text GLabel 5750 6050 2    50   Input ~ 0
+Text GLabel 5750 5950 2    50   Input ~ 0
 LPUART_RX_RS485
-Text GLabel 5750 5950 2    50   Output ~ 0
+Text GLabel 5750 6050 2    50   Output ~ 0
 LPUART_TX_RS485
 Text GLabel 5750 6750 2    50   BiDi ~ 0
 I2C3_SDA
@@ -576,19 +576,6 @@ Text GLabel 1650 1750 2    50   Output ~ 0
 Boot0
 Wire Wire Line
 	7350 8050 7350 8350
-$Comp
-L Womo-rescue:MOD-nRF8001-RF_Bluetooth U?
-U 1 1 5D3326AE
-P 8100 3700
-AR Path="/5C8BC88B/5D3326AE" Ref="U?"  Part="1" 
-AR Path="/5C8BBC94/5D3326AE" Ref="U4"  Part="1" 
-F 0 "U4" H 7450 4350 50  0000 C CNN
-F 1 "MOD-nRF8001" H 7650 4250 50  0000 C CNN
-F 2 "RF_Module:MOD-nRF8001" H 8150 3750 50  0001 C CNN
-F 3 "https://www.olimex.com/Products/Modules/RF/MOD-nRF8001/" H 8150 3700 50  0001 C CNN
-	1    8100 3700
-	1    0    0    -1  
-$EndComp
 Text GLabel 8800 3800 2    50   Input ~ 0
 SPI2_MOSI
 Text GLabel 8800 4000 2    50   Input ~ 0
@@ -612,10 +599,6 @@ Wire Wire Line
 	8700 2750 8700 2700
 Wire Wire Line
 	8700 2700 8100 2700
-Wire Wire Line
-	8100 2700 8100 3100
-NoConn ~ 7600 3800
-NoConn ~ 7600 3900
 Text GLabel 8800 3900 2    50   Input ~ 0
 SPI2_NSS
 Text GLabel 8800 3500 2    50   Output ~ 0
@@ -638,7 +621,6 @@ Wire Wire Line
 	8600 3900 8800 3900
 Wire Wire Line
 	8600 4000 8800 4000
-Connection ~ 8100 2700
 $Comp
 L Womo-rescue:C-Device C30
 U 1 1 5E453F27
@@ -656,8 +638,6 @@ Wire Wire Line
 	11900 4500 11900 4600
 Wire Wire Line
 	13850 4650 13850 4750
-Wire Wire Line
-	8100 4350 8100 4300
 Wire Wire Line
 	8700 3050 8700 3100
 Wire Wire Line
@@ -1265,17 +1245,6 @@ F 1 "GND" H 11905 4427 50  0000 C CNN
 F 2 "" H 11900 4600 50  0001 C CNN
 F 3 "" H 11900 4600 50  0001 C CNN
 	1    11900 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Womo-rescue:GND-power #PWR0348
-U 1 1 5EAB18A8
-P 8100 4350
-F 0 "#PWR0348" H 8100 4100 50  0001 C CNN
-F 1 "GND" H 8105 4177 50  0000 C CNN
-F 2 "" H 8100 4350 50  0001 C CNN
-F 3 "" H 8100 4350 50  0001 C CNN
-	1    8100 4350
 	1    0    0    -1  
 $EndComp
 Text GLabel 5750 7250 2    50   Output ~ 0
@@ -2355,12 +2324,12 @@ F 3 "~" H 950 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Womo-Lin:Connector_Micro_SD_Card_Det_Hirose_DM3AT J?
+L Womo-Lin:Connector_Micro_SD_Card_Det_Hirose_DM3AT J5
 U 1 1 6D37A5C2
 P 13900 8650
-F 0 "J?" H 13850 9467 50  0000 C CNN
+F 0 "J5" H 13850 9467 50  0000 C CNN
 F 1 "Connector_Micro_SD_Card_Det_Hirose_DM3AT" H 13850 9376 50  0000 C CNN
-F 2 "" H 15950 9350 50  0001 C CNN
+F 2 "Womo-Lin:mico_sd" H 15950 9350 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 13900 8750 50  0001 C CNN
 	1    13900 8650
 	1    0    0    -1  
