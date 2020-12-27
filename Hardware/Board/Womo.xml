@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/rfguy/git/Womo-Lin/Hardware/Board/Womo.sch</source>
-    <date>2020 April 29, Wednesday 22:12:24</date>
-    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <source>/Users/rfguy/git/womo-lin/Hardware/Board/Womo.sch</source>
+    <date>2020 May 02, Saturday 23:29:32</date>
+    <tool>Eeschema (5.1.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -5806,13 +5806,13 @@
       <uri>/Library/Application Support/kicad/library/Switch.lib</uri>
     </library>
     <library logical="WAGO">
-      <uri>/Users/rfguy/git/Womo-Lin/Hardware/Board/../Biblotheken/WAGO/WAGO.lib</uri>
+      <uri>/Users/rfguy/git/womo-lin/Hardware/Board/../Biblotheken/WAGO/WAGO.lib</uri>
     </library>
     <library logical="Womo-Lin">
-      <uri>/Users/rfguy/git/Womo-Lin/Hardware/Board/../Biblotheken/Womo-Lin/Womo-Lin.lib</uri>
+      <uri>/Users/rfguy/git/womo-lin/Hardware/Board/../Biblotheken/Womo-Lin/Womo-Lin.lib</uri>
     </library>
     <library logical="Womo-rescue">
-      <uri>/Users/rfguy/git/Womo-Lin/Hardware/Board/Womo-rescue.lib</uri>
+      <uri>/Users/rfguy/git/womo-lin/Hardware/Board/Womo-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
