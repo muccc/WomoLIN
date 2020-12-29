@@ -929,22 +929,6 @@ Wire Wire Line
 Connection ~ 21550 8550
 $Comp
 L Displayunit-rescue:GND-power #PWR?
-U 1 1 5E26858F
-P 21350 9250
-AR Path="/5C8BBC9A/5E26858F" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E26858F" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5E26858F" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5E26858F" Ref="#PWR?"  Part="1" 
-AR Path="/5E26858F" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 21350 9000 50  0001 C CNN
-F 1 "GND" H 21355 9077 50  0000 C CNN
-F 2 "" H 21350 9250 50  0001 C CNN
-F 3 "" H 21350 9250 50  0001 C CNN
-	1    21350 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
 U 1 1 5E268595
 P 7400 5700
 AR Path="/5C8BBC9A/5E268595" Ref="#PWR?"  Part="1" 
@@ -1535,12 +1519,8 @@ Wire Wire Line
 	16050 6800 15950 6800
 Wire Wire Line
 	16050 6900 15950 6900
-Text GLabel 20400 10400 0    50   BiDi ~ 0
-I2C2_SDA
 Text GLabel 21850 10300 2    50   Output ~ 0
 TOUCH_INT
-Text GLabel 20400 10300 0    50   Input ~ 0
-I2C2_SCL
 Text GLabel 21850 10400 2    50   Input ~ 0
 TOUCH_RESET
 Text GLabel 6500 2950 2    50   BiDi ~ 0
@@ -3644,22 +3624,6 @@ F 3 "~" H 13900 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Displayunit-rescue:R-Device R?
-U 1 1 5E320BA8
-P 10650 10650
-AR Path="/5C8BBC9A/5E320BA8" Ref="R?"  Part="1" 
-AR Path="/5E0C5EEA/5E320BA8" Ref="R?"  Part="1" 
-AR Path="/5D80EC74/5E320BA8" Ref="R?"  Part="1" 
-AR Path="/5D80E6E8/5E320BA8" Ref="R?"  Part="1" 
-AR Path="/5E320BA8" Ref="R19"  Part="1" 
-F 0 "R19" H 10400 10700 50  0000 L CNN
-F 1 "60R" H 10400 10600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10580 10650 50  0001 C CNN
-F 3 "~" H 10650 10650 50  0001 C CNN
-	1    10650 10650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Displayunit-rescue:C-Device C?
 U 1 1 5E3E14BA
 P 12700 9000
@@ -3691,13 +3655,6 @@ F 3 "" H 15000 9850 50  0001 C CNN
 	1    15000 9850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10650 10400 10650 10450
-Wire Wire Line
-	10700 10450 10650 10450
-Connection ~ 10650 10450
-Wire Wire Line
-	10650 10450 10650 10500
 Wire Wire Line
 	13600 9900 13600 10200
 $Comp
@@ -3864,10 +3821,6 @@ Wire Wire Line
 	13600 9500 13600 9800
 Wire Wire Line
 	12950 8850 12950 9500
-Wire Wire Line
-	10900 10700 11000 10700
-Wire Wire Line
-	10600 10450 10650 10450
 Text GLabel 10750 9700 0    50   Input ~ 0
 USART1_TX
 Text GLabel 10750 9800 0    50   Output ~ 0
@@ -4008,73 +3961,9 @@ F 3 "" H 16850 10050 50  0001 C CNN
 	1    16850 10050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Displayunit-rescue:+3.3VA-power #PWR?
-U 1 1 5DF28711
-P 17750 9750
-AR Path="/5C8BBC9A/5DF28711" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5DF28711" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5DF28711" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5DF28711" Ref="#PWR?"  Part="1" 
-AR Path="/5DF28711" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 17750 9600 50  0001 C CNN
-F 1 "+3.3VA" H 17765 9923 50  0000 C CNN
-F 2 "" H 17750 9750 50  0001 C CNN
-F 3 "" H 17750 9750 50  0001 C CNN
-	1    17750 9750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18550 8850 18650 8850
 Connection ~ 18650 8850
-$Comp
-L Displayunit-rescue:+3.3VA-power #PWR?
-U 1 1 5E068C7D
-P 14650 6050
-AR Path="/5C8BBC9A/5E068C7D" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E068C7D" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5E068C7D" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5E068C7D" Ref="#PWR?"  Part="1" 
-AR Path="/5E068C7D" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 14650 5900 50  0001 C CNN
-F 1 "+3.3VA" H 14665 6223 50  0000 C CNN
-F 2 "" H 14650 6050 50  0001 C CNN
-F 3 "" H 14650 6050 50  0001 C CNN
-	1    14650 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:+3.3VA-power #PWR?
-U 1 1 5E0D336C
-P 14950 6050
-AR Path="/5C8BBC9A/5E0D336C" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E0D336C" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5E0D336C" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5E0D336C" Ref="#PWR?"  Part="1" 
-AR Path="/5E0D336C" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 14950 5900 50  0001 C CNN
-F 1 "+3.3VA" H 14965 6223 50  0000 C CNN
-F 2 "" H 14950 6050 50  0001 C CNN
-F 3 "" H 14950 6050 50  0001 C CNN
-	1    14950 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:+3.3VA-power #PWR?
-U 1 1 5E13DAB6
-P 15500 6050
-AR Path="/5C8BBC9A/5E13DAB6" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/5E13DAB6" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/5E13DAB6" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/5E13DAB6" Ref="#PWR?"  Part="1" 
-AR Path="/5E13DAB6" Ref="#PWR0118"  Part="1" 
-F 0 "#PWR0118" H 15500 5900 50  0001 C CNN
-F 1 "+3.3VA" H 15515 6223 50  0000 C CNN
-F 2 "" H 15500 6050 50  0001 C CNN
-F 3 "" H 15500 6050 50  0001 C CNN
-	1    15500 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18050 4100 18750 4100
 $Comp
@@ -4189,13 +4078,9 @@ Wire Wire Line
 	17300 4700 17200 4700
 Wire Wire Line
 	15850 11300 15400 11300
-Wire Wire Line
-	15400 11300 15400 11000
 Connection ~ 15400 10200
 Wire Wire Line
 	15850 11200 15500 11200
-Wire Wire Line
-	15500 11200 15500 10900
 Connection ~ 15500 9800
 Wire Wire Line
 	15500 9800 15850 9800
@@ -5764,22 +5649,6 @@ Text GLabel 18350 11050 0    50   Output ~ 0
 TOUCH_INT
 Text GLabel 18350 10950 0    50   Input ~ 0
 I2C2_SCL
-$Comp
-L Displayunit-rescue:+3.3VA-power #PWR?
-U 1 1 60AB2FEF
-P 17700 11050
-AR Path="/5C8BBC9A/60AB2FEF" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/60AB2FEF" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/60AB2FEF" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/60AB2FEF" Ref="#PWR?"  Part="1" 
-AR Path="/60AB2FEF" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 17700 10900 50  0001 C CNN
-F 1 "+3.3VA" H 17715 11223 50  0000 C CNN
-F 2 "" H 17700 11050 50  0001 C CNN
-F 3 "" H 17700 11050 50  0001 C CNN
-	1    17700 11050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	18450 11050 18350 11050
 Wire Wire Line
@@ -5869,8 +5738,6 @@ Wire Wire Line
 Wire Wire Line
 	15700 9000 15700 9700
 Wire Wire Line
-	15800 9150 15800 10350
-Wire Wire Line
 	15850 9700 15700 9700
 Connection ~ 15700 9700
 Wire Wire Line
@@ -5887,117 +5754,12 @@ Connection ~ 14900 7350
 Connection ~ 15500 7650
 Wire Wire Line
 	15500 7650 15500 7600
-$Comp
-L Displayunit-rescue:R-Device R?
-U 1 1 6004C97F
-P 20500 10650
-AR Path="/5C8BBC9A/6004C97F" Ref="R?"  Part="1" 
-AR Path="/5E0C5EEA/6004C97F" Ref="R?"  Part="1" 
-AR Path="/5D80EC74/6004C97F" Ref="R?"  Part="1" 
-AR Path="/5D80E6E8/6004C97F" Ref="R?"  Part="1" 
-AR Path="/6004C97F" Ref="R27"  Part="1" 
-F 0 "R27" H 20200 10400 50  0000 L CNN
-F 1 "4k7" H 20200 10300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20430 10650 50  0001 C CNN
-F 3 "~" H 20500 10650 50  0001 C CNN
-	1    20500 10650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
-U 1 1 6004C985
-P 20500 10800
-AR Path="/5C8BBC9A/6004C985" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/6004C985" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/6004C985" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/6004C985" Ref="#PWR?"  Part="1" 
-AR Path="/6004C985" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 20500 10550 50  0001 C CNN
-F 1 "GND" H 20500 10600 50  0000 C CNN
-F 2 "" H 20500 10800 50  0001 C CNN
-F 3 "" H 20500 10800 50  0001 C CNN
-	1    20500 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:R-Device R?
-U 1 1 600DE990
-P 20650 10650
-AR Path="/5C8BBC9A/600DE990" Ref="R?"  Part="1" 
-AR Path="/5E0C5EEA/600DE990" Ref="R?"  Part="1" 
-AR Path="/5D80EC74/600DE990" Ref="R?"  Part="1" 
-AR Path="/5D80E6E8/600DE990" Ref="R?"  Part="1" 
-AR Path="/600DE990" Ref="R28"  Part="1" 
-F 0 "R28" H 20800 10350 50  0000 L CNN
-F 1 "4k7" H 20800 10250 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 20580 10650 50  0001 C CNN
-F 3 "~" H 20650 10650 50  0001 C CNN
-	1    20650 10650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Displayunit-rescue:GND-power #PWR?
-U 1 1 600DE996
-P 20650 10800
-AR Path="/5C8BBC9A/600DE996" Ref="#PWR?"  Part="1" 
-AR Path="/5E0C5EEA/600DE996" Ref="#PWR?"  Part="1" 
-AR Path="/5D80EC74/600DE996" Ref="#PWR?"  Part="1" 
-AR Path="/5D80E6E8/600DE996" Ref="#PWR?"  Part="1" 
-AR Path="/600DE996" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 20650 10550 50  0001 C CNN
-F 1 "GND" H 20650 10600 50  0000 C CNN
-F 2 "" H 20650 10800 50  0001 C CNN
-F 3 "" H 20650 10800 50  0001 C CNN
-	1    20650 10800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20400 10300 20500 10300
-Wire Wire Line
-	20400 10400 20650 10400
-Wire Wire Line
-	20500 10500 20500 10300
-Connection ~ 20500 10300
-Wire Wire Line
-	20500 10300 21250 10300
-Wire Wire Line
-	20650 10500 20650 10400
-Connection ~ 20650 10400
-Wire Wire Line
-	20650 10400 21250 10400
-$Comp
-L Connector_Generic:Conn_02x03_Row_Letter_First J7
-U 1 1 600A545C
-P 14500 10900
-F 0 "J7" H 14550 11217 50  0000 C CNN
-F 1 "Conn_02x03_Row_Letter_First" H 14550 11126 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 14500 10900 50  0001 C CNN
-F 3 "~" H 14500 10900 50  0001 C CNN
-	1    14500 10900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Row_Letter_First J11
-U 1 1 600AE3A7
-P 14500 11550
-F 0 "J11" H 14550 11867 50  0000 C CNN
-F 1 "Conn_02x03_Row_Letter_First" H 14550 11776 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 14500 11550 50  0001 C CNN
-F 3 "~" H 14500 11550 50  0001 C CNN
-	1    14500 11550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15700 9700 15700 10450
-Wire Wire Line
-	15800 10350 13600 10350
 Wire Wire Line
 	13600 10350 13600 11000
 Wire Wire Line
 	13600 11650 14300 11650
-Connection ~ 15800 10350
-Wire Wire Line
-	15800 10350 15800 10600
 Wire Wire Line
 	15700 10450 13700 10450
 Wire Wire Line
@@ -6017,35 +5779,11 @@ Wire Wire Line
 Connection ~ 13700 10900
 Wire Wire Line
 	13700 10900 13700 11550
-Connection ~ 15500 10900
 Wire Wire Line
-	15500 10900 15500 9800
+	14800 10800 15500 10800
 Wire Wire Line
-	14800 10900 15500 10900
-Wire Wire Line
-	14800 11000 15400 11000
-Connection ~ 15400 11000
-Wire Wire Line
-	15400 11000 15400 10200
-Wire Wire Line
-	14800 11650 15400 11650
-Wire Wire Line
-	15400 11650 15400 11300
-Connection ~ 15400 11300
-Wire Wire Line
-	14800 11550 15500 11550
-Wire Wire Line
-	15500 11550 15500 11200
+	14800 11450 15500 11450
 Connection ~ 15500 11200
-Wire Wire Line
-	14800 10800 14950 10800
-Wire Wire Line
-	14950 10800 14950 11450
-Wire Wire Line
-	14800 11450 14950 11450
-Connection ~ 14950 11450
-Wire Wire Line
-	14950 11450 14950 11800
 Text GLabel 13400 10800 0    50   Output ~ 0
 Control+2
 Text GLabel 17450 8550 0    50   Input ~ 0
@@ -6086,8 +5824,6 @@ F 3 "~" H 11300 9900 50  0001 C CNN
 $EndComp
 Text GLabel 12450 10000 0    50   Input ~ 0
 CAN_STB
-Text GLabel 11100 10500 0    50   Output ~ 0
-VrefCAN
 Wire Wire Line
 	13600 10200 14650 10200
 $Comp
@@ -6135,8 +5871,6 @@ Wire Wire Line
 Wire Wire Line
 	13900 9500 13600 9500
 Wire Wire Line
-	10250 10350 11200 10350
-Wire Wire Line
 	14600 9950 14650 9950
 Wire Wire Line
 	14650 9950 14650 10200
@@ -6174,4 +5908,136 @@ Text GLabel 7400 9300 2    50   Output ~ 0
 CAN_EN
 Wire Wire Line
 	7400 9300 7250 9300
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J7
+U 1 1 6208167D
+P 14500 10900
+F 0 "J7" H 14550 11217 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 14550 11126 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 14500 10900 50  0001 C CNN
+F 3 "~" H 14500 10900 50  0001 C CNN
+	1    14500 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J11
+U 1 1 62083501
+P 14500 11550
+F 0 "J11" H 14550 11867 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 14550 11776 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0612_2x03_P3.00mm_Vertical" H 14500 11550 50  0001 C CNN
+F 3 "~" H 14500 11550 50  0001 C CNN
+	1    14500 11550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 9800 15500 10800
+Wire Wire Line
+	15500 11450 15500 11200
+Connection ~ 15500 10800
+Wire Wire Line
+	15500 10800 15500 11200
+Wire Wire Line
+	14800 10900 14950 10900
+Wire Wire Line
+	14950 10900 14950 11550
+Wire Wire Line
+	14800 11550 14950 11550
+Connection ~ 14950 11550
+Wire Wire Line
+	14950 11550 14950 11800
+Wire Wire Line
+	15800 9150 15800 10600
+Wire Wire Line
+	15400 10200 15400 10350
+Wire Wire Line
+	13600 10350 15400 10350
+Connection ~ 15400 10350
+Wire Wire Line
+	15400 10350 15400 11300
+Wire Wire Line
+	14800 11000 15050 11000
+Wire Wire Line
+	15050 11000 15050 10600
+Wire Wire Line
+	15050 10600 15800 10600
+Connection ~ 15800 10600
+Wire Wire Line
+	15050 11650 15050 11000
+Connection ~ 15050 11000
+Wire Wire Line
+	14800 11650 15050 11650
+Text GLabel 20400 10300 0    50   Input ~ 0
+I2C2_SCL
+Text GLabel 20400 10400 0    50   BiDi ~ 0
+I2C2_SDA
+$Comp
+L Displayunit-rescue:+3.3V-power #PWR?
+U 1 1 637F0CD4
+P 17750 9750
+AR Path="/5D80E2A0/637F0CD4" Ref="#PWR?"  Part="1" 
+AR Path="/637F0CD4" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 17750 9600 50  0001 C CNN
+F 1 "+3.3V" H 17765 9923 50  0000 C CNN
+F 2 "" H 17750 9750 50  0001 C CNN
+F 3 "" H 17750 9750 50  0001 C CNN
+	1    17750 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:+3.3V-power #PWR?
+U 1 1 639318A3
+P 17700 11050
+AR Path="/5D80E2A0/639318A3" Ref="#PWR?"  Part="1" 
+AR Path="/639318A3" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 17700 10900 50  0001 C CNN
+F 1 "+3.3V" H 17715 11223 50  0000 C CNN
+F 2 "" H 17700 11050 50  0001 C CNN
+F 3 "" H 17700 11050 50  0001 C CNN
+	1    17700 11050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:+3.3V-power #PWR?
+U 1 1 63B1C11B
+P 15500 6050
+AR Path="/5D80E2A0/63B1C11B" Ref="#PWR?"  Part="1" 
+AR Path="/63B1C11B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 15500 5900 50  0001 C CNN
+F 1 "+3.3V" H 15515 6223 50  0000 C CNN
+F 2 "" H 15500 6050 50  0001 C CNN
+F 3 "" H 15500 6050 50  0001 C CNN
+	1    15500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:+3.3V-power #PWR?
+U 1 1 63BBC525
+P 14950 6050
+AR Path="/5D80E2A0/63BBC525" Ref="#PWR?"  Part="1" 
+AR Path="/63BBC525" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14950 5900 50  0001 C CNN
+F 1 "+3.3V" H 14965 6223 50  0000 C CNN
+F 2 "" H 14950 6050 50  0001 C CNN
+F 3 "" H 14950 6050 50  0001 C CNN
+	1    14950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Displayunit-rescue:+3.3V-power #PWR?
+U 1 1 63C5C722
+P 14650 6050
+AR Path="/5D80E2A0/63C5C722" Ref="#PWR?"  Part="1" 
+AR Path="/63C5C722" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14650 5900 50  0001 C CNN
+F 1 "+3.3V" H 14665 6223 50  0000 C CNN
+F 2 "" H 14650 6050 50  0001 C CNN
+F 3 "" H 14650 6050 50  0001 C CNN
+	1    14650 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	20400 10300 21250 10300
+Wire Wire Line
+	20400 10400 21250 10400
 $EndSCHEMATC
