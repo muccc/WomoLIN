@@ -1801,9 +1801,9 @@ F 3 "" H 13550 2000 50  0001 C CNN
 	1    13550 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 14050 1700 2    50   BiDi ~ 0
+Text GLabel 14050 1600 2    50   BiDi ~ 0
 I2C2_SDA
-Text GLabel 14050 1600 2    50   Input ~ 0
+Text GLabel 14050 1700 2    50   Input ~ 0
 I2C2_SCL
 Wire Wire Line
 	12950 1100 13550 1100
