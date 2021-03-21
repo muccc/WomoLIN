@@ -637,39 +637,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 5800 6850 5800
 $Comp
-L Womo-rescue:D_TVS_x2_AAC-Device D216
-U 1 1 5CA046D0
-P 14250 6150
-F 0 "D216" V 14296 6229 50  0000 L CNN
-F 1 "NUP2105L" V 14205 6229 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14100 6150 50  0001 C CNN
-F 3 "~" H 14100 6150 50  0001 C CNN
-	1    14250 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L Womo-rescue:R-Device R230
-U 1 1 5CA09C3A
-P 13650 5950
-F 0 "R230" H 13720 5996 50  0000 L CNN
-F 1 "60R" H 13720 5905 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13580 5950 50  0001 C CNN
-F 3 "~" H 13650 5950 50  0001 C CNN
-	1    13650 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Womo-rescue:R-Device R231
-U 1 1 5CA09D45
-P 13650 6350
-F 0 "R231" H 13720 6396 50  0000 L CNN
-F 1 "60R" H 13720 6305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13580 6350 50  0001 C CNN
-F 3 "~" H 13650 6350 50  0001 C CNN
-	1    13650 6350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Womo-rescue:R-Device R215
 U 1 1 5CA11A13
 P 6700 11200
@@ -721,61 +688,10 @@ Wire Wire Line
 	6250 12000 6550 12000
 Wire Wire Line
 	6250 11400 6250 12000
-$Comp
-L Womo-rescue:C-Device C219
-U 1 1 5CA2DCD5
-P 13500 6150
-F 0 "C219" V 13248 6150 50  0000 C CNN
-F 1 "5n6" V 13339 6150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 13538 6000 50  0001 C CNN
-F 3 "~" H 13500 6150 50  0001 C CNN
-	1    13500 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L Womo-rescue:GND-power #PWR0152
-U 1 1 5CA33685
-P 13250 6200
-F 0 "#PWR0152" H 13250 5950 50  0001 C CNN
-F 1 "GND" H 13255 6027 50  0000 C CNN
-F 2 "" H 13250 6200 50  0001 C CNN
-F 3 "" H 13250 6200 50  0001 C CNN
-	1    13250 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14250 5750 14250 5800
-Wire Wire Line
-	13650 5800 13650 5750
-Connection ~ 13650 5750
-Wire Wire Line
-	13650 5750 14250 5750
-Wire Wire Line
-	13650 6100 13650 6150
-Wire Wire Line
-	13650 6200 13650 6150
-Connection ~ 13650 6150
-Wire Wire Line
-	13350 6150 13250 6150
-Wire Wire Line
-	13250 6150 13250 6200
-Wire Wire Line
-	14250 6500 14250 6550
-Wire Wire Line
-	14250 6550 13650 6550
-Wire Wire Line
-	13650 6500 13650 6550
-Connection ~ 13650 6550
-Text GLabel 15100 5750 2    50   Input ~ 0
-CAN-H
-Text GLabel 15100 6550 2    50   Input ~ 0
-CAN-L
-Wire Wire Line
-	14750 5750 14250 5750
-Connection ~ 14250 5750
-Wire Wire Line
-	14750 6550 14250 6550
-Connection ~ 14250 6550
+Text GLabel 13050 5750 2    50   Input ~ 0
+CAN_H
+Text GLabel 13050 5850 2    50   Input ~ 0
+CAN_L
 $Comp
 L Womo-rescue:D_TVS-Device D201
 U 1 1 5CA4F5D6
@@ -899,32 +815,10 @@ Wire Wire Line
 	7700 3950 7600 3950
 Wire Wire Line
 	7700 5800 7600 5800
-$Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB212
-U 1 1 5CBB38BB
-P 14850 5750
-F 0 "FB212" V 14613 5750 50  0000 C CNN
-F 1 "100R" V 14704 5750 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 14780 5750 50  0001 C CNN
-F 3 "~" H 14850 5750 50  0001 C CNN
-	1    14850 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L Womo-rescue:Ferrite_Bead_Small-Device FB213
-U 1 1 5CBB7155
-P 14850 6550
-F 0 "FB213" V 14613 6550 50  0000 C CNN
-F 1 "100R" V 14704 6550 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 14780 6550 50  0001 C CNN
-F 3 "~" H 14850 6550 50  0001 C CNN
-	1    14850 6550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	15100 5750 14950 5750
+	13050 5750 12900 5750
 Wire Wire Line
-	15100 6550 14950 6550
+	13050 5850 12900 5850
 $Comp
 L Womo-rescue:Ferrite_Bead_Small-Device FB206
 U 1 1 5CBC1E32
@@ -4565,17 +4459,6 @@ F 3 "" H 7350 15150 50  0001 C CNN
 	1    7350 15150
 	0    1    1    0   
 $EndComp
-$Comp
-L Womo-rescue:GND-power #PWR0151
-U 1 1 5E07C1D9
-P 14100 6150
-F 0 "#PWR0151" H 14100 5900 50  0001 C CNN
-F 1 "GND" V 14200 6100 50  0000 C CNN
-F 2 "" H 14100 6150 50  0001 C CNN
-F 3 "" H 14100 6150 50  0001 C CNN
-	1    14100 6150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7700 2000 7600 2000
 Wire Wire Line
@@ -5114,12 +4997,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf" H 12400 6150 50  0001 C CN
 	1    12500 5750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12900 5750 13650 5750
-Wire Wire Line
-	12900 5850 12900 6550
-Wire Wire Line
-	12900 6550 13650 6550
 Wire Wire Line
 	12500 6150 12500 6550
 $Comp
