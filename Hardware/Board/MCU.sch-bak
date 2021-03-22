@@ -499,9 +499,9 @@ I2C2_SCL
 Wire Wire Line
 	5750 6350 5600 6350
 Text GLabel 5750 5650 2    50   Input ~ 0
-USART1_RX_CTRL
+USART1_RX_LIN5
 Text GLabel 5750 5550 2    50   Output ~ 0
-USART1_TX_CTRL
+USART1_TX_LIN5
 Text GLabel 5750 3250 2    50   Output ~ 0
 UART4_TX_GSM
 Text GLabel 5750 3350 2    50   Input ~ 0
@@ -1249,104 +1249,10 @@ F 3 "" H 11900 4600 50  0001 C CNN
 $EndComp
 Text GLabel 5750 7250 2    50   Output ~ 0
 STB-CAN
-Text GLabel 8900 8300 0    50   Input ~ 0
-USART1_TX_CTRL
-Text GLabel 8900 8400 0    50   Output ~ 0
-USART1_RX_CTRL
-Wire Wire Line
-	9350 8300 8900 8300
-Wire Wire Line
-	9350 8400 8900 8400
-$Comp
-L Womo-rescue:C-Device C?
-U 1 1 5EC63FDB
-P 10250 8000
-AR Path="/5C8BBC97/5EC63FDB" Ref="C?"  Part="1" 
-AR Path="/5C8BBC94/5EC63FDB" Ref="C29"  Part="1" 
-F 0 "C29" V 9998 8000 50  0000 C CNN
-F 1 "100n" V 10089 8000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10288 7850 50  0001 C CNN
-F 3 "~" H 10250 8000 50  0001 C CNN
-	1    10250 8000
-	0    1    1    0   
-$EndComp
-$Comp
-L Womo-rescue:+3.3V-power #PWR?
-U 1 1 5EC63FE2
-P 9750 7750
-AR Path="/5C8BBC97/5EC63FE2" Ref="#PWR?"  Part="1" 
-AR Path="/5C8BBC94/5EC63FE2" Ref="#PWR0349"  Part="1" 
-F 0 "#PWR0349" H 9750 7600 50  0001 C CNN
-F 1 "+3.3V" H 9765 7923 50  0000 C CNN
-F 2 "" H 9750 7750 50  0001 C CNN
-F 3 "" H 9750 7750 50  0001 C CNN
-	1    9750 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Womo-rescue:GND-power #PWR?
-U 1 1 5EC63FE8
-P 9100 9200
-AR Path="/5C8BBC97/5EC63FE8" Ref="#PWR?"  Part="1" 
-AR Path="/5C8BBC94/5EC63FE8" Ref="#PWR0350"  Part="1" 
-F 0 "#PWR0350" H 9100 8950 50  0001 C CNN
-F 1 "GND" H 9105 9027 50  0000 C CNN
-F 2 "" H 9100 9200 50  0001 C CNN
-F 3 "" H 9100 9200 50  0001 C CNN
-	1    9100 9200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9100 9150 9100 9200
-Text GLabel 8900 8500 0    50   Input ~ 0
-STB-CTRL
-Wire Wire Line
-	8900 8500 9350 8500
-$Comp
-L Womo-rescue:GND-power #PWR?
-U 1 1 5EC63FFB
-P 10600 8050
-AR Path="/5C8BBC97/5EC63FFB" Ref="#PWR?"  Part="1" 
-AR Path="/5C8BBC94/5EC63FFB" Ref="#PWR0352"  Part="1" 
-F 0 "#PWR0352" H 10600 7800 50  0001 C CNN
-F 1 "GND" H 10605 7877 50  0000 C CNN
-F 2 "" H 10600 8050 50  0001 C CNN
-F 3 "" H 10600 8050 50  0001 C CNN
-	1    10600 8050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 7750 9750 8000
-Wire Wire Line
-	10100 8000 9750 8000
-Connection ~ 9750 8000
-Wire Wire Line
-	9750 8000 9750 8100
-Wire Wire Line
-	10400 8000 10600 8000
-Wire Wire Line
-	10600 8000 10600 8050
-Text GLabel 10450 8400 2    50   Input ~ 0
-CTRL_H
-Text GLabel 10450 8500 2    50   Input ~ 0
-CTRL_L
-$Comp
-L Womo-rescue:GND-power #PWR?
-U 1 1 5EC64048
-P 9750 9200
-AR Path="/5C8BBC97/5EC64048" Ref="#PWR?"  Part="1" 
-AR Path="/5C8BBC94/5EC64048" Ref="#PWR0353"  Part="1" 
-F 0 "#PWR0353" H 9750 8950 50  0001 C CNN
-F 1 "GND" H 9755 9027 50  0000 C CNN
-F 2 "" H 9750 9200 50  0001 C CNN
-F 3 "" H 9750 9200 50  0001 C CNN
-	1    9750 9200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 4750 5750 4750
 Text GLabel 5750 4150 2    50   Output ~ 0
-STB-CTRL
+SLP-LIN5
 Text GLabel 5750 9750 2    50   Output ~ 0
 RS485_SEL_A1
 Text GLabel 5750 9850 2    50   Output ~ 0
@@ -2198,23 +2104,6 @@ Connection ~ 13950 3000
 Wire Wire Line
 	13950 3000 13950 3050
 $Comp
-L Interface_CAN_LIN:SN65HVD234 U6
-U 1 1 61C8D11D
-P 9750 8400
-F 0 "U6" H 9350 8800 50  0000 C CNN
-F 1 "SN65HVD234" H 9450 8700 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9750 7900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf" H 9650 8800 50  0001 C CNN
-	1    9750 8400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 8400 10450 8400
-Wire Wire Line
-	10150 8500 10450 8500
-Wire Wire Line
-	9750 8800 9750 9200
-$Comp
 L Womo-rescue:R-Device R3
 U 1 1 5E293CE8
 P 11950 7950
@@ -2225,21 +2114,6 @@ F 3 "~" H 11950 7950 50  0001 C CNN
 	1    11950 7950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Womo-rescue:R-Device R9
-U 1 1 61E887E3
-P 9100 9000
-F 0 "R9" H 8750 9050 50  0000 L CNN
-F 1 "47k" H 8750 8950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 9000 50  0001 C CNN
-F 3 "~" H 9100 9000 50  0001 C CNN
-	1    9100 9000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9350 8600 9100 8600
-Wire Wire Line
-	9100 8600 9100 8850
 $Comp
 L Womo-rescue:R-Device R10
 U 1 1 65E207EA
